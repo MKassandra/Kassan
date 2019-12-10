@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="styles.css">
+
+
+
+  <!-- Bootstrap 4 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Bootstrap 4 Javascript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+
+  <!-- Own Javascript -->
+  <script src="effects_hover.js"></script>
+
+  <title>BRB</title>
+
+</head>
+<!--Header-->
+
+<body>
+  <section id="header-nav">
+    <nav class="navbar navbar-expand-lg navbar-custom navbar-dark h-color ">
+      <a class="navbar-brand" href="index.html"><img src="brblogo.png" class="brblogo"><img src="cashmatelogo.png" class="cashmate"></a>
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse ul-holder" id="navbarCustom">
+    <!--  <div class="collapse navbar-collapse ul-holder" id="navbarNav"> -->
+        <ul class="navbar-nav ml-auto">
+          <!-- <li class="nav-item active about-border ml-auto">
+                        <a class="nav-link about" href="#">About Us<span class="sr-only">(current)</span></a>
+                    </li> -->
+          <li class="nav-item dropdown about-border ml-auto">
+            <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
+            <a class="nav-link about dropdown-toggle" href="about.html" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="about.html#history-body-content">History</a>
+              <a class="dropdown-item" href="about.html#who-body-content">Who we are</a>
+              <a class="dropdown-item" href="about.html#meet-body-content">Meet Our Team</a>
+            </div>
+          </li>
+          <li class="nav-item services-border ml-auto">
+            <a class="nav-link services" href="services.html">Services</a>
+          </li>
+          <li class="nav-item product-border ml-auto">
+            <a class="nav-link product" href="product.html">Product</a>
+          </li>
+          <li class="nav-item partners-border ml-auto">
+            <a class="nav-link partners" href="partners.html">Partners</a>
+          </li>
+
+          <li class="nav-item letsTalk-border ml-auto">
+            <a class="nav-link letsTalk" href="talk.html">Let's Talk</a>
+          </li>
+          <!--
+          <li class="nav-item ml-auto btn-border">
+            <button type="button" class="btn btn-outline-primary log-btn">Login</button>
+          </li> -->
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <!--Main Content-->
+  <section id="body-content">
+    <!--Slideshow-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="jumbbank">
+            <h1 class="display-3">Digital Bank</h1>
+            <p class="lead">The 1st Fintech rural bank in the Philippines.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="s_purchase">
+            <h1 class="display-3">Purchase</h1>
+            <p class="lead">Cashless shopping offline and online.</p>
+            <a href="services.html"button type="button" class="btn btn-info btn-product"><h3>Learn More</h3></a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="s_bill">
+            <h1 class="display-3">Bills Payment</h1>
+            <p class="lead">Accepts all major billers from telco to credit card, and more.</p>
+            <a href="services.html"button type="button" class="btn btn-info btn-product"><h3>Learn More</h3></a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="s_payroll">
+            <h1 class="display-3">Payroll</h1>
+            <p class="lead">Convenient solution for your payroll needs.</p>
+            <a href="services.html"button type="button" class="btn btn-info btn-product"><h3>Learn More</h3></a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="s_withdraw">
+            <h1 class="display-3">Withdrawal</h1>
+            <p class="lead">In all BancNet ATM / POS.</p>
+            <a href="services.html"button type="button" class="btn btn-info btn-product"><h3>Learn More</h3></a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="s_product">
+            <h1 class="display-3">Product</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="product.html"button type="button" class="btn btn-info btn-product"><h3>Learn More</h3></a>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <div class="contact-content">
+      <h1>Want to know more?</h1>
+      <a href="talk.html" button type="button" class="btn btn-custom btn-info btn-custom" ><h1>Let's Talk</h1></a>
+    </div>
+  </section>
+
+  <div class="copyright-content">
+    <small>&copy; Copyright: BRB Digital, Inc.</small>
+  </div>
+</section>
+
+  <!--Footer-->
+  <section id="footer-content">
+  <footer class="fixed-bottom">
+    <div class="row">
+      <div class="col-3">Makati Office Address:</div>
+      <div class="col-5">Bank Address:</div>
+      <div class="col-4">Customer Care Hotline:</div>
+    </div>
+
+    <div class="row">
+      <div class="col-3">2nd Floor, Planters Product Bldg.109 Esteban St. Legaspi Vilage 1223 Makati City, Philippines</div>
+      <div class="col-5">135 Baltazar Street, Brgy. Layunan, Binangonan 1940 Rizal, Philippines</div>
+      <div class="col-2">(02) 478 6615 <br> (02) 478 6618 </div>
+      <div class="col-2">(Globe) 0916-6243607 <br> (Smart) 0998-3268399</div>
+    </div>
+
+  </footer>
+  </section>
+</body>
+
+</html>

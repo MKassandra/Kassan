@@ -1,0 +1,640 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  /* background-image: bodyimg.png !important; */
+  background-image: url('bodyimg.png');
+}
+
+p{
+  padding-top: 0.7rem;
+  font-size: 1.31rem;
+}
+
+/* Logo Size */
+.brblogo {
+  height: 9rem;
+  width: 7.9rem;
+  margin-left: 2rem;
+  margin-right: 0.5rem;
+}
+
+.cashmate {
+  height: 3.1rem;
+  width: 10rem;
+}
+
+/* Navbar Style */
+.h-color {
+  background-color: #00081d !important;
+}
+
+.header-nav {
+  background-color: #00081d !important;
+}
+
+.nav-custom {
+  background-color: #00081d !important;
+}
+
+/* Paddings Header Section */
+#header-nav {
+  padding: 1.5rem 2rem 0 2rem;
+}
+
+/* Text Styles */
+/* HOVER EFFECTS */
+.navbar ul li a {
+  color: #4ebab5 !important;
+}
+
+.navbar ul li a:hover {
+  color: white !important;
+}
+
+.about {
+  color: #4ebab5 !important;
+  font-family: 'Noto Serif', serif !important;
+  font-size: 1.3rem !important;
+}
+
+.services {
+  color: #4ebab5 !important;
+  font-family: 'Noto Serif', serif !important;
+  font-size: 1.3rem !important;
+}
+
+.product {
+  color: #4ebab5 !important;
+  font-family: 'Noto Serif', serif !important;
+  font-size: 1.3rem !important;
+}
+
+.partners {
+  color: #4ebab5 !important;
+  font-family: 'Noto Serif', serif !important;
+  font-size: 1.3rem !important;
+}
+
+/*
+.log-btn {
+    color: #4ebab5 !important;
+    font-family: 'Noto Serif', serif !important;
+    font-size: 1rem !important;
+}*/
+.letsTalk {
+  color: #4ebab5 !important;
+  font-family: 'Noto Serif', serif !important;
+  font-size: 1.3rem !important;
+}
+
+
+/*No arrow in dropdown*/
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+/*dropdown color*/
+.navbar-custom .dropdown-menu {
+  background-color: #00081d;
+  /*bg color*/
+  border-width: thin;
+}
+
+.navbar-custom .dropdown-item {
+  color: #4ebab5;
+  /*text color*/
+  font-family: 'Noto Serif', serif !important;
+  font-size: 1.3rem !important;
+}
+
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+  color: #00081d !important;
+  /*text color*/
+  background-color: #4ebab5;
+  /*highlight*/
+}
+
+/* Border Manipulation */
+.about-border {
+  border: 1px solid;
+  border-right-color: #4ebab5 !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-bottom: none;
+  padding-right: 1rem;
+  margin-right: 1rem;
+}
+
+.ul-holder {
+  margin-bottom: 5rem;
+}
+
+.services-border {
+  border: 1px solid;
+  border-right-color: #4ebab5 !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-bottom: none;
+  padding-right: 1rem;
+  margin-right: 1rem;
+}
+
+.product-border {
+  border: 1px solid;
+  border-right-color: #4ebab5 !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-bottom: none;
+  padding-right: 1rem;
+  margin-right: 1rem;
+}
+
+.partners-border {
+  border: 1px solid;
+  border-right-color: #4ebab5 !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-bottom: none;
+  padding-right: 1rem;
+  margin-right: 1rem;
+}
+
+.letsTalk-border {
+  border: 1px solid;
+  border-right-color: #4ebab5 !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-bottom: none;
+  padding-right: 1rem;
+  margin-right: 1rem;
+}
+
+/* Button Header */
+.log-btn {
+  color: #4ebab5 !important;
+  border-color: #4ebab5 !important;
+}
+
+.log-btn:hover,
+.log-btn:focus,
+.log-btn:active {
+  background-color: #4ebab5 !important;
+  color: white !important;
+}
+
+.log-btn.active {
+  background-color: #4ebab5 !important;
+}
+
+/*Home page slideshow*/
+.lead{
+  font-size: 1.6rem !important;
+}
+
+.jumbbank{
+  padding: 15em 20em !important;
+  color: white;
+  background-image: url("images/bodyimg.png") !important;
+  height: 45rem;
+  width: 100% !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.s_purchase {
+  padding: 15em 20em !important;
+  color: white;
+  height: 45rem;
+  width: 100% !important;
+  background-image: url("images/s_purchase.png") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.s_bill {
+  padding: 15em 20em !important;
+  color: white;
+  height: 45rem;
+  width: 100% !important;
+  background-image: url("images/s_bill.png") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.s_payroll {
+  padding: 15em 20em !important;
+  color: white;
+  height: 45rem;
+  width: 100% !important;
+  background-image: url("images/s_payroll.png") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.s_withdraw {
+  padding: 15em 20em !important;
+  color: white;
+  height: 45rem;
+  width: 100% !important; /*width: 30rem;*/
+  background-image: url("images/s_withdraw.png") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.s_product {
+  text-align: justify !important;
+  padding: 15em 20em !important;
+  color: white;
+  height: 45rem;
+  width: 100% !important;
+  background-image: url("images/artboard1.jpg") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*Button Talk*/
+.btn-custom {
+  padding: 0.5rem 4rem !important;
+  color: #00081d !important;
+}
+
+.btn-product {
+  padding: 0.5rem 2rem !important;
+}
+
+/*talk content from index.html*/
+.contact-content {
+  text-align: center;
+  padding: 2rem 5rem;
+  line-height: 3;
+  color: white;
+  background-color: #000718 !important;
+}
+
+/*copyright content*/
+.copyright-content {
+  text-align: center;
+  padding: 2rem 5rem;
+  line-height: 3;
+  color: white;
+  background-color: #000718 !important;
+}
+
+/*about page content*/
+#history-body-content{
+  padding: 7rem 15rem;
+  line-height: 2;
+  color: white;
+  background-color: #000718 !important;
+}
+
+#who-body-content{
+  padding: 7rem 15rem;
+  line-height: 2;
+  color: white;
+  background-image: url("images/artboard1.jpg") !important;
+  width: 100% !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#meet-body-content{
+  padding: 5rem 10rem;
+  line-height: 2;
+  color: white;
+  background-color: #00081d !important;
+}
+
+/*meet the meet content*/
+.hboard-p, .hboard-t{
+  height: 34rem;
+  width: 25rem;
+  text-align: center;
+  padding: 0.7rem 0.7rem;
+}
+.hboard-p2{
+  height: 24rem;
+  width: 15rem;
+  text-align: center;
+  padding: 0.7rem 0.7rem;
+}
+
+.card-body{
+  padding-top: 0 !important;
+}
+.card, .card-deck{
+  border-width: 0px 0px !important;
+}
+.card-img-top {
+    display: block !important;
+    width: 100% !important;
+    height: 27rem !important;
+    border: 0px 0px!important;
+    margin: 0px 0px!important;
+
+}
+
+.card-body{
+  border: none !important;
+  background-color: #00081d;
+  padding: 7px 7px;
+}
+.card-text, .card-title{
+  color: white !important;
+  text-align: center;
+}
+
+.h1-about{
+  margin: 0rem 0rem;
+  margin-bottom: 2rem;
+}
+
+/*services page content*/
+.hr1{
+  border: 10px solid #4ebab5 !important;
+    border-radius: 2px !important;
+}
+.eload{
+  padding: 19em 8em !important;
+  padding-left: 85em !important;
+  padding-top: 30em !important;
+  color: white;
+  width: 100% !important;
+  height: 100% !important;
+  background-image: url("images/s_eload.png") !important;
+  background-size: cover;
+}
+
+.remit{
+  padding: 19em 8em !important;
+  padding-left: 85em !important;
+  padding-bottom: 30em !important;
+  color: white;
+  width: 100% !important;
+  background-image: url("images/s_remit.png") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fund{
+  padding: 19em 8em;
+  padding-left: 85em !important;
+  padding-top: 30em !important;
+  color: white;
+  width: 100% !important;
+  background-image: url("images/s_transfer.png") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mobile{
+  padding: 19em 8em !important;
+  padding-left: 85em !important;
+  padding-top: 30em !important;
+  color: white;
+  width: 100% !important;
+  background-image: url("images/s_mobile.png") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.online{
+  padding: 19em 8em !important;
+  padding-left: 85em !important;
+  padding-top: 30em !important;
+  color: white;
+  width: 100% !important;
+  background-image: url("images/s_obank.png") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ewallet{
+  padding: 19em 8em !important;
+  padding-right: 85em !important;
+  padding-top: 30em !important;
+  color: white;
+  width: 100% !important;
+  background-image: url("images/s_ewallet.png") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*product content page*/
+hr{
+  border: 10px solid #4ebab5 !important;
+    border-radius: 5px !important;
+}
+.service{
+    /*font-size:3rem !important;*/
+    padding: 5em 20em !important;
+    color: white;
+    background-color: #00081d !important;
+}
+
+.service2{
+    /*font-size:3rem !important;*/
+    padding: 5em 20em !important;
+    color: white;
+    background-color: #000718 !important;
+}
+
+.gcards{
+  height: 17rem !important;
+  width: 30rem !important;
+}
+
+.brbdescibe{
+  margin: 1rem 0 !important;
+}
+
+/*product page content*/
+
+.product-dev{
+  background: rgba(171, 205, 239, 0.1) !important;
+  opacity: 0.8;
+  margin: 0 5rem;
+}
+
+
+.row{
+  padding-top: 0.2rem;
+}
+
+.brbcard-display{
+  height: 17rem;
+  width: 30rem;
+}
+
+.col-brb{
+  color: white !important;
+  text-align: center !important;
+  padding-top: 0rem !important;
+  font-size: 1.12rem;
+}
+.display-4brb{
+  text-align: center;
+  color: white !important;
+  padding-top: 2rem;
+}
+.col-custom1{
+  color: white !important;
+  text-align: center !important;
+  padding-top: 0rem !important;
+  margin-left: 17rem !important;
+  font-size: 1.3rem;
+}
+
+.col-custom2{
+  color: white !important;
+  text-align: center !important;
+  padding-top: 0rem !important;
+  margin-right: 17rem !important;
+  font-size: 1.3rem;
+}
+
+.col-custom3{
+  color: white !important;
+  text-align: center !important;
+  padding-top: 0rem !important;
+  margin-top: -1rem !important;
+  font-size: 1.3rem;
+}
+
+.col-custom4{
+  color: white !important;
+  text-align: center !important;
+  padding-top: 0rem !important;
+  margin-top: -6rem !important;
+  font-size: 1.3rem;
+}
+
+.col-custom, .p-product{
+  color: white !important;
+  text-align: center !important;
+  padding-top: 0rem !important;
+  font-size: 1.3rem;
+}
+
+.card-display{
+  height: 5rem;
+  width: 10rem;
+}
+
+/*Footer contact info*/
+footer {
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem 3rem;
+  color: #4ebab5 !important;
+  background-color: #00081d !important;
+}
+
+/* Media Rules */
+@media screen and (max-width: 1087px) {
+    .about {
+      color: #4ebab5 !important;
+      font-family: 'Noto Serif', serif !important;
+      font-size: 0.7rem !important;
+    }
+
+  .services {
+    color: #4ebab5 !important;
+    font-family: 'Noto Serif', serif !important;
+    font-size: 0.7rem !important;
+  }
+
+  .product {
+    color: #4ebab5 !important;
+    font-family: 'Noto Serif', serif !important;
+    font-size: 0.7rem !important;
+  }
+
+  .partners {
+    color: #4ebab5 !important;
+    font-family: 'Noto Serif', serif !important;
+    font-size: 0.7rem !important;
+  }
+
+  .log-btn {
+    color: #4ebab5 !important;
+    font-family: 'Noto Serif', serif !important;
+    font-size: 0.7rem !important;
+  }
+
+  .letsTalk {
+    color: #4ebab5 !important;
+    font-family: 'Noto Serif', serif !important;
+    font-size: 0.7rem !important;
+  }
+
+  .btn-border {
+    margin-right: 1.5rem;
+  }
+
+  .about-border {
+    border: 1px solid;
+    border-right-color: #4ebab5 !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-bottom: none;
+    padding-right: 1rem;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .services {
+    color: #4ebab5 !important;
+    font-family: 'Noto Serif', serif !important;
+    font-size: 0.7rem !important;
+  }
+
+  .product {
+    color: #4ebab5 !important;
+    font-family: 'Noto Serif', serif !important;
+    font-size: 0.7rem !important;
+  }
+
+  .about {
+    color: #4ebab5 !important;
+    font-family: 'Noto Serif', serif !important;
+    font-size: 0.7rem !important;
+  }
+
+  .partners {
+    color: #4ebab5 !important;
+    font-family: 'Noto Serif', serif !important;
+    font-size: 0.7rem !important;
+  }
+
+  .log-btn {
+    color: #4ebab5 !important;
+    font-family: 'Noto Serif', serif !important;
+    font-size: 0.7rem !important;
+  }
+
+  .letsTalk {
+    color: #4ebab5 !important;
+    font-family: 'Noto Serif', serif !important;
+    font-size: 0.7rem !important;
+  }
+
+  .btn-border {
+    margin-right: 1.5rem;
+  }
+
+  .about-border {
+    border: 1px solid;
+    border-right-color: #4ebab5 !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-bottom: none;
+    padding-right: 1rem;
+    margin-right: 0;
+  }
+}

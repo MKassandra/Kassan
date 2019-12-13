@@ -42,7 +42,7 @@ p {
 /* Paddings Header Section */
 #header-nav {
   /*padding: 1.2rem 2rem 0 2rem;*/
-  
+
 }
 
 /* Text Styles */
@@ -381,8 +381,8 @@ footer {
   margin-bottom: 1rem;
 }
 
-/*about page manipulation*/
-/*media screen for service page (adjust for monitor screen)*/
+/*footer manipulation*/
+/*media screen for footer page (adjust for monitor screen)*/
 @media screen and (max-width: 1021px) {
   .col-3, .col-5, .col-4, .col-2 {
     font-size: 0.7rem !important;
@@ -390,14 +390,14 @@ footer {
   }
 }
 
-  /*media screen for service page (adjust for monitor screen)*/
+  /*media screen for footer page (adjust for monitor screen)*/
 @media screen and (max-width: 806px) {
     .col-3, .col-5, .col-4, .col-2 {
       font-size: 0.6rem !important;
       padding: 0.1rem 0.4rem !important;
     }
 }
-    /*media screen for service page (adjust for mobile screen)*/
+    /*media screen for footer page (adjust for mobile screen)*/
     @media screen and (max-width: 600px) {
       .col-3, .col-5, .col-4, .col-2 {
         font-size: 0.58rem !important;
@@ -607,6 +607,79 @@ footer {
 
   /*media screen for service page (adjust for mobile screen)*/
   @media screen and (max-width: 500px) {
+    .eload {
+      padding: 13rem 5rem !important;
+      color: white;
+      text-align: justify;
+      background-image: url("images/s_eload.png") !important;
+      background-size: cover;
+      width: 100% !important;
+      background-repeat: no-repeat !important;
+    }
+
+    .remit {
+      padding: 10rem 3rem !important;
+      color: white;
+      text-align: justify;
+      background-image: url("images/s_remit.png") !important;
+      background-size: cover;
+      height: 35rem;
+      width: 100% !important;
+      background-repeat: no-repeat !important;
+    }
+
+    .fund {
+      padding: 7rem 5rem !important;
+      color: white;
+      text-align: justify;
+      background-image: url("images/s_transfer.png") !important;
+      background-size: cover;
+      height: 35rem;
+      width: 100% !important;
+      background-repeat: no-repeat !important;
+    }
+
+    .mobile {
+      padding: 7rem 5rem !important;
+      color: white;
+      text-align: justify;
+      background-image: url("images/s_mobile.png") !important;
+      background-size: cover;
+      height: 35rem;
+      width: 100% !important;
+      background-repeat: no-repeat !important;
+    }
+
+    .online {
+      padding: 7rem 5rem !important;
+      color: white;
+      text-align: justify;
+      background-image: url("images/s_obank.png") !important;
+      background-size: cover;
+      height: 35rem;
+      width: 100% !important;
+      background-repeat: no-repeat !important;
+    }
+
+    .ewallet {
+      padding: 13rem 5rem !important;
+      color: white;
+      text-align: justify;
+      background-image: url("images/s_ewallet.png") !important;
+      background-size: cover;
+      height: 35rem;
+      width: 100% !important;
+      background-repeat: no-repeat !important;
+    }
+  }
+
+  /*media screen for service page (adjust for mobile screen)*/
+  @media screen and (max-width: 500px) {
+    .display-3{
+      font-size: 3rem !important;
+      text-align: center !important; 
+    }
+
     .eload {
       padding: 13rem 5rem !important;
       color: white;

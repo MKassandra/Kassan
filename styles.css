@@ -677,7 +677,15 @@ footer {
   @media screen and (max-width: 500px) {
     .display-3{
       font-size: 3rem !important;
-      text-align: center !important; 
+      text-align: center !important;
+    }
+  }
+
+  /*media screen for service page (adjust for mobile screen)*/
+  @media screen and (max-width: 320px) {
+    .display-3{
+      font-size: 2rem !important;
+      text-align: center !important;
     }
 
     .eload {

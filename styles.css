@@ -625,7 +625,7 @@ footer {
       text-align: justify;
       background-image: url("images/s_eload.png") !important;
       background-size: cover;
-      background-position: right;
+      background-position: center;
       width: 100% !important;
       background-repeat: no-repeat !important;
     }
@@ -636,19 +636,21 @@ footer {
       text-align: justify;
       background-image: url("images/s_remit.png") !important;
       background-size: cover;
-      background-position: bottom;
+      background-color: gray !important;
+      background-blend-mode: multiply;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
     }
 
     .fund {
-      padding: 7rem 5rem !important;
+      padding: 10em 5rem !important;
       color: white;
       text-align: justify;
       background-image: url("images/s_transfer.png") !important;
       background-size: cover;
-      background-position: right;
+      background-color: gray !important;
+      background-blend-mode: multiply;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
@@ -660,7 +662,8 @@ footer {
       text-align: justify;
       background-image: url("images/s_mobile.png") !important;
       background-size: cover;
-      background-position: right;
+      background-color: gray !important;
+      background-blend-mode: multiply;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
@@ -672,7 +675,8 @@ footer {
       text-align: justify;
       background-image: url("images/s_obank.png") !important;
       background-size: cover;
-      background-position: right;
+      background-color: gray !important;
+      background-blend-mode: multiply;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
@@ -684,7 +688,8 @@ footer {
       text-align: justify;
       background-image: url("images/s_ewallet.png") !important;
       background-size: cover;
-      background-position: left;
+      background-color: gray !important;
+      background-blend-mode: multiply;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
@@ -704,7 +709,7 @@ footer {
       text-align: justify;
       background-image: url("images/s_eload.png") !important;
       background-size: cover;
-      background-position: right;
+      background-position: center;
       width: 100% !important;
       background-repeat: no-repeat !important;
     }
@@ -715,19 +720,21 @@ footer {
       text-align: justify;
       background-image: url("images/s_remit.png") !important;
       background-size: cover;
-      background-position: bottom;
+      background-color: gray !important;
+      background-blend-mode: multiply;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
     }
 
     .fund {
-      padding: 7rem 5rem !important;
+      padding: 10em 5rem !important;
       color: white;
       text-align: justify;
       background-image: url("images/s_transfer.png") !important;
       background-size: cover;
-      background-position: right;
+      background-color: gray !important;
+      background-blend-mode: multiply;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
@@ -739,7 +746,8 @@ footer {
       text-align: justify;
       background-image: url("images/s_mobile.png") !important;
       background-size: cover;
-      background-position: right;
+      background-color: gray !important;
+      background-blend-mode: multiply;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
@@ -751,7 +759,8 @@ footer {
       text-align: justify;
       background-image: url("images/s_obank.png") !important;
       background-size: cover;
-      background-position: right;
+      background-color: gray !important;
+      background-blend-mode: multiply;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
@@ -763,7 +772,8 @@ footer {
       text-align: justify;
       background-image: url("images/s_ewallet.png") !important;
       background-size: cover;
-      background-position: left;
+      background-color: gray !important;
+      background-blend-mode: multiply;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;

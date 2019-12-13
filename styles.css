@@ -42,7 +42,6 @@ p {
 /* Paddings Header Section */
 #header-nav {
   /*padding: 1.2rem 2rem 0 2rem;*/
-
 }
 
 /* Text Styles */
@@ -306,6 +305,125 @@ footer {
   background-color: #000718 !important;
 }
 
+/*media manipulation in index page*/
+@media screen and (max-width: 860px) {
+  .display-4 {
+    text-align: center;
+    font-size: 2.3rem;
+    padding-bottom: 2rem !important;
+    margin: 0 0 !important;
+  }
+
+  .lead {
+    text-align: center;
+    font-size: 1.4rem !important;
+  }
+
+  .btn-product{
+    margin-left: 3.1rem !important;
+  }
+
+  .jumbbank {
+    padding: 0 8rem !important;
+    padding-top: 3rem !important;
+    margin: 0 0 !important;
+  }
+
+  .s_purchase {
+    padding: 0 8rem !important;
+    padding-top: 3rem !important;
+    margin: 0 0 !important;
+    background-color: #969e96 !important;
+    background-blend-mode: multiply;
+  }
+
+  .s_bill {
+    padding: 0 8rem !important;
+    padding-top: 1rem !important;
+    margin: 0 0 !important;
+    background-color: #969e96 !important;
+    background-blend-mode: multiply;
+  }
+
+  .s_payroll {
+    padding: 0 8rem !important;
+    padding-top: 2rem !important;
+    margin: 0 0 !important;
+    background-color: #969e96 !important;
+    background-blend-mode: multiply;
+  }
+
+  .s_withdraw {
+    padding: 0 8rem !important;
+    padding-top: 2rem !important;
+    margin: 0 0 !important;
+    background-color: #969e96 !important;
+    background-blend-mode: multiply;
+  }
+
+  .s_product {
+    padding: 0 8rem !important;
+    padding-top: 3rem !important;
+    margin: 0 0 !important;
+    background-color: #969e96 !important;
+    background-blend-mode: multiply;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .display-4 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 1rem !important;
+    margin: 0 0 !important;
+  }
+
+  .lead {
+    text-align: justify;
+    font-size: 1.1rem !important;
+  }
+
+  .btn-product{
+    margin-left: 2.9rem !important;
+  }
+
+  .jumbbank {
+    padding: 0 4rem !important;
+    padding-top: 10rem !important;
+    margin: 0 0 !important;
+  }
+
+  .s_purchase {
+    padding: 0 4rem !important;
+    padding-top: 10rem !important;
+    margin: 0 0 !important;
+  }
+
+  .s_bill {
+    padding: 0 4rem !important;
+    padding-top: 10rem !important;
+    margin: 0 0 !important;
+  }
+
+  .s_payroll {
+    padding: 0 4rem !important;
+    padding-top: 10rem !important;
+    margin: 0 0 !important;
+  }
+
+  .s_withdraw {
+    padding: 0 4rem !important;
+    padding-top: 10rem !important;
+    margin: 0 0 !important;
+  }
+
+  .s_product {
+    padding: 0 4rem !important;
+    padding-top: 10rem !important;
+    margin: 0 0 !important;
+  }
+}
+
 /*about page content*/
 #history-body-content {
   padding: 4rem 3rem !important;
@@ -390,29 +508,29 @@ footer {
   }
 }
 
-  /*media screen for footer page (adjust for monitor screen)*/
+/*media screen for footer page (adjust for monitor screen)*/
 @media screen and (max-width: 806px) {
-    .col-3, .col-5, .col-4, .col-2 {
-      font-size: 0.6rem !important;
-      padding: 0.1rem 0.4rem !important;
-    }
+  .col-3, .col-5, .col-4, .col-2 {
+    font-size: 0.6rem !important;
+    padding: 0.1rem 0.4rem !important;
+  }
 }
-    /*media screen for footer page (adjust for mobile screen)*/
-    @media screen and (max-width: 600px) {
-      .col-3, .col-5, .col-4, .col-2 {
-        font-size: 0.58rem !important;
-        padding: 0 0 !important;
-      }
-    }
 
-    /*media screen for footer page (adjust for mobile screen)*/
-    @media screen and (max-width: 400px) {
-      .col-3, .col-5, .col-4, .col-2 {
-        font-size: 0.3rem !important;
-        padding: 0 0 !important;
-      }
-    }
+/*media screen for footer page (adjust for mobile screen)*/
+@media screen and (max-width: 600px) {
+  .col-3, .col-5, .col-4, .col-2 {
+    font-size: 0.58rem !important;
+    padding: 0 0 !important;
+  }
+}
 
+/*media screen for footer page (adjust for mobile screen)*/
+@media screen and (max-width: 400px) {
+  .col-3, .col-5, .col-4, .col-2 {
+    font-size: 0.3rem !important;
+    padding: 0 0 !important;
+  }
+}
 
 /*services page content*/
 .hr1 {
@@ -614,7 +732,7 @@ footer {
 
   /*media screen for service page (adjust for mobile screen)*/
   @media screen and (max-width: 500px) {
-    .display-3{
+    .display-3 {
       font-size: 3rem !important;
       text-align: center !important;
     }
@@ -698,7 +816,7 @@ footer {
 
   /*media screen for service page (adjust for mobile screen)*/
   @media screen and (max-width: 320px) {
-    .display-3{
+    .display-3 {
       font-size: 2rem !important;
       text-align: center !important;
     }

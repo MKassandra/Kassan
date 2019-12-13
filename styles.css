@@ -670,7 +670,7 @@ footer {
 
     .ewallet {
       padding: 13rem 5rem !important;
-      color: white;
+      color: white !important;
       text-align: justify;
       background-image: url("images/s_ewallet.png") !important;
       background-size: cover;
@@ -697,7 +697,7 @@ footer {
 
     .eload {
       padding: 13rem 5rem !important;
-      color: #353836;
+      color: #353836 !important;
       text-align: justify;
       background-image: url("images/s_eload.png") !important;
       background-size: cover;

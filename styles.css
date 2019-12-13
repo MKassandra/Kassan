@@ -614,12 +614,18 @@ footer {
 
   /*media screen for service page (adjust for mobile screen)*/
   @media screen and (max-width: 500px) {
+    .display-3{
+      font-size: 3rem !important;
+      text-align: center !important;
+    }
+
     .eload {
       padding: 13rem 5rem !important;
-      color: #353836;
+      color: white;
       text-align: justify;
       background-image: url("images/s_eload.png") !important;
       background-size: cover;
+      background-position: right;
       width: 100% !important;
       background-repeat: no-repeat !important;
     }
@@ -630,6 +636,7 @@ footer {
       text-align: justify;
       background-image: url("images/s_remit.png") !important;
       background-size: cover;
+      background-position: bottom;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
@@ -641,28 +648,31 @@ footer {
       text-align: justify;
       background-image: url("images/s_transfer.png") !important;
       background-size: cover;
+      background-position: right;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
     }
 
     .mobile {
-      padding: 7rem 5rem !important;
+      padding: 10rem 5rem !important;
       color: white;
       text-align: justify;
       background-image: url("images/s_mobile.png") !important;
       background-size: cover;
+      background-position: right;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
     }
 
     .online {
-      padding: 7rem 5rem !important;
+      padding: 10rem 5rem !important;
       color: white;
       text-align: justify;
       background-image: url("images/s_obank.png") !important;
       background-size: cover;
+      background-position: right;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
@@ -674,17 +684,10 @@ footer {
       text-align: justify;
       background-image: url("images/s_ewallet.png") !important;
       background-size: cover;
+      background-position: left;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
-    }
-  }
-
-  /*media screen for service page (adjust for mobile screen)*/
-  @media screen and (max-width: 500px) {
-    .display-3{
-      font-size: 3rem !important;
-      text-align: center !important;
     }
   }
 
@@ -697,10 +700,11 @@ footer {
 
     .eload {
       padding: 13rem 5rem !important;
-      color: #353836 !important;
+      color: white;
       text-align: justify;
       background-image: url("images/s_eload.png") !important;
       background-size: cover;
+      background-position: right;
       width: 100% !important;
       background-repeat: no-repeat !important;
     }
@@ -711,6 +715,7 @@ footer {
       text-align: justify;
       background-image: url("images/s_remit.png") !important;
       background-size: cover;
+      background-position: bottom;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
@@ -722,28 +727,31 @@ footer {
       text-align: justify;
       background-image: url("images/s_transfer.png") !important;
       background-size: cover;
+      background-position: right;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
     }
 
     .mobile {
-      padding: 7rem 5rem !important;
+      padding: 10rem 5rem !important;
       color: white;
       text-align: justify;
       background-image: url("images/s_mobile.png") !important;
       background-size: cover;
+      background-position: right;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
     }
 
     .online {
-      padding: 7rem 5rem !important;
+      padding: 10rem 5rem !important;
       color: white;
       text-align: justify;
       background-image: url("images/s_obank.png") !important;
       background-size: cover;
+      background-position: right;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
@@ -751,10 +759,11 @@ footer {
 
     .ewallet {
       padding: 13rem 5rem !important;
-      color: white;
+      color: white !important;
       text-align: justify;
       background-image: url("images/s_ewallet.png") !important;
       background-size: cover;
+      background-position: left;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;

@@ -403,9 +403,6 @@ footer {
         font-size: 0.58rem !important;
         padding: 0 0 !important;
       }
-      .eload{
-        color:#353836 !important;
-      }
     }
 
     /*media screen for footer page (adjust for mobile screen)*/
@@ -413,9 +410,6 @@ footer {
       .col-3, .col-5, .col-4, .col-2 {
         font-size: 0.3rem !important;
         padding: 0 0 !important;
-      }
-      .eload{
-        color:#353836 !important;
       }
     }
 
@@ -622,7 +616,7 @@ footer {
   @media screen and (max-width: 500px) {
     .eload {
       padding: 13rem 5rem !important;
-      color: white;
+      color: #353836;
       text-align: justify;
       background-image: url("images/s_eload.png") !important;
       background-size: cover;
@@ -703,7 +697,7 @@ footer {
 
     .eload {
       padding: 13rem 5rem !important;
-      color: white;
+      color: #353836;
       text-align: justify;
       background-image: url("images/s_eload.png") !important;
       background-size: cover;

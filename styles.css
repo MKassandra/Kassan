@@ -405,6 +405,13 @@ footer {
       }
     }
 
+    /*media screen for footer page (adjust for mobile screen)*/
+    @media screen and (max-width: 400px) {
+      .col-3, .col-5, .col-4, .col-2 {
+        font-size: 0.3rem !important;
+        padding: 0 0 !important;
+      }
+    }
 
 
 /*services page content*/

@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -8,7 +8,7 @@ body {
   width: 100%;
 }
 
-p{
+p {
   padding-top: 0.7rem;
   font-size: 0.9rem;
 }
@@ -41,7 +41,8 @@ p{
 
 /* Paddings Header Section */
 #header-nav {
-  padding: 1.2rem 2rem 0 2rem;
+  /*padding: 1.2rem 2rem 0 2rem;*/
+  
 }
 
 /* Text Styles */
@@ -90,10 +91,9 @@ p{
   font-size: 1rem !important;
 }
 
-#navbarNav{
+#navbarNav {
   margin-bottom: 0;
 }
-
 
 /*No arrow in dropdown*/
 .dropdown-toggle::after {
@@ -194,7 +194,6 @@ p{
   background-color: #4ebab5 !important;
 }
 
-
 /*Footer contact info*/
 footer {
   font-size: 0.8rem !important;
@@ -207,11 +206,11 @@ footer {
 }
 
 /*Home page slideshow*/
-.lead{
+.lead {
   font-size: 1.5rem !important;
 }
 
-.jumbbank{
+.jumbbank {
   padding: 6em 10em !important;
   color: white;
   background-image: url('bodyimg.png') !important;
@@ -221,8 +220,8 @@ footer {
   background-repeat: no-repeat !important;
 }
 
-.bankbox{
-  background: rgba(187, 190, 201,0.3) !important;
+.bankbox {
+  background: rgba(187, 190, 201, 0.3) !important;
   padding: 3rem 3rem;
 }
 
@@ -262,7 +261,8 @@ footer {
   background-image: url("images/s_withdraw.png") !important;
   background-size: 100% 100%;
   height: 27rem;
-  width: 100% !important; /*width: 30rem;*/
+  width: 100% !important;
+  /*width: 30rem;*/
   background-repeat: no-repeat !important;
 }
 
@@ -273,7 +273,8 @@ footer {
   background-image: url("images/artboard1.jpg") !important;
   background-size: 100% 100%;
   height: 27rem;
-  width: 100% !important; /*width: 30rem;*/
+  width: 100% !important;
+  /*width: 30rem;*/
   background-repeat: no-repeat !important;
 }
 
@@ -306,7 +307,7 @@ footer {
 }
 
 /*about page content*/
-#history-body-content{
+#history-body-content {
   padding: 4rem 3rem !important;
   line-height: 2;
   color: white;
@@ -314,7 +315,7 @@ footer {
   background-color: #000718 !important;
 }
 
-#who-body-content{
+#who-body-content {
   padding: 4rem 3rem !important;
   line-height: 2;
   color: white;
@@ -326,7 +327,7 @@ footer {
   background-repeat: no-repeat;
 }
 
-#meet-body-content{
+#meet-body-content {
   padding: 4rem 3rem;
   line-height: 2;
   color: white;
@@ -334,57 +335,88 @@ footer {
 }
 
 /*meet the meet content*/
-.hboard-p, .hboard-t{
+.hboard-p, .hboard-t {
   height: 34rem;
   width: 25rem;
   text-align: center;
   padding: 0.7rem 0.7rem;
 }
-.hboard-p2{
+
+.hboard-p2 {
   height: 24rem;
   width: 15rem;
   text-align: center;
   padding: 0.7rem 0.7rem;
 }
 
-.card-body{
+.card-body {
   padding-top: 0 !important;
 }
-.card, .card-deck{
+
+.card, .card-deck {
   border-width: 0px 0px !important;
 }
-.card-img-top {
-    display: block !important;
-    width: 100% !important;
-    height: 27rem !important;
-    border: 0px 0px!important;
-    margin: 0px 0px!important;
 
+.card-img-top {
+  display: block !important;
+  width: 100% !important;
+  height: 27rem !important;
+  border: 0px 0px !important;
+  margin: 0px 0px !important;
 }
 
-.card-body{
+.card-body {
   border: none !important;
   background-color: #00081d;
   padding: 7px 7px;
 }
-.card-text, .card-title{
+
+.card-text, .card-title {
   color: white !important;
   text-align: center;
 }
 
-.h1-about{
+.h1-about {
   margin: 0rem 0rem;
   margin-bottom: 1rem;
 }
 
-/*services page content*/
-.hr1{
-    margin: 0 0;
-    border: 3px solid #4ebab5 !important;
-    border-radius: 2px !important;
-    width: 30%;
+/*about page manipulation*/
+/*media screen for service page (adjust for monitor screen)*/
+@media screen and (max-width: 1021px) {
+  .col-3, .col-5, .col-4, .col-2 {
+    font-size: 0.7rem !important;
+    padding: 0.1rem 0.4rem !important;
+  }
 }
-.eload{
+
+  /*media screen for service page (adjust for monitor screen)*/
+@media screen and (max-width: 806px) {
+    .col-3, .col-5, .col-4, .col-2 {
+      font-size: 0.6rem !important;
+      padding: 0.1rem 0.4rem !important;
+    }
+}
+    /*media screen for service page (adjust for mobile screen)*/
+    @media screen and (max-width: 600px) {
+      .col-3, .col-5, .col-4, .col-2 {
+        font-size: 0.58rem !important;
+        padding: 0 0 !important;
+      }
+    }
+
+
+
+/*services page content*/
+.hr1 {
+  margin: 0 0;
+  border: 3px solid #4ebab5 !important;
+  border-radius: 2px !important;
+  width: 30%;
+}
+
+/*full screen service page*/
+.eload {
   /*padding: 19em 8em !important;
   padding-left: 85em !important;
   padding-top: 30em !important;
@@ -405,7 +437,7 @@ footer {
   background-repeat: no-repeat !important;
 }
 
-.remit{
+.remit {
   /*
   padding: 19em 8em !important;
   padding-left: 85em !important;
@@ -427,7 +459,7 @@ footer {
   background-repeat: no-repeat !important;
 }
 
-.fund{
+.fund {
   /*
   padding: 19em 8em;
   padding-left: 85em !important;
@@ -449,7 +481,7 @@ footer {
   background-repeat: no-repeat !important;
 }
 
-.mobile{
+.mobile {
   /*
   padding: 19em 8em !important;
   padding-left: 85em !important;
@@ -468,10 +500,9 @@ footer {
   height: 35rem;
   width: 100% !important;
   background-repeat: no-repeat !important;
-
 }
 
-.online{
+.online {
   /*
   padding: 19em 8em !important;
   padding-left: 85em !important;
@@ -492,7 +523,7 @@ footer {
   background-repeat: no-repeat !important;
 }
 
-.ewallet{
+.ewallet {
   /*
   padding: 19em 8em !important;
   padding-right: 85em !important;
@@ -513,10 +544,9 @@ footer {
   background-repeat: no-repeat !important;
 }
 
-/*media screen for service page*/
+/*media screen for service page (adjust for monitor screen)*/
 @media screen and (max-width: 1270px) {
-
-  .eload{
+  .eload {
     padding: 13rem 8rem !important;
     color: white;
     background-image: url("images/s_eload.png") !important;
@@ -525,7 +555,7 @@ footer {
     background-repeat: no-repeat !important;
   }
 
-  .remit{
+  .remit {
     padding: 10rem 6rem !important;
     color: white;
     background-image: url("images/s_remit.png") !important;
@@ -535,7 +565,7 @@ footer {
     background-repeat: no-repeat !important;
   }
 
-  .fund{
+  .fund {
     padding: 7rem 8rem !important;
     color: white;
     background-image: url("images/s_transfer.png") !important;
@@ -545,7 +575,7 @@ footer {
     background-repeat: no-repeat !important;
   }
 
-  .mobile{
+  .mobile {
     padding: 7rem 8rem !important;
     color: white;
     background-image: url("images/s_mobile.png") !important;
@@ -553,10 +583,9 @@ footer {
     height: 35rem;
     width: 100% !important;
     background-repeat: no-repeat !important;
-
   }
 
-  .online{
+  .online {
     padding: 7rem 8rem !important;
     color: white;
     background-image: url("images/s_obank.png") !important;
@@ -566,7 +595,7 @@ footer {
     background-repeat: no-repeat !important;
   }
 
-  .ewallet{
+  .ewallet {
     padding: 13rem 7rem !important;
     color: white;
     background-image: url("images/s_ewallet.png") !important;
@@ -576,282 +605,285 @@ footer {
     background-repeat: no-repeat !important;
   }
 
+  /*media screen for service page (adjust for mobile screen)*/
+  @media screen and (max-width: 500px) {
+    .eload {
+      padding: 13rem 5rem !important;
+      color: white;
+      text-align: justify;
+      background-image: url("images/s_eload.png") !important;
+      background-size: cover;
+      width: 100% !important;
+      background-repeat: no-repeat !important;
+    }
 
-@media screen and (max-width: 500px) {
+    .remit {
+      padding: 10rem 3rem !important;
+      color: white;
+      text-align: justify;
+      background-image: url("images/s_remit.png") !important;
+      background-size: cover;
+      height: 35rem;
+      width: 100% !important;
+      background-repeat: no-repeat !important;
+    }
 
-  .eload{
-    padding: 13rem 8rem !important;
-    color: white;
-    background-image: url("images/s_eload.png") !important;
-    background-size: cover;
-    width: 100% !important;
-    background-repeat: no-repeat !important;
+    .fund {
+      padding: 7rem 5rem !important;
+      color: white;
+      text-align: justify;
+      background-image: url("images/s_transfer.png") !important;
+      background-size: cover;
+      height: 35rem;
+      width: 100% !important;
+      background-repeat: no-repeat !important;
+    }
+
+    .mobile {
+      padding: 7rem 5rem !important;
+      color: white;
+      text-align: justify;
+      background-image: url("images/s_mobile.png") !important;
+      background-size: cover;
+      height: 35rem;
+      width: 100% !important;
+      background-repeat: no-repeat !important;
+    }
+
+    .online {
+      padding: 7rem 5rem !important;
+      color: white;
+      text-align: justify;
+      background-image: url("images/s_obank.png") !important;
+      background-size: cover;
+      height: 35rem;
+      width: 100% !important;
+      background-repeat: no-repeat !important;
+    }
+
+    .ewallet {
+      padding: 13rem 5rem !important;
+      color: white;
+      text-align: justify;
+      background-image: url("images/s_ewallet.png") !important;
+      background-size: cover;
+      height: 35rem;
+      width: 100% !important;
+      background-repeat: no-repeat !important;
+    }
   }
 
-  .remit{
-    padding: 10rem 6rem !important;
-    color: white;
-    background-image: url("images/s_remit.png") !important;
-    background-size: cover;
-    height: 35rem;
-    width: 100% !important;
-    background-repeat: no-repeat !important;
-  }
-
-  .fund{
-    padding: 7rem 8rem !important;
-    color: white;
-    background-image: url("images/s_transfer.png") !important;
-    background-size: cover;
-    height: 35rem;
-    width: 100% !important;
-    background-repeat: no-repeat !important;
-  }
-
-  .mobile{
-    padding: 7rem 8rem !important;
-    color: white;
-    background-image: url("images/s_mobile.png") !important;
-    background-size: cover;
-    height: 35rem;
-    width: 100% !important;
-    background-repeat: no-repeat !important;
-
-  }
-
-  .online{
-    padding: 7rem 8rem !important;
-    color: white;
-    background-image: url("images/s_obank.png") !important;
-    background-size: cover;
-    height: 35rem;
-    width: 100% !important;
-    background-repeat: no-repeat !important;
-  }
-
-  .ewallet{
-    padding: 13rem 7rem !important;
-    color: white;
-    background-image: url("images/s_ewallet.png") !important;
-    background-size: cover;
-    height: 35rem;
-    width: 100% !important;
-    background-repeat: no-repeat !important;
-  }
-
-}
-
-/*product content page*/
-hr{
-  border: 10px solid #4ebab5 !important;
+  /*product content page*/
+  hr {
+    border: 10px solid #4ebab5 !important;
     border-radius: 5px !important;
-}
-.service{
+  }
+
+  .service {
     /*font-size:3rem !important;*/
     padding: 5em 20em !important;
     color: white;
     background-color: #00081d !important;
-}
+  }
 
-.service2{
+  .service2 {
     /*font-size:3rem !important;*/
     padding: 5em 20em !important;
     color: white;
     background-color: #000718 !important;
-}
+  }
 
-.gcards{
-  height: 17rem !important;
-  width: 30rem !important;
-}
+  .gcards {
+    height: 17rem !important;
+    width: 30rem !important;
+  }
 
-.brbdescibe{
-  margin: 1rem 0 !important;
-}
+  .brbdescibe {
+    margin: 1rem 0 !important;
+  }
 
-/*product page content*/
+  /*product page content*/
+  .product-dev {
+    background-image: url('images/brbback.png');
+    background-size: 100% 100%;
+  }
 
-.product-dev{
-  background-image: url('images/brbback.png');
-  background-size: 100% 100%;
-}
+  .row {
+    padding-top: 0.2rem;
+  }
 
+  .brbcard-display {
+    height: 17rem;
+    width: 30rem;
+  }
 
-.row{
-  padding-top: 0.2rem;
-}
+  .col-brb {
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    font-size: 1.12rem;
+  }
 
-.brbcard-display{
-  height: 17rem;
-  width: 30rem;
-}
+  .display-4brb {
+    text-align: center;
+    color: white !important;
+    padding-top: 2rem;
+  }
 
-.col-brb{
-  color: white !important;
-  text-align: center !important;
-  padding-top: 0rem !important;
-  font-size: 1.12rem;
-}
-.display-4brb{
-  text-align: center;
-  color: white !important;
-  padding-top: 2rem;
-}
-.col-custom1{
-  color: white !important;
-  text-align: center !important;
-  padding-top: 0rem !important;
-  margin-left: 17rem !important;
-  font-size: 1.3rem;
-}
+  .col-custom1 {
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    margin-left: 17rem !important;
+    font-size: 1.3rem;
+  }
 
-.col-custom2{
-  color: white !important;
-  text-align: center !important;
-  padding-top: 0rem !important;
-  margin-right: 17rem !important;
-  font-size: 1.3rem;
-}
+  .col-custom2 {
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    margin-right: 17rem !important;
+    font-size: 1.3rem;
+  }
 
-.col-custom3{
-  color: white !important;
-  text-align: center !important;
-  padding-top: 0rem !important;
-  margin-top: 1rem !important;
-  font-size: 1.3rem;
-}
+  .col-custom3 {
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    margin-top: 1rem !important;
+    font-size: 1.3rem;
+  }
 
-.col-custom4{
-  color: white !important;
-  text-align: center !important;
-  padding-top: 0rem !important;
-  margin-top: -9rem !important;
-  font-size: 1.3rem;
-}
+  .col-custom4 {
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    margin-top: -9rem !important;
+    font-size: 1.3rem;
+  }
 
-.col-custom, .p-product{
-  color: white !important;
-  text-align: center !important;
-  padding-top: 0rem !important;
-  font-size: 1.3rem;
-}
+  .col-custom, .p-product {
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    font-size: 1.3rem;
+  }
 
-.card-display{
-  height: 10rem;
-  width: 10rem;
-  padding: 1rem 1rem
-}
+  .card-display {
+    height: 10rem;
+    width: 10rem;
+    padding: 1rem 1rem
+  }
 
-
-/* Media Rules */
-@media screen and (max-width: 1087px) {
+  /* Media Rules */
+  @media screen and (max-width: 1087px) {
     .about {
       color: #4ebab5 !important;
       font-family: 'Noto Serif', serif !important;
       font-size: 0.7rem !important;
     }
 
-    .about-dlist{
+    .about-dlist {
       color: #4ebab5 !important;
       font-family: 'Noto Serif', serif !important;
       font-size: 0.7rem !important;
     }
 
-  .services {
-    color: #4ebab5 !important;
-    font-family: 'Noto Serif', serif !important;
-    font-size: 0.7rem !important;
+    .services {
+      color: #4ebab5 !important;
+      font-family: 'Noto Serif', serif !important;
+      font-size: 0.7rem !important;
+    }
+
+    .product {
+      color: #4ebab5 !important;
+      font-family: 'Noto Serif', serif !important;
+      font-size: 0.7rem !important;
+    }
+
+    .partners {
+      color: #4ebab5 !important;
+      font-family: 'Noto Serif', serif !important;
+      font-size: 0.7rem !important;
+    }
+
+    .log-btn {
+      color: #4ebab5 !important;
+      font-family: 'Noto Serif', serif !important;
+      font-size: 0.7rem !important;
+    }
+
+    .letsTalk {
+      color: #4ebab5 !important;
+      font-family: 'Noto Serif', serif !important;
+      font-size: 0.7rem !important;
+    }
+
+    .btn-border {
+      margin-right: 1.5rem;
+    }
+
+    .about-border {
+      border: 1px solid;
+      border-right-color: #4ebab5 !important;
+      border-top: none !important;
+      border-left: none !important;
+      border-bottom: none;
+      padding-right: 1rem;
+      margin-right: 0;
+    }
   }
 
-  .product {
-    color: #4ebab5 !important;
-    font-family: 'Noto Serif', serif !important;
-    font-size: 0.7rem !important;
-  }
+  @media screen and (max-width: 940px) {
+    .services {
+      color: #4ebab5 !important;
+      font-family: 'Noto Serif', serif !important;
+      font-size: 0.7rem !important;
+    }
 
-  .partners {
-    color: #4ebab5 !important;
-    font-family: 'Noto Serif', serif !important;
-    font-size: 0.7rem !important;
-  }
+    .product {
+      color: #4ebab5 !important;
+      font-family: 'Noto Serif', serif !important;
+      font-size: 0.7rem !important;
+    }
 
-  .log-btn {
-    color: #4ebab5 !important;
-    font-family: 'Noto Serif', serif !important;
-    font-size: 0.7rem !important;
-  }
+    .about {
+      color: #4ebab5 !important;
+      font-family: 'Noto Serif', serif !important;
+      font-size: 0.7rem !important;
+    }
 
-  .letsTalk {
-    color: #4ebab5 !important;
-    font-family: 'Noto Serif', serif !important;
-    font-size: 0.7rem !important;
-  }
+    .about-dlist {
+      color: #4ebab5 !important;
+      font-family: 'Noto Serif', serif !important;
+      font-size: 0.7rem !important;
+    }
 
-  .btn-border {
-    margin-right: 1.5rem;
-  }
+    .partners {
+      color: #4ebab5 !important;
+      font-family: 'Noto Serif', serif !important;
+      font-size: 0.7rem !important;
+    }
 
-  .about-border {
-    border: 1px solid;
-    border-right-color: #4ebab5 !important;
-    border-top: none !important;
-    border-left: none !important;
-    border-bottom: none;
-    padding-right: 1rem;
-    margin-right: 0;
-  }
-}
+    .log-btn {
+      color: #4ebab5 !important;
+      font-family: 'Noto Serif', serif !important;
+      font-size: 0.7rem !important;
+    }
 
-@media screen and (max-width: 940px) {
-  .services {
-    color: #4ebab5 !important;
-    font-family: 'Noto Serif', serif !important;
-    font-size: 0.7rem !important;
-  }
+    .letsTalk {
+      color: #4ebab5 !important;
+      font-family: 'Noto Serif', serif !important;
+      font-size: 0.7rem !important;
+    }
 
-  .product {
-    color: #4ebab5 !important;
-    font-family: 'Noto Serif', serif !important;
-    font-size: 0.7rem !important;
+    .about-border {
+      border: 1px solid;
+      border-right-color: #4ebab5 !important;
+      border-top: none !important;
+      border-left: none !important;
+      border-bottom: none;
+      padding-right: 1rem;
+      margin-right: 0;
+    }
   }
-
-  .about {
-    color: #4ebab5 !important;
-    font-family: 'Noto Serif', serif !important;
-    font-size: 0.7rem !important;
-  }
-
-  .about-dlist{
-    color: #4ebab5 !important;
-    font-family: 'Noto Serif', serif !important;
-    font-size: 0.7rem !important;
-  }
-
-  .partners {
-    color: #4ebab5 !important;
-    font-family: 'Noto Serif', serif !important;
-    font-size: 0.7rem !important;
-  }
-
-  .log-btn {
-    color: #4ebab5 !important;
-    font-family: 'Noto Serif', serif !important;
-    font-size: 0.7rem !important;
-  }
-
-  .letsTalk {
-    color: #4ebab5 !important;
-    font-family: 'Noto Serif', serif !important;
-    font-size: 0.7rem !important;
-  }
-
-  .about-border {
-    border: 1px solid;
-    border-right-color: #4ebab5 !important;
-    border-top: none !important;
-    border-left: none !important;
-    border-bottom: none;
-    padding-right: 1rem;
-    margin-right: 0;
-  }
-}

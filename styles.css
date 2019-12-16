@@ -833,6 +833,63 @@ hr {
     }
 }
 
+@media screen and (max-width: 400px) {
+    .brbcard-display {
+        margin-bottom: 0 !important;
+        height: 13rem !important;
+        width: 22rem !important;
+        padding-top: 2rem !important;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+
+    .card-display {
+        height: 10rem;
+        width: 10rem;
+        padding: 1rem 1rem;
+    }
+
+
+    .col-custom1 {
+        margin-top: 3rem !important;
+        margin-right: -5rem !important;
+        padding-top: 0 0;
+    }
+
+    .col-custom2 {
+        margin-top: 3rem !important;
+        margin-left: -5rem !important;
+        padding: 0 0;
+    }
+
+    .col-custom3 {
+        margin-top: 3rem !important;
+        margin-right: -7rem !important;
+        padding: 0 0;
+    }
+
+    .col-custom4 {
+        margin-top: 3rem !important;
+        margin-left: -7rem !important;
+        padding: 0 0;
+    }
+
+    .col-custom5 {
+        margin-top: 3rem !important;
+        padding: 0 0;
+    }
+
+    .col-custom,
+    .p-product {
+        color: white !important;
+        text-align: center !important;
+        padding-top: 0rem !important;
+        font-size: 0.9rem;
+        margin: 0rem 1rem;
+    }
+}
+
+
 
 /*services page content*/
 .hr1 {

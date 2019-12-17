@@ -1035,10 +1035,62 @@ hr {
 label, #talk-body-content{
 color:white !important;
 }
+
+
 .talk-1, .talk-2{
   background-color: #000718!important;
   margin: 2rem 2rem;
+  border: 1px solid;
+  border-color: #4ebab5 !important;
+  padding: 2rem 2rem !important;
 }
+
+.talk-2{
+  padding: 2rem 2rem !important;
+}
+
+  .btn-stalk{
+   padding: 1rem 3rem !important;
+   margin-left: 10rem !important;
+   margin-right: 10rem !important;
+}
+ .col-form-label{
+   font-size: 0.9rem!important;
+   padding-top: 0.5rem !important;
+   padding-left: 0 !important;
+   padding-right: 0 !important;
+
+ }
+
+.message-text, .form-control{
+  font-size: 0.9rem!important;
+  padding-left: 0rem!important;
+}
+/*media screen for lets talk page*/
+
+@media screen and (max-width: 880px) {
+
+    .talk-1, .talk-2{
+        padding: 2rem 2rem!important;
+         margin: 1 1 !important;
+
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    .talk-1, .talk-2{
+        padding: 2rem 2rem!important;
+         margin: 0 0 !important;
+
+    }
+
+    .btn-stalk{
+   margin-left: 7rem !important;
+   margin-right: 7rem !important;
+}
+
+
 
 /*media screen for service page (adjust for monitor screen)*/
 @media screen and (max-width: 1270px) {

@@ -26,7 +26,10 @@
 
   <!-- Own Javascript -->
   <script src="effects_hover.js"></script>
-
+  <script>
+    // Data Picker Initialization
+    $('.datepicker').pickadate();
+  </script>
   <title>BRB</title>
 
 </head>
@@ -41,7 +44,7 @@
       </button>
 
       <!--  <div class="collapse navbar-collapse ul-holder" id="navbarCustom">-->
-    <div class="collapse navbar-collapse ul-holder" id="navbarNav">
+      <div class="collapse navbar-collapse ul-holder" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <!-- <li class="nav-item active about-border ml-auto">
                         <a class="nav-link about" href="#">About Us<span class="sr-only">(current)</span></a>
@@ -49,7 +52,7 @@
           <li class="nav-item dropdown about-border ml-auto">
             <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
             <a class="nav-link about dropdown-toggle" href="about.html" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                About</a>
+              About</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="about.html#history-body-content">History</a>
               <a class="dropdown-item" href="about.html#who-body-content">Who we are</a>
@@ -79,27 +82,68 @@
   </section>
 
   <!--Main Content-->
-  <section id="about-body-content">
+  <section id="talk-body-content">
+    <div class="container">
+      <div class="row">
+        <div class="col talk-1">
+          <div class="md-form">
+            <input placeholder="Selected date" type="date" id="date-picker-example" class="form-control datepicker">
+            <label for="date-picker-example">Try me...</label>
+          </div>
+        </div>
+        <div class="col talk-2">
+          <form>
+            <div class="form-group row">
+              <label for="fname" class="col-sm-2 col-form-label">First Name</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="fname" placeholder="Juan">
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label for="lname" class="col-sm-2 col-form-label">Last Name</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="lname" placeholder="Dela Cruz">
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label for="emailadd" class="col-sm-2 col-form-label">Email Address:</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="emailadd" placeholder="name@email.com">
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div><small>Note: Please contanct for confirmation</small>
+
+          </form>
+        </div>
+      </div>
+    </div>
+
 
   </section>
 
 
   <!--Footer-->
   <section id="footer-content">
-  <footer class="fixed-bottom">
-    <div class="row">
-      <div class="col-3">Makati Office Address:</div>
-      <div class="col-5">Bank Address:</div>
-      <div class="col-4">Customer Care Hotline:</div>
-    </div>
+    <footer class="fixed-bottom">
+      <div class="row">
+        <div class="col-3">Makati Office Address:</div>
+        <div class="col-5">Bank Address:</div>
+        <div class="col-4">Customer Care Hotline:</div>
+      </div>
 
-    <div class="row">
-      <div class="col-3">2nd Floor, Planters Product Bldg.109 Esteban St. Legaspi Vilage 1223 Makati City, Philippines</div>
-      <div class="col-5">135 Baltazar Street, Brgy. Layunan, Binangonan 1940 Rizal, Philippines</div>
-      <div class="col-2">(02) 478 6615 <br> (02) 478 6618 </div>
-      <div class="col-2">(Globe) 0916-6243607 <br> (Smart) 0998-3268399</div>
-    </div>
-  </footer>
+      <div class="row">
+        <div class="col-3">2nd Floor, Planters Product Bldg.109 Esteban St. Legaspi Vilage 1223 Makati City, Philippines</div>
+        <div class="col-5">135 Baltazar Street, Brgy. Layunan, Binangonan 1940 Rizal, Philippines</div>
+        <div class="col-2">(02) 478 6615 <br> (02) 478 6618 </div>
+        <div class="col-2">(Globe) 0916-6243607 <br> (Smart) 0998-3268399</div>
+      </div>
+    </footer>
   </section>
 </body>
 

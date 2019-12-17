@@ -548,24 +548,21 @@ hr {
     padding-top: 0.2rem;
 }
 
-
 .display-4brb {
     padding-top: 2rem;
     text-align: center;
     color: white;
 }
 
-
 .brbcard-display {
-    height: 17rem;
-    width: 30rem;
+    height: 14rem;
+    width: 25rem;
     margin-bottom: -10rem;
 }
 
-
 .card-display {
-    height: 10rem;
-    width: 10rem;
+    height: 8rem;
+    width: 8rem;
     padding: 1rem 1rem
 }
 
@@ -600,7 +597,7 @@ hr {
     text-align: center !important;
     padding-top: 0rem !important;
     margin-top: 1rem !important;
-    padding-right: 15rem !important;
+    padding-right: 10rem !important;
     font-size: 1.3rem;
 }
 
@@ -609,7 +606,7 @@ hr {
     text-align: center !important;
     padding-top: 0rem !important;
     margin-top: 1rem !important;
-    padding-left: 15rem !important;
+    padding-left: 10rem !important;
     font-size: 1.3rem;
 }
 
@@ -617,7 +614,7 @@ hr {
     color: white !important;
     text-align: center !important;
     padding-top: 0rem !important;
-    margin-top: -17rem !important;
+    margin-top: -12rem !important;
     font-size: 1.3rem;
 }
 
@@ -626,15 +623,15 @@ hr {
     color: white !important;
     text-align: center !important;
     padding-top: 0rem !important;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin: 0rem 0rem;
 }
 
 @media screen and (max-width: 1225px) {
 
     .brbcard-display {
-        height: 18rem;
-        width: 26rem;
+        height: 14rem;
+        width: 25rem;
         padding-top: 2rem !important;
         margin-bottom: 5rem;
     }
@@ -1034,6 +1031,15 @@ hr {
   background-repeat: no-repeat !important;
 }
 
+/*lets talk page*/
+label, #talk-body-content{
+color:white !important;
+}
+.talk-1, .talk-2{
+  background-color: #000718!important;
+  margin: 2rem 2rem;
+}
+
 /*media screen for service page (adjust for monitor screen)*/
 @media screen and (max-width: 1270px) {
   .eload {
@@ -1263,6 +1269,10 @@ hr {
     }
   }
 
+
+
+
+
   /*Navbar manipulation*/
   /* Media Rules */
   @media screen and (max-width: 1087px) {
@@ -1430,4 +1440,16 @@ hr {
         padding-right: 0.1rem;
         margin-right: 0;
       }
+    }
+
+
+    /*Footer contact info*/
+    footer {
+      font-size: 0.8rem !important;
+      height: 100px;
+      bottom: 0;
+      width: 100%;
+      padding: 1rem 3rem;
+      color: #4ebab5 !important;
+      background-color: #00081d !important;
     }

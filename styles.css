@@ -1386,6 +1386,14 @@ color:white !important;
   }
 
   @media screen and (max-width: 940px) {
+        .dropdown-item, {
+          font-size: 0.7rem !important;
+        }
+        
+    .dropdown{
+      margin-right: 16px !important;
+    }
+
     .services {
       color: #4ebab5 !important;
       font-family: 'Noto Serif', serif !important;

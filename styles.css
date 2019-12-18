@@ -214,9 +214,10 @@ footer {
   padding: 6em 10em !important;
   color: white;
   background-image: url('bodyimg.png') !important;
-  background-size: 100% 100%;
+  /* background-size: 100% 100%; */
+  background-size: cover !important;
+  background-position: center!important;
   height: 27rem;
-  width: 100% !important;
   background-repeat: no-repeat !important;
 }
 
@@ -229,9 +230,9 @@ footer {
   padding: 6em 10em !important;
   color: white;
   background-image: url("images/s_purchase.png") !important;
-  background-size: 100% 100%;
+  background-size: cover !important;
+  background-position: center!important;
   height: 27rem;
-  width: 100% !important;
   background-repeat: no-repeat !important;
 }
 
@@ -239,9 +240,9 @@ footer {
   padding: 6em 10em !important;
   color: white;
   background-image: url("images/s_bill.png") !important;
-  background-size: 100% 100%;
+  background-size: cover !important;
+  background-position: center!important;
   height: 27rem;
-  width: 100% !important;
   background-repeat: no-repeat !important;
 }
 
@@ -249,9 +250,9 @@ footer {
   padding: 5em 10em !important;
   color: white;
   background-image: url("images/s_payroll.png") !important;
-  background-size: 100% 100%;
+  background-size: cover !important;
+  background-position: center!important;
   height: 27rem;
-  width: 100% !important;
   background-repeat: no-repeat !important;
 }
 
@@ -259,10 +260,9 @@ footer {
   padding: 6em 10em !important;
   color: white;
   background-image: url("images/s_withdraw.png") !important;
-  background-size: 100% 100%;
+  background-size: cover !important;
+  background-position: center!important;
   height: 27rem;
-  width: 100% !important;
-  /*width: 30rem;*/
   background-repeat: no-repeat !important;
 }
 
@@ -271,10 +271,9 @@ footer {
   padding: 4em 10em !important;
   color: white;
   background-image: url("images/artboard1.jpg") !important;
-  background-size: 100% 100%;
+  background-size: cover !important;
+  background-position: center!important;
   height: 27rem;
-  width: 100% !important;
-  /*width: 30rem;*/
   background-repeat: no-repeat !important;
 }
 
@@ -703,6 +702,48 @@ hr {
     border-color: #4ebab5;
 }
 
+/*product page: simple*/
+.simple-product-dev{
+  margin: 5rem 5rem!important;
+}
+
+.s-display{
+  margin-top: -5rem;
+  padding-left: 13rem;
+  color: white;
+}
+
+.card-simple{
+    height: 7rem;
+    width: 7rem;
+    margin-left: 5rem;
+}
+.wallet-display{
+    padding-left: 1rem!important;
+  height: 7rem;
+  width: 7rem;
+
+}
+.simple-display{
+  height: 8rem;
+  width: 8rem;
+  padding: 1rem 1rem;
+}
+.co-sp{
+  padding-left: 10rem!important;
+}
+.col-simple{
+padding-left: 1rem;
+
+}
+.col-wallet {
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    font-size: 1.12rem;
+    margin-top:15rem;
+}
+
 
 @media screen and (max-width: 1225px) {
 
@@ -997,9 +1038,9 @@ hr {
   padding-top: 10em !important;
   color: white;
   background-image: url("images/s_eload.png") !important;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 35rem;
-  width: 100% !important;
+  background-position: center;
   background-repeat: no-repeat !important;
 }
 
@@ -1019,9 +1060,9 @@ hr {
   padding-top: 10em !important;
   color: white;
   background-image: url("images/s_remit.png") !important;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 35rem;
-  width: 100% !important;
+  background-position: center;
   background-repeat: no-repeat !important;
 }
 
@@ -1041,9 +1082,9 @@ hr {
   padding-top: 10em !important;
   color: white;
   background-image: url("images/s_transfer.png") !important;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 35rem;
-  width: 100% !important;
+  background-position: center;
   background-repeat: no-repeat !important;
 }
 
@@ -1062,9 +1103,9 @@ hr {
   padding-top: 10em !important;
   color: white;
   background-image: url("images/s_mobile.png") !important;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 35rem;
-  width: 100% !important;
+  background-position: center;
   background-repeat: no-repeat !important;
 }
 
@@ -1083,9 +1124,9 @@ hr {
   padding-top: 10em !important;
   color: white;
   background-image: url("images/s_obank.png") !important;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 35rem;
-  width: 100% !important;
+  background-position: center;
   background-repeat: no-repeat !important;
 }
 
@@ -1104,9 +1145,9 @@ hr {
   padding-top: 10em !important;
   color: white;
   background-image: url("images/s_ewallet.png") !important;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 35rem;
-  width: 100% !important;
+  background-position: center;
   background-repeat: no-repeat !important;
 }
 

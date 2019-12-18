@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  zoom:100% !important;
 }
 
 body {
@@ -549,7 +550,7 @@ hr {
 }
 
 .display-4brb {
-    padding-top: 2rem;
+    padding-bottom: 1rem;
     text-align: center;
     color: white;
 }
@@ -560,6 +561,10 @@ hr {
     margin-bottom: -10rem;
 }
 
+.card-display:hover {
+    color: #4ebab5;
+    opacity: 50% !important;
+}
 .card-display {
     height: 8rem;
     width: 8rem;
@@ -567,6 +572,62 @@ hr {
 }
 
 
+
+
+.col-brb {
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    font-size: 1.12rem;
+    margin-top:5rem;
+}
+
+.col-custom1 {
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    font-size: 1.3rem;
+}
+
+.col-custom2 {
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    font-size: 1.3rem;
+}
+
+.col-custom3 {
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    font-size: 1.3rem;
+}
+
+.col-custom4 {
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    margin-top:3rem;
+    font-size: 1.3rem;
+}
+
+.col-custom5 {
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    margin-top:3rem;
+    font-size: 1.3rem;
+}
+
+.col-custom,
+.p-product {
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    font-size: 1.1rem;
+    margin: 0rem 0rem;
+}
+/* ----old version-----
 .col-brb {
     color: white !important;
     text-align: center !important;
@@ -625,7 +686,23 @@ hr {
     padding-top: 0rem !important;
     font-size: 1.1rem;
     margin: 0rem 0rem;
+} */
+
+/*product page: upgrade*/
+
+.upgrade-content{
+    margin:5rem 5rem;
+    color:white;
 }
+.border-r{
+    border-right:1px solid;
+    border-color: #4ebab5;
+}
+.col1, .col2, .col3, .col4, .col5, .col6, .col7{
+    border-bottom:1px solid;
+    border-color: #4ebab5;
+}
+
 
 @media screen and (max-width: 1225px) {
 
@@ -903,6 +980,8 @@ hr {
 }
 
 /*full screen service page*/
+
+
 .eload {
   /*padding: 19em 8em !important;
   padding-left: 85em !important;
@@ -1043,6 +1122,7 @@ color:white !important;
   border: 1px solid;
   border-color: #4ebab5 !important;
   padding: 2rem 2rem !important;
+
 }
 
 .talk-2{
@@ -1093,6 +1173,86 @@ color:white !important;
 
 
 /*media screen for service page (adjust for monitor screen)*/
+
+body{
+    background-color:grey;
+}
+
+@media screen and (max-width: 1870px){
+.eload {
+  padding: 6em 10em !important;
+  padding-left: 45em !important;
+  padding-top: 10em !important;
+  color: white;
+  background-image: url("images/s_eload.png") !important;
+  background-size: 100% 100%;
+  height: 35rem;
+  width: 100% !important;
+  background-repeat: no-repeat !important;
+}
+
+.remit {
+  padding: 6em 10em !important;
+  padding-left: 45em !important;
+  padding-top: 10em !important;
+  color: white;
+  background-image: url("images/s_remit.png") !important;
+  background-size: 100% 100%;
+  height: 35rem;
+  width: 100% !important;
+  background-repeat: no-repeat !important;
+}
+
+.fund {
+
+  padding: 6em 10em !important;
+  padding-left: 45em !important;
+  padding-top: 10em !important;
+  color: white;
+  background-image: url("images/s_transfer.png") !important;
+  background-size: 100% 100%;
+  height: 35rem;
+  width: 100% !important;
+  background-repeat: no-repeat !important;
+}
+
+.mobile {
+  padding: 6em 10em !important;
+  padding-left: 45em !important;
+  padding-top: 10em !important;
+  color: white;
+  background-image: url("images/s_mobile.png") !important;
+  background-size: 100% 100%;
+  height: 35rem;
+  width: 100% !important;
+  background-repeat: no-repeat !important;
+}
+
+.online {
+  padding: 6em 10em !important;
+  padding-left: 45em !important;
+  padding-top: 10em !important;
+  color: white;
+  background-image: url("images/s_obank.png") !important;
+  background-size: 100% 100%;
+  height: 35rem;
+  width: 100% !important;
+  background-repeat: no-repeat !important;
+}
+
+.ewallet {
+  padding: 6em 10em !important;
+  padding-left: 45em !important;
+  padding-top: 10em !important;
+  color: white;
+  background-image: url("images/s_ewallet.png") !important;
+  background-size: 100% 100%;
+  height: 35rem;
+  width: 100% !important;
+  background-repeat: no-repeat !important;
+}
+}
+
 @media screen and (max-width: 1270px) {
   .eload {
     padding: 13rem 8rem !important;
@@ -1389,9 +1549,10 @@ color:white !important;
         .dropdown-item, {
           font-size: 0.7rem !important;
         }
-        
+
     .dropdown{
       margin-right: 16px !important;
+      padding-right: 1rem !important;
     }
 
     .services {

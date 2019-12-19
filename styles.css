@@ -5,7 +5,8 @@ html {
 
 body {
   /* background-image: bodyimg.png !important; */
-  background-image: url('bodyimg.png');
+  /*background-image: url('bodyimg.png'); */
+  background-color: #00081d !important;
   width: 100%;
 }
 
@@ -1152,10 +1153,21 @@ padding-left: 1rem;
 }
 
 /*lets talk page*/
-label, #talk-body-content{
-color:white !important;
+#talk-body-content{
+  background-image: url("images/brbback.png") !important;
+}
+.footer-bottom{
+  background-color: #000718!important;
+  padding: 1rem 1rem !important;
 }
 
+/* label, #talk-body-content{
+color:white !important;
+} */
+
+#inputMDEx,#textarea-char-counter, label, .md-form{
+  color: #4ebab5 !important;
+}
 
 .talk-1, .talk-2{
   background-color: #000718!important;

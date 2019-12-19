@@ -8,22 +8,6 @@
 
   <link rel="stylesheet" href="styles.css">
 
-
-
-  <!-- Bootstrap 4 -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-  <!-- Bootstrap 4 Javascript -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-  </script>
-
-  <!-- FONTS -->
-  <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
-
   <!-- MDB icon -->
   <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
   <!-- Font Awesome -->
@@ -34,9 +18,7 @@
   <link rel="stylesheet" href="css/mdb.min.css">
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="css/style.css">
-  <!-- Own Javascript -->
-  <script src="datepick.js"></script>
-  <script src="up-scroll.js"></script>
+
   <title>BRB</title>
 
 </head>
@@ -92,56 +74,107 @@
   <section id="talk-body-content">
     <div class="container">
       <div class="row">
-        <div class="col talk-1">
-          <div class="md-form">
-            <label for="date-picker-example">Schedule</label>
-            <input placeholder="Selected date" type="date" id="date-picker-example" class="form-control datepicker">
-          </div>
+        <div class="col-6">
+
         </div>
-        <div class="col talk-2">
+
+        <div class="col-6">
+          <!-- Material form group -->
           <form>
-            <div class="form-group row">
-              <label for="fname" class="col-sm-2 col-form-label">First Name:</label>
-              <div class="col-sm-10">
-                <input type="text" class="form-control" id="fname" placeholder="First Name">
-              </div>
+            <!-- Large input -->
+            <div class="md-form">
+              <input type="text" id="inputMDEx" class="form-control ">
+              <label for="inputMDEx">First Name</label>
+            </div>
+            <div class="md-form ">
+              <input type="text" id="inputMDEx" class="form-control">
+              <label for="inputMDEx">Last Name</label>
+            </div>
+            <div class="md-form">
+              <input type="text" id="inputMDEx" class="form-control">
+              <label for="inputMDEx">Email</label>
             </div>
 
-            <div class="form-group row">
-              <label for="lname" class="col-sm-2 col-form-label">Last Name:</label>
-              <div class="col-sm-10">
-                <input type="text" class="form-control" id="lname" placeholder="Last Name">
-              </div>
+            <div class="md-form ">
+              <textarea id="textarea-char-counter" class="form-control md-textarea" length="120" rows="3"></textarea>
+              <label for="textarea-char-counter">Message</label>
             </div>
-
-            <div class="form-group row">
-              <label for="emailadd" class="col-sm-2 col-form-label">Email Address:</label>
-              <div class="col-sm-10">
-                <input type="email" class="form-control" id="emailadd" placeholder="name@email.com">
-              </div>
-            </div>
-
-            <div class="form-group row">
-              <label for="message" class="message-text">Message:</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
-            </div><small>*Note: Please contanct for confirmation</small>
-              <br><br>
-            <button type="submit" class="btn btn-primary btn-stalk">Submit</button>
           </form>
         </div>
       </div>
-    </div>
 
 
+      <!--
     <div class="copyright-content">
       <small>&copy; Copyright: BRB Digital, Inc.</small>
     </div>
-
+-->
 
   </section>
 
+  <section id="footer-bottom">
 
-  <!--Footer-->
+
+    <!--Footer-->
+    <!-- Footer -->
+    <footer class="page-footer pt-4 font-small ">
+
+      <!-- Footer Links -->
+      <div class="container-fluid text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-lg-3 col-md-3 mt-md-0 mt-3">
+
+            <!-- Content -->
+            <h6 class="text-uppercase">Makati Office Address</h6>
+            <p>2nd Floor, Planters Product Bldg.109 Esteban St. Legaspi Vilage 1223 Makati City, Philippines</p>
+
+          </div>
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-lg-3 col-md-3 mt-md-0 mt-3">
+
+            <!-- Content -->
+            <h6 class="text-uppercase">Bank Address</h6>
+            <p> 135 Baltazar Street, Brgy. Layunan, Binangonan 1940 Rizal, Philippines</p>
+
+          </div>
+
+          <!-- Grid column -->
+          <div class="col-lg-3 col-md-3 mb-md-0 mb-3">
+                  <!-- Links -->
+                  <h6 class="text-uppercase">Customer Care Hotline:</h6>
+                  <ul class="list-unstyled">
+                      <li>
+                          <p>(02) 8478 6615 <br> (02) 8478 6618</p>
+                      </li>
+                  </ul>
+              </div>
+              <!-- Grid column -->
+              <!-- Grid column -->
+              <div class="col-lg-3 col-md-3 mb-md-0 mb-3">
+                  <!-- Links -->
+                  <h6 class="text-uppercase invisible"> Customer Care Hotline:</h6>
+                  <ul class="list-unstyled">
+                      <li>
+                          <p>(Globe) (+63)0916-6243607 <br>(Smart) (+63)0998-3268399</p>
+                      </li>
+                  </ul>
+              </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </div>
+
+    </footer>
+  </section>
+  <!-- Footer -->
+  <!--
   <section id="footer-content">
     <footer class="fixed-bottom">
       <div class="row">
@@ -158,6 +191,18 @@
       </div>
     </footer>
   </section>
+-->
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
 </body>
 
 </html>

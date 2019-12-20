@@ -280,7 +280,7 @@ footer {
 
 /*Button Talk*/
 .btn-custom {
-  padding: 0.5rem 3rem !important;
+  padding: 0.2rem 2rem !important;
   color: #00081d !important;
 }
 
@@ -291,7 +291,7 @@ footer {
 /*talk content from index.html*/
 .contact-content {
   text-align: center;
-  padding: 2rem 5rem;
+  padding: 1rem 5rem;
   line-height: 3;
   color: white;
   background-color: #000718 !important;
@@ -689,7 +689,7 @@ hr {
 } */
 
 /*product page: upgrade*/
-
+/*
 .upgrade-content{
     margin:5rem 5rem;
     color:white;
@@ -702,6 +702,96 @@ hr {
     border-bottom:1px solid;
     border-color: #4ebab5;
 }
+
+.col2, .col3, .col4, .col6{
+    padding-top:5rem;
+}
+
+.col5{
+    padding-top:8rem;
+}
+*/
+
+.upgrade-content{
+    margin:3rem 3rem;
+    color:white;
+}
+
+.border-r{
+    border-top:1px solid;
+    border-right:1px solid;
+    border-color: #4ebab5;
+}
+
+.col1{
+  padding-top: 3rem;
+  margin-top: 2rem;
+}
+
+.col2{
+  padding-top: 5rem;
+  margin-top: 3rem;
+}
+
+.col3{
+  padding-top: 3rem;
+  margin-top: 3rem;
+}
+
+.col4{
+  padding-top: 8rem;
+  margin-top: 3rem;
+}
+
+.col5{
+  padding-top: 9em;
+  margin-top: 3rem;
+}
+
+.col6{
+  padding-top: 9rem;
+  margin-top: 3rem;
+}
+
+.col7{
+  padding-top: 9rem;
+}
+
+
+.r1{
+    margin-top:-5rem;
+}
+
+.r2{
+     margin-top:-2rem;
+     padding-right: 0.4rem;
+}
+
+.r3{
+     margin-top:0rem;
+     padding-right: 0.4rem;
+}
+
+.r4{
+     margin-top:1rem;
+     padding-right: 0.4rem;
+}
+
+.r5{
+     margin-top:3rem;
+     padding-right: 0.4rem;
+}
+
+.r6{
+     margin-top:5em;
+     padding-right: 0.4rem;
+}
+
+.r7{
+     margin-top:7rem;
+     padding-right: 0.4rem;
+}
+
 
 /*product page: simple*/
 .simple-product-dev{
@@ -743,6 +833,23 @@ padding-left: 1rem;
     padding-top: 0rem !important;
     font-size: 1.12rem;
     margin-top:15rem;
+}
+
+/*product page: upgrade page*/
+.card-upgrade{
+  height: 4rem;
+  width: 4rem;
+}
+
+.u-display{
+  margin-top: -4rem;
+  padding-left: 5rem;
+  color: white;
+}
+
+.brb-upgrade{
+  height: 3rem;
+  width: 6rem;
 }
 
 
@@ -1024,6 +1131,73 @@ padding-left: 1rem;
 /*full screen service page*/
 
 
+/*additional start*/
+.balance {
+  padding: 6em 10em !important;
+  padding-left: 5em !important;
+  padding-top: 3em !important;
+  color: white;
+  background-image: url("images/s_bill.png") !important;
+  background-size: cover;
+  height: 45rem;
+  background-position: center;
+  background-repeat: no-repeat !important;
+}
+
+
+
+.withdrawal {
+  padding: 6em 10em !important;
+  padding-left: 5em !important;
+  padding-top: 13em !important;
+  color: white;
+  background-image: url("images/s_withdraw.png") !important;
+  background-size: cover;
+  height: 45rem;
+  background-position: center;
+  background-repeat: no-repeat !important;
+}
+
+
+.bills {
+  padding: 6em 10em !important;
+  padding-left: 5em !important;
+  padding-top: 5em !important;
+  color: white;
+  background-image: url("images/s_online.png") !important;
+  background-size: cover;
+  height: 45rem;
+  background-position: center;
+  background-repeat: no-repeat !important;
+}
+
+.purchase {
+  padding: 6em 10em !important;
+  padding-left: 5em !important;
+  padding-top: 3em !important;
+  color: white;
+  background-image: url("images/s_purchase.png") !important;
+  background-size: cover;
+  height: 45rem;
+  background-position: center;
+  background-repeat: no-repeat !important;
+}
+
+
+.e-bank {
+  padding: 6em 10em !important;
+  padding-left: 5em !important;
+  padding-top: 10em !important;
+  color: white;
+  background-image: url("images/s_online.png") !important;
+  background-size: cover;
+  height: 45rem;
+  background-position: center;
+  background-repeat: no-repeat !important;
+}
+
+
+/*additional end*/
 .eload {
   /*padding: 19em 8em !important;
   padding-left: 85em !important;
@@ -1035,12 +1209,12 @@ padding-left: 1rem;
   background-size: cover;
   */
   padding: 6em 10em !important;
-  padding-left: 55em !important;
-  padding-top: 10em !important;
+  padding-left: 50em !important;
+  padding-top: 20em !important;
   color: white;
   background-image: url("images/s_eload.png") !important;
   background-size: cover;
-  height: 35rem;
+  height: 45rem;
   background-position: center;
   background-repeat: no-repeat !important;
 }
@@ -1057,12 +1231,12 @@ padding-left: 1rem;
   background-repeat: no-repeat;
   */
   padding: 6em 10em !important;
-  padding-left: 55em !important;
+  padding-left: 45em !important;
   padding-top: 10em !important;
   color: white;
   background-image: url("images/s_remit.png") !important;
   background-size: cover;
-  height: 35rem;
+  height: 45rem;
   background-position: center;
   background-repeat: no-repeat !important;
 }
@@ -1079,12 +1253,12 @@ padding-left: 1rem;
   background-repeat: no-repeat;
   */
   padding: 6em 10em !important;
-  padding-left: 55em !important;
+  padding-left: 45em !important;
   padding-top: 10em !important;
   color: white;
   background-image: url("images/s_transfer.png") !important;
   background-size: cover;
-  height: 35rem;
+  height: 45rem;
   background-position: center;
   background-repeat: no-repeat !important;
 }
@@ -1100,12 +1274,12 @@ padding-left: 1rem;
   background-size: cover;
   background-repeat: no-repeat; */
   padding: 6em 10em !important;
-  padding-left: 55em !important;
+  padding-left: 49em !important;
   padding-top: 10em !important;
   color: white;
   background-image: url("images/s_mobile.png") !important;
   background-size: cover;
-  height: 35rem;
+  height: 45rem;
   background-position: center;
   background-repeat: no-repeat !important;
 }
@@ -1126,7 +1300,7 @@ padding-left: 1rem;
   color: white;
   background-image: url("images/s_obank.png") !important;
   background-size: cover;
-  height: 35rem;
+  height: 45rem;
   background-position: center;
   background-repeat: no-repeat !important;
 }
@@ -1147,9 +1321,37 @@ padding-left: 1rem;
   color: white;
   background-image: url("images/s_ewallet.png") !important;
   background-size: cover;
-  height: 35rem;
+  height: 45rem;
   background-position: center;
   background-repeat: no-repeat !important;
+}
+
+/*services icon*/
+.icon-service{
+  height: 7rem;
+  width: 9rem;
+  padding: 1rem 1rem;
+}
+
+/*partner page*/
+#partner-body-content{
+  background-image: url("images/brbback.png") !important;
+  background-position: center;
+  background-size: cover;
+  padding: 5rem 5rem;
+}
+.partner-display{
+  height: 6rem;
+  width: 10rem;
+}
+
+
+.col-partner{
+  color:white !important;
+}
+.r2-p{
+  padding-top: 2rem;
+  padding-left: 3rem;
 }
 
 /*lets talk page*/
@@ -1167,6 +1369,10 @@ color:white !important;
 
 #inputMDEx,#textarea-char-counter, label, .md-form{
   color: #4ebab5 !important;
+}
+
+small{
+  color: white;
 }
 
 .talk-1, .talk-2{

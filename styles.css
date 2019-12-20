@@ -724,71 +724,71 @@ hr {
 }
 
 .col1{
-  padding-top: 3rem;
-  margin-top: 2rem;
+  padding-top: -1rem;
+  margin-top: 1rem;
 }
 
 .col2{
-  padding-top: 5rem;
+  padding-top: -1rem;
   margin-top: 3rem;
 }
 
 .col3{
-  padding-top: 3rem;
-  margin-top: 3rem;
+  padding-top: 0rem;
+  margin-top: 0rem;
 }
 
 .col4{
-  padding-top: 8rem;
+  padding-top: 4rem;
   margin-top: 3rem;
 }
 
 .col5{
-  padding-top: 9em;
+  padding-top: 6.5em;
   margin-top: 3rem;
 }
 
 .col6{
-  padding-top: 9rem;
+  padding-top: 5.5rem;
   margin-top: 3rem;
 }
 
 .col7{
-  padding-top: 9rem;
+  padding-top: 12rem;
 }
 
 
 .r1{
-    margin-top:-5rem;
+    margin-top:-12rem;
 }
 
 .r2{
-     margin-top:-2rem;
+     margin-top:-10rem;
      padding-right: 0.4rem;
 }
 
 .r3{
-     margin-top:0rem;
+     margin-top:-8rem;
      padding-right: 0.4rem;
 }
 
 .r4{
-     margin-top:1rem;
+     margin-top:-6rem;
      padding-right: 0.4rem;
 }
 
 .r5{
-     margin-top:3rem;
+     margin-top:-4rem;
      padding-right: 0.4rem;
 }
 
 .r6{
-     margin-top:5em;
+     margin-top:-2em;
      padding-right: 0.4rem;
 }
 
 .r7{
-     margin-top:7rem;
+     margin-top:0rem;
      padding-right: 0.4rem;
 }
 

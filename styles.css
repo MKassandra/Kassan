@@ -866,6 +866,24 @@ padding-left: 1rem;
   width: 6rem;
 }
 
+/*product page: cashless*/
+.cashless-product-dev{
+padding: 3rem 3rem;
+
+}
+.co-cash{
+    padding-left: 5rem!important;
+
+}
+.col-cashless{
+  padding-bottom: 2rem !important;
+}
+.cash-display{
+  height: 7rem;
+  width: 7rem;
+  margin-left: 8rem;
+}
+
 
 @media screen and (max-width: 1225px) {
 

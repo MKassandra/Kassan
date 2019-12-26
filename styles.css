@@ -713,7 +713,9 @@ hr {
 */
 
 #upgrade-product-body{
-background-image: url("images/brbback.png");
+background-image: url('images/brbback.png');
+background-size: cover;
+background-position: center;
 }
 
 .u-display, .s-display{
@@ -868,15 +870,26 @@ padding-left: 1rem;
 
 /*product page: cashless*/
 .cashless-product-dev{
-padding: 3rem 3rem;
-
+  padding:  5rem 0!important;
+  background-image: url('images/brbback.png');
+  background-size: cover;
+  background-position: center;
 }
 .co-cash{
-    padding-left: 5rem!important;
+    padding-left: 2rem!important;
 
 }
-.col-cashless{
+
+.card-cashless{
+      height: 7rem;
+      width: 7rem;
+      margin-left: 5rem;
+}
+.c-display{
   padding-bottom: 2rem !important;
+  margin-top: -5rem;
+  padding-left: 13rem;
+  color: #4ebab5;
 }
 .cash-display{
   height: 7rem;
@@ -884,6 +897,18 @@ padding: 3rem 3rem;
   margin-left: 8rem;
 }
 
+/*product page:customize page*/
+.custom-product-dev{
+  padding: 3rem 0;
+  background-image: url('images/brbback.png');
+  background-size: cover;
+  background-position: center;
+
+}
+.custom-display{
+  height: 5rem;
+  width: 10rem;
+}
 
 @media screen and (max-width: 1225px) {
 

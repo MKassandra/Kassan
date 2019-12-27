@@ -78,14 +78,14 @@
 
   <!--Main Content-->
   <section id="body-content">
-    <div class="balance">
+    <div class="balance scollstyle">
       <h1 class="display-3">Balance Inquiry</h1>
       <p class="display-p"> Since BRB is a BancNet registered digital bank, you can check balance at any ATM or POS terminal with BancNet logo.</p>
       <br>
       <img src="images/cards.png" class="icon-service" alt=""> <img src="images/arrowhead.png" class="icon-service" alt=""> <img src="images/atm.png" class="icon-service" alt="">  <img src="images/arrowhead.png" class="icon-service" alt=""> <img src="images/devices.png" class="icon-service" alt="">
     </div>
 
-  <div class="withdrawal">
+  <div class="withdrawal scollstyle">
     <h1 class="display-3">Withdrawal</h1>
     <p class="display-p">In the Philippines, 98% of all transactions are still done by cash even though Bangko Sentral ng Pilipinas has been aiming
        and encouraging all Filipinos to increase cashless transaction. There will be times that cashless is not available from where you shop or dine.
@@ -95,7 +95,7 @@
 
   </div>
 
-  <div class="bills">
+  <div class="bills scollstyle">
     <h1 class="display-3">Bills Payment</h1>
     <p class="display-p" >
       <dd> Securely pay your bills at any ATM/POS terminal near you.</dd>
@@ -105,30 +105,29 @@
 
   </div>
 
-  <div class="purchase">
+  <div class="purchase scollstyle">
     <h1 class="display-3">Purchase</h1>
     <p class="display-p" >We love shopping online because we hate the long lines and the volume of people at a store. BRB cards can be used on your online and offline transactions.
       Grocery, dinning, gas, shopping, one swipe and you are paid! Even if you are on a store, it will not take you
       several minutes just to wait for change. No more annoying coins, no more insufficient change; just sakto.</p>
   </div>
-
-  <div class="e-bank">
+<!--
+  <div class="e-bank scollstyle">
     <h1 class="display-3">E-Banking</h1>
     <p class="display-p" >By this time, cashless is being encouraged though most people prefer cash because it is what they are used to. Most of the time we are doubtful when trying to be cashless.
-  With e-Banking, you can do all bank transactions at your fingertips. You can securely access your account because it will be protected with one-time-passwords (OTP) that will be sent to your registered mobile number.
+      With e-Banking, you can do all bank transactions at your fingertips. You can securely access your account because it will be protected with one-time-passwords (OTP) that will be sent to your registered mobile number.
   </p>
   <br>
   <img src="images/devices.png" class="icon-service" alt=""> <br <br><img src="images/devices.png" class="icon-service" alt="">
-
   </div>
 
-    <!--additional end-->
-      <div class="eload">
+    additional end
+      <div class="eload scollstyle">
         <h1 class="display-3">E-Load</h1>
         <p class="display-p" >Need load? Reload on the nearest ATM or POS terminal.</p>
       </div>
 
-      <div class="remit">
+      <div class="remit scollstyle">
         <h1 class="display-3">Remittance</h1>
         <p class="display-p">Send money from all around the directly to your family’s cash card. It is safe and secure. No more forms to fill out, no more lines just to tell you that your transaction
           is not in their system or it is still for clearing. No more wasted time and effort because an SMS notification will be sent to their registered mobile number as soon as the amount is ready for use.</p>
@@ -137,7 +136,7 @@
 
       </div>
 
-      <div class="fund">
+      <div class="fund scollstyle">
         <h1 class="display-3">Fund Transfer</h1>
         <p class="display-p">All cardholders can transfer money either from BRB to BRB Card, or BRB to other banks’ card. This feature can be done from any BancNet ATMs and POS terminals. This can also be considered as local remittance. </p>
         <br>
@@ -145,21 +144,21 @@
 
 </div>
 
-      <div class="mobile">
+      <div class="mobile scollstyle">
         <h1 class="display-3">Mobile Banking</h1>
         <p class="display-p">Banking on the gowhere you can make the best of all your banking needs. No need to you to a physical bank or ATM. Just log on your phone and you're all set.</p>
       </div>
 
-      <div class="online">
+      <div class="online scollstyle">
         <h1 class="display-3">Online Banking</h1>
         <p class="display-p">Do you banking needs but can't leave the office or your home? We have online banking! You only need the internet connection and everything will be done in a jiffy</p>
       </div>
 
-      <div class="ewallet">
+      <div class="ewallet scollstyle">
         <h1 class="display-3">E-wallet</h1>
         <p class="display-p">A digital wallet stores your money safely and securely. Paying for your purchased goods and services has never been this easy. No annoying forms to fill out before confirming each payment.
           Simplified process is for the customer convenience. It is like paying cold cash in a digital way.</p>
-      </div>
+      </div> -->
 
 </div>
 
@@ -183,6 +182,17 @@
     </div>
   </footer>
   </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.min.js" integrity="sha256-RGlAwHKG24hsj1109SGQgvR+Orx7u8c6zyYH4Tk3ydU=" crossorigin="anonymous"></script>
+
+            <script>
+         $(function() {
+           $.scrollify({
+             section : ".scollstyle",
+           });
+         });
+       </script>
 </body>
 
 </html>

@@ -1248,7 +1248,8 @@ padding-left: 1rem;
   color: white;
   background-image: url("images/s_online.png") !important;
   background-size: cover;
-  height: 45rem;
+  height: 100% !important;
+  width: 100% !important;
   background-position: center;
   background-repeat: no-repeat !important;
 }
@@ -1293,7 +1294,8 @@ padding-left: 1rem;
   color: white;
   background-image: url("images/s_remit.png") !important;
   background-size: cover;
-  height: 45rem;
+  height: 100% !important;
+  width: 100% !important;
   background-position: center;
   background-repeat: no-repeat !important;
 }
@@ -1315,7 +1317,8 @@ padding-left: 1rem;
   color: white;
   background-image: url("images/s_transfer.png") !important;
   background-size: cover;
-  height: 45rem;
+  height: 100% !important;
+  width: 100% !important;
   background-position: center;
   background-repeat: no-repeat !important;
 }

@@ -1197,6 +1197,9 @@ padding-left: 1rem;
   background-image: url("images/s_bill.png") !important;
   background-size: cover;
   height: 45rem;
+  /* backup solution incase scrollify go bananas
+  height: 100% !important;
+  width: 100% !important;*/
   background-position: center;
   background-repeat: no-repeat !important;
 }
@@ -1211,6 +1214,9 @@ padding-left: 1rem;
   background-image: url("images/s_withdraw.png") !important;
   background-size: cover;
   height: 45rem;
+  /* backup solution incase scrollify go bananas
+  height: 100% !important;
+  width: 100% !important;*/
   background-position: center;
   background-repeat: no-repeat !important;
 }
@@ -1224,6 +1230,9 @@ padding-left: 1rem;
   background-image: url("images/s_online.png") !important;
   background-size: cover;
   height: 45rem;
+  /* backup solution incase scrollify go bananas
+  height: 100% !important;
+  width: 100% !important;*/
   background-position: center;
   background-repeat: no-repeat !important;
 }
@@ -1236,6 +1245,24 @@ padding-left: 1rem;
   background-image: url("images/s_purchase.png") !important;
   background-size: cover;
   height: 45rem;
+  /* backup solution incase scrollify go bananas
+  height: 100% !important;
+  width: 100% !important;*/
+  background-position: center;
+  background-repeat: no-repeat !important;
+}
+
+.payroll {
+  padding: 6em 10em !important;
+  padding-left: 5em !important;
+  padding-top: 3em !important;
+  color: white;
+  background-image: url("images/s_payroll.png") !important;
+  background-size: cover;
+  height: 45rem;
+  /* backup solution incase scrollify go bananas
+  height: 100% !important;
+  width: 100% !important;*/
   background-position: center;
   background-repeat: no-repeat !important;
 }
@@ -1273,6 +1300,9 @@ padding-left: 1rem;
   background-image: url("images/s_eload.png") !important;
   background-size: cover;
   height: 45rem;
+  /* backup solution incase scrollify go bananas
+  height: 100% !important;
+  width: 100% !important;*/
   background-position: center;
   background-repeat: no-repeat !important;
 }
@@ -1340,6 +1370,9 @@ padding-left: 1rem;
   background-image: url("images/s_mobile.png") !important;
   background-size: cover;
   height: 45rem;
+  /* backup solution incase scrollify go bananas
+  height: 100% !important;
+  width: 100% !important;*/
   background-position: center;
   background-repeat: no-repeat !important;
 }
@@ -1361,6 +1394,9 @@ padding-left: 1rem;
   background-image: url("images/s_obank.png") !important;
   background-size: cover;
   height: 45rem;
+  /* backup solution incase scrollify go bananas
+  height: 100% !important;
+  width: 100% !important;*/
   background-position: center;
   background-repeat: no-repeat !important;
 }
@@ -1382,6 +1418,9 @@ padding-left: 1rem;
   background-image: url("images/s_ewallet.png") !important;
   background-size: cover;
   height: 45rem;
+  /* backup solution incase scrollify go bananas
+  height: 100% !important;
+  width: 100% !important;*/
   background-position: center;
   background-repeat: no-repeat !important;
 }

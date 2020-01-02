@@ -910,6 +910,14 @@ padding-left: 1rem;
   width: 10rem;
 }
 
+.c-product{
+  color: white !important;
+  padding-left: 4rem;
+  padding-top: 0rem !important;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
 @media screen and (max-width: 1225px) {
 
     .brbcard-display {
@@ -1209,7 +1217,7 @@ padding-left: 1rem;
 .withdrawal {
   padding: 6em 10em !important;
   padding-left: 5em !important;
-  padding-top: 13em !important;
+  padding-top: 9em !important;
   color: white;
   background-image: url("images/s_withdraw.png") !important;
   background-size: cover;
@@ -1271,7 +1279,7 @@ padding-left: 1rem;
 .e-bank {
   padding: 6em 10em !important;
   padding-left: 5em !important;
-  padding-top: 10em !important;
+  padding-top: 5em !important;
   color: white;
   background-image: url("images/s_online.png") !important;
   background-size: cover;
@@ -1295,7 +1303,7 @@ padding-left: 1rem;
   */
   padding: 6em 10em !important;
   padding-left: 50em !important;
-  padding-top: 20em !important;
+  padding-top: 15em !important;
   color: white;
   background-image: url("images/s_eload.png") !important;
   background-size: cover;
@@ -1320,7 +1328,7 @@ padding-left: 1rem;
   */
   padding: 6em 10em !important;
   padding-left: 45em !important;
-  padding-top: 10em !important;
+  padding-top: 3rem !important;
   color: white;
   background-image: url("images/s_remit.png") !important;
   background-size: cover;
@@ -1342,7 +1350,7 @@ padding-left: 1rem;
   background-repeat: no-repeat;
   */
   padding: 6em 10em !important;
-  padding-left: 45em !important;
+  padding-left: 35em !important;
   padding-top: 10em !important;
   color: white;
   background-image: url("images/s_transfer.png") !important;
@@ -1429,7 +1437,8 @@ padding-left: 1rem;
 .icon-service{
   height: 7rem;
   width: 9rem;
-  padding: 1rem 1rem;
+  padding: 0 0;
+  margin: 0.2rem -0.3rem;
 }
 
 /*partner page*/

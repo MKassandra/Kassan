@@ -75,8 +75,9 @@
     <div class="container">
       <div class="row">
         <div class="col-6">
+            <form>
           <br>
-        <label for="inputMDEx">Schedule</label><br>
+      <!--  <label for="inputMDEx">Schedule</label><br>
           <input type="date" id="inputMDEx" class="form-control "><br>
 
           <div class="row">
@@ -218,8 +219,23 @@
               <div class="col">
               <br><br>
               </div>
-          </div>
+          </div> -->
+          <div id='calendar'></div>
+<script>$(function() {
 
+  $('#calendar').fullCalendar({
+    themeSystem: 'bootstrap4',
+    header: {
+      left: 'prev,next today',
+      center: 'title',
+      right: 'month,agendaWeek,agendaDay,listMonth'
+    },
+    weekNumbers: true,
+    eventLimit: true, // allow "more" link when too many events
+    events: 'https://fullcalendar.io/demo-events.json'
+  });
+
+});</script>
         </div>
 
         <div class="col-6">

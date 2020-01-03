@@ -451,6 +451,7 @@ footer {
   line-height: 2;
   color: white;
   background-color: #00081d !important;
+  padding-bottom: 9rem;
 }
 
 .bod-img{
@@ -1285,6 +1286,8 @@ width: 100% !important;*/
   padding-top: 3em !important;
   color: white;
   background-image: url("images/s_purchase.png") !important;
+  background-blend-mode: multiply;
+  background-color: grey;
   background-size: cover;
   height: 45rem;
   /* backup solution incase scrollify go bananas
@@ -1300,6 +1303,8 @@ width: 100% !important;*/
   padding-top: 3em !important;
   color: white;
   background-image: url("images/s_payroll.png") !important;
+  background-blend-mode: multiply;
+  background-color: grey;
   background-size: cover;
   height: 45rem;
   /* backup solution incase scrollify go bananas
@@ -1437,15 +1442,14 @@ width: 100% !important;*/
   background-size: cover;
   background-repeat: no-repeat; */
   padding: 6em 10em !important;
-  padding-left: 49em !important;
+  padding-left: 35em !important;
   padding-top: 10em !important;
   color: white;
   background-image: url("images/s_mobile.png") !important;
   background-size: cover;
   height: 45rem;
-  /* backup solution incase scrollify go bananas
   height: 100% !important;
-  width: 100% !important;*/
+  width: 100% !important;
   background-position: center;
   background-repeat: no-repeat !important;
 }
@@ -1461,15 +1465,15 @@ width: 100% !important;*/
   background-size: cover;
   background-repeat: no-repeat; */
   padding: 6em 10em !important;
-  padding-left: 55em !important;
+  padding-left: 35em !important;
   padding-top: 10em !important;
   color: white;
   background-image: url("images/s_obank.png") !important;
   background-size: cover;
   height: 45rem;
-  /* backup solution incase scrollify go bananas
+
   height: 100% !important;
-  width: 100% !important;*/
+  width: 100% !important;
   background-position: center;
   background-repeat: no-repeat !important;
 }
@@ -1485,7 +1489,7 @@ width: 100% !important;*/
   background-size: cover;
   background-repeat: no-repeat; */
   padding: 6em 10em !important;
-  padding-left: 55em !important;
+  padding-left: 35em !important;
   padding-top: 10em !important;
   color: white;
   background-image: url("images/s_ewallet.png") !important;
@@ -1516,12 +1520,18 @@ width: 100% !important;*/
 }
 
 .display-p{
-  font-size: 1.3rem;
+  font-size: 1.65rem;
 }
 
 h1{
-  font-size: 3rem!important;
-  font-weight: bold;
+  font-size: 5.5rem!important;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 145px;
+    right: 25px;
+    display: none;
 }
 
 /*partner page*/

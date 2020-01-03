@@ -147,10 +147,10 @@
     <div class="payroll scollstyle">
       <h1>Payroll</h1>
       <p class="display-p">Managing a business is never easy especially since this involves money <br> from restocking to your employee's salary. Open a account with us <br>and easily distribute your employee's salary directly to their cards. <br>
-        <dd>1. Open an account.</dd>
-        <dd>2. Have funds available at least a day before payday.</dd>
-        <dd>3. Send us the Debit/Credit note.</dd>
-        <dd>4. Money will be transferred instantly with minimal fees.</dd></p>
+        <dd class="display-p">1. Open an account.</dd>
+        <dd class="display-p">2. Have funds available at least a day before payday.</dd>
+        <dd class="display-p">3. Send us the Debit/Credit note.</dd>
+        <dd class="display-p">4. Money will be transferred instantly with minimal fees.</dd></p>
     </div>
 
     <div class="e-bank scollstyle">
@@ -209,11 +209,27 @@
         <p class="display-p">A digital wallet stores your money safely and securely. Paying for your purchased goods and services has never been this easy. No annoying forms to fill out before confirming each payment.
           Simplified process is for the customer convenience. It is like paying cold cash in a digital way.</p>
       </div>
-
     </div>
-
   </section>
 
+<a id="back-to-top" href="#1" class="btn btn-light btn-lg back-to-top" role="button">Top<i class="fas fa-chevron-up"></i></a>
+<script>
+  $(document).ready(function(){
+	$(window).scroll(function () {
+			if ($(this).scrollTop() > 50) {
+				$('#back-to-top').fadeIn();
+			} else {
+				$('#back-to-top').fadeOut();
+			}
+		});
+		// scroll body to 0px on click
+		$('#back-to-top').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 400);
+			return false;
+		});
+});</script>
 
   <!--Footer-->
   <section id="footer-content">

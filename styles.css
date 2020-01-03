@@ -1344,8 +1344,15 @@ width: 100% !important;*/
 }
 
 .remit-img{
+  background-position: center;
   background-size: cover;
-  width: 100%;
+  width: 100% !important;
+}
+
+.fund-img{
+  background-position: center;
+  background-size: cover;
+  width: 100% !important;
 }
 
 /*additional end*/
@@ -1395,9 +1402,9 @@ width: 100% !important;*/
   background-position: center;
   background-repeat: no-repeat !important;
 }   */
-
-.fund {
   /*
+.fund {
+
   padding: 19em 8em;
   padding-left: 85em !important;
   padding-top: 30em !important;
@@ -1406,7 +1413,7 @@ width: 100% !important;*/
   background-image: url("images/s_transfer.png") !important;
   background-size: cover;
   background-repeat: no-repeat;
-  */
+
   padding: 6em 10em !important;
   padding-left: 35em !important;
   padding-top: 10em !important;
@@ -1417,7 +1424,7 @@ width: 100% !important;*/
   width: 100% !important;
   background-position: center;
   background-repeat: no-repeat !important;
-}
+}*/
 
 .mobile {
   /*
@@ -1656,6 +1663,7 @@ body{
   background-repeat: no-repeat !important;
 }
 
+
 .fund {
 
   padding: 6em 10em !important;
@@ -1725,6 +1733,7 @@ body{
     width: 100% !important;
     background-repeat: no-repeat !important;
   }
+
 
   .fund {
     padding: 7rem 8rem !important;

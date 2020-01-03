@@ -1287,7 +1287,7 @@ width: 100% !important;*/
   color: white;
   background-image: url("images/s_purchase.png") !important;
   background-blend-mode: multiply;
-  background-color: grey;
+  background-color: rgb(150, 146, 132);
   background-size: cover;
   height: 45rem;
   /* backup solution incase scrollify go bananas
@@ -1304,7 +1304,7 @@ width: 100% !important;*/
   color: white;
   background-image: url("images/s_payroll.png") !important;
   background-blend-mode: multiply;
-  background-color: grey;
+  background-color: rgb(194, 189, 201);
   background-size: cover;
   height: 45rem;
   /* backup solution incase scrollify go bananas
@@ -1568,15 +1568,15 @@ h1{
 /*lets talk page*/
 #talk-body-content{
   background-image: url("images/brbback.png") !important;
+  padding-bottom: 8rem;
+
 }
 .footer-bottom{
   background-color: #000718!important;
   padding: 1rem 1rem !important;
 }
 
-/* label, #talk-body-content{
-color:white !important;
-} */
+
 
 #inputMDEx,#textarea-char-counter, label, .md-form{
   color: #4ebab5 !important;

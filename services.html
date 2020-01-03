@@ -23,6 +23,7 @@
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
 
 <!--scrollify-->
+<!--scrollSpeed: 1100,-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.min.js" integrity="sha256-RGlAwHKG24hsj1109SGQgvR+Orx7u8c6zyYH4Tk3ydU=" crossorigin="anonymous"></script>
   <script>
@@ -31,7 +32,7 @@
     section: ".scollstyle",
     interstitialSection : "",
     easing: "easeOutExpo",
-    scrollSpeed: 1100,
+    scrollSpeed: 300,
     offset : 0,
     scrollbars: true,
     standardScrollElements: "",
@@ -103,45 +104,49 @@
 
   <!--Main Content-->
   <section id="body-content">
+    <!--class="display-p"-->
     <div class="balance scollstyle">
-      <h1 class="display-3">Balance Inquiry</h1>
-      <p class="display-p"> Since BRB is a BancNet registered digital bank, you can check balance at any ATM or POS terminal with BancNet logo.</p>
+      <img src="images/balance_full.png" alt="" class="balance-img">
+      <!--
+      <h1 >Balance Inquiry</h1>
+
+      <p class="display-p"> Since BRB is a BancNet registered digital bank, you can check balance at <br>any ATM or POS terminal with BancNet logo.</p>
       <br>
       <img src="images/cards.png" class="icon-service" alt=""> <img src="images/arrow.png" class="icon-service" alt=""> <img src="images/atm.png" class="icon-service" alt=""> <img src="images/arrow.png" class="icon-service" alt="">
-      <img src="images/balance_i.png" class="icon-service" alt="">
+      <img src="images/balance_i.png" class="icon-service" alt=""> -->
     </div>
 
     <div class="withdrawal scollstyle">
-      <h1 class="display-3">Withdrawal</h1>
-      <p class="display-p">In the Philippines, 98% of all transactions are still done by cash even though Bangko Sentral ng Pilipinas has been aiming
-        and encouraging all Filipinos to increase cashless transaction. There will be times that cashless is not available from where you shop or dine.
-        Using your card, you can withdraw your needed cash at any BancNet ATM and POS terminal.</p>
+      <img src="images/withdraw_full.png" alt="" class="withdraw-img">
+    <!--  <h1 >Withdrawal</h1>
+      <p class="display-p">In the Philippines, 98% of all transactions are still done by cash even though <br>Bangko Sentral ng Pilipinas has been aiming
+        and encouraging all Filipinos <br>to increase cashless transaction. There will be times that cashless is not <br>available from where you shop or dine.
+        Using your card, you can <br> withdraw your needed cash at any BancNet ATM and POS terminal.</p>
       <br>
       <img src="images/cards.png" class="icon-service" alt=""> <img src="images/arrow.png" class="icon-service" alt=""> <img src="images/atm.png" class="icon-service" alt=""> <img src="images/arrow.png" class="icon-service" alt="">
-      <img src="images/widraw.png" class="icon-service" alt="">
-
+      <img src="images/widraw.png" class="icon-service" alt=""> -->
     </div>
 
     <div class="bills scollstyle">
-      <h1 class="display-3">Bills Payment</h1>
+      <h1>Bills Payment</h1>
       <p class="display-p">
-        <dd> Securely pay your bills at any ATM/POS terminal near you.</dd>
-        <dd> Local billers from telecommunications to credit cards to utility is available.</dd>
-        <dd> Real time posting.</dd>
+        <dd class="display-p"> Securely pay your bills at any ATM/POS terminal near you.</dd>
+        <dd class="display-p"> Local billers from telecommunications to credit cards to utility is available.</dd>
+        <dd class="display-p"> Real time posting.</dd>
       </p>
 
     </div>
 
     <div class="purchase scollstyle">
-      <h1 class="display-3">Purchase</h1>
-      <p class="display-p">We love shopping online because we hate the long lines and the volume of people at a store. BRB cards can be used on your online and offline transactions.
-        Grocery, dinning, gas, shopping, one swipe and you are paid! Even if you are on a store, it will not take you
-        several minutes just to wait for change. No more annoying coins, no more insufficient change; just sakto.</p>
+      <h1>Purchase</h1>
+      <p class="display-p">We love shopping online because we hate the long lines and the volume of people <br> at a store. BRB cards can be used on your online and offline transactions.
+        <br>Grocery, dinning, gas, shopping, one swipe and you are paid! Even if you <br>are on a store, it will not take you
+        several minutes just to wait for change. <br>No more annoying coins, no more insufficient change; just sakto.</p>
     </div>
 
     <div class="payroll scollstyle">
-      <h1 class="display-3">Payroll</h1>
-      <p class="display-p">Managing a business is never easy especially since this involves money from restocking to your employee's salary. Open a account with us and easily distribute your employee's salary directly to their cards. <br>
+      <h1>Payroll</h1>
+      <p class="display-p">Managing a business is never easy especially since this involves money <br> from restocking to your employee's salary. Open a account with us <br>and easily distribute your employee's salary directly to their cards. <br>
         <dd>1. Open an account.</dd>
         <dd>2. Have funds available at least a day before payday.</dd>
         <dd>3. Send us the Debit/Credit note.</dd>
@@ -149,34 +154,38 @@
     </div>
 
     <div class="e-bank scollstyle">
-      <h1 class="display-3">E-Banking</h1>
-      <p class="display-p">By this time, cashless is being encouraged though most people prefer cash because it is what they are used to. Most of the time we are doubtful when trying to be cashless.
-        With e-Banking, you can do all bank transactions at your fingertips. You can securely access your account because it will be protected with one-time-passwords (OTP) that will be sent to your registered mobile number.
+      <img src="images/ebank_full.png" alt="" class="ebank-img">
+      <!--
+      <h1>E-Banking</h1>
+      <p class="display-p">By this time, cashless is being encouraged though most people prefer cash because it is <br> what they are used to. Most of the time we are doubtful when trying to be cashless.
+        <br>With e-Banking, you can do all bank transactions at your fingertips. You can securely <br>access your account because it will be protected with one-time-passwords (OTP) <br> that will be sent to your registered mobile number.
       </p>
       <br>
       <div class="row"> <img src="images/phone.png" class="icon-service" alt=""> <p class="display-p">Download the app, create a profile and you are all set</p> <br><br>
       </div>
-      <div class="row">  <img src="images/computer.png" class="icon-service" alt=""> <p class="display-p">Access it on the web with the same log on information as your mobile banking. OTP will be sent to your mobile number.</p>
-      </div>
+      <div class="row"> <img src="images/computer.png" class="icon-service" alt=""> <p class="display-p">Access it on the web with the same log on information as your mobile banking. OTP will be sent to your mobile number.</p>
+      </div> -->
     </div>
 
     <!--    additional end -->
       <div class="eload scollstyle">
-        <h1 class="display-3">E-Load</h1>
-        <p class="display-p" >Need load? Reload on the nearest ATM or POS terminal.</p>
+        <h1 >E-Load</h1>
+        <p class="display-p">Need load? Reload on the nearest ATM or POS terminal.</p>
       </div>
 
       <div class="remit scollstyle">
-        <h1 class="display-3">Remittance</h1>
+        <img src="images/remit_full.png" alt="" class="remit-img">
+        <!--
+        <h1>Remittance</h1>
         <p class="display-p">Send money from all around the directly to your family’s cash card. It is safe and secure. No more forms to fill out, no more lines just to tell you that your transaction
           is not in their system or it is still for clearing. No more wasted time and effort because an SMS notification will be sent to their registered mobile number as soon as the amount is ready for use.</p>
           <br>
           <img src="images/mcash.png" class="icon-service" alt=""> <img src="images/arrow.png" class="icon-service" alt=""> <img src="images/agent.png" class="icon-service" alt="">  <img src="images/arrow.png" class="icon-service" alt=""> <img src="images/sms_notif.png" class="icon-service" alt="">
-
+        -->
       </div>
 
       <div class="fund scollstyle">
-        <h1 class="display-3">Fund Transfer</h1>
+        <h1>Fund Transfer</h1>
         <p class="display-p">All cardholders can transfer money either from BRB to BRB Card, or BRB to other banks’ card. This feature can be done from any BancNet ATMs and POS terminals. This can also be considered as local remittance. </p>
         <br>
         <img src="images/cards.png" class="icon-service" alt=""> <img src="images/arrow.png" class="icon-service" alt=""> <img src="images/atm.png" class="icon-service" alt="">  <img src="images/arrow.png" class="icon-service" alt=""> <img src="images/brbcard.png" class="icon-service" alt="">
@@ -184,17 +193,17 @@
 </div>
 
       <div class="mobile scollstyle">
-        <h1 class="display-3">Mobile Banking</h1>
+        <h1 >Mobile Banking</h1>
         <p class="display-p">Banking on the gowhere you can make the best of all your banking needs. No need to you to a physical bank or ATM. Just log on your phone and you're all set.</p>
       </div>
 
       <div class="online scollstyle">
-        <h1 class="display-3">Online Banking</h1>
+        <h1 >Online Banking</h1>
         <p class="display-p">Do you banking needs but can't leave the office or your home? We have online banking! You only need the internet connection and everything will be done in a jiffy</p>
       </div>
 
       <div class="ewallet scollstyle">
-        <h1 class="display-3">E-wallet</h1>
+        <h1>E-wallet</h1>
         <p class="display-p">A digital wallet stores your money safely and securely. Paying for your purchased goods and services has never been this easy. No annoying forms to fill out before confirming each payment.
           Simplified process is for the customer convenience. It is like paying cold cash in a digital way.</p>
       </div>

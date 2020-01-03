@@ -453,6 +453,12 @@ footer {
   background-color: #00081d !important;
 }
 
+.bod-img{
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+}
+
 /*meet the meet content*/
 .hboard-p, .hboard-t {
   height: 34rem;
@@ -627,6 +633,20 @@ hr {
     font-size: 1.1rem;
     margin: 0rem 0rem;
 }
+/*back arrow*/
+.back-arrow{
+  height: 4rem;
+  width: 4rem;
+  margin-left: 3rem;
+}
+
+.back{
+  color: #4ebab5;
+    margin-left: 7rem;
+    margin-top:-3rem;
+}
+
+
 /* ----old version-----
 .col-brb {
     color: white !important;
@@ -711,6 +731,12 @@ hr {
     padding-top:8rem;
 }
 */
+
+.access-pic{
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+}
 
 #upgrade-product-body{
 background-image: url('images/brbback.png');
@@ -878,6 +904,11 @@ padding-left: 1rem;
 .co-cash{
     padding-left: 2rem!important;
 
+}
+
+.col-b{
+  border-right: 1px solid;
+  border-color: #4ebab5 !important;
 }
 
 .card-cashless{
@@ -1195,8 +1226,7 @@ padding-left: 1rem;
 
 /*full screen service page*/
 
-
-/*additional start*/
+/*
 .balance {
   padding: 6em 10em !important;
   padding-left: 5em !important;
@@ -1205,16 +1235,18 @@ padding-left: 1rem;
   background-image: url("images/s_bill.png") !important;
   background-size: cover;
   height: 45rem;
-  /* backup solution incase scrollify go bananas
-  height: 100% !important;
-  width: 100% !important;*/
   background-position: center;
   background-repeat: no-repeat !important;
-}
+} */
+
+/* backup solution incase scrollify go bananas
+height: 100% !important;
+width: 100% !important;*/
 
 
-
+  /*
 .withdrawal {
+
   padding: 6em 10em !important;
   padding-left: 5em !important;
   padding-top: 9em !important;
@@ -1222,12 +1254,14 @@ padding-left: 1rem;
   background-image: url("images/s_withdraw.png") !important;
   background-size: cover;
   height: 45rem;
-  /* backup solution incase scrollify go bananas
-  height: 100% !important;
-  width: 100% !important;*/
+
   background-position: center;
   background-repeat: no-repeat !important;
-}
+
+}*/
+/* backup solution incase scrollify go bananas
+height: 100% !important;
+width: 100% !important;*/
 
 
 .bills {
@@ -1275,7 +1309,7 @@ padding-left: 1rem;
   background-repeat: no-repeat !important;
 }
 
-
+/*
 .e-bank {
   padding: 6em 10em !important;
   padding-left: 5em !important;
@@ -1287,8 +1321,32 @@ padding-left: 1rem;
   width: 100% !important;
   background-position: center;
   background-repeat: no-repeat !important;
+}*/
+
+
+.balance-img{
+  background-position: center;
+  background-size: contain;
+  width: 100% !important;
 }
 
+.ebank-img{
+  background-position: center;
+  background-size: cover;
+  width: 100% !important;
+}
+
+
+.withdraw-img{
+  background-position: center;
+  background-size: cover;
+  width: 100% !important;
+}
+
+.remit-img{
+  background-size: cover;
+  width: 100%;
+}
 
 /*additional end*/
 .eload {
@@ -1314,9 +1372,9 @@ padding-left: 1rem;
   background-position: center;
   background-repeat: no-repeat !important;
 }
-
-.remit {
   /*
+.remit {
+
   padding: 19em 8em !important;
   padding-left: 85em !important;
   padding-bottom: 30em !important;
@@ -1325,7 +1383,7 @@ padding-left: 1rem;
   background-image: url("images/s_remit.png") !important;
   background-size: cover;
   background-repeat: no-repeat;
-  */
+
   padding: 6em 10em !important;
   padding-left: 45em !important;
   padding-top: 3rem !important;
@@ -1336,7 +1394,7 @@ padding-left: 1rem;
   width: 100% !important;
   background-position: center;
   background-repeat: no-repeat !important;
-}
+}   */
 
 .fund {
   /*
@@ -1425,29 +1483,57 @@ padding-left: 1rem;
   color: white;
   background-image: url("images/s_ewallet.png") !important;
   background-size: cover;
-  height: 45rem;
-  /* backup solution incase scrollify go bananas
+  /* height: 45rem;
+  backup solution incase scrollify go bananas*/
   height: 100% !important;
-  width: 100% !important;*/
+  width: 100% !important;
   background-position: center;
   background-repeat: no-repeat !important;
 }
 
 /*services icon*/
 .icon-service{
-  height: 7rem;
-  width: 9rem;
+  height: 4rem;
+  width: 4rem;
   padding: 0 0;
-  margin: 0.2rem -0.3rem;
+  margin: 0.2rem 0.3rem;
+}
+
+.scroll-up-content{
+  padding: 9rem 0;
+  padding-left: 40rem;
+  margin-top: -8rem!important;
+}
+
+.scroll-up{
+}
+
+.display-p{
+  font-size: 1.3rem;
+}
+
+h1{
+  font-size: 3rem!important;
+  font-weight: bold;
 }
 
 /*partner page*/
+
+
 #partner-body-content{
   background-image: url("images/brbback.png") !important;
   background-position: center;
   background-size: cover;
-  padding: 5rem 5rem;
+  padding-bottom: 5rem;
 }
+
+.partner-img{
+  background-position: center;
+  background-size: cover;
+  width: 100% !important;
+}
+
+/*
 .partner-display{
   height: 6rem;
   width: 10rem;
@@ -1460,7 +1546,7 @@ padding-left: 1rem;
 .r2-p{
   padding-top: 2rem;
   padding-left: 3rem;
-}
+} */
 
 /*lets talk page*/
 #talk-body-content{

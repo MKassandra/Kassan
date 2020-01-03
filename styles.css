@@ -280,8 +280,8 @@ footer {
 
 /*Button Talk*/
 .btn-custom {
-  padding: 0.2rem 2rem !important;
-  color: #00081d !important;
+  padding: 1rem 2rem !important;
+  color: white !important;
 }
 
 .btn-product {
@@ -447,7 +447,7 @@ footer {
 }
 
 #meet-body-content {
-  padding: 4rem 3rem;
+  padding: 4rem 0rem;
   line-height: 2;
   color: white;
   background-color: #00081d !important;
@@ -505,6 +505,7 @@ footer {
 .h1-about {
   margin: 0rem 0rem;
   margin-bottom: 1rem;
+  padding-left: 4rem;
 }
 
 /*footer manipulation*/
@@ -1527,12 +1528,28 @@ h1{
   font-size: 5.5rem!important;
 }
 
+/*vertical pagination*/
+.btn-3{
+  position: fixed;
+  bottom: 275px;
+  right: 25px;
+  display: none;
+}
+
+.btn-2{
+  position: fixed;
+  bottom: 205px;
+  right: 25px;
+  display: none;
+}
+
 .back-to-top {
     position: fixed;
     bottom: 145px;
     right: 25px;
     display: none;
 }
+
 
 /*partner page*/
 

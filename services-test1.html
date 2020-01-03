@@ -1,5 +1,4 @@
-<!--Not instant scroll -->
-
+<!--Not instant scroll but focus on scrollify-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -47,7 +46,8 @@
     afterResize:function() {},
     afterRender:function() {}
   });
-    });
+    $.scrollify.next();
+      });
   </script>
 
   <!-- Own Javascript -->
@@ -214,40 +214,7 @@
     </div>
   </section>
 
-<a id="btn-3" href="#3" class="btn btn-custom btn-lg btn-3" role="button">3<i class="fas fa-chevron-up"></i></a>
-<a id="btn-2" href="#2" class="btn btn-custom btn-lg btn-2" role="button">2<i class="fas fa-chevron-up"></i></a>
-<a id="back-to-top" href="#1" class="btn btn-light btn-lg back-to-top" role="button">Top<i class="fas fa-chevron-up"></i></a>
-<script>
-  $(document).ready(function(){
-	$(window).scroll(function () {
-			if ($(this).scrollTop() > 50) {
-				$('#back-to-top').fadeIn();
-			} else {
-				$('#back-to-top').fadeOut();
-			}
-		});
-		// scroll body to 0px on click
-		$('#back-to-top').click(function () {
-			$('body,html').animate({
-				scrollTop: 0
-			}, 0);
-			return false;
-		});
-    //scroll to withdraw section
-    $('#btn-2').click(function () {
-			$('body,html').animate({
-				scrollTop: 760
-			}, 0);
-			return false;
-		});
-    //scroll to bill payment section
-    $('#btn-3').click(function () {
-			$('body,html').animate({
-				scrollTop: 1470
-			}, 0);
-			return false;
-		});
-});</script>
+
 
   <!--Footer-->
   <section id="footer-content">

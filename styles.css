@@ -1529,26 +1529,105 @@ h1{
 }
 
 /*vertical pagination*/
+.btn-nav{
+  border: 1px solid;
+  border-right-color: #4ebab5 !important;
+  color: white !important;
+  padding: 1rem 1rem !important;
+
+}
+
+.btn-nav:hover{
+  background-color: #4ebab5 !important;
+  margin-right: 1.5rem !important;
+
+}
+
+
+.back-to-top {
+    position: fixed;
+    bottom: 555px;
+    right: 25px;
+    display: none;
+}
+
+.btn-2{
+  position: fixed;
+  bottom: 520px;
+  right: 25px;
+  display: none;
+}
+
 .btn-3{
+  position: fixed;
+  bottom: 485px;
+  right: 25px;
+  display: none;
+}
+
+.btn-4{
+  position: fixed;
+  bottom: 450px;
+  right: 25px;
+  display: none;
+}
+
+.btn-5{
+  position: fixed;
+  bottom: 415px;
+  right: 25px;
+  display: none;
+}
+
+.btn-6{
+  position: fixed;
+  bottom: 380px;
+  right: 25px;
+  display: none;
+}
+
+.btn-7{
+  position: fixed;
+  bottom: 345px;
+  right: 25px;
+  display: none;
+}
+
+.btn-8{
+  position: fixed;
+  bottom: 310px;
+  right: 25px;
+  display: none;
+}
+
+.btn-9{
   position: fixed;
   bottom: 275px;
   right: 25px;
   display: none;
 }
 
-.btn-2{
+.btn-10{
+  position: fixed;
+  bottom: 240px;
+  right: 25px;
+  display: none;
+}
+
+.btn-11{
   position: fixed;
   bottom: 205px;
   right: 25px;
   display: none;
 }
 
-.back-to-top {
-    position: fixed;
-    bottom: 145px;
-    right: 25px;
-    display: none;
+.btn-12{
+  position: fixed;
+  bottom: 170px;
+  right: 25px;
+  display: none;
 }
+
 
 
 /*partner page*/

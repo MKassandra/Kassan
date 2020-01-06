@@ -24,6 +24,31 @@
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
 
+  <!--scrollify-->
+  <!--scrollSpeed: 1100,-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.min.js" integrity="sha256-RGlAwHKG24hsj1109SGQgvR+Orx7u8c6zyYH4Tk3ydU=" crossorigin="anonymous"></script>
+  <script>
+    $(function() {
+      $.scrollify({
+        section: ".scollstyle",
+        interstitialSection: "",
+        easing: "easeOutExpo",
+        scrollSpeed: 30,
+        offset: 0,
+        scrollbars: true,
+        standardScrollElements: "",
+        setHeights: true,
+        overflowScroll: true,
+        updateHash: true,
+        touchScroll: true,
+        before: function() {},
+        after: function() {},
+        afterResize: function() {},
+        afterRender: function() {}
+      });
+    });
+  </script>
   <!-- Own Javascript -->
   <script src="effects_hover.js"></script>
 
@@ -210,6 +235,36 @@
 
   </div>
   </section>
+
+  <a id="btn-history" href="#1" class="btn btn-nav btn-sm btn-history" role="button">History<i class="fas fa-chevron-up"></i></a>
+  <a id="btn-who" href="#2" class="btn btn-nav btn-sm btn-who" role="button">Who We Are<i class="fas fa-chevron-up"></i></a>
+  <a id="btn-meet" href="#3" class="btn btn-nav btn-sm btn-meet" role="button">Meet the Team<i class="fas fa-chevron-up"></i></a>
+
+  <script>
+      $(document).ready(function() {
+  // scroll body to history
+  $('#btn-history').click(function() {
+    $('body,html').animate({
+      scrollTop: 0
+    }, 0);
+    return false;
+  });
+  //scroll to who we are
+  $('#btn-who').click(function() {
+    $('body,html').animate({
+      scrollTop: 700
+    }, 0);
+    return false;
+  });
+  //scroll to meet the team
+  $('#btn-meet').click(function() {
+    $('body,html').animate({
+      scrollTop: 1400
+    }, 0);
+    return false;
+  });
+    });
+  </script>
 
   <div class="copyright-content">
     <small>&copy; Copyright: BRB Digital, Inc.</small>

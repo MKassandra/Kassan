@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  zoom:100% !important;
+  zoom: 100% !important;
 }
 
 body {
@@ -217,7 +217,7 @@ footer {
   background-image: url('bodyimg.png') !important;
   /* background-size: 100% 100%; */
   background-size: cover !important;
-  background-position: center!important;
+  background-position: center !important;
   height: 27rem;
   background-repeat: no-repeat !important;
 }
@@ -232,7 +232,7 @@ footer {
   color: white;
   background-image: url("images/s_purchase.png") !important;
   background-size: cover !important;
-  background-position: center!important;
+  background-position: center !important;
   height: 27rem;
   background-repeat: no-repeat !important;
 }
@@ -242,7 +242,7 @@ footer {
   color: white;
   background-image: url("images/s_bill.png") !important;
   background-size: cover !important;
-  background-position: center!important;
+  background-position: center !important;
   height: 27rem;
   background-repeat: no-repeat !important;
 }
@@ -252,7 +252,7 @@ footer {
   color: white;
   background-image: url("images/s_payroll.png") !important;
   background-size: cover !important;
-  background-position: center!important;
+  background-position: center !important;
   height: 27rem;
   background-repeat: no-repeat !important;
 }
@@ -262,7 +262,7 @@ footer {
   color: white;
   background-image: url("images/s_withdraw.png") !important;
   background-size: cover !important;
-  background-position: center!important;
+  background-position: center !important;
   height: 27rem;
   background-repeat: no-repeat !important;
 }
@@ -273,7 +273,7 @@ footer {
   color: white;
   background-image: url("images/artboard1.jpg") !important;
   background-size: cover !important;
-  background-position: center!important;
+  background-position: center !important;
   height: 27rem;
   background-repeat: no-repeat !important;
 }
@@ -320,7 +320,7 @@ footer {
     font-size: 1.4rem !important;
   }
 
-  .btn-product{
+  .btn-product {
     margin-left: 3.1rem !important;
   }
 
@@ -384,7 +384,7 @@ footer {
     font-size: 1.1rem !important;
   }
 
-  .btn-product{
+  .btn-product {
     margin-left: 2.9rem !important;
   }
 
@@ -454,7 +454,7 @@ footer {
   padding-bottom: 9rem;
 }
 
-.bod-img{
+.bod-img {
   height: 100%;
   width: 100%;
   background-size: contain;
@@ -508,6 +508,29 @@ footer {
   padding-left: 4rem;
 }
 
+/*about page: vertical nagigation */
+.btn-history {
+  position: fixed;
+  bottom: 400px;
+  right: 25px;
+  display: none;
+}
+
+.btn-who {
+  position: fixed;
+  bottom: 350px;
+  right: 25px;
+  display: none;
+}
+
+.btn-meet {
+  position: fixed;
+  bottom: 300px;
+  right: 25px;
+  display: none;
+}
+}
+
 /*footer manipulation*/
 /*media screen for footer page (adjust for monitor screen)*/
 @media screen and (max-width: 1021px) {
@@ -541,113 +564,112 @@ footer {
   }
 }
 
-
 /*product page content*/
 /*product content page*/
 hr {
   border: 10px solid #4ebab5 !important;
   border-radius: 5px !important;
 }
+
 /*product page content*/
 .product-dev {
   background-image: url('images/brbback.png');
   background-size: 100% 100%;
 }
+
 .row {
-    padding-top: 0.2rem;
+  padding-top: 0.2rem;
 }
 
 .display-4brb {
-    padding-bottom: 1rem;
-    text-align: center;
-    color: white;
+  padding-bottom: 1rem;
+  text-align: center;
+  color: white;
 }
 
 .brbcard-display {
-    height: 14rem;
-    width: 25rem;
-    margin-bottom: -10rem;
+  height: 14rem;
+  width: 25rem;
+  margin-bottom: -10rem;
 }
 
 .card-display:hover {
-    color: #4ebab5;
-    opacity: 50% !important;
+  color: #4ebab5;
+  opacity: 50% !important;
 }
+
 .card-display {
-    height: 8rem;
-    width: 8rem;
-    padding: 1rem 1rem
+  height: 8rem;
+  width: 8rem;
+  padding: 1rem 1rem
 }
-
-
-
 
 .col-brb {
-    color: white !important;
-    text-align: center !important;
-    padding-top: 0rem !important;
-    font-size: 1.12rem;
-    margin-top:5rem;
+  color: white !important;
+  text-align: center !important;
+  padding-top: 0rem !important;
+  font-size: 1.12rem;
+  margin-top: 5rem;
 }
 
 .col-custom1 {
-    color: white !important;
-    text-align: center !important;
-    padding-top: 0rem !important;
-    font-size: 1.3rem;
+  color: white !important;
+  text-align: center !important;
+  padding-top: 0rem !important;
+  font-size: 1.3rem;
 }
 
 .col-custom2 {
-    color: white !important;
-    text-align: center !important;
-    padding-top: 0rem !important;
-    font-size: 1.3rem;
+  color: white !important;
+  text-align: center !important;
+  padding-top: 0rem !important;
+  font-size: 1.3rem;
 }
 
 .col-custom3 {
-    color: white !important;
-    text-align: center !important;
-    padding-top: 0rem !important;
-    font-size: 1.3rem;
+  color: white !important;
+  text-align: center !important;
+  padding-top: 0rem !important;
+  font-size: 1.3rem;
 }
 
 .col-custom4 {
-    color: white !important;
-    text-align: center !important;
-    padding-top: 0rem !important;
-    margin-top:3rem;
-    font-size: 1.3rem;
+  color: white !important;
+  text-align: center !important;
+  padding-top: 0rem !important;
+  margin-top: 3rem;
+  font-size: 1.3rem;
 }
 
 .col-custom5 {
-    color: white !important;
-    text-align: center !important;
-    padding-top: 0rem !important;
-    margin-top:3rem;
-    font-size: 1.3rem;
+  color: white !important;
+  text-align: center !important;
+  padding-top: 0rem !important;
+  margin-top: 3rem;
+  font-size: 1.3rem;
 }
 
 .col-custom,
 .p-product {
-    color: white !important;
-    text-align: center !important;
-    padding-top: 0rem !important;
-    font-size: 1.1rem;
-    margin: 0rem 0rem;
+  color: white !important;
+  text-align: center !important;
+  padding-top: 0rem !important;
+  font-size: 1.1rem;
+  margin: 0rem 0rem;
 }
+
 /*back arrow*/
-.back-arrow{
+.back-arrow {
   height: 4rem;
   width: 4rem;
   margin-left: 3rem;
 }
 
-.back{
+.back {
   color: #4ebab5;
-    margin-left: 7rem;
-    margin-top:-3rem;
+  margin-left: 7rem;
+  margin-top: -3rem;
 }
-
 
 /* ----old version-----
 .col-brb {
@@ -709,7 +731,6 @@ hr {
     font-size: 1.1rem;
     margin: 0rem 0rem;
 } */
-
 /*product page: upgrade*/
 /*
 .upgrade-content{
@@ -733,217 +754,219 @@ hr {
     padding-top:8rem;
 }
 */
-
-.access-pic{
+.access-pic {
   height: 100%;
   width: 100%;
   background-size: contain;
 }
 
-#upgrade-product-body{
-background-image: url('images/brbback.png');
-background-size: cover;
-background-position: center;
+#upgrade-product-body {
+  background-image: url('images/brbback.png');
+  background-size: cover;
+  background-position: center;
 }
 
-.u-display, .s-display{
+.u-display, .s-display {
   color: #4ebab5 !important;
 }
-.upgrade-content{
-    margin:3rem 3rem;
-    color:white;
+
+.upgrade-content {
+  margin: 3rem 3rem;
+  color: white;
 }
 
-.border-r{
-    border-top:1px solid;
-    border-right:1px solid;
-    border-color: #4ebab5;
+.border-r {
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-color: #4ebab5;
 }
 
-.col1, .col2, .col3, .col4, .col5, .col6{
+.col1, .col2, .col3, .col4, .col5, .col6 {
   color: #4ebab5;
   text-align: right;
   font-style: oblique;
 }
 
-
-.col1{
+.col1 {
   padding-top: -1rem;
   margin-top: 1rem;
 }
 
-.col2{
+.col2 {
   padding-top: -1rem;
   margin-top: 3rem;
 }
 
-.col3{
+.col3 {
   padding-top: 0rem;
   margin-top: 2rem;
 }
 
-.col4{
+.col4 {
   padding-top: 4rem;
   margin-top: 3rem;
 }
 
-.col5{
+.col5 {
   padding-top: 6.5em;
   margin-top: 3rem;
 }
 
-.col6{
+.col6 {
   padding-top: 5.5rem;
   margin-top: 3rem;
 }
 
-.col7{
+.col7 {
   padding-top: 12rem;
 }
 
-
-.r1{
-    margin-top:-12rem;
+.r1 {
+  margin-top: -12rem;
 }
 
-.r2{
-     margin-top:-10rem;
-     padding-right: 0.4rem;
+.r2 {
+  margin-top: -10rem;
+  padding-right: 0.4rem;
 }
 
-.r3{
-     margin-top:-8rem;
-     padding-right: 0.4rem;
+.r3 {
+  margin-top: -8rem;
+  padding-right: 0.4rem;
 }
 
-.r4{
-     margin-top:-6rem;
-     padding-right: 0.4rem;
+.r4 {
+  margin-top: -6rem;
+  padding-right: 0.4rem;
 }
 
-.r5{
-     margin-top:-4rem;
-     padding-right: 0.4rem;
+.r5 {
+  margin-top: -4rem;
+  padding-right: 0.4rem;
 }
 
-.r6{
-     margin-top:-2em;
-     padding-right: 0.4rem;
+.r6 {
+  margin-top: -2em;
+  padding-right: 0.4rem;
 }
 
-.r7{
-     margin-top:0rem;
-     padding-right: 0.4rem;
+.r7 {
+  margin-top: 0rem;
+  padding-right: 0.4rem;
 }
-
 
 /*product page: simple*/
-.simple-product-dev{
-  margin: 5rem 5rem!important;
+.simple-product-dev {
+  margin: 5rem 5rem !important;
 }
 
-.s-display{
+.s-display {
   margin-top: -5rem;
   padding-left: 13rem;
   color: white;
 }
 
-.card-simple{
-    height: 7rem;
-    width: 7rem;
-    margin-left: 5rem;
-}
-.wallet-display{
-    padding-left: 1rem!important;
+.card-simple {
   height: 7rem;
   width: 7rem;
-
+  margin-left: 5rem;
 }
-.simple-display{
+
+.wallet-display {
+  padding-left: 1rem !important;
+  height: 7rem;
+  width: 7rem;
+}
+
+.simple-display {
   height: 8rem;
   width: 8rem;
   padding: 1rem 1rem;
 }
-.co-sp{
-  padding-left: 10rem!important;
-}
-.col-simple{
-padding-left: 1rem;
 
+.co-sp {
+  padding-left: 10rem !important;
 }
+
+.col-simple {
+  padding-left: 1rem;
+}
+
 .col-wallet {
-    color: white !important;
-    text-align: center !important;
-    padding-top: 0rem !important;
-    font-size: 1.12rem;
-    margin-top:15rem;
+  color: white !important;
+  text-align: center !important;
+  padding-top: 0rem !important;
+  font-size: 1.12rem;
+  margin-top: 15rem;
 }
 
 /*product page: upgrade page*/
-.card-upgrade{
+.card-upgrade {
   height: 4rem;
   width: 4rem;
 }
 
-.u-display{
+.u-display {
   margin-top: -4rem;
   padding-left: 5rem;
   color: white;
 }
 
-.brb-upgrade{
+.brb-upgrade {
   height: 3rem;
   width: 6rem;
 }
 
 /*product page: cashless*/
-.cashless-product-dev{
-  padding:  5rem 0!important;
+.cashless-product-dev {
+  padding-bottom: 5rem !important;
   background-image: url('images/brbback.png');
   background-size: cover;
   background-position: center;
 }
-.co-cash{
-    padding-left: 2rem!important;
 
+.co-cash {
+  padding-left: 2rem !important;
 }
 
-.col-b{
+.col-b {
   border-right: 1px solid;
   border-color: #4ebab5 !important;
 }
 
-.card-cashless{
-      height: 7rem;
-      width: 7rem;
-      margin-left: 5rem;
+.card-cashless {
+  height: 7rem;
+  width: 7rem;
+  margin-left: 5rem;
 }
-.c-display{
+
+.c-display {
   padding-bottom: 2rem !important;
-  margin-top: -5rem;
+  margin-top: -7rem;
   padding-left: 13rem;
   color: #4ebab5;
 }
-.cash-display{
+
+.cash-display {
   height: 7rem;
   width: 7rem;
   margin-left: 8rem;
 }
 
 /*product page:customize page*/
-.custom-product-dev{
+.custom-product-dev {
   padding: 3rem 0;
   background-image: url('images/brbback.png');
   background-size: cover;
   background-position: center;
-
 }
-.custom-display{
+
+.custom-display {
   height: 5rem;
   width: 10rem;
 }
 
-.c-product{
+.c-product {
   color: white !important;
   padding-left: 4rem;
   padding-top: 0rem !important;
@@ -952,271 +975,256 @@ padding-left: 1rem;
 }
 
 @media screen and (max-width: 1225px) {
+  .brbcard-display {
+    height: 14rem;
+    width: 25rem;
+    padding-top: 2rem !important;
+    margin-bottom: 5rem;
+  }
 
-    .brbcard-display {
-        height: 14rem;
-        width: 25rem;
-        padding-top: 2rem !important;
-        margin-bottom: 5rem;
-    }
+  .col-custom1 {
+    margin-top: -20rem !important;
+    margin-left: -5rem !important;
+    padding-top: 0rem !important;
+  }
 
-    .col-custom1 {
-        margin-top: -20rem !important;
-        margin-left: -5rem !important;
-        padding-top: 0rem !important;
+  .col-custom2 {
+    margin-top: -20rem !important;
+    margin-right: -5rem !important;
+    padding-top: 0rem !important;
+  }
 
-    }
+  .col-custom3 {
+    padding-top: 0rem !important;
+    margin-top: 1rem !important;
+    padding-right: 10rem !important;
+  }
 
-    .col-custom2 {
-        margin-top: -20rem !important;
-        margin-right: -5rem !important;
-        padding-top: 0rem !important;
-    }
+  .col-custom4 {
+    padding-top: 0rem !important;
+    margin-top: 1rem !important;
+    padding-left: 10rem !important;
+  }
 
-    .col-custom3 {
-        padding-top: 0rem !important;
-        margin-top: 1rem !important;
-        padding-right: 10rem !important;
-    }
-
-    .col-custom4 {
-        padding-top: 0rem !important;
-        margin-top: 1rem !important;
-        padding-left: 10rem !important;
-    }
-
-    .col-custom5 {
-        padding-top: 0rem !important;
-        margin-top: -17rem !important;
-        font-size: 1.3rem;
-    }
-
+  .col-custom5 {
+    padding-top: 0rem !important;
+    margin-top: -17rem !important;
+    font-size: 1.3rem;
+  }
 }
 
 @media screen and (max-width: 999px) {
-    .brbcard-display {
-        height: 17rem;
-        width: 26rem;
-        padding-top: 2rem !important;
-        margin-bottom: 5rem;
-    }
+  .brbcard-display {
+    height: 17rem;
+    width: 26rem;
+    padding-top: 2rem !important;
+    margin-bottom: 5rem;
+  }
 
-    .col-custom1 {
-        margin-top: -20rem !important;
-        padding-right: 5rem !important;
-        padding-top: 0rem !important;
-    }
+  .col-custom1 {
+    margin-top: -20rem !important;
+    padding-right: 5rem !important;
+    padding-top: 0rem !important;
+  }
 
-    .col-custom2 {
-        margin-top: -20rem !important;
-        padding-left: 5rem !important;
-        padding-top: 0rem !important;
-    }
+  .col-custom2 {
+    margin-top: -20rem !important;
+    padding-left: 5rem !important;
+    padding-top: 0rem !important;
+  }
 
+  .col-custom3 {
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    margin-top: 1rem !important;
+    padding-right: 5rem !important;
+    font-size: 1.3rem;
+  }
 
-    .col-custom3 {
-        color: white !important;
-        text-align: center !important;
-        padding-top: 0rem !important;
-        margin-top: 1rem !important;
-        padding-right: 5rem !important;
-        font-size: 1.3rem;
-    }
+  .col-custom4 {
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    margin-top: 1rem !important;
+    padding-left: 5rem !important;
+    font-size: 1.3rem;
+  }
 
-    .col-custom4 {
-        color: white !important;
-        text-align: center !important;
-        padding-top: 0rem !important;
-        margin-top: 1rem !important;
-        padding-left: 5rem !important;
-        font-size: 1.3rem;
-    }
-
-    .col-custom5 {
-        color: white !important;
-        text-align: center !important;
-        padding-top: 0rem !important;
-        margin-top: -17rem !important;
-        font-size: 1.3rem;
-    }
-
+  .col-custom5 {
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    margin-top: -17rem !important;
+    font-size: 1.3rem;
+  }
 }
 
 @media screen and (max-width: 866px) {
-    .brbcard-display {
-        margin-bottom: 0 !important;
-        height: 13rem !important;
-        width: 22rem !important;
-        padding-top: 2rem !important;
-        padding-left: 0.5rem !important;
-        padding-right: 0.5rem !important;
-    }
+  .brbcard-display {
+    margin-bottom: 0 !important;
+    height: 13rem !important;
+    width: 22rem !important;
+    padding-top: 2rem !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
 
-    .card-display {
-        height: 10rem;
-        width: 10rem;
-        padding: 1rem 1rem;
-    }
+  .card-display {
+    height: 10rem;
+    width: 10rem;
+    padding: 1rem 1rem;
+  }
 
+  .col-custom1 {
+    margin-top: 3rem !important;
+    margin-right: -40rem !important;
+    padding-top: 0 0;
+  }
 
-    .col-custom1 {
-        margin-top: 3rem !important;
-        margin-right: -40rem !important;
-        padding-top: 0 0;
-    }
+  .col-custom2 {
+    margin-top: 3rem !important;
+    margin-left: -40rem !important;
+    padding: 0 0;
+  }
 
-    .col-custom2 {
-        margin-top: 3rem !important;
-        margin-left: -40rem !important;
-        padding: 0 0;
-    }
+  .col-custom3 {
+    margin-top: 3rem !important;
+    margin-right: -7rem !important;
+    padding: 0 0;
+  }
 
-    .col-custom3 {
-        margin-top: 3rem !important;
-        margin-right: -7rem !important;
-        padding: 0 0;
-    }
+  .col-custom4 {
+    margin-top: 3rem !important;
+    margin-left: -7rem !important;
+    padding: 0 0;
+  }
 
-    .col-custom4 {
-        margin-top: 3rem !important;
-        margin-left: -7rem !important;
-        padding: 0 0;
-    }
+  .col-custom5 {
+    margin-top: 3rem !important;
+    padding: 0 0;
+  }
 
-    .col-custom5 {
-        margin-top: 3rem !important;
-        padding: 0 0;
-    }
-
-    .col-custom,
-    .p-product {
-        color: white !important;
-        text-align: center !important;
-        padding-top: 0rem !important;
-        font-size: 0.9rem;
-        margin: 0rem 1rem;
-    }
+  .col-custom,
+  .p-product {
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    font-size: 0.9rem;
+    margin: 0rem 1rem;
+  }
 }
 
 @media screen and (max-width: 730px) {
-    .brbcard-display {
-        margin-bottom: 0 !important;
-        height: 13rem !important;
-        width: 22rem !important;
-        padding-top: 2rem !important;
-        padding-left: 0.5rem !important;
-        padding-right: 0.5rem !important;
-    }
+  .brbcard-display {
+    margin-bottom: 0 !important;
+    height: 13rem !important;
+    width: 22rem !important;
+    padding-top: 2rem !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
 
-    .card-display {
-        height: 10rem;
-        width: 10rem;
-        padding: 1rem 1rem;
-    }
+  .card-display {
+    height: 10rem;
+    width: 10rem;
+    padding: 1rem 1rem;
+  }
 
+  .col-custom1 {
+    margin-top: 3rem !important;
+    margin-right: -10rem !important;
+    padding-top: 0 0;
+  }
 
-    .col-custom1 {
-        margin-top: 3rem !important;
-        margin-right: -10rem !important;
-        padding-top: 0 0;
-    }
+  .col-custom2 {
+    margin-top: 3rem !important;
+    margin-left: -10rem !important;
+    padding: 0 0;
+  }
 
-    .col-custom2 {
-        margin-top: 3rem !important;
-        margin-left: -10rem !important;
-        padding: 0 0;
-    }
+  .col-custom3 {
+    margin-top: 3rem !important;
+    margin-right: -7rem !important;
+    padding: 0 0;
+  }
 
-    .col-custom3 {
-        margin-top: 3rem !important;
-        margin-right: -7rem !important;
-        padding: 0 0;
-    }
+  .col-custom4 {
+    margin-top: 3rem !important;
+    margin-left: -7rem !important;
+    padding: 0 0;
+  }
 
-    .col-custom4 {
-        margin-top: 3rem !important;
-        margin-left: -7rem !important;
-        padding: 0 0;
-    }
+  .col-custom5 {
+    margin-top: 3rem !important;
+    padding: 0 0;
+  }
 
-    .col-custom5 {
-        margin-top: 3rem !important;
-        padding: 0 0;
-    }
-
-    .col-custom,
-    .p-product {
-        color: white !important;
-        text-align: center !important;
-        padding-top: 0rem !important;
-        font-size: 0.9rem;
-        margin: 0rem 1rem;
-    }
+  .col-custom,
+  .p-product {
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    font-size: 0.9rem;
+    margin: 0rem 1rem;
+  }
 }
 
 @media screen and (max-width: 320px) {
-    .brbcard-display {
-        margin-bottom: 0 !important;
-        height: 13rem !important;
-        width: 22rem !important;
-        padding-top: 2rem !important;
-        padding-left: 0.5rem !important;
-        padding-right: 0.5rem !important;
-    }
+  .brbcard-display {
+    margin-bottom: 0 !important;
+    height: 13rem !important;
+    width: 22rem !important;
+    padding-top: 2rem !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
 
-        .card-display {
-            height: 7em;
-            width: 7rem;
-            padding: 1rem 1rem;
-        }
+  .card-display {
+    height: 7em;
+    width: 7rem;
+    padding: 1rem 1rem;
+  }
 
+  .col-custom1 {
+    margin-top: 3rem !important;
+    padding-top: 0;
+    margin-right: 3rem !important;
+    padding-left: 13rem !important;
+  }
 
-        .col-custom1 {
+  .col-custom2 {
+    margin-top: 6em !important;
+    margin: 3rem !important;
+    padding: 0 0;
+  }
 
-            margin-top: 3rem !important;
-            padding-top: 0;
-            margin-right: 3rem !important;
-            padding-left: 13rem !important;
+  .col-custom3 {
+    margin-top: 3rem !important;
+    padding-top: 0;
+    margin-left: 0rem !important;
+  }
 
+  .col-custom4 {
+    margin-top: 3rem !important;
+    padding: 0 0;
+    margin: 2rem !important;
+  }
 
-        }
+  .col-custom5 {
+    margin-top: 3rem !important;
+    padding: 0 0;
+  }
 
-        .col-custom2 {
-            margin-top: 6em !important;
-            margin: 3rem!important;
-            padding: 0 0;
-        }
-
-        .col-custom3 {
-            margin-top: 3rem !important;
-            padding-top: 0;
-            margin-left: 0rem !important;
-
-        }
-
-        .col-custom4 {
-            margin-top: 3rem !important;
-            padding: 0 0;
-            margin:2rem !important;
-        }
-
-        .col-custom5 {
-            margin-top: 3rem !important;
-            padding: 0 0;
-
-        }
-
-        .col-custom,
-        .p-product {
-            color: white !important;
-            text-align: center !important;
-            padding-top: 0rem !important;
-            font-size: 1rem;
-            margin: 0rem 0rem;
-        }
+  .col-custom,
+  .p-product {
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    font-size: 1rem;
+    margin: 0rem 0rem;
+  }
 }
-
-
 
 /*services page content*/
 .hr1 {
@@ -1227,7 +1235,6 @@ padding-left: 1rem;
 }
 
 /*full screen service page*/
-
 /*
 .balance {
   padding: 6em 10em !important;
@@ -1240,13 +1247,10 @@ padding-left: 1rem;
   background-position: center;
   background-repeat: no-repeat !important;
 } */
-
 /* backup solution incase scrollify go bananas
 height: 100% !important;
 width: 100% !important;*/
-
-
-  /*
+/*
 .withdrawal {
 
   padding: 6em 10em !important;
@@ -1264,8 +1268,6 @@ width: 100% !important;*/
 /* backup solution incase scrollify go bananas
 height: 100% !important;
 width: 100% !important;*/
-
-
 .bills {
   padding: 6em 10em !important;
   padding-left: 5em !important;
@@ -1328,34 +1330,31 @@ width: 100% !important;*/
   background-position: center;
   background-repeat: no-repeat !important;
 }*/
-
-
-.balance-img{
+.balance-img {
   background-position: center;
   background-size: contain;
   width: 100% !important;
 }
 
-.ebank-img{
+.ebank-img {
   background-position: center;
   background-size: cover;
   width: 100% !important;
 }
 
-
-.withdraw-img{
+.withdraw-img {
   background-position: center;
   background-size: cover;
   width: 100% !important;
 }
 
-.remit-img{
+.remit-img {
   background-position: center;
   background-size: cover;
   width: 100% !important;
 }
 
-.fund-img{
+.fund-img {
   background-position: center;
   background-size: cover;
   width: 100% !important;
@@ -1385,7 +1384,8 @@ width: 100% !important;*/
   background-position: center;
   background-repeat: no-repeat !important;
 }
-  /*
+
+/*
 .remit {
 
   padding: 19em 8em !important;
@@ -1408,7 +1408,7 @@ width: 100% !important;*/
   background-position: center;
   background-repeat: no-repeat !important;
 }   */
-  /*
+/*
 .fund {
 
   padding: 19em 8em;
@@ -1431,7 +1431,6 @@ width: 100% !important;*/
   background-position: center;
   background-repeat: no-repeat !important;
 }*/
-
 .mobile {
   /*
   padding: 19em 8em !important;
@@ -1472,7 +1471,6 @@ width: 100% !important;*/
   background-image: url("images/s_obank.png") !important;
   background-size: cover;
   height: 45rem;
-
   height: 100% !important;
   width: 100% !important;
   background-position: center;
@@ -1504,123 +1502,120 @@ width: 100% !important;*/
 }
 
 /*services icon*/
-.icon-service{
+.icon-service {
   height: 4rem;
   width: 4rem;
   padding: 0 0;
   margin: 0.2rem 0.3rem;
 }
 
-.scroll-up-content{
+.scroll-up-content {
   padding: 9rem 0;
   padding-left: 40rem;
-  margin-top: -8rem!important;
+  margin-top: -8rem !important;
 }
 
-.scroll-up{
-}
+.scroll-up {}
 
-.display-p{
+.display-p {
   font-size: 1.65rem;
 }
 
-h1{
-  font-size: 5.5rem!important;
+h1 {
+  font-size: 5rem !important;
 }
 
-/*vertical pagination*/
-.btn-nav{
+/* service page: vertical pagination position*/
+.btn-nav {
   border: 1px solid;
   border-right-color: #4ebab5 !important;
   color: white !important;
   padding: 1rem 1rem !important;
-
 }
 
-.btn-nav:hover{
+.btn-nav:hover {
   background-color: #4ebab5 !important;
   margin-right: 1.5rem !important;
-
 }
 
 .back-to-top {
-    position: fixed;
-    bottom: 600px;
-    right: 25px;
-    display: none;
+  position: fixed;
+  bottom: 600px;
+  right: 25px;
+  display: none;
 }
 
 .btn-2 {
-    position: fixed;
-    bottom: 555px;
-    right: 25px;
-    display: none;
+  position: fixed;
+  bottom: 555px;
+  right: 25px;
+  display: none;
 }
 
-.btn-3{
+.btn-3 {
   position: fixed;
   bottom: 510px;
   right: 25px;
   display: none;
 }
 
-.btn-4{
+.btn-4 {
   position: fixed;
   bottom: 465px;
   right: 25px;
   display: none;
 }
 
-.btn-5{
+.btn-5 {
   position: fixed;
   bottom: 420px;
   right: 25px;
   display: none;
 }
 
-.btn-6{
+.btn-6 {
   position: fixed;
   bottom: 375px;
   right: 25px;
   display: none;
 }
 
-.btn-7{
+.btn-7 {
   position: fixed;
   bottom: 330px;
   right: 25px;
   display: none;
 }
 
-.btn-8{
+.btn-8 {
   position: fixed;
   bottom: 285px;
   right: 25px;
   display: none;
 }
 
-.btn-9{
+.btn-9 {
   position: fixed;
   bottom: 240px;
   right: 25px;
   display: none;
 }
 
-.btn-10{
+.btn-10 {
   position: fixed;
   bottom: 195px;
   right: 25px;
   display: none;
 }
 
-.btn-11{
+.btn-11 {
   position: fixed;
   bottom: 150px;
   right: 25px;
   display: none;
 }
 
-.btn-12{
+.btn-12 {
   position: fixed;
   bottom: 105px;
   right: 25px;
@@ -1634,20 +1629,15 @@ h1{
   right: 25px;
   display: none;
 }*/
-
-
-
 /*partner page*/
-
-
-#partner-body-content{
+#partner-body-content {
   background-image: url("images/brbback.png") !important;
   background-position: center;
   background-size: cover;
   padding-bottom: 5rem;
 }
 
-.partner-img{
+.partner-img {
   background-position: center;
   background-size: cover;
   width: 100% !important;
@@ -1667,522 +1657,503 @@ h1{
   padding-top: 2rem;
   padding-left: 3rem;
 } */
-
 /*lets talk page*/
-#talk-body-content{
+#talk-body-content {
   background-image: url("images/brbback.png") !important;
   padding-bottom: 8rem;
-
 }
-.footer-bottom{
-  background-color: #000718!important;
+
+.footer-bottom {
+  background-color: #000718 !important;
   padding: 1rem 1rem !important;
 }
 
-
-
-#inputMDEx,#textarea-char-counter, label, .md-form{
+#inputMDEx, #textarea-char-counter, label, .md-form {
   color: #4ebab5 !important;
 }
 
-small{
+small {
   color: white;
 }
 
-.talk-1, .talk-2{
-  background-color: #000718!important;
+.talk-1, .talk-2 {
+  background-color: #000718 !important;
   margin: 2rem 2rem;
   border: 1px solid;
   border-color: #4ebab5 !important;
   padding: 2rem 2rem !important;
-
 }
 
-.talk-2{
+.talk-2 {
   padding: 2rem 2rem !important;
 }
 
-  .btn-stalk{
-   padding: 1rem 3rem !important;
-   margin-left: 10rem !important;
-   margin-right: 10rem !important;
+.btn-stalk {
+  padding: 1rem 3rem !important;
+  margin-left: 10rem !important;
+  margin-right: 10rem !important;
 }
- .col-form-label{
-   font-size: 0.9rem!important;
-   padding-top: 0.5rem !important;
-   padding-left: 0 !important;
-   padding-right: 0 !important;
 
- }
-
-.message-text, .form-control{
-  font-size: 0.9rem!important;
-  padding-left: 0rem!important;
+.col-form-label {
+  font-size: 0.9rem !important;
+  padding-top: 0.5rem !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
+
+.message-text, .form-control {
+  font-size: 0.9rem !important;
+  padding-left: 0rem !important;
+}
+
 /*media screen for lets talk page*/
-
 @media screen and (max-width: 880px) {
-
-    .talk-1, .talk-2{
-        padding: 2rem 2rem!important;
-         margin: 1 1 !important;
-
-    }
+  .talk-1, .talk-2 {
+    padding: 2rem 2rem !important;
+    margin: 1 1 !important;
+  }
 }
 
 @media screen and (max-width: 580px) {
-
-    .talk-1, .talk-2{
-        padding: 2rem 2rem!important;
-         margin: 0 0 !important;
-
-    }
-
-    .btn-stalk{
-   margin-left: 7rem !important;
-   margin-right: 7rem !important;
-}
-
-
-
-/*media screen for service page (adjust for monitor screen)*/
-
-body{
-    background-color:grey;
-}
-
-@media screen and (max-width: 1870px){
-.eload {
-  padding: 6em 10em !important;
-  padding-left: 45em !important;
-  padding-top: 10em !important;
-  color: white;
-  background-image: url("images/s_eload.png") !important;
-  background-size: 100% 100%;
-  height: 35rem;
-  width: 100% !important;
-  background-repeat: no-repeat !important;
-}
-
-.remit {
-  padding: 6em 10em !important;
-  padding-left: 45em !important;
-  padding-top: 10em !important;
-  color: white;
-  background-image: url("images/s_remit.png") !important;
-  background-size: 100% 100%;
-  height: 35rem;
-  width: 100% !important;
-  background-repeat: no-repeat !important;
-}
-
-
-.fund {
-
-  padding: 6em 10em !important;
-  padding-left: 45em !important;
-  padding-top: 10em !important;
-  color: white;
-  background-image: url("images/s_transfer.png") !important;
-  background-size: 100% 100%;
-  height: 35rem;
-  width: 100% !important;
-  background-repeat: no-repeat !important;
-}
-
-.mobile {
-  padding: 6em 10em !important;
-  padding-left: 45em !important;
-  padding-top: 10em !important;
-  color: white;
-  background-image: url("images/s_mobile.png") !important;
-  background-size: 100% 100%;
-  height: 35rem;
-  width: 100% !important;
-  background-repeat: no-repeat !important;
-}
-
-.online {
-  padding: 6em 10em !important;
-  padding-left: 45em !important;
-  padding-top: 10em !important;
-  color: white;
-  background-image: url("images/s_obank.png") !important;
-  background-size: 100% 100%;
-  height: 35rem;
-  width: 100% !important;
-  background-repeat: no-repeat !important;
-}
-
-.ewallet {
-  padding: 6em 10em !important;
-  padding-left: 45em !important;
-  padding-top: 10em !important;
-  color: white;
-  background-image: url("images/s_ewallet.png") !important;
-  background-size: 100% 100%;
-  height: 35rem;
-  width: 100% !important;
-  background-repeat: no-repeat !important;
-}
-}
-
-@media screen and (max-width: 1270px) {
-  .eload {
-    padding: 13rem 8rem !important;
-    color: white;
-    background-image: url("images/s_eload.png") !important;
-    background-size: cover;
-    width: 100% !important;
-    background-repeat: no-repeat !important;
+  .talk-1, .talk-2 {
+    padding: 2rem 2rem !important;
+    margin: 0 0 !important;
   }
 
-  .remit {
-    padding: 10rem 6rem !important;
-    color: white;
-    background-image: url("images/s_remit.png") !important;
-    background-size: cover;
-    height: 35rem;
-    width: 100% !important;
-    background-repeat: no-repeat !important;
+  .btn-stalk {
+    margin-left: 7rem !important;
+    margin-right: 7rem !important;
   }
 
-
-  .fund {
-    padding: 7rem 8rem !important;
-    color: white;
-    background-image: url("images/s_transfer.png") !important;
-    background-size: cover;
-    height: 35rem;
-    width: 100% !important;
-    background-repeat: no-repeat !important;
+  /*media screen for service page (adjust for monitor screen)*/
+  body {
+    background-color: grey;
   }
 
-  .mobile {
-    padding: 7rem 8rem !important;
-    color: white;
-    background-image: url("images/s_mobile.png") !important;
-    background-size: cover;
-    height: 35rem;
-    width: 100% !important;
-    background-repeat: no-repeat !important;
-  }
-
-  .online {
-    padding: 7rem 8rem !important;
-    color: white;
-    background-image: url("images/s_obank.png") !important;
-    background-size: cover;
-    height: 35rem;
-    width: 100% !important;
-    background-repeat: no-repeat !important;
-  }
-
-  .ewallet {
-    padding: 13rem 7rem !important;
-    color: white;
-    background-image: url("images/s_ewallet.png") !important;
-    background-size: cover;
-    height: 35rem;
-    width: 100% !important;
-    background-repeat: no-repeat !important;
-  }
-
-  /*media screen for service page (adjust for mobile screen)*/
-  @media screen and (max-width: 500px) {
-    .display-3 {
-      font-size: 3rem !important;
-      text-align: center !important;
-    }
-
+  @media screen and (max-width: 1870px) {
     .eload {
-      padding: 13rem 5rem !important;
+      padding: 6em 10em !important;
+      padding-left: 45em !important;
+      padding-top: 10em !important;
       color: white;
-      text-align: justify;
       background-image: url("images/s_eload.png") !important;
-      background-size: cover;
-      background-position: center;
+      background-size: 100% 100%;
+      height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
     }
 
     .remit {
-      padding: 10rem 3rem !important;
+      padding: 6em 10em !important;
+      padding-left: 45em !important;
+      padding-top: 10em !important;
       color: white;
-      text-align: justify;
       background-image: url("images/s_remit.png") !important;
-      background-size: cover;
-      background-color: gray !important;
-      background-blend-mode: multiply;
+      background-size: 100% 100%;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
     }
 
     .fund {
-      padding: 10em 5rem !important;
+      padding: 6em 10em !important;
+      padding-left: 45em !important;
+      padding-top: 10em !important;
       color: white;
-      text-align: justify;
       background-image: url("images/s_transfer.png") !important;
-      background-size: cover;
-      background-color: gray !important;
-      background-blend-mode: multiply;
+      background-size: 100% 100%;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
     }
 
     .mobile {
-      padding: 10rem 5rem !important;
+      padding: 6em 10em !important;
+      padding-left: 45em !important;
+      padding-top: 10em !important;
       color: white;
-      text-align: justify;
       background-image: url("images/s_mobile.png") !important;
-      background-size: cover;
-      background-color: gray !important;
-      background-blend-mode: multiply;
+      background-size: 100% 100%;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
     }
 
     .online {
-      padding: 10rem 5rem !important;
+      padding: 6em 10em !important;
+      padding-left: 45em !important;
+      padding-top: 10em !important;
       color: white;
-      text-align: justify;
       background-image: url("images/s_obank.png") !important;
-      background-size: cover;
-      background-color: gray !important;
-      background-blend-mode: multiply;
+      background-size: 100% 100%;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
     }
 
     .ewallet {
-      padding: 13rem 5rem !important;
-      color: white !important;
-      text-align: justify;
+      padding: 6em 10em !important;
+      padding-left: 45em !important;
+      padding-top: 10em !important;
+      color: white;
       background-image: url("images/s_ewallet.png") !important;
-      background-size: cover;
-      background-color: gray !important;
-      background-blend-mode: multiply;
+      background-size: 100% 100%;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
     }
   }
 
-  /*media screen for service page (adjust for mobile screen)*/
-  @media screen and (max-width: 320px) {
-    .display-3 {
-      font-size: 2rem !important;
-      text-align: center !important;
-    }
-
+  @media screen and (max-width: 1270px) {
     .eload {
-      padding: 13rem 5rem !important;
+      padding: 13rem 8rem !important;
       color: white;
-      text-align: justify;
       background-image: url("images/s_eload.png") !important;
       background-size: cover;
-      background-position: center;
       width: 100% !important;
       background-repeat: no-repeat !important;
     }
 
     .remit {
-      padding: 10rem 3rem !important;
+      padding: 10rem 6rem !important;
       color: white;
-      text-align: justify;
       background-image: url("images/s_remit.png") !important;
       background-size: cover;
-      background-color: gray !important;
-      background-blend-mode: multiply;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
     }
 
     .fund {
-      padding: 10em 5rem !important;
+      padding: 7rem 8rem !important;
       color: white;
-      text-align: justify;
       background-image: url("images/s_transfer.png") !important;
       background-size: cover;
-      background-color: gray !important;
-      background-blend-mode: multiply;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
     }
 
     .mobile {
-      padding: 10rem 5rem !important;
+      padding: 7rem 8rem !important;
       color: white;
-      text-align: justify;
       background-image: url("images/s_mobile.png") !important;
       background-size: cover;
-      background-color: gray !important;
-      background-blend-mode: multiply;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
     }
 
     .online {
-      padding: 10rem 5rem !important;
+      padding: 7rem 8rem !important;
       color: white;
-      text-align: justify;
       background-image: url("images/s_obank.png") !important;
       background-size: cover;
-      background-color: gray !important;
-      background-blend-mode: multiply;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
     }
 
     .ewallet {
-      padding: 13rem 5rem !important;
-      color: white !important;
-      text-align: justify;
+      padding: 13rem 7rem !important;
+      color: white;
       background-image: url("images/s_ewallet.png") !important;
       background-size: cover;
-      background-color: gray !important;
-      background-blend-mode: multiply;
       height: 35rem;
       width: 100% !important;
       background-repeat: no-repeat !important;
     }
-  }
 
+    /*media screen for service page (adjust for mobile screen)*/
+    @media screen and (max-width: 500px) {
+      .display-3 {
+        font-size: 3rem !important;
+        text-align: center !important;
+      }
 
+      .eload {
+        padding: 13rem 5rem !important;
+        color: white;
+        text-align: justify;
+        background-image: url("images/s_eload.png") !important;
+        background-size: cover;
+        background-position: center;
+        width: 100% !important;
+        background-repeat: no-repeat !important;
+      }
 
+      .remit {
+        padding: 10rem 3rem !important;
+        color: white;
+        text-align: justify;
+        background-image: url("images/s_remit.png") !important;
+        background-size: cover;
+        background-color: gray !important;
+        background-blend-mode: multiply;
+        height: 35rem;
+        width: 100% !important;
+        background-repeat: no-repeat !important;
+      }
 
+      .fund {
+        padding: 10em 5rem !important;
+        color: white;
+        text-align: justify;
+        background-image: url("images/s_transfer.png") !important;
+        background-size: cover;
+        background-color: gray !important;
+        background-blend-mode: multiply;
+        height: 35rem;
+        width: 100% !important;
+        background-repeat: no-repeat !important;
+      }
 
-  /*Navbar manipulation*/
-  /* Media Rules */
-  @media screen and (max-width: 1087px) {
-    .about {
-      color: #4ebab5 !important;
-      font-family: 'Noto Serif', serif !important;
-      font-size: 0.7rem !important;
+      .mobile {
+        padding: 10rem 5rem !important;
+        color: white;
+        text-align: justify;
+        background-image: url("images/s_mobile.png") !important;
+        background-size: cover;
+        background-color: gray !important;
+        background-blend-mode: multiply;
+        height: 35rem;
+        width: 100% !important;
+        background-repeat: no-repeat !important;
+      }
+
+      .online {
+        padding: 10rem 5rem !important;
+        color: white;
+        text-align: justify;
+        background-image: url("images/s_obank.png") !important;
+        background-size: cover;
+        background-color: gray !important;
+        background-blend-mode: multiply;
+        height: 35rem;
+        width: 100% !important;
+        background-repeat: no-repeat !important;
+      }
+
+      .ewallet {
+        padding: 13rem 5rem !important;
+        color: white !important;
+        text-align: justify;
+        background-image: url("images/s_ewallet.png") !important;
+        background-size: cover;
+        background-color: gray !important;
+        background-blend-mode: multiply;
+        height: 35rem;
+        width: 100% !important;
+        background-repeat: no-repeat !important;
+      }
     }
 
-    .about-dlist {
-      color: #4ebab5 !important;
-      font-family: 'Noto Serif', serif !important;
-      font-size: 0.7rem !important;
+    /*media screen for service page (adjust for mobile screen)*/
+    @media screen and (max-width: 320px) {
+      .display-3 {
+        font-size: 2rem !important;
+        text-align: center !important;
+      }
+
+      .eload {
+        padding: 13rem 5rem !important;
+        color: white;
+        text-align: justify;
+        background-image: url("images/s_eload.png") !important;
+        background-size: cover;
+        background-position: center;
+        width: 100% !important;
+        background-repeat: no-repeat !important;
+      }
+
+      .remit {
+        padding: 10rem 3rem !important;
+        color: white;
+        text-align: justify;
+        background-image: url("images/s_remit.png") !important;
+        background-size: cover;
+        background-color: gray !important;
+        background-blend-mode: multiply;
+        height: 35rem;
+        width: 100% !important;
+        background-repeat: no-repeat !important;
+      }
+
+      .fund {
+        padding: 10em 5rem !important;
+        color: white;
+        text-align: justify;
+        background-image: url("images/s_transfer.png") !important;
+        background-size: cover;
+        background-color: gray !important;
+        background-blend-mode: multiply;
+        height: 35rem;
+        width: 100% !important;
+        background-repeat: no-repeat !important;
+      }
+
+      .mobile {
+        padding: 10rem 5rem !important;
+        color: white;
+        text-align: justify;
+        background-image: url("images/s_mobile.png") !important;
+        background-size: cover;
+        background-color: gray !important;
+        background-blend-mode: multiply;
+        height: 35rem;
+        width: 100% !important;
+        background-repeat: no-repeat !important;
+      }
+
+      .online {
+        padding: 10rem 5rem !important;
+        color: white;
+        text-align: justify;
+        background-image: url("images/s_obank.png") !important;
+        background-size: cover;
+        background-color: gray !important;
+        background-blend-mode: multiply;
+        height: 35rem;
+        width: 100% !important;
+        background-repeat: no-repeat !important;
+      }
+
+      .ewallet {
+        padding: 13rem 5rem !important;
+        color: white !important;
+        text-align: justify;
+        background-image: url("images/s_ewallet.png") !important;
+        background-size: cover;
+        background-color: gray !important;
+        background-blend-mode: multiply;
+        height: 35rem;
+        width: 100% !important;
+        background-repeat: no-repeat !important;
+      }
     }
 
-    .services {
-      color: #4ebab5 !important;
-      font-family: 'Noto Serif', serif !important;
-      font-size: 0.7rem !important;
+    /*Navbar manipulation*/
+    /* Media Rules */
+    @media screen and (max-width: 1087px) {
+      .about {
+        color: #4ebab5 !important;
+        font-family: 'Noto Serif', serif !important;
+        font-size: 0.7rem !important;
+      }
+
+      .about-dlist {
+        color: #4ebab5 !important;
+        font-family: 'Noto Serif', serif !important;
+        font-size: 0.7rem !important;
+      }
+
+      .services {
+        color: #4ebab5 !important;
+        font-family: 'Noto Serif', serif !important;
+        font-size: 0.7rem !important;
+      }
+
+      .product {
+        color: #4ebab5 !important;
+        font-family: 'Noto Serif', serif !important;
+        font-size: 0.7rem !important;
+      }
+
+      .partners {
+        color: #4ebab5 !important;
+        font-family: 'Noto Serif', serif !important;
+        font-size: 0.7rem !important;
+      }
+
+      .log-btn {
+        color: #4ebab5 !important;
+        font-family: 'Noto Serif', serif !important;
+        font-size: 0.7rem !important;
+      }
+
+      .letsTalk {
+        color: #4ebab5 !important;
+        font-family: 'Noto Serif', serif !important;
+        font-size: 0.7rem !important;
+      }
+
+      .btn-border {
+        margin-right: 1.5rem;
+      }
+
+      .about-border {
+        border: 1px solid;
+        border-right-color: #4ebab5 !important;
+        border-top: none !important;
+        border-left: none !important;
+        border-bottom: none;
+        padding-right: 1rem;
+        margin-right: 0;
+      }
     }
 
-    .product {
-      color: #4ebab5 !important;
-      font-family: 'Noto Serif', serif !important;
-      font-size: 0.7rem !important;
+    @media screen and (max-width: 940px) {
+      .dropdown-item, {
+        font-size: 0.7rem !important;
+      }
+
+      .dropdown {
+        margin-right: 16px !important;
+        padding-right: 1rem !important;
+      }
+
+      .services {
+        color: #4ebab5 !important;
+        font-family: 'Noto Serif', serif !important;
+        font-size: 0.7rem !important;
+      }
+
+      .product {
+        color: #4ebab5 !important;
+        font-family: 'Noto Serif', serif !important;
+        font-size: 0.7rem !important;
+      }
+
+      .about {
+        color: #4ebab5 !important;
+        font-family: 'Noto Serif', serif !important;
+        font-size: 0.7rem !important;
+      }
+
+      .about-dlist {
+        color: #4ebab5 !important;
+        font-family: 'Noto Serif', serif !important;
+        font-size: 0.7rem !important;
+      }
+
+      .partners {
+        color: #4ebab5 !important;
+        font-family: 'Noto Serif', serif !important;
+        font-size: 0.7rem !important;
+      }
+
+      .log-btn {
+        color: #4ebab5 !important;
+        font-family: 'Noto Serif', serif !important;
+        font-size: 0.7rem !important;
+      }
+
+      .letsTalk {
+        color: #4ebab5 !important;
+        font-family: 'Noto Serif', serif !important;
+        font-size: 0.7rem !important;
+      }
+
+      .about-border {
+        border: 1px solid;
+        border-right-color: #4ebab5 !important;
+        border-top: none !important;
+        border-left: none !important;
+        border-bottom: none;
+        padding-right: 1rem;
+        margin-right: 0;
+      }
     }
-
-    .partners {
-      color: #4ebab5 !important;
-      font-family: 'Noto Serif', serif !important;
-      font-size: 0.7rem !important;
-    }
-
-    .log-btn {
-      color: #4ebab5 !important;
-      font-family: 'Noto Serif', serif !important;
-      font-size: 0.7rem !important;
-    }
-
-    .letsTalk {
-      color: #4ebab5 !important;
-      font-family: 'Noto Serif', serif !important;
-      font-size: 0.7rem !important;
-    }
-
-    .btn-border {
-      margin-right: 1.5rem;
-    }
-
-    .about-border {
-      border: 1px solid;
-      border-right-color: #4ebab5 !important;
-      border-top: none !important;
-      border-left: none !important;
-      border-bottom: none;
-      padding-right: 1rem;
-      margin-right: 0;
-    }
-  }
-
-  @media screen and (max-width: 940px) {
-        .dropdown-item, {
-          font-size: 0.7rem !important;
-        }
-
-    .dropdown{
-      margin-right: 16px !important;
-      padding-right: 1rem !important;
-    }
-
-    .services {
-      color: #4ebab5 !important;
-      font-family: 'Noto Serif', serif !important;
-      font-size: 0.7rem !important;
-    }
-
-    .product {
-      color: #4ebab5 !important;
-      font-family: 'Noto Serif', serif !important;
-      font-size: 0.7rem !important;
-    }
-
-    .about {
-      color: #4ebab5 !important;
-      font-family: 'Noto Serif', serif !important;
-      font-size: 0.7rem !important;
-    }
-
-    .about-dlist {
-      color: #4ebab5 !important;
-      font-family: 'Noto Serif', serif !important;
-      font-size: 0.7rem !important;
-    }
-
-    .partners {
-      color: #4ebab5 !important;
-      font-family: 'Noto Serif', serif !important;
-      font-size: 0.7rem !important;
-    }
-
-    .log-btn {
-      color: #4ebab5 !important;
-      font-family: 'Noto Serif', serif !important;
-      font-size: 0.7rem !important;
-    }
-
-    .letsTalk {
-      color: #4ebab5 !important;
-      font-family: 'Noto Serif', serif !important;
-      font-size: 0.7rem !important;
-    }
-
-    .about-border {
-      border: 1px solid;
-      border-right-color: #4ebab5 !important;
-      border-top: none !important;
-      border-left: none !important;
-      border-bottom: none;
-      padding-right: 1rem;
-      margin-right: 0;
-    }
-  }
-
 
     @media screen and (max-width: 450px) {
       .services {
@@ -2237,7 +2208,6 @@ body{
         margin-right: 0;
       }
     }
-
 
     /*Footer contact info*/
     footer {

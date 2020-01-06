@@ -287,7 +287,7 @@ footer {
 
 /*Button Talk*/
 .btn-custom {
-  padding: 1rem 2rem !important;
+  padding: 0.3rem 2rem !important;
   color: white !important;
 }
 
@@ -442,7 +442,7 @@ footer {
 }
 
 #who-body-content {
-  /*padding: 4rem 3rem !important;*/
+  padding: 4rem 6rem !important;
   line-height: 2;
   color: white;
   text-align: justify;
@@ -516,6 +516,12 @@ footer {
 .h1-about {
   margin: 0rem 0rem;
   padding-left: 4rem;
+  padding-bottom: 0!important;
+}
+
+.h1-who {
+  margin: 0rem 0rem;
+  padding-left: -3rem;
   padding-bottom: 0!important;
 }
 
@@ -676,9 +682,22 @@ hr {
   margin-left: 3rem;
 }
 
+.back-arrow-u {
+  height: 4rem;
+  width: 4rem;
+  margin-left: 0rem;
+}
+
 .back {
   color: #4ebab5;
   margin-left: 7rem;
+  margin-top: -3rem;
+}
+
+.back-u {
+  color: #4ebab5;
+  font-weight: bold;
+  margin-left: 4rem;
   margin-top: -3rem;
 }
 
@@ -790,15 +809,16 @@ hr {
 }
 
 .border-r {
-  border-top: 1px solid;
-  border-right: 1px solid;
+  border-top: 5px solid;
+  border-right: 5px solid;
   border-color: #4ebab5;
 }
 
 .col1, .col2, .col3, .col4, .col5, .col6 {
   color: #4ebab5;
   text-align: right;
-  font-style: oblique;
+  font-weight: bold;
+  padding-right: 1.5rem !important;
 }
 
 .col1 {
@@ -808,7 +828,7 @@ hr {
 
 .col2 {
   padding-top: -1rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .col3 {
@@ -912,6 +932,10 @@ hr {
   padding-top: 0rem !important;
   font-size: 1.12rem;
   margin-top: 15rem;
+}
+
+.back{
+  font-weight: bold;
 }
 
 /*product page: upgrade page*/
@@ -1463,7 +1487,7 @@ width: 100% !important;*/
   background-image: url("images/s_mobile.png") !important;
   background-size: cover;
   height: 45rem;
-  height: 100% !important;
+  /*height: 100% !important;*/
   width: 100% !important;
   background-position: center;
   background-repeat: no-repeat !important;
@@ -1486,7 +1510,7 @@ width: 100% !important;*/
   background-image: url("images/s_obank.png") !important;
   background-size: cover;
   height: 45rem;
-  height: 100% !important;
+  /*height: 100% !important;*/
   width: 100% !important;
   background-position: center;
   background-repeat: no-repeat !important;
@@ -1508,9 +1532,9 @@ width: 100% !important;*/
   color: white;
   background-image: url("images/s_ewallet.png") !important;
   background-size: cover;
-  /* height: 45rem;
-  backup solution incase scrollify go bananas*/
-  height: 100% !important;
+  height: 45rem;
+  /* backup solution incase scrollify go bananas
+  height: 100% !important;*/
   width: 100% !important;
   background-position: center;
   background-repeat: no-repeat !important;
@@ -1676,6 +1700,50 @@ h1 {
 #talk-body-content {
   background-image: url("images/brbback.png") !important;
   padding-bottom: 8rem;
+}
+
+/*calendar style*/
+.c-cal{
+  margin-top: -1.5rem;
+}
+
+.card, .table{
+  background-color: transparent !important;
+  color: #4ebab5 !important;
+}
+.bg-info{
+  color: white !important;
+}
+.calendar-body{
+  border: 0px solid transparent;
+}
+
+.btn-outline-info{
+  color: #4ebab5 !important;
+}
+
+.btn-outline-custom{
+  color: #4ebab5 !important;
+  border: 2px solid  #4ebab5 !important;
+}
+
+h3{
+  text-align: center;
+  font-weight: bold !important;
+}
+
+td, th, .table-bordered, .table-responsive-sm{
+  border: 0px !important;
+}
+
+th{
+  border-bottom: 1px solid  #4ebab5 !important;
+}
+
+.form-control{
+  margin: 0 3.9rem;
+  background-color: transparent!important;
+  color: #4ebab5 !important;
 }
 
 .footer-bottom {

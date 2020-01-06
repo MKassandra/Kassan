@@ -1543,90 +1543,97 @@ h1{
 
 }
 
-
 .back-to-top {
+    position: fixed;
+    bottom: 600px;
+    right: 25px;
+    display: none;
+}
+
+.btn-2 {
     position: fixed;
     bottom: 555px;
     right: 25px;
     display: none;
 }
 
-.btn-2{
-  position: fixed;
-  bottom: 520px;
-  right: 25px;
-  display: none;
-}
-
 .btn-3{
   position: fixed;
-  bottom: 485px;
+  bottom: 510px;
   right: 25px;
   display: none;
 }
 
 .btn-4{
   position: fixed;
-  bottom: 450px;
+  bottom: 465px;
   right: 25px;
   display: none;
 }
 
 .btn-5{
   position: fixed;
-  bottom: 415px;
+  bottom: 420px;
   right: 25px;
   display: none;
 }
 
 .btn-6{
   position: fixed;
-  bottom: 380px;
+  bottom: 375px;
   right: 25px;
   display: none;
 }
 
 .btn-7{
   position: fixed;
-  bottom: 345px;
+  bottom: 330px;
   right: 25px;
   display: none;
 }
 
 .btn-8{
   position: fixed;
-  bottom: 310px;
+  bottom: 285px;
   right: 25px;
   display: none;
 }
 
 .btn-9{
   position: fixed;
-  bottom: 275px;
+  bottom: 240px;
   right: 25px;
   display: none;
 }
 
 .btn-10{
   position: fixed;
-  bottom: 240px;
+  bottom: 195px;
   right: 25px;
   display: none;
 }
 
 .btn-11{
   position: fixed;
-  bottom: 205px;
+  bottom: 150px;
   right: 25px;
   display: none;
 }
 
 .btn-12{
   position: fixed;
-  bottom: 170px;
+  bottom: 105px;
   right: 25px;
   display: none;
 }
+
+/*
+.btn-12{
+  position: fixed;
+  bottom: 60px;
+  right: 25px;
+  display: none;
+}*/
 
 
 

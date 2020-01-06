@@ -105,8 +105,10 @@
 
   <!--Main Content-->
   <section id="history-body-content">
-    <h1 class="h1-about display-4">History</h1>
-    <!--<hr class="hr1">-->
+    <h1 class="h1-about">History</h1>
+    <img src="images/history_full.png" alt="" class="bod-img">
+
+    <!--<<hr class="hr1">
     <div class="row">
       <div class="col-sm-6">
         <p>Binangonan Rural Bank, Inc. (BRB) was established in October 4, 1961 by Atty. Teofilo Tanjuatco, a lawyer and banker from Quezon City. Atty. Tanjuatco waas the first President and Chairman of the banker
@@ -130,12 +132,14 @@
           BRB applied and was granted an Electronic Money Issuer (EMI) License by the BSP in July 2017.
         </p>
       </div>
-    </div>
+    </div>-->
   </section>
 
   <section id="who-body-content">
-    <h1 class="h1-about display-4">Who We Are</h1>
-    <!--<hr class="hr1">-->
+      <h1 class="h1-about">Who We Are</h1>
+    <img src="images/who_full.png" alt="" class="bod-img">
+
+  <!--  <hr class="hr1">-
     <div class="row">
       <div class="col-sm-6">
         <p>BRB Digital is the first Philippine rural bank to launch its E-Money operations.
@@ -152,11 +156,11 @@
         </p>
       </div>
       <div class="col-sm-6"> </div>
-      </div>
+    </div>-->
   </section>
   <div class="row">
     <section id="meet-body-content">
-      <h1 class="h1-about display-4">Meet Our Team</h1>
+      <h1 class="h1-about">Meet Our Team</h1>
 
       <!--<hr class="hr1">-->
       <br>
@@ -235,11 +239,11 @@
 
   </div>
   </section>
-
-  <a id="btn-history" href="#1" class="btn btn-nav btn-sm btn-history" role="button">History<i class="fas fa-chevron-up"></i></a>
-  <a id="btn-who" href="#2" class="btn btn-nav btn-sm btn-who" role="button">Who We Are<i class="fas fa-chevron-up"></i></a>
-  <a id="btn-meet" href="#3" class="btn btn-nav btn-sm btn-meet" role="button">Meet the Team<i class="fas fa-chevron-up"></i></a>
-
+<div class="vertical-nav">
+    <a id="btn-history" href="#1" class="btn btn-nav btn-sm btn-history" role="button">History<i class="fas fa-chevron-up"></i></a>
+    <a id="btn-who" href="#2" class="btn btn-nav btn-sm btn-who" role="button">Who We Are<i class="fas fa-chevron-up"></i></a>
+    <a id="btn-meet" href="#3" class="btn btn-nav btn-sm btn-meet" role="button">Meet the Team<i class="fas fa-chevron-up"></i></a>
+</div>
   <script>
       $(document).ready(function() {
   // scroll body to history
@@ -252,14 +256,14 @@
   //scroll to who we are
   $('#btn-who').click(function() {
     $('body,html').animate({
-      scrollTop: 700
+      scrollTop: 650
     }, 0);
     return false;
   });
   //scroll to meet the team
   $('#btn-meet').click(function() {
     $('body,html').animate({
-      scrollTop: 1400
+      scrollTop: 1200
     }, 0);
     return false;
   });

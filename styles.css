@@ -3,7 +3,14 @@ html {
   zoom: 100% !important;
 }
 
+/*font style*/
+@font-face {
+  font-family: myBento;
+  src: url('font/BentonSans_book.otf');
+}
+
 body {
+  font-family: myBento !important;
   /* background-image: bodyimg.png !important; */
   /*background-image: url('bodyimg.png'); */
   background-color: #00081d !important;
@@ -427,15 +434,15 @@ footer {
 
 /*about page content*/
 #history-body-content {
-  padding: 4rem 3rem !important;
+  /*padding: 4rem 3rem !important;*/
   line-height: 2;
   color: white;
   text-align: justify;
-  background-color: #000718 !important;
+  background-color: #00081d !important;
 }
 
 #who-body-content {
-  padding: 4rem 3rem !important;
+  /*padding: 4rem 3rem !important;*/
   line-height: 2;
   color: white;
   text-align: justify;
@@ -458,6 +465,10 @@ footer {
   height: 100%;
   width: 100%;
   background-size: contain;
+}
+
+.vertical-nav{
+  background-color: rgb(150, 146, 132,2) !important;
 }
 
 /*meet the meet content*/
@@ -504,8 +515,8 @@ footer {
 
 .h1-about {
   margin: 0rem 0rem;
-  margin-bottom: 1rem;
   padding-left: 4rem;
+  padding-bottom: 0!important;
 }
 
 /*about page: vertical nagigation */
@@ -637,7 +648,7 @@ hr {
   color: white !important;
   text-align: center !important;
   padding-top: 0rem !important;
-  margin-top: 3rem;
+  margin-top: 1rem;
   font-size: 1.3rem;
 }
 
@@ -645,7 +656,7 @@ hr {
   color: white !important;
   text-align: center !important;
   padding-top: 0rem !important;
-  margin-top: 3rem;
+  margin-top: 1rem;
   font-size: 1.3rem;
 }
 
@@ -767,12 +778,15 @@ hr {
 }
 
 .u-display, .s-display {
+  font-weight: bold;
+  font-size: 4.5rem !important;
   color: #4ebab5 !important;
 }
 
 .upgrade-content {
-  margin: 3rem 3rem;
+  margin: 0rem 3rem;
   color: white;
+  padding-bottom: 7rem;
 }
 
 .border-r {
@@ -799,7 +813,7 @@ hr {
 
 .col3 {
   padding-top: 0rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .col4 {
@@ -902,13 +916,13 @@ hr {
 
 /*product page: upgrade page*/
 .card-upgrade {
-  height: 4rem;
-  width: 4rem;
+  height: 5rem;
+  width: 5rem;
 }
 
 .u-display {
-  margin-top: -4rem;
-  padding-left: 5rem;
+  margin-top: -5rem;
+  padding-left: 6rem;
   color: white;
 }
 
@@ -941,6 +955,7 @@ hr {
 }
 
 .c-display {
+  font-weight: bold;
   padding-bottom: 2rem !important;
   margin-top: -7rem;
   padding-left: 13rem;

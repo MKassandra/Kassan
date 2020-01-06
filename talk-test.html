@@ -8,8 +8,8 @@
 
   <link rel="stylesheet" href="styles.css">
 
-  <!-- MDB icon -->
-  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- MDB icon
+   <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon"> -->
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Bootstrap core CSS -->
@@ -192,7 +192,7 @@
             <form>
               <!-- Large input -->
               <div class="md-form">
-                <input type="text" id="inputMDEx" class="form-control ">
+                <input type="text" id="inputMDEx" class="form-control " required>
                 <label for="inputMDEx">Name</label>
               </div>
               <div class="md-form ">
@@ -205,17 +205,22 @@
               </div>
 
               <div class="md-form ">
-                <textarea id="textarea-char-counter" class="form-control md-textarea" length="120" rows="3"></textarea>
+                <textarea id="textarea-char-counter" class="form-control md-textarea" length="120" rows="3">Hi! I would like to have a meeting at </textarea>
                 <label for="textarea-char-counter">Message</label>
               </div>
               <!-- </div><small>*Note: Please contanct for confirmation</small> -->
               <br><br>
 
-              <button type="button" class="btn btn-default btn-stalk">Submit</button>
+              <button type="button" onclick="myFunction()" class="btn btn-default btn-stalk">Submit</button>
             </form>
           </div>
         </div>
-
+<script>
+function myFunction() {
+document.getElementById("textarea-char-counter").value = "Hi! I would like to have a meeting at ______";
+}
+</s
+</script>
 
         <!--
       <div class="copyright-content">

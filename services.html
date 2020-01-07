@@ -215,7 +215,7 @@
     </div>
   </section>
 
-  <a id="back-to-top" href="#1" class="btn btn-nav btn-sm back-to-top" role="button">Balance Inquiry<i class="fas fa-chevron-up"></i></a>
+  <a id="btn-1" href="#1" class="btn btn-nav btn-sm btn-1" role="button">Balance Inquiry<i class="fas fa-chevron-up"></i></a>
   <a id="btn-2" href="#2" class="btn btn-nav btn-sm btn-2" role="button">Withdrawal<i class="fas fa-chevron-up"></i></a>
   <a id="btn-3" href="#3" class="btn btn-nav btn-sm btn-3" role="button">Bills Payment<i class="fas fa-chevron-up"></i></a>
   <a id="btn-4" href="#4" class="btn btn-nav btn-sm btn-4" role="button">Purchase<i class="fas fa-chevron-up"></i></a>
@@ -227,15 +227,16 @@
   <a id="btn-10" href="#10" class="btn btn-nav btn-sm btn-10" role="button">Mobile Banking<i class="fas fa-chevron-up"></i></a>
   <a id="btn-11" href="#11" class="btn btn-nav btn-sm btn-11" role="button">Online Banking<i class="fas fa-chevron-up"></i></a>
   <a id="btn-12" href="#12" class="btn btn-nav btn-sm btn-12" role="button">E-Wallet<i class="fas fa-chevron-up"></i></a>
+  <a id="btn-top" href="#12" class="btn btn-nav btn-sm btn-top" role="button">Back to Top<i class="fas fa-chevron-up"></i></a>
 
   <script>
     $(document).ready(function() {
       //for fade in and fade out effect
       $(window).scroll(function() {
         if ($(this).scrollTop() > 50) {
-          $('#back-to-top').fadeIn();
+          $('#btn-1').fadeIn();
         } else {
-          $('#back-to-top').fadeOut();
+          $('#btn-1').fadeOut();
         }
       });
       $(window).scroll(function() {
@@ -319,9 +320,16 @@
           $('#btn-12').fadeOut();
         }
       });
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+          $('#btn-top').fadeIn();
+        } else {
+          $('#btn-top').fadeOut();
+        }
+      });
 
       // scroll body to 0px on click 1
-      $('#back-to-top').click(function() {
+      $('#btn-1').click(function() {
         $('body,html').animate({
           scrollTop: 100
         }, 0);
@@ -404,7 +412,12 @@
         }, 0);
         return false;
       });
-
+      $('#btn-top').click(function() {
+        $('body,html').animate({
+          scrollTop: 0
+        }, 0);
+        return false;
+      });
 
     });
   </script>

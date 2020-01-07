@@ -89,6 +89,35 @@ function showCalendar(month, year) {
 
 }
 
+$("#calendar-body").on("click", "td", function(event) {
+  //console.log($(this).text());
+  //document.getElementById("textarea-char-counter").innerHTML = "";
+  //document.getElementById("textarea-char-counter").innerHTML = "I would like to set a meeting at " + $(monthAndYear).text().slice(0, 3) + " " + $(this).text() + ", " + $(monthAndYear).text().slice(4, 8) + "."; // $(currentyear).text ;
+  //var msg1 = document.getElementsByTagName("textarea-char-counter");
+  //msg1.setAttribute(innerHTMLs,"I would like to set a meeting at " + $(monthAndYear).text().slice(0, 3) + " " + $(this).text() + ", " + $(monthAndYear).text().slice(4, 8) + ".");
+  var daydate1 = "";
+  if ((document.getElementById("textarea-char-counter").value).length > 46) {
+    if (($(this).text()).length == 1) {
+      daydate1 = "0" + $(this).text();
+    } else {
+      daydate1 = $(this).text();
+    }
+    var msg2 = document.getElementById("textarea-char-counter").value.slice(80, (document.getElementById("textarea-char-counter").value).length);
+    var msg1 = "Good day! We would like to set a meeting on " + $(monthAndYear).text().slice(0, 3) + " " + daydate1 + ", " + $(monthAndYear).text().slice(4, 8) + ".";
+    document.getElementById("textarea-char-counter").value = msg1 + msg2;
+    //alert((document.getElementById("textarea-char-counter").value).length);
+  } else {
+    if (($(this).text()).length == 1) {
+      daydate1 = "0" + $(this).text();
+    } else {
+      daydate1 = $(this).text();
+    }
+    var msg3 = "Good day! We would like to set a meeting on " + $(monthAndYear).text().slice(0, 3) + " " + daydate1 + ", " + $(monthAndYear).text().slice(4, 8) + ".";
+    document.getElementById("textarea-char-counter").value = msg3;
+    //alert((document.getElementById("textarea-char-counter").value).length);
+  }
+});
+
 
 
 // check how many days in a month code from https://dzone.com/articles/determining-number-days-month

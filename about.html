@@ -106,10 +106,8 @@
   <!--Main Content-->
   <section id="history-body-content">
     <h1 class="h1-about">History</h1>
-    <img src="images/history_full.png" alt="" class="bod-img">
-
-    <!--<<hr class="hr1">
-    <div class="row">
+      <!--<<img src="images/history_full.png" alt="" class="bod-img"> -->
+    <div class="row row-h">
       <div class="col-sm-6">
         <p>Binangonan Rural Bank, Inc. (BRB) was established in October 4, 1961 by Atty. Teofilo Tanjuatco, a lawyer and banker from Quezon City. Atty. Tanjuatco waas the first President and Chairman of the banker
           <br><br>
@@ -132,7 +130,7 @@
           BRB applied and was granted an Electronic Money Issuer (EMI) License by the BSP in July 2017.
         </p>
       </div>
-    </div>-->
+    </div>
   </section>
 
   <section id="who-body-content">
@@ -247,6 +245,37 @@
 </div>
   <script>
       $(document).ready(function() {
+        //all nav will fade when its in meet content
+        $(window).scroll(function() {
+          if ($(this).scrollTop() < 1450) {
+            $('#btn-history').fadeIn();
+          } else {
+            $('#btn-history').fadeOut();
+          }
+        });
+        $(window).scroll(function() {
+          if ($(this).scrollTop() < 1450) {
+            $('#btn-who').fadeIn();
+          } else {
+            $('#btn-who').fadeOut();
+          }
+        });
+        $(window).scroll(function() {
+          if ($(this).scrollTop() < 1450) {
+            $('#btn-meet').fadeIn();
+          } else {
+            $('#btn-meet').fadeOut();
+          }
+        });
+        $(window).scroll(function() {
+          if ($(this).scrollTop() < 1450) {
+            $('#btn-top-about').fadeIn();
+          } else {
+            $('#btn-top-about').fadeOut();
+          }
+        });
+
+
   // scroll body to history
   $('#btn-history').click(function() {
     $('body,html').animate({
@@ -294,10 +323,10 @@
       </div>
 
       <div class="row">
-        <div class="col-3">2nd Floor, Planters Product Bldg.109 Esteban St. Legaspi Vilage 1223 Makati City, Philippines</div>
+        <div class="col-3">2nd Floor, Planters Product Bldg. 109 Esteban St. Legaspi Vilage 1223 Makati City, Philippines</div>
         <div class="col-5">135 Baltazar Street, Brgy. Layunan, Binangonan 1940 Rizal, Philippines</div>
-        <div class="col-2">(02) 8478 6615 <br> (02) 8478 6618 </div>
-        <div class="col-2">(Globe) (+63)0916-6243607 <br> (Smart) (+63)0998-3268399</div>
+        <div class="col-2">+63 (2) 8852 1454 <br> +63 (2) 88478 6618 <br> +63 (2) 88478 6615 </div>
+        <div class="col-2">(Globe) +63 916 624 3607 <br> (Smart) +63 998 326 8399</div>
       </div>
     </footer>
   </section>

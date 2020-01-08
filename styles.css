@@ -309,6 +309,7 @@ footer {
 .contact-content {
   text-align: center;
   padding: 1rem 5rem;
+  padding-bottom: 8rem;
   line-height: 3;
   color: white;
   background-color: #000718 !important;
@@ -475,7 +476,7 @@ footer {
   line-height: 2;
   color: white;
   background-color: #00081d !important;
-  padding-bottom: 9rem;
+  padding-bottom: 14rem;
 }
 
 .bod-img {
@@ -616,6 +617,7 @@ hr {
 .product-dev {
   background-image: url('images/brbback.png');
   background-size: 100% 100%;
+  padding-bottom: 5rem;
 }
 
 .row {

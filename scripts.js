@@ -102,7 +102,7 @@ $("#calendar-body").on("click", "td", function(event) {
     } else {
       daydate1 = $(this).text();
     }
-    var msg2 = document.getElementById("textarea-char-counter").value.slice(80, (document.getElementById("textarea-char-counter").value).length);
+    var msg2 = document.getElementById("textarea-char-counter").value.slice(180, (document.getElementById("textarea-char-counter").value).length);
     var msg1 = "Good day! We would like to set a meeting on " + $(monthAndYear).text().slice(0, 3) + " " + daydate1 + ", " + $(monthAndYear).text().slice(4, 8) + ".";
     document.getElementById("textarea-char-counter").value = msg1 + msg2;
     //alert((document.getElementById("textarea-char-counter").value).length);

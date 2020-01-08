@@ -619,7 +619,9 @@ hr {
   background-size: 100% 100%;
   padding-bottom: 5rem;
 }
-
+.cashless-product-dev{
+  padding-bottom: 5rem;
+}
 .row {
   padding-top: 0.2rem;
 }
@@ -826,6 +828,8 @@ hr {
   background-size: contain;
 }
 
+
+
 #upgrade-product-body {
   background-image: url('images/brbback.png');
   background-size: cover;
@@ -836,6 +840,9 @@ hr {
   font-weight: bold;
   font-size: 4.5rem !important;
   color: #4ebab5 !important;
+}
+.s-display{
+  margin-top: -6.5rem !important;
 }
 
 .upgrade-content {
@@ -959,10 +966,11 @@ hr {
 }
 
 .col-simple {
-  padding-left: 1rem;
+  padding-left: 20rem;
 }
 
 .col-wallet {
+  padding-left: 10rem !important;
   color: white !important;
   text-align: center !important;
   padding-top: 0rem !important;
@@ -993,14 +1001,23 @@ hr {
 
 /*product page: cashless*/
 .cashless-product-dev {
-  padding-bottom: 5rem !important;
-  background-image: url('images/brbback.png');
-  background-size: cover;
+  padding-bottom: 15rem !important;
+  background-image: url('images/bg/cashless_bg.png');
+  background-size: 100% 100%;
   background-position: center;
 }
 
 .co-cash {
   padding-left: 2rem !important;
+}
+
+.p-cashless{
+  padding-top: 2rem !important;
+  color: white !important;
+  text-align: center !important;
+  padding-top: 13rem !important;
+  font-size: 1.12rem !important;
+  margin: 0rem 3rem;
 }
 
 .col-b {
@@ -1028,6 +1045,19 @@ hr {
   margin-left: 8rem;
 }
 
+/*product page: access*/
+.access-product-dev {
+  padding: 5rem 5rem;
+  margin-top: 3rem!important;
+  padding-bottom: 5rem !important;
+  background-image: url('images/bg/access_bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
 /*product page:customize page*/
 .custom-product-dev {
   padding: 3rem 0;
@@ -1037,8 +1067,12 @@ hr {
 }
 
 .custom-display {
-  height: 5rem;
-  width: 10rem;
+  height: 14rem;
+  width: 25rem;
+  padding-left: 2rem;
+}
+.r-custom{
+  padding: 4rem 0rem;
 }
 
 .c-product {
@@ -1667,7 +1701,7 @@ height: 100% !important;*/
 .scroll-up {}
 
 .display-p {
-  font-size: 1.65rem;
+  font-size: 1.4rem;
 }
 
 h1 {
@@ -2397,7 +2431,7 @@ small {
 
       .product {
         color: #4ebab5 !important;
-        font-family: 'Noto Serif', serif !important;
+        /*font-family: 'Noto Serif', serif !important;*/
         font-size: 0.7rem !important;
       }
 

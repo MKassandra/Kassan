@@ -1047,13 +1047,12 @@ hr {
 
 /*product page: access*/
 .access-product-dev {
-  padding: 5rem 5rem;
-  margin-top: 3rem!important;
-  padding-bottom: 5rem !important;
-  background-image: url('images/bg/access_bg.png');
-  background-size: cover;
-  background-repeat: no-repeat;
+  padding-bottom: 10rem !important;
+  background-image: url('images/brbback.png');
+  background-size: 100% 100%;
+  background-position: center;
 }
+
 
 
 
@@ -1453,13 +1452,29 @@ width: 100% !important;
 small{
   font-size: 1rem!important;
 }
+
+.icon-ebank{
+  height: 6rem;
+  width: 4rem;
+}
+
+.ebank2{
+  margin-left: -2rem;
+  width: 6rem;
+}
+
 .row-ebank{
-  margin-top: 6rem!important;
+
+  margin-top: 3rem!important;
   margin-left: 2.5rem !important;
 }
+.bank1{
+  margin-left: 0.5rem!important;
+}
+
 .bank2{
   margin-top: -1rem!important;
-  margin-left: 5.5rem!important;
+  margin-left: 1.5rem!important;
 }
 /*additional end*/
 .eload {

@@ -39,7 +39,6 @@ a{
 }
 
 strong{
-  font-size: 2rem!important;
   font-weight: bolder !important;
 }
 
@@ -243,10 +242,6 @@ footer {
   background-repeat: no-repeat !important;
 }
 
-.bankbox {
-  background: rgba(187, 190, 201, 0.3) !important;
-  padding: 3rem 3rem;
-}
 
 .s_purchase {
   padding: 6em 10em !important;
@@ -289,7 +284,6 @@ footer {
 }
 
 .s_product {
-  text-align: justify !important;
   padding: 4em 10em !important;
   color: white;
   background-image: url("images/artboard1.jpg") !important;
@@ -313,11 +307,10 @@ footer {
 /*talk content from index.html*/
 .contact-content {
   text-align: center;
-  padding: 1rem 5rem;
-  padding-bottom: 7rem;
-  line-height: 3;
+  padding: 0.1rem 5rem;
+  padding-bottom: 6rem;
   color: white;
-  background-color: rgba(119, 107, 93, 0.4)!important;
+  background-color: rgba(99, 102, 106, 0.7)!important;
   /*background-color: #776b5d !important;*/
 }
 .link-add{
@@ -325,17 +318,21 @@ footer {
 }
 
 /*media manipulation in index page*/
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 800px) {
+  #body-content{
+    text-align: center !important;
+  }
+
   .display-4 {
     text-align: center;
-    font-size: 2.3rem!important;
-    padding-bottom: 2rem !important;
+    font-size: 5rem!important;
+    padding-bottom: 1.5rem !important;
     margin: 0 0 !important;
   }
 
   .lead {
     text-align: center !important;
-    font-size: 1.4rem !important;
+    font-size: 1.8rem !important;
   }
 
   .btn-product {
@@ -358,7 +355,7 @@ footer {
 
   .s_bill {
     padding: 0 8rem !important;
-    padding-top: 1rem !important;
+    padding-top: 3rem !important;
     margin: 0 0 !important;
     background-color: #969e96 !important;
     background-blend-mode: multiply;
@@ -366,7 +363,7 @@ footer {
 
   .s_payroll {
     padding: 0 8rem !important;
-    padding-top: 2rem !important;
+    padding-top: 3rem !important;
     margin: 0 0 !important;
     background-color: #969e96 !important;
     background-blend-mode: multiply;
@@ -374,7 +371,7 @@ footer {
 
   .s_withdraw {
     padding: 0 8rem !important;
-    padding-top: 2rem !important;
+    padding-top: 3rem !important;
     margin: 0 0 !important;
     background-color: #969e96 !important;
     background-blend-mode: multiply;
@@ -389,17 +386,17 @@ footer {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .display-4 {
     text-align: center;
-    font-size: 2rem !important;
-    padding-bottom: 1rem !important;
+    font-size: 3rem !important;
+    padding-bottom: 2rem !important;
     margin: 0 0 !important;
   }
 
   .lead {
     text-align: center !important;
-    font-size: 0.9rem !important;
+    font-size: 1.5rem !important;
   }
 
   .btn-product {
@@ -414,31 +411,31 @@ footer {
 
   .s_purchase {
     padding: 0 4rem !important;
-    padding-top: 3rem !important;
+    padding-top: 3.5rem !important;
     margin: 0 0 !important;
   }
 
   .s_bill {
     padding: 0 4rem !important;
-    padding-top: 1rem !important;
+    padding-top: 3.5rem !important;
     margin: 0 0 !important;
   }
 
   .s_payroll {
     padding: 0 4rem !important;
-    padding-top: 2rem !important;
+    padding-top: 3.5rem !important;
     margin: 0 0 !important;
   }
 
   .s_withdraw {
     padding: 0 4rem !important;
-    padding-top: 2rem !important;
+    padding-top: 3.5rem !important;
     margin: 0 0 !important;
   }
 
   .s_product {
     padding: 0 4rem !important;
-    padding-top: 3rem !important;
+    padding-top: 3.5rem !important;
     margin: 0 0 !important;
   }
 }

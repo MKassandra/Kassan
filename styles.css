@@ -18,8 +18,10 @@ html {
 body {
   font-family: myBento !important;
   /* background-image: bodyimg.png !important; */
-  /*background-image: url('bodyimg.png'); */
-  background-color: #00081d !important;
+  /*background-image: url('images/bg_main.jpg');
+  background-size: contain !important;
+  background-position: center !important;*/
+  background-color: #c4c4c4 !important;
   width: 100%;
 }
 
@@ -31,6 +33,16 @@ p {
   padding-top: 0.7rem;
   font-size: 0.9rem;
 }
+
+a{
+  color: white !important;
+}
+
+strong{
+  font-size: 2rem!important;
+  font-weight: bolder !important;
+}
+
 
 /* Logo Size */
 .brblogo {
@@ -46,16 +58,8 @@ p {
 }
 
 /* Navbar Style */
-.h-color {
-  background-color: #00081d !important;
-}
-
-.header-nav {
-  background-color: #00081d !important;
-}
-
-.nav-custom {
-  background-color: #00081d !important;
+.h-color, .header-nav, .nav-custom {
+  background-image: linear-gradient(to right, #c8c8c8, #999999)!important;
 }
 
 /* Paddings Header Section */
@@ -66,7 +70,7 @@ p {
 /* Text Styles */
 /* HOVER EFFECTS */
 .navbar ul li a {
-  color: #4ebab5 !important;
+  color: #171717 !important;
 }
 
 .navbar ul li a:hover {
@@ -74,25 +78,25 @@ p {
 }
 
 .about {
-  color: #4ebab5 !important;
+  color: #171717 !important;
   /*font-family: 'Noto Serif', serif !important;*/
   font-size: 1rem !important;
 }
 
 .services {
-  color: #4ebab5 !important;
+  color: #171717 !important;
   /*font-family: 'Noto Serif', serif !important;*/
   font-size: 1rem !important;
 }
 
 .product {
-  color: #4ebab5 !important;
+  color: #171717 !important;
   /*font-family: 'Noto Serif', serif !important;*/
   font-size: 1rem !important;
 }
 
 .partners {
-  color: #4ebab5 !important;
+  color: #171717 !important;
   /*font-family: 'Noto Serif', serif !important;*/
   font-size: 1rem !important;
 }
@@ -104,7 +108,7 @@ p {
     font-size: 1rem !important;
 }*/
 .letsTalk {
-  color: #4ebab5 !important;
+  color: #171717 !important;
   /*font-family: 'Noto Serif', serif !important;*/
   font-size: 1rem !important;
 }
@@ -120,7 +124,7 @@ p {
 
 /*dropdown color*/
 .navbar-custom .dropdown-menu {
-  background-color: #00081d;
+  background-color: #c4c4c4;
   /*bg color*/
   border-width: thin;
 }
@@ -134,7 +138,7 @@ p {
 
 .navbar-custom .dropdown-item:hover,
 .navbar-custom .dropdown-item:focus {
-  color: #00081d !important;
+  color: #171717 !important;
   /*text color*/
   background-color: #4ebab5;
   /*highlight*/
@@ -143,7 +147,7 @@ p {
 /* Border Manipulation */
 .about-border {
   border: 1px solid;
-  border-right-color: #4ebab5 !important;
+  border-right-color: #171717 !important;
   border-top: none !important;
   border-left: none !important;
   border-bottom: none;
@@ -157,7 +161,7 @@ p {
 
 .services-border {
   border: 1px solid;
-  border-right-color: #4ebab5 !important;
+  border-right-color: #171717 !important;
   border-top: none !important;
   border-left: none !important;
   border-bottom: none;
@@ -167,7 +171,7 @@ p {
 
 .product-border {
   border: 1px solid;
-  border-right-color: #4ebab5 !important;
+  border-right-color: #171717 !important;
   border-top: none !important;
   border-left: none !important;
   border-bottom: none;
@@ -177,7 +181,7 @@ p {
 
 .partners-border {
   border: 1px solid;
-  border-right-color: #4ebab5 !important;
+  border-right-color: #171717 !important;
   border-top: none !important;
   border-left: none !important;
   border-bottom: none;
@@ -187,7 +191,7 @@ p {
 
 .letsTalk-border {
   border: 1px solid;
-  border-right-color: #4ebab5 !important;
+  border-right-color: #171717 !important;
   border-top: none !important;
   border-left: none !important;
   border-bottom: none;
@@ -219,8 +223,8 @@ footer {
   bottom: 0;
   width: 100%;
   padding: 1rem 3rem;
-  color: #4ebab5 !important;
-  background-color: #00081d !important;
+  color: white !important;
+  background-color: #333333 !important;
 }
 
 /*Home page slideshow*/
@@ -231,7 +235,7 @@ footer {
 .jumbbank {
   padding: 6em 10em !important;
   color: white;
-  background-image: url('bodyimg.png') !important;
+  background-image: url("images/s_front.jpg") !important;
   /* background-size: 100% 100%; */
   background-size: cover !important;
   background-position: center !important;
@@ -302,6 +306,7 @@ footer {
 }
 
 .btn-product {
+  /*margin-left: 28rem!important;*/
   padding: 0.5rem 1.5rem !important;
 }
 
@@ -309,32 +314,27 @@ footer {
 .contact-content {
   text-align: center;
   padding: 1rem 5rem;
-  padding-bottom: 8rem;
+  padding-bottom: 7rem;
   line-height: 3;
   color: white;
-  background-color: #000718 !important;
+  background-color: rgba(119, 107, 93, 0.4)!important;
+  /*background-color: #776b5d !important;*/
 }
-
-/*copyright content*/
-.copyright-content {
-  text-align: center;
-  padding: 2rem 5rem;
-  line-height: 3;
-  color: white;
-  background-color: #000718 !important;
+.link-add{
+  color: white !important;
 }
 
 /*media manipulation in index page*/
 @media screen and (max-width: 860px) {
   .display-4 {
     text-align: center;
-    font-size: 2.3rem;
+    font-size: 2.3rem!important;
     padding-bottom: 2rem !important;
     margin: 0 0 !important;
   }
 
   .lead {
-    text-align: center;
+    text-align: center !important;
     font-size: 1.4rem !important;
   }
 
@@ -392,14 +392,14 @@ footer {
 @media screen and (max-width: 480px) {
   .display-4 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem !important;
     padding-bottom: 1rem !important;
     margin: 0 0 !important;
   }
 
   .lead {
-    text-align: justify;
-    font-size: 1.1rem !important;
+    text-align: center !important;
+    font-size: 0.9rem !important;
   }
 
   .btn-product {
@@ -663,6 +663,7 @@ hr {
 
 .p-product{
   font-size: 0.9rem!important;
+  margin-top: -2rem!important;
 }
 
 .col-custom1 {
@@ -1213,8 +1214,7 @@ hr {
     padding: 0 0;
   }
 
-  .col-custom,
-  .p-product {
+  .col-custom{
     color: white !important;
     text-align: center !important;
     padding-top: 0rem !important;
@@ -1268,8 +1268,7 @@ hr {
     padding: 0 0;
   }
 
-  .col-custom,
-  .p-product {
+  .col-custom{
     color: white !important;
     text-align: center !important;
     padding-top: 0rem !important;
@@ -1324,8 +1323,7 @@ hr {
     padding: 0 0;
   }
 
-  .col-custom,
-  .p-product {
+  .col-custom{
     color: white !important;
     text-align: center !important;
     padding-top: 0rem !important;
@@ -1983,6 +1981,8 @@ h1 {
 h3{
   text-align: center;
   font-weight: bold !important;
+  padding: 0 0;
+  margin: 0 0;
 }
 
 td, th, .table-bordered, .table-responsive-sm{
@@ -2372,44 +2372,30 @@ small {
     /* Media Rules */
     @media screen and (max-width: 1087px) {
       .about {
-        color: #4ebab5 !important;
-        /*font-family: 'Noto Serif', serif !important;*/
         font-size: 0.7rem !important;
       }
 
       .about-dlist {
-        color: #4ebab5 !important;
-          /*font-family: 'Noto Serif', serif !important;*/
         font-size: 0.7rem !important;
       }
 
       .services {
-        color: #4ebab5 !important;
-        /*font-family: 'Noto Serif', serif !important;*/
         font-size: 0.7rem !important;
       }
 
       .product {
-        color: #4ebab5 !important;
-          /*font-family: 'Noto Serif', serif !important;*/
         font-size: 0.7rem !important;
       }
 
       .partners {
-        color: #4ebab5 !important;
-          /*font-family: 'Noto Serif', serif !important;*/
         font-size: 0.7rem !important;
       }
 
       .log-btn {
-        color: #4ebab5 !important;
-        /*font-family: 'Noto Serif', serif !important;*/
         font-size: 0.7rem !important;
       }
 
       .letsTalk {
-        color: #4ebab5 !important;
-        /*font-family: 'Noto Serif', serif !important;*/
         font-size: 0.7rem !important;
       }
 
@@ -2439,44 +2425,30 @@ small {
       }
 
       .services {
-        color: #4ebab5 !important;
-          /*font-family: 'Noto Serif', serif !important;*/
         font-size: 0.7rem !important;
       }
 
       .product {
-        color: #4ebab5 !important;
-        /*font-family: 'Noto Serif', serif !important;*/
         font-size: 0.7rem !important;
       }
 
       .about {
-        color: #4ebab5 !important;
-        /*font-family: 'Noto Serif', serif !important;*/
         font-size: 0.7rem !important;
       }
 
       .about-dlist {
-        color: #4ebab5 !important;
-          /*font-family: 'Noto Serif', serif !important;*/
         font-size: 0.7rem !important;
       }
 
       .partners {
-        color: #4ebab5 !important;
-          /*font-family: 'Noto Serif', serif !important;*/
         font-size: 0.7rem !important;
       }
 
       .log-btn {
-        color: #4ebab5 !important;
-        /*font-family: 'Noto Serif', serif !important;*/
         font-size: 0.7rem !important;
       }
 
       .letsTalk {
-        color: #4ebab5 !important;
-          /*font-family: 'Noto Serif', serif !important;*/
         font-size: 0.7rem !important;
       }
 
@@ -2493,44 +2465,30 @@ small {
 
     @media screen and (max-width: 450px) {
       .services {
-        color: #4ebab5 !important;
-        /*font-family: 'Noto Serif', serif !important;*/
         font-size: 0.9rem !important;
       }
 
       .product {
-        color: #4ebab5 !important;
-          /*font-family: 'Noto Serif', serif !important;*/
         font-size: 0.9rem !important;
       }
 
       .about {
-        color: #4ebab5 !important;
-          /*font-family: 'Noto Serif', serif !important;*/
         font-size: 0.9rem !important;
       }
 
       .about-dlist {
-        color: #4ebab5 !important;
-        /*font-family: 'Noto Serif', serif !important;*/
         font-size: 0.9rem !important;
       }
 
       .partners {
-        color: #4ebab5 !important;
-          /*font-family: 'Noto Serif', serif !important;*/
         font-size: 0.9rem !important;
       }
 
       .log-btn {
-        color: #4ebab5 !important;
-        /*font-family: 'Noto Serif', serif !important;*/
         font-size: 0.9rem !important;
       }
 
       .letsTalk {
-        color: #4ebab5 !important;
-          /*font-family: 'Noto Serif', serif !important;*/
         font-size: 0.9rem !important;
       }
 

@@ -384,6 +384,11 @@ footer {
     background-color: #969e96 !important;
     background-blend-mode: multiply;
   }
+
+  footer{
+    color: white !important;
+    background-color: #333333 !important;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -437,6 +442,10 @@ footer {
     padding: 0 4rem !important;
     padding-top: 3.5rem !important;
     margin: 0 0 !important;
+  }
+  footer{
+    color: white !important;
+    background-color: #333333 !important;
   }
 }
 
@@ -492,6 +501,11 @@ footer {
     padding: 0 4rem !important;
     padding-top: 3.5rem !important;
     margin: 0 0 !important;
+  }
+
+  footer{
+    color: white !important;
+    background-color: #333333 !important;
   }
 }
 

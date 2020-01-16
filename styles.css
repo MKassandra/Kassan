@@ -444,14 +444,14 @@ footer {
 @media screen and (max-width: 400px) {
   .display-4 {
     text-align: center;
-    font-size: 3rem !important;
+    font-size: 2.5rem !important;
     padding-bottom: 1rem !important;
     margin: 0 0 !important;
   }
 
   .lead {
     text-align: center !important;
-    font-size: 1.5rem !important;
+    font-size: 1.3rem !important;
   }
 
   .btn-product {

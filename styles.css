@@ -2401,6 +2401,7 @@ h1 {
 
     .e-bank {
         padding: 2rem 2rem !important;
+        padding-bottom:5rem!important;
     }
 
     /*additional ebank*/
@@ -2830,6 +2831,9 @@ small {
                 font-size: 3rem !important;
                 text-align: center !important;
             }
+            .e-bank{
+                padding-bottom:5rem!important;
+            }
 
             .eload {
                 padding: 13rem 5rem !important;
@@ -2856,7 +2860,7 @@ small {
             }
 
             .fund {
-                padding: 2rem 2rem !important;
+                padding: 4rem 2rem !important;
                 color: white;
                 text-align: justify;
                 background-image: url("images/s_transfer.png") !important;
@@ -2869,7 +2873,7 @@ small {
             }
 
             .mobile {
-                padding: 2rem 2rem !important;
+                padding: 4rem 2rem !important;
                 color: white;
                 text-align: justify;
                 background-image: url("images/s_mobile.png") !important;
@@ -2882,7 +2886,7 @@ small {
             }
 
             .online {
-                padding: 2rem 2rem !important;
+                padding: 4rem 2rem !important;
                 color: white;
                 text-align: justify;
                 background-image: url("images/s_obank.png") !important;
@@ -2895,7 +2899,7 @@ small {
             }
 
             .ewallet {
-                padding: 2rem 2rem !important;
+                padding: 4rem 2rem !important;
                 color: white !important;
                 text-align: justify;
                 background-image: url("images/s_ewallet.png") !important;

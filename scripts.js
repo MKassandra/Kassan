@@ -4,6 +4,13 @@ currentYear = today.getFullYear();
 selectYear = document.getElementById("year");
 selectMonth = document.getElementById("month");
 
+var dd1 = "";
+var dd2 = "";
+var dd3 = "";
+checkNew = "False";
+var row1 = "";
+var cells1 = "";
+
 months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 monthAndYear = document.getElementById("monthAndYear");
@@ -28,9 +35,7 @@ function todayDate() {
   currentYear = today.getFullYear();
   selectYear = document.getElementById("year");
   selectMonth = document.getElementById("month");
-
   months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-
   monthAndYear = document.getElementById("monthAndYear");
   showCalendar(currentMonth, currentYear);
 }
@@ -45,10 +50,10 @@ function showCalendar(month, year) {
 
   var firstDay = (new Date(year, month)).getDay();
 
-  tbl = document.getElementById("calendar-body"); // body of the calendar
+  tblCalendar = document.getElementById("calendar-body"); // body of the calendar
 
   // clearing all previous cells
-  tbl.innerHTML = "";
+  tblCalendar.innerHTML = "";
 
   // filing data about month and in the page via DOM.
   monthAndYear.innerHTML = months[month] + " " + year;
@@ -73,54 +78,117 @@ function showCalendar(month, year) {
       } else {
         cell = document.createElement("td");
         cellText = document.createTextNode(date);
-        if (date === today.getDate() && year === today.getFullYear() && month === today.getMonth()) {
+
+        if (document.getElementById("textarea-char-counter").value != "") {
+          //alert(document.getElementById("textarea-char-counter").value.length)
+          if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Jan") {
+            dd1 = 0;
+          } else if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Feb") {
+            dd1 = 1;
+          } else if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Mar") {
+            dd1 = 2;
+          } else if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Apr") {
+            dd1 = 3;
+          } else if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "May") {
+            dd1 = 4;
+          } else if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Jun") {
+            dd1 = 5;
+          } else if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Jul") {
+            dd1 = 6;
+          } else if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Aug") {
+            dd1 = 7;
+          } else if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Sep") {
+            dd1 = 8;
+          } else if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Oct") {
+            dd1 = 9;
+          } else if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Nov") {
+            dd1 = 10;
+          } else if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Dec") {
+            dd1 = 11;
+          }
+          //dd1 = parseInt(document.getElementById("textarea-char-counter").value.slice(33, 36));
+          dd2 = parseInt(document.getElementById("textarea-char-counter").value.slice(37, 39));
+          dd3 = document.getElementById("textarea-char-counter").value.slice(41, 45);
+        }
+
+        // if (row1-1 === i && cells1 === j) {
+        //   cell.classList.add("bg-info");
+        //   //alert(dd1, dd2, dd3);
+        // }
+        if (date === dd2 && month === dd1 && year === dd3) {
           cell.classList.add("bg-info");
-        } // color today's date
-        cell.appendChild(cellText);
-        row.appendChild(cell);
-        date++;
+          //alert(month, date, year);
+        }
+          cell.appendChild(cellText);
+          row.appendChild(cell);
+          date++;
+        }
       }
-
-
+      tblCalendar.appendChild(row); // appending each row into calendar body.
     }
-
-    tbl.appendChild(row); // appending each row into calendar body.
   }
 
-}
+  $("#calendar-body").on("click", "td", function(event) {
+    //alert("clicked cell at: " + this.cellIndex + ", " + this.parentNode.rowIndex);
+    //cells , rowIndex
 
-$("#calendar-body").on("click", "td", function(event) {
-  //console.log($(this).text());
-  //document.getElementById("textarea-char-counter").innerHTML = "";
-  //document.getElementById("textarea-char-counter").innerHTML = "I would like to set a meeting at " + $(monthAndYear).text().slice(0, 3) + " " + $(this).text() + ", " + $(monthAndYear).text().slice(4, 8) + "."; // $(currentyear).text ;
-  //var msg1 = document.getElementsByTagName("textarea-char-counter");
-  //msg1.setAttribute(innerHTMLs,"I would like to set a meeting at " + $(monthAndYear).text().slice(0, 3) + " " + $(this).text() + ", " + $(monthAndYear).text().slice(4, 8) + ".");
-  var daydate1 = "";
-  if ((document.getElementById("textarea-char-counter").value).length > 46) {
-    if (($(this).text()).length == 1) {
-      daydate1 = "0" + $(this).text();
+    row1 = this.parentNode.rowIndex
+    cells1 = this.cellIndex;
+    daydate1 = "";
+    if ((document.getElementById("textarea-char-counter").value).length > 46) {
+      if (($(this).text()).length == 1) {
+        daydate1 = "0" + $(this).text();
+      } else {
+        daydate1 = $(this).text();
+      }
+      var msg2 = document.getElementById("textarea-char-counter").value.slice(46, (document.getElementById("textarea-char-counter").value).length);
+      var msg1 = "I would like to set a meeting at " + $(monthAndYear).text().slice(0, 3) + " " + daydate1 + ", " + $(monthAndYear).text().slice(4, 8) + ".";
+      document.getElementById("textarea-char-counter").value = msg1 + msg2;
+      //alert((document.getElementById("textarea-char-counter").value).length);
     } else {
-      daydate1 = $(this).text();
+      if (($(this).text()).length == 1) {
+        daydate1 = "0" + $(this).text();
+      } else {
+        daydate1 = $(this).text();
+      }
+      var msg3 = "I would like to set a meeting at " + $(monthAndYear).text().slice(0, 3) + " " + daydate1 + ", " + $(monthAndYear).text().slice(4, 8) + ".";
+      document.getElementById("textarea-char-counter").value = msg3;
+      //alert((document.getElementById("textarea-char-counter").value).length);
     }
-    var msg2 = document.getElementById("textarea-char-counter").value.slice(180, (document.getElementById("textarea-char-counter").value).length);
-    var msg1 = "Good day! We would like to set a meeting on " + $(monthAndYear).text().slice(0, 3) + " " + daydate1 + ", " + $(monthAndYear).text().slice(4, 8) + ".";
-    document.getElementById("textarea-char-counter").value = msg1 + msg2;
-    //alert((document.getElementById("textarea-char-counter").value).length);
-  } else {
-    if (($(this).text()).length == 1) {
-      daydate1 = "0" + $(this).text();
-    } else {
-      daydate1 = $(this).text();
+    // daydate2 = $(this).text();
+    // daydate2 = parseInt(daydate2);
+    // mo = 0;
+    if ($(monthAndYear).text().slice(0, 3) === "Jan") {
+      mo = 0;
+    } else if ($(monthAndYear).text().slice(0, 3) === "Feb") {
+      mo = 1;
+    } else if ($(monthAndYear).text().slice(0, 3) === "Mar") {
+      mo = 2;
+    } else if ($(monthAndYear).text().slice(0, 3) === "Apr") {
+      mo = 3;
+    } else if ($(monthAndYear).text().slice(0, 3) === "May") {
+      mo = 4;
+    } else if ($(monthAndYear).text().slice(0, 3) === "Jun") {
+      mo = 5;
+    } else if ($(monthAndYear).text().slice(0, 3) === "Jul") {
+      mo = 6;
+    } else if ($(monthAndYear).text().slice(0, 3) === "Aug") {
+      mo = 7;
+    } else if ($(monthAndYear).text().slice(0, 3) === "Sep") {
+      mo = 8;
+    } else if ($(monthAndYear).text().slice(0, 3) === "Oct") {
+      mo = 9;
+    } else if ($(monthAndYear).text().slice(0, 3) === "Nov") {
+      mo = 10;
+    } else if ($(monthAndYear).text().slice(0, 3) === "Dec") {
+      mo = 11;
     }
-    var msg3 = "Good day! We would like to set a meeting on " + $(monthAndYear).text().slice(0, 3) + " " + daydate1 + ", " + $(monthAndYear).text().slice(4, 8) + ".";
-    document.getElementById("textarea-char-counter").value = msg3;
-    //alert((document.getElementById("textarea-char-counter").value).length);
+    // checkNew = "True";
+    showCalendar(mo, $(monthAndYear).text().slice(4, 8));
+    //checkNew = false;
+  });
+
+  // check how many days in a month code from https://dzone.com/articles/determining-number-days-month
+  function daysInMonth(iMonth, iYear) {
+    return 32 - new Date(iYear, iMonth, 32).getDate();
   }
-});
-
-
-
-// check how many days in a month code from https://dzone.com/articles/determining-number-days-month
-function daysInMonth(iMonth, iYear) {
-  return 32 - new Date(iYear, iMonth, 32).getDate();
-}

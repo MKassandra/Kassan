@@ -2410,23 +2410,27 @@ h1 {
     }
 
     .icon-ebank {
+
         height: 2rem;
-        width: 0.2rem;
+        width: 2rem;
     }
 
 
     .row-ebank {
+        text-align:center !important;
         margin-top: 3rem !important;
-        margin-left: 2.5rem !important;
+        margin-left: 0rem !important;
     }
 
     .bank1 {
-        margin-left: 0.5rem !important;
+        margin-left: 0rem !important;
+
     }
 
-    .bank2 {
-        margin-top: -1rem !important;
-        margin-left: 1.5rem !important;
+    .ebank2 {
+        margin-top: 1rem !important;
+
+
     }
 
     .eload {

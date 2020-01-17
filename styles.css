@@ -2410,14 +2410,10 @@ h1 {
     }
 
     .icon-ebank {
-        height: 6rem;
-        width: 4rem;
+        height: 4rem;
+        width: 2rem;
     }
 
-    .ebank2 {
-        margin-left: -2rem;
-        width: 6rem;
-    }
 
     .row-ebank {
         margin-top: 3rem !important;

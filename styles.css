@@ -834,6 +834,25 @@ hr {
     margin-bottom: -10rem;
 }
 
+.product-display{
+  height: 6.5rem;
+  width: 6.5rem;
+  margin: 0 3rem !important;
+
+}
+
+.product-display{
+  height: 6.5rem;
+  width: 6.5rem;
+  margin: 0 3rem !important;
+}
+
+.product2-display{
+  height: 6.5rem;
+  width: 6.5rem;
+  margin: 0 6rem !important;
+}
+
 .card-display:hover {
     color: #4ebab5;
     opacity: 50% !important;

@@ -1,103 +1,109 @@
 html {
-  scroll-behavior: smooth;
-  zoom: 100% !important;
+    scroll-behavior: smooth;
+    zoom: 100% !important;
 }
 
 /*font style - basic*/
 @font-face {
-  font-family: myBento;
-  src: url('font/BentonSans_book.otf');
+    font-family: myBento;
+    src: url('font/BentonSans_book.otf');
 }
 
 /*font style - header*/
 @font-face {
-  font-family: myBento_head;
-  src: url('font/BentonSans_regular.otf');
+    font-family: myBento_head;
+    src: url('font/BentonSans_regular.otf');
 }
 
 body {
-  font-family: myBento !important;
-  /* background-image: bodyimg.png !important; */
-  /*background-image: url('images/bg_main.jpg');
+    font-family: myBento !important;
+    /* background-image: bodyimg.png !important; */
+    /*background-image: url('images/bg_main.jpg');
   background-size: contain !important;
   background-position: center !important;*/
-  background-color: #c4c4c4 !important;
-  width: 100%;
+    background-color: #c4c4c4 !important;
+    width: 100%;
 }
 
-h1,h2,h3,h4,h5 {
-  font-family: myBento_head !important;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: myBento_head !important;
 }
 
 p {
-  padding-top: 0.7rem;
-  font-size: 0.9rem;
+    padding-top: 0.7rem;
+    font-size: 0.9rem;
 }
 
-a{
-  color: white !important;
+a {
+    color: white !important;
 }
 
-strong{
-  font-weight: bolder !important;
+strong {
+    font-weight: bolder !important;
 }
 
 
 /* Logo Size */
 .brblogo {
-  height: 5rem;
-  width: 3.9rem;
-  margin-left: 2rem;
-  margin-right: 0.5rem;
+    height: 5rem;
+    width: 3.9rem;
+    margin-left: 2rem;
+    margin-right: 0.5rem;
 }
 
 .cashmate {
-  height: 3.1rem;
-  width: 10rem;
+    height: 3.1rem;
+    width: 10rem;
 }
 
 /* Navbar Style */
-.h-color, .header-nav, .nav-custom {
-  background-image: linear-gradient(to right, #c8c8c8, #999999)!important;
+.h-color,
+.header-nav,
+.nav-custom {
+    background-image: linear-gradient(to right, #c8c8c8, #999999) !important;
 }
 
 /* Paddings Header Section */
 #header-nav {
-  /*padding: 1.2rem 2rem 0 2rem;*/
+    /*padding: 1.2rem 2rem 0 2rem;*/
 }
 
 /* Text Styles */
 /* HOVER EFFECTS */
 .navbar ul li a {
-  color: #171717 !important;
+    color: #171717 !important;
 }
 
 .navbar ul li a:hover {
-  color: white !important;
+    color: white !important;
 }
 
 .about {
-  color: #171717 !important;
-  /*font-family: 'Noto Serif', serif !important;*/
-  font-size: 1rem !important;
+    color: #171717 !important;
+    /*font-family: 'Noto Serif', serif !important;*/
+    font-size: 1rem !important;
 }
 
 .services {
-  color: #171717 !important;
-  /*font-family: 'Noto Serif', serif !important;*/
-  font-size: 1rem !important;
+    color: #171717 !important;
+    /*font-family: 'Noto Serif', serif !important;*/
+    font-size: 1rem !important;
 }
 
 .product {
-  color: #171717 !important;
-  /*font-family: 'Noto Serif', serif !important;*/
-  font-size: 1rem !important;
+    color: #171717 !important;
+    /*font-family: 'Noto Serif', serif !important;*/
+    font-size: 1rem !important;
 }
 
 .partners {
-  color: #171717 !important;
-  /*font-family: 'Noto Serif', serif !important;*/
-  font-size: 1rem !important;
+    color: #171717 !important;
+    /*font-family: 'Noto Serif', serif !important;*/
+    font-size: 1rem !important;
 }
 
 /*
@@ -107,703 +113,827 @@ strong{
     font-size: 1rem !important;
 }*/
 .letsTalk {
-  color: #171717 !important;
-  /*font-family: 'Noto Serif', serif !important;*/
-  font-size: 1rem !important;
+    color: #171717 !important;
+    /*font-family: 'Noto Serif', serif !important;*/
+    font-size: 1rem !important;
 }
 
 #navbarNav {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 /*No arrow in dropdown*/
 .dropdown-toggle::after {
-  display: none !important;
+    display: none !important;
 }
 
 /*dropdown color*/
 .navbar-custom .dropdown-menu {
-  background-color: #c4c4c4;
-  /*bg color*/
-  border-width: thin;
+    background-color: #999999;
+    /*bg color*/
+    border-width: thin;
 }
 
 .navbar-custom .dropdown-item {
-  color: #4ebab5;
-  /*text color*/
-  /*font-family: 'Noto Serif', serif !important;*/
-  font-size: 1rem !important;
+    color: #171717;
+    /*text color*/
+    /*font-family: 'Noto Serif', serif !important;*/
+    font-size: 1rem !important;
 }
 
 .navbar-custom .dropdown-item:hover,
 .navbar-custom .dropdown-item:focus {
-  color: #171717 !important;
-  /*text color*/
-  background-color: #4ebab5;
-  /*highlight*/
+    color: white !important;
+    /*text color*/
+    background-color: #808a87;
+    /*highlight*/
 }
 
 /* Border Manipulation */
 .about-border {
-  border: 1px solid;
-  border-right-color: #171717 !important;
-  border-top: none !important;
-  border-left: none !important;
-  border-bottom: none;
-  padding-right: 1rem;
-  margin-right: 1rem;
+    border: 1px solid;
+    border-right-color: #171717 !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-bottom: none;
+    padding-right: 1rem;
+    margin-right: 1rem;
 }
 
 .ul-holder {
-  margin-bottom: 5rem;
+    margin-bottom: 5rem;
 }
 
 .services-border {
-  border: 1px solid;
-  border-right-color: #171717 !important;
-  border-top: none !important;
-  border-left: none !important;
-  border-bottom: none;
-  padding-right: 1rem;
-  margin-right: 1rem;
+    border: 1px solid;
+    border-right-color: #171717 !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-bottom: none;
+    padding-right: 1rem;
+    margin-right: 1rem;
 }
 
 .product-border {
-  border: 1px solid;
-  border-right-color: #171717 !important;
-  border-top: none !important;
-  border-left: none !important;
-  border-bottom: none;
-  padding-right: 1rem;
-  margin-right: 1rem;
+    border: 1px solid;
+    border-right-color: #171717 !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-bottom: none;
+    padding-right: 1rem;
+    margin-right: 1rem;
 }
 
 .partners-border {
-  border: 1px solid;
-  border-right-color: #171717 !important;
-  border-top: none !important;
-  border-left: none !important;
-  border-bottom: none;
-  padding-right: 1rem;
-  margin-right: 1rem;
+    border: 1px solid;
+    border-right-color: #171717 !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-bottom: none;
+    padding-right: 1rem;
+    margin-right: 1rem;
 }
 
 .letsTalk-border {
-  border: 1px solid;
-  border-right-color: #171717 !important;
-  border-top: none !important;
-  border-left: none !important;
-  border-bottom: none;
-  padding-right: 1rem;
-  margin-right: 1rem;
+    border: 1px solid;
+    border-right-color: #171717 !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-bottom: none;
+    padding-right: 1rem;
+    margin-right: 1rem;
 }
 
 /* Button Header */
 .log-btn {
-  color: #4ebab5 !important;
-  border-color: #4ebab5 !important;
+    color: #4ebab5 !important;
+    border-color: #4ebab5 !important;
 }
 
 .log-btn:hover,
 .log-btn:focus,
 .log-btn:active {
-  background-color: #4ebab5 !important;
-  color: white !important;
+    background-color: #4ebab5 !important;
+    color: white !important;
 }
 
 .log-btn.active {
-  background-color: #4ebab5 !important;
+    background-color: #4ebab5 !important;
 }
 
 /*Footer contact info*/
 footer {
-  font-size: 0.8rem !important;
-  height: 100px;
-  bottom: 0;
-  width: 100%;
-  padding: 1rem 3rem;
-  color: white !important;
-  background-color: #333333 !important;
+    font-size: 0.8rem !important;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem 3rem;
+    color: white !important;
+    background-color: #333333 !important;
 }
 
 /*Home page slideshow*/
 .lead {
-  font-size: 1.5rem !important;
+    font-size: 1.5rem !important;
 }
 
 .jumbbank {
-  padding: 6em 10em !important;
-  color: white;
-  background-image: url("images/s_front.jpg") !important;
-  /* background-size: 100% 100%; */
-  background-size: cover !important;
-  background-position: center !important;
-  height: 27rem;
-  background-repeat: no-repeat !important;
+    padding: 6em 10em !important;
+    color: white;
+    background-image: url("images/s_front.jpg") !important;
+    /* background-size: 100% 100%; */
+    background-size: cover !important;
+    background-position: center !important;
+    height: 27rem;
+    background-repeat: no-repeat !important;
 }
 
 
 .s_purchase {
-  padding: 6em 10em !important;
-  color: white;
-  background-image: url("images/s_purchase.png") !important;
-  background-size: cover !important;
-  background-position: center !important;
-  height: 27rem;
-  background-repeat: no-repeat !important;
+    padding: 6em 10em !important;
+    color: white;
+    background-image: url("images/s_purchase.png") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 27rem;
+    background-repeat: no-repeat !important;
 }
 
 .s_bill {
-  padding: 6em 10em !important;
-  color: white;
-  background-image: url("images/s_bill.png") !important;
-  background-size: cover !important;
-  background-position: center !important;
-  height: 27rem;
-  background-repeat: no-repeat !important;
+    padding: 6em 10em !important;
+    color: white;
+    background-image: url("images/s_bill.png") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 27rem;
+    background-repeat: no-repeat !important;
 }
 
 .s_payroll {
-  padding: 5em 10em !important;
-  color: white;
-  background-image: url("images/s_payroll.png") !important;
-  background-size: cover !important;
-  background-position: center !important;
-  height: 27rem;
-  background-repeat: no-repeat !important;
+    padding: 5em 10em !important;
+    color: white;
+    background-image: url("images/s_payroll.png") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 27rem;
+    background-repeat: no-repeat !important;
 }
 
 .s_withdraw {
-  padding: 6em 10em !important;
-  color: white;
-  background-image: url("images/s_withdraw.png") !important;
-  background-size: cover !important;
-  background-position: center !important;
-  height: 27rem;
-  background-repeat: no-repeat !important;
+    padding: 6em 10em !important;
+    color: white;
+    background-image: url("images/s_withdraw.png") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 27rem;
+    background-repeat: no-repeat !important;
 }
 
 .s_product {
-  padding: 4em 10em !important;
-  color: white;
-  background-image: url("images/artboard1.jpg") !important;
-  background-size: cover !important;
-  background-position: center !important;
-  height: 27rem;
-  background-repeat: no-repeat !important;
+    padding: 4em 10em !important;
+    color: white;
+    background-image: url("images/artboard1.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 27rem;
+    background-repeat: no-repeat !important;
 }
 
 /*Button Talk*/
 .btn-custom {
-  padding: 0.3rem 2rem !important;
-  color: white !important;
+    padding: 0.3rem 2rem !important;
+    color: white !important;
 }
 
 .btn-product {
-  /*margin-left: 28rem!important;*/
-  padding: 0.5rem 1.5rem !important;
+    /*margin-left: 28rem!important;*/
+    padding: 0.5rem 1.5rem !important;
 }
 
 /*talk content from index.html*/
 .contact-content {
-  text-align: center;
-  padding: 0.1rem 5rem;
-  padding-bottom: 6rem;
-  color: white;
-  background-color: rgba(99, 102, 106, 0.7)!important;
-  /*background-color: #776b5d !important;*/
+    text-align: center;
+    padding: 0.1rem 5rem;
+    padding-bottom: 6rem;
+    color: white;
+    background-color: rgba(99, 102, 106, 0.7) !important;
+    /*background-color: #776b5d !important;*/
 }
-.link-add{
-  color: white !important;
+
+.link-add {
+    color: white !important;
 }
 
 /*media manipulation in index page*/
 @media screen and (max-width: 800px) {
-  #body-content{
-    text-align: center !important;
-  }
+    #body-content {
+        text-align: center !important;
+    }
 
-  .display-4 {
-    text-align: center;
-    font-size: 5rem!important;
-    padding-bottom: 1.5rem !important;
-    margin: 0 0 !important;
-  }
+    .display-4 {
+        text-align: center;
+        font-size: 5rem !important;
+        padding-bottom: 1.5rem !important;
+        margin: 0 0 !important;
+    }
 
-  .lead {
-    text-align: center !important;
-    font-size: 1.8rem !important;
-  }
+    .lead {
+        text-align: center !important;
+        font-size: 1.8rem !important;
+    }
 
-  .btn-product {
-    margin-left: 3.1rem !important;
-  }
+    .btn-product {
+        margin-left: 3.1rem !important;
+    }
 
-  .jumbbank {
-    padding: 0 8rem !important;
-    padding-top: 3rem !important;
-    margin: 0 0 !important;
-  }
+    .jumbbank {
+        background-position: left !important;
+    }
 
-  .s_purchase {
-    padding: 0 8rem !important;
-    padding-top: 3rem !important;
-    margin: 0 0 !important;
-    background-color: #969e96 !important;
-    background-blend-mode: multiply;
-  }
+    .s_purchase {
+        padding: 0 8rem !important;
+        padding-top: 3rem !important;
+        margin: 0 0 !important;
+        background-color: #969e96 !important;
+        background-blend-mode: multiply;
+    }
 
-  .s_bill {
-    padding: 0 8rem !important;
-    padding-top: 3rem !important;
-    margin: 0 0 !important;
-    background-color: #969e96 !important;
-    background-blend-mode: multiply;
-  }
+    .s_bill {
+        padding: 0 8rem !important;
+        padding-top: 3rem !important;
+        margin: 0 0 !important;
+        background-color: #969e96 !important;
+        background-blend-mode: multiply;
+    }
 
-  .s_payroll {
-    padding: 0 8rem !important;
-    padding-top: 3rem !important;
-    margin: 0 0 !important;
-    background-color: #969e96 !important;
-    background-blend-mode: multiply;
-  }
+    .s_payroll {
+        padding: 0 8rem !important;
+        padding-top: 3rem !important;
+        margin: 0 0 !important;
+        background-color: #969e96 !important;
+        background-blend-mode: multiply;
+    }
 
-  .s_withdraw {
-    padding: 0 8rem !important;
-    padding-top: 3rem !important;
-    margin: 0 0 !important;
-    background-color: #969e96 !important;
-    background-blend-mode: multiply;
-  }
+    .s_withdraw {
+        padding: 0 8rem !important;
+        padding-top: 3rem !important;
+        margin: 0 0 !important;
+        background-color: #969e96 !important;
+        background-blend-mode: multiply;
+    }
 
-  .s_product {
-    padding: 0 8rem !important;
-    padding-top: 3rem !important;
-    margin: 0 0 !important;
-    background-color: #969e96 !important;
-    background-blend-mode: multiply;
-  }
+    .s_product {
+        padding: 0 8rem !important;
+        padding-top: 3rem !important;
+        margin: 0 0 !important;
+        background-color: #969e96 !important;
+        background-blend-mode: multiply;
+    }
 
-  footer{
-    color: white !important;
-    background-color: #333333 !important;
-  }
+    footer {
+        color: white !important;
+        background-color: #333333 !important;
+    }
 }
 
 @media screen and (max-width: 500px) {
-  .display-4 {
-    text-align: center;
-    font-size: 3rem !important;
-    padding-bottom: 1rem !important;
-    margin: 0 0 !important;
-  }
+    .display-4 {
+        text-align: center;
+        font-size: 3rem !important;
+        padding-bottom: 1rem !important;
+        margin: 0 0 !important;
+    }
 
-  .lead {
-    text-align: center !important;
-    font-size: 1.5rem !important;
-  }
+    .lead {
+        text-align: center !important;
+        font-size: 1.5rem !important;
+    }
 
-  .btn-product {
-    margin-left: 2.9rem !important;
-  }
+    .btn-product {
+        margin-left: 2.9rem !important;
+    }
 
-  .jumbbank {
-    padding: 0 4rem !important;
-    padding-top: 3rem !important;
-    margin: 0 0 !important;
-  }
+    .jumbbank {
+        padding: 0 4rem !important;
+        padding-top: 3rem !important;
+        margin: 0 0 !important;
+    }
 
-  .s_purchase {
-    padding: 0 4rem !important;
-    padding-top: 3.5rem !important;
-    margin: 0 0 !important;
-  }
+    .s_purchase {
+        padding: 0 4rem !important;
+        padding-top: 3.5rem !important;
+        margin: 0 0 !important;
+    }
 
-  .s_bill {
-    padding: 0 4rem !important;
-    padding-top: 3.5rem !important;
-    margin: 0 0 !important;
-  }
+    .s_bill {
+        padding: 0 4rem !important;
+        padding-top: 3.5rem !important;
+        margin: 0 0 !important;
+    }
 
-  .s_payroll {
-    padding: 0 4rem !important;
-    padding-top: 3.5rem !important;
-    margin: 0 0 !important;
-  }
+    .s_payroll {
+        padding: 0 4rem !important;
+        padding-top: 3.5rem !important;
+        margin: 0 0 !important;
+    }
 
-  .s_withdraw {
-    padding: 0 4rem !important;
-    padding-top: 3.5rem !important;
-    margin: 0 0 !important;
-  }
+    .s_withdraw {
+        padding: 0 4rem !important;
+        padding-top: 3.5rem !important;
+        margin: 0 0 !important;
+    }
 
-  .s_product {
-    padding: 0 4rem !important;
-    padding-top: 3.5rem !important;
-    margin: 0 0 !important;
-  }
-  footer{
-    color: white !important;
-    background-color: #333333 !important;
-  }
+    .s_product {
+        padding: 0 4rem !important;
+        padding-top: 3.5rem !important;
+        margin: 0 0 !important;
+    }
+
+    footer {
+        color: white !important;
+        background-color: #333333 !important;
+    }
 }
 
 
 @media screen and (max-width: 400px) {
-  .display-4 {
-    text-align: center;
-    font-size: 2.5rem !important;
-    padding-bottom: 1rem !important;
-    margin: 0 0 !important;
-  }
+    .display-4 {
+        text-align: center;
+        font-size: 2.5rem !important;
+        padding-bottom: 1rem !important;
+        margin: 0 0 !important;
+    }
 
-  .lead {
-    text-align: center !important;
-    font-size: 1.3rem !important;
-  }
+    .lead {
+        text-align: center !important;
+        font-size: 1.3rem !important;
+    }
 
-  .btn-product {
-    margin-left: 2.9rem !important;
-  }
+    .btn-product {
+        margin-left: 2.9rem !important;
+    }
 
-  .jumbbank {
-    padding: 0 4rem !important;
-    padding-top: 3rem !important;
-    margin: 0 0 !important;
-  }
+    .jumbbank {
+        padding: 0 4rem !important;
+        padding-top: 3rem !important;
+        margin: 0 0 !important;
+    }
 
-  .s_purchase {
-    padding: 0 4rem !important;
-    padding-top: 3.5rem !important;
-    margin: 0 0 !important;
-  }
+    .s_purchase {
+        padding: 0 4rem !important;
+        padding-top: 3.5rem !important;
+        margin: 0 0 !important;
+    }
 
-  .s_bill {
-    padding: 0 4rem !important;
-    padding-top: 1rem !important;
-    margin: 0 0 !important;
-  }
+    .s_bill {
+        padding: 0 4rem !important;
+        padding-top: 1rem !important;
+        margin: 0 0 !important;
+    }
 
-  .s_payroll {
-    padding: 0 4rem !important;
-    padding-top: 3.5rem !important;
-    margin: 0 0 !important;
-  }
+    .s_payroll {
+        padding: 0 4rem !important;
+        padding-top: 3.5rem !important;
+        margin: 0 0 !important;
+    }
 
-  .s_withdraw {
-    padding: 0 4rem !important;
-    padding-top: 3.5rem !important;
-    margin: 0 0 !important;
-  }
+    .s_withdraw {
+        padding: 0 4rem !important;
+        padding-top: 3.5rem !important;
+        margin: 0 0 !important;
+    }
 
-  .s_product {
-    padding: 0 4rem !important;
-    padding-top: 3.5rem !important;
-    margin: 0 0 !important;
-  }
+    .s_product {
+        padding: 0 4rem !important;
+        padding-top: 3.5rem !important;
+        margin: 0 0 !important;
+    }
 
-  footer{
-    color: white !important;
-    background-color: #333333 !important;
-  }
+    footer {
+        color: white !important;
+        background-color: #333333 !important;
+    }
 }
 
 /*about page content*/
 #history-body-content {
-  /*padding: 4rem 3rem !important;*/
-  padding-top: 1rem;
-  line-height: 2;
-  color: white;
-  text-align: justify;
-  background-color: #00081d !important;
+    /*padding: 4rem 3rem !important;*/
+    padding-top: 1rem;
+    line-height: 2;
+    color: white;
+    text-align: justify;
+    background-color: #00081d !important;
+}
+
+.row-h {
+    padding: 0 10rem !important;
+    padding-bottom: 3rem !important;
+}
+
+/*media for about page: history*/
+@media screen and (max-width: 800px) {
+    .row-h {
+        padding: 0 5rem !important;
+
+    }
+
+    .h1-about {
+        text-align: center;
+        padding: 0 0 !important;
+    }
 
 }
 
-.row-h{
-  padding: 0 10rem !important;
-  padding-bottom: 3rem !important;
+@media screen and (max-width: 400px) {
+
+    .h1-about {
+        font-size: 3rem !important;
+        text-align: center !important;
+        padding: 0 0 !important;
+    }
+
+    .row-h {
+        padding: 0 2rem !important;
+    }
 }
 
 #who-body-content {
-  padding: 4rem 6rem !important;
-  line-height: 2;
-  color: white;
-  text-align: justify;
-  background-image: url("images/artboard1.jpg") !important;
-  width: 100% !important;
-  height: 100% !important;
-  background-size: cover;
-  background-repeat: no-repeat;
+    padding: 4rem 6rem !important;
+    line-height: 2;
+    color: white;
+    text-align: justify;
+    background-image: url("images/artboard1.jpg") !important;
+    background-size: cover !important;
+    background-position: left;
+    background-repeat: no-repeat;
 }
 
+/*media for about page: history*/
+@media screen and (max-width: 800px) {
+    #who-body-content {
+        padding: 0 4rem !important;
+        text-align: justify;
+    }
+
+    .h1-who {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    #who-body-content {
+        padding: 0 2rem !important;
+    }
+
+    .h1-who {
+        font-size: 3rem !important;
+        text-align: center;
+    }
+
+}
+
+
 #meet-body-content {
-  padding: 4rem 0rem;
-  line-height: 2;
-  color: white;
-  background-color: #00081d !important;
-  padding-bottom: 14rem;
+    padding: 4rem 0rem;
+    line-height: 2;
+    color: white;
+    background-color: #999999 !important;
+    padding-bottom: 10rem;
 }
 
 .bod-img {
-  height: 100%;
-  width: 100%;
-  background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
-.vertical-nav{
-  background-color: rgb(150, 146, 132,2) !important;
+.vertical-nav {
+    background-color: rgb(150, 146, 132, 2) !important;
 }
 
 /*meet the meet content*/
-.hboard-p, .hboard-t {
-  height: 34rem;
-  width: 25rem;
-  text-align: center;
-  padding: 0.7rem 0.7rem;
+.hboard-p,
+.hboard-t {
+    height: 34rem;
+    width: 25rem;
+    text-align: center;
+    padding: 0.7rem 0.7rem;
 }
 
 .hboard-p2 {
-  height: 24rem;
-  width: 15rem;
-  text-align: center;
-  padding: 0.7rem 0.7rem;
+    height: 24rem;
+    width: 15rem;
+    text-align: center;
+    padding: 0.7rem 0.7rem;
 }
 
 .card-body {
-  padding-top: 0 !important;
+    padding-top: 0 !important;
 }
 
-.card, .card-deck {
-  border-width: 0px 0px !important;
+.card,
+.card-deck {
+    border-width: 0px 0px !important;
 }
 
 .card-img-top {
-  display: block !important;
-  width: 100% !important;
-  height: 27rem !important;
-  border: 0px 0px !important;
-  margin: 0px 0px !important;
+    display: block !important;
+    width: 100% !important;
+    height: 27rem !important;
+    border: 0px 0px !important;
+    margin: 0px 0px !important;
 }
 
 .card-body {
-  border: none !important;
-  background-color: #00081d;
-  padding: 7px 7px;
+    border: none !important;
+    background-color: #00081d;
+    padding: 7px 7px;
 }
 
-.card-text, .card-title {
-  color: white !important;
-  text-align: center;
+.card-text,
+.card-title {
+    color: white !important;
+    text-align: center;
 }
 
 .h1-about {
-  margin: 0rem 0rem;
-  padding-left: 5rem;
-  padding-bottom: 0!important;
+    margin: 0rem 0rem;
+    padding-left: 5rem;
+    padding-bottom: 0 !important;
 }
 
 .h1-who {
-  margin: 0rem 0rem;
-  padding-left: -3rem;
-  padding-bottom: 0!important;
+    margin: 0rem 0rem;
+    padding-left: -3rem;
+    padding-bottom: 0 !important;
+}
+
+
+@media screen and (max-width: 400px) {
+    #meet-body-content {
+        padding: 0 2rem !important;
+    }
+
 }
 
 /*about page: vertical nagigation */
 .btn-history {
-  position: fixed;
-  bottom: 400px;
-  right: 25px;
-  display: none;
+    position: fixed;
+    bottom: 400px;
+    right: 25px;
+    display: none;
 }
 
 .btn-who {
-  position: fixed;
-  bottom: 370px;
-  right: 25px;
-  display: none;
+    position: fixed;
+    bottom: 370px;
+    right: 25px;
+    display: none;
 }
 
 .btn-meet {
-  position: fixed;
-  bottom: 340px;
-  right: 25px;
-  display: none;
+    position: fixed;
+    bottom: 340px;
+    right: 25px;
+    display: none;
 }
 
-.btn-top-about{
-  position: fixed;
-  bottom: 310px;
-  right: 25px;
-  display: none;
+.btn-top-about {
+    position: fixed;
+    bottom: 310px;
+    right: 25px;
+    display: none;
 }
 
+
+@media screen and (max-width: 800px) {
+    .btn-history {
+        bottom: 0;
+        right: 0;
+    }
+
+    .btn-who {
+        bottom: 0;
+        right: 0;
+    }
+
+    .btn-meet {
+        bottom: 0;
+        right: 0;
+    }
+
+    .btn-top-about {
+        bottom: 0;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .btn-history {
+        bottom: 0;
+        right: 0;
+    }
+
+    .btn-who {
+        bottom: 0;
+        right: 0;
+    }
+
+    .btn-meet {
+        bottom: 0;
+        right: 0;
+    }
+
+    .btn-top-about {
+        bottom: 0;
+        right: 0;
+    }
+}
 
 /*footer manipulation*/
 /*media screen for footer page (adjust for monitor screen)*/
 @media screen and (max-width: 1021px) {
-  .col-3, .col-5, .col-4, .col-2 {
-    font-size: 0.7rem !important;
-    padding: 0.1rem 0.4rem !important;
-  }
+
+    .col-3,
+    .col-5,
+    .col-4,
+    .col-2 {
+        font-size: 0.7rem !important;
+        padding: 0.1rem 0.4rem !important;
+    }
 }
 
 /*media screen for footer page (adjust for monitor screen)*/
 @media screen and (max-width: 806px) {
-  .col-3, .col-5, .col-4, .col-2 {
-    font-size: 0.6rem !important;
-    padding: 0.1rem 0.4rem !important;
-  }
+
+    .col-3,
+    .col-5,
+    .col-4,
+    .col-2 {
+        font-size: 0.6rem !important;
+        padding: 0.1rem 0.4rem !important;
+    }
 }
 
 /*media screen for footer page (adjust for mobile screen)*/
 @media screen and (max-width: 600px) {
-  .col-3, .col-5, .col-4, .col-2 {
-    font-size: 0.58rem !important;
-    padding: 0 0 !important;
-  }
+
+    .col-3,
+    .col-5,
+    .col-4,
+    .col-2 {
+        font-size: 0.58rem !important;
+        padding: 0 0 !important;
+    }
 }
 
 /*media screen for footer page (adjust for mobile screen)*/
 @media screen and (max-width: 400px) {
-  .col-3, .col-5, .col-4, .col-2 {
-    font-size: 0.3rem !important;
-    padding: 0 0 !important;
-  }
+
+    .col-3,
+    .col-5,
+    .col-4,
+    .col-2 {
+        font-size: 0.3rem !important;
+        padding: 0 0 !important;
+    }
 }
 
 /*product page content*/
 /*product content page*/
 hr {
-  border: 10px solid #4ebab5 !important;
-  border-radius: 5px !important;
+    border: 10px solid #4ebab5 !important;
+    border-radius: 5px !important;
 }
 
 /*product page content*/
 .product-dev {
-  background-image: url('images/brbback.png');
-  background-size: 100% 100%;
-  padding-bottom: 5rem;
+    background-image: url('images/brbback.png');
+    background-size: 100% 100%;
+    padding-bottom: 5rem;
 }
-.cashless-product-dev{
-  padding-bottom: 5rem;
+
+.cashless-product-dev {
+    padding-bottom: 5rem;
 }
+
 .row {
-  padding-top: 0.2rem;
+    padding-top: 0.2rem;
 }
 
 .display-4brb {
-  padding-bottom: 1rem;
-  text-align: center;
-  color: white;
+    padding-bottom: 1rem;
+    text-align: center;
+    color: white;
 }
 
 .brbcard-display {
-  height: 14rem;
-  width: 25rem;
-  margin-bottom: -10rem;
+    height: 14rem;
+    width: 25rem;
+    margin-bottom: -10rem;
 }
 
 .card-display:hover {
-  color: #4ebab5;
-  opacity: 50% !important;
+    color: #4ebab5;
+    opacity: 50% !important;
 }
 
 .card-display {
-  height: 6.5rem;
-  width: 6.5rem;
-  padding: 1rem 1rem
+    height: 6.5rem;
+    width: 6.5rem;
+    padding: 1rem 1rem
 }
 
 .col-brb {
-  color: white !important;
-  text-align: center !important;
-  padding-top: 0rem !important;
-  font-size: 1.12rem;
-  margin-top: 2rem;
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    font-size: 1.12rem;
+    margin-top: 2rem;
 }
 
-.row-1{
-  margin: 0 0 !important;
+.row-1 {
+    margin: 0 0 !important;
 }
 
-.p-product{
-  font-size: 0.9rem!important;
-  margin-top: -2rem!important;
+.p-product {
+    font-size: 0.9rem !important;
+    margin-top: -2rem !important;
 }
 
 .col-custom1 {
-  color: white !important;
-  text-align: center !important;
-  padding-top: 0rem !important;
-  font-size: 1.3rem;
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    font-size: 1.3rem;
 }
 
 .col-custom2 {
-  color: white !important;
-  text-align: center !important;
-  padding-top: 0rem !important;
-  font-size: 1.3rem;
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    font-size: 1.3rem;
 }
 
 .col-custom3 {
-  color: white !important;
-  text-align: center !important;
-  padding-top: 0rem !important;
-  font-size: 1.3rem;
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    font-size: 1.3rem;
 }
 
 .col-custom4 {
-  color: white !important;
-  text-align: center !important;
-  padding-top: 0rem !important;
-  margin-top: 0rem;
-  padding-bottom: 1.7rem !important;
-  font-size: 1.3rem;
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    margin-top: 0rem;
+    padding-bottom: 1.7rem !important;
+    font-size: 1.3rem;
 }
 
 .col-custom5 {
-  color: white !important;
-  text-align: center !important;
-  padding-top: 0rem !important;
-  margin-top: 0rem;
-  padding-bottom: 1.7rem !important;
-  font-size: 1.3rem;
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    margin-top: 0rem;
+    padding-bottom: 1.7rem !important;
+    font-size: 1.3rem;
 }
 
 .col-custom,
 .p-product {
-  color: white !important;
-  text-align: center !important;
-  padding-top: 0rem !important;
-  font-size: 1.1rem;
-  margin: 0rem 0rem;
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    font-size: 1.1rem;
+    margin: 0rem 0rem;
 }
 
 /*back arrow*/
 .back-arrow {
-  height: 4rem;
-  width: 4rem;
-  margin-left: 3rem;
+    height: 4rem;
+    width: 4rem;
+    margin-left: 3rem;
 }
 
 .back-arrow-u {
-  height: 4rem;
-  width: 4rem;
-  margin-left: 0rem;
+    height: 4rem;
+    width: 4rem;
+    margin-left: 0rem;
 }
 
 .back {
-  color: #4ebab5;
-  margin-left: 7rem;
-  margin-top: -3rem;
+    color: #4ebab5;
+    margin-left: 7rem;
+    margin-top: -3rem;
 }
 
 .back-u {
-  color: #4ebab5;
-  font-weight: bold;
-  margin-left: 4rem;
-  margin-top: -3rem;
+    color: #4ebab5;
+    font-weight: bold;
+    margin-left: 4rem;
+    margin-top: -3rem;
 }
 
 /* ----old version-----
@@ -890,234 +1020,241 @@ hr {
 }
 */
 .access-pic {
-  height: 100%;
-  width: 100%;
-  background-size: contain;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
 }
 
 
 
 #upgrade-product-body {
-  background-image: url('images/brbback.png');
-  background-size: cover;
-  background-position: center;
+    background-image: url('images/brbback.png');
+    background-size: cover;
+    background-position: center;
 }
 
-.u-display, .s-display {
-  font-weight: bold;
-  font-size: 4.5rem !important;
-  color: #4ebab5 !important;
+.u-display,
+.s-display {
+    font-weight: bold;
+    font-size: 4.5rem !important;
+    color: #4ebab5 !important;
 }
-.s-display{
-  margin-top: -6.5rem !important;
+
+.s-display {
+    margin-top: -6.5rem !important;
 }
 
 .upgrade-content {
-  margin: 0rem 3rem;
-  color: white;
-  padding-bottom: 7rem;
+    margin: 0rem 3rem;
+    color: white;
+    padding-bottom: 7rem;
 }
 
 .border-r {
-  border-top: 5px solid;
-  border-right: 5px solid;
-  border-color: #4ebab5;
+    border-top: 5px solid;
+    border-right: 5px solid;
+    border-color: #4ebab5;
 }
 
-.col1, .col2, .col3, .col4, .col5, .col6 {
-  color: #4ebab5;
-  text-align: right;
-  font-weight: bold;
-  padding-right: 1.5rem !important;
+.col1,
+.col2,
+.col3,
+.col4,
+.col5,
+.col6 {
+    color: #4ebab5;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 1.5rem !important;
 }
 
 .col1 {
-  padding-top: -1rem;
-  margin-top: 1rem;
+    padding-top: -1rem;
+    margin-top: 1rem;
 }
 
 .col2 {
-  padding-top: -1rem;
-  margin-top: 2rem;
+    padding-top: -1rem;
+    margin-top: 2rem;
 }
 
 .col3 {
-  padding-top: 0rem;
-  margin-top: 1rem;
+    padding-top: 0rem;
+    margin-top: 1rem;
 }
 
 .col4 {
-  padding-top: 4rem;
-  margin-top: 3rem;
+    padding-top: 4rem;
+    margin-top: 3rem;
 }
 
 .col5 {
-  padding-top: 6.5em;
-  margin-top: 3rem;
+    padding-top: 6.5em;
+    margin-top: 3rem;
 }
 
 .col6 {
-  padding-top: 5.5rem;
-  margin-top: 3rem;
+    padding-top: 5.5rem;
+    margin-top: 3rem;
 }
 
 .col7 {
-  padding-top: 12rem;
+    padding-top: 12rem;
 }
 
 .r1 {
-  margin-top: -12rem;
+    margin-top: -12rem;
 }
 
 .r2 {
-  margin-top: -10rem;
-  padding-right: 0.4rem;
+    margin-top: -10rem;
+    padding-right: 0.4rem;
 }
 
 .r3 {
-  margin-top: -8rem;
-  padding-right: 0.4rem;
+    margin-top: -8rem;
+    padding-right: 0.4rem;
 }
 
 .r4 {
-  margin-top: -6rem;
-  padding-right: 0.4rem;
+    margin-top: -6rem;
+    padding-right: 0.4rem;
 }
 
 .r5 {
-  margin-top: -4rem;
-  padding-right: 0.4rem;
+    margin-top: -4rem;
+    padding-right: 0.4rem;
 }
 
 .r6 {
-  margin-top: -2em;
-  padding-right: 0.4rem;
+    margin-top: -2em;
+    padding-right: 0.4rem;
 }
 
 .r7 {
-  margin-top: 0rem;
-  padding-right: 0.4rem;
+    margin-top: 0rem;
+    padding-right: 0.4rem;
 }
 
 /*product page: simple*/
 .simple-product-dev {
-  margin: 5rem 5rem !important;
+    margin: 5rem 5rem !important;
 }
 
 .s-display {
-  margin-top: -5rem;
-  padding-left: 13rem;
-  color: white;
+    margin-top: -5rem;
+    padding-left: 13rem;
+    color: white;
 }
 
 .card-simple {
-  height: 7rem;
-  width: 7rem;
-  margin-left: 5rem;
+    height: 7rem;
+    width: 7rem;
+    margin-left: 5rem;
 }
 
 .wallet-display {
-  padding-left: 1rem !important;
-  height: 7rem;
-  width: 7rem;
+    padding-left: 1rem !important;
+    height: 7rem;
+    width: 7rem;
 }
 
 .simple-display {
-  height: 8rem;
-  width: 8rem;
-  padding: 1rem 1rem;
+    height: 8rem;
+    width: 8rem;
+    padding: 1rem 1rem;
 }
 
 .co-sp {
-  padding-left: 10rem !important;
+    padding-left: 10rem !important;
 }
 
 .col-simple {
-  padding-left: 20rem;
+    padding-left: 20rem;
 }
 
 .col-wallet {
-  padding-left: 10rem !important;
-  color: white !important;
-  text-align: center !important;
-  padding-top: 0rem !important;
-  font-size: 1.12rem;
-  margin-top: 15rem;
+    padding-left: 10rem !important;
+    color: white !important;
+    text-align: center !important;
+    padding-top: 0rem !important;
+    font-size: 1.12rem;
+    margin-top: 15rem;
 }
 
-.back{
-  font-weight: bold;
+.back {
+    font-weight: bold;
 }
 
 /*product page: upgrade page*/
 .card-upgrade {
-  height: 5rem;
-  width: 5rem;
+    height: 5rem;
+    width: 5rem;
 }
 
 .u-display {
-  margin-top: -5rem;
-  padding-left: 6rem;
-  color: white;
+    margin-top: -5rem;
+    padding-left: 6rem;
+    color: white;
 }
 
 .brb-upgrade {
-  height: 3rem;
-  width: 6rem;
+    height: 3rem;
+    width: 6rem;
 }
 
 /*product page: cashless*/
 .cashless-product-dev {
-  padding-bottom: 15rem !important;
-  background-image: url('images/bg/cashless_bg.png');
-  background-size: 100% 100%;
-  background-position: center;
+    padding-bottom: 15rem !important;
+    background-image: url('images/bg/cashless_bg.png');
+    background-size: 100% 100%;
+    background-position: center;
 }
 
 .co-cash {
-  padding-left: 2rem !important;
+    padding-left: 2rem !important;
 }
 
-.p-cashless{
-  padding-top: 2rem !important;
-  color: white !important;
-  text-align: center !important;
-  padding-top: 13rem !important;
-  font-size: 1.12rem !important;
-  margin: 0rem 3rem;
+.p-cashless {
+    padding-top: 2rem !important;
+    color: white !important;
+    text-align: center !important;
+    padding-top: 13rem !important;
+    font-size: 1.12rem !important;
+    margin: 0rem 3rem;
 }
 
 .col-b {
-  border-right: 1px solid;
-  border-color: #4ebab5 !important;
+    border-right: 1px solid;
+    border-color: #4ebab5 !important;
 }
 
 .card-cashless {
-  height: 7rem;
-  width: 7rem;
-  margin-left: 5rem;
+    height: 7rem;
+    width: 7rem;
+    margin-left: 5rem;
 }
 
 .c-display {
-  font-weight: bold;
-  padding-bottom: 2rem !important;
-  margin-top: -7rem;
-  padding-left: 13rem;
-  color: #4ebab5;
+    font-weight: bold;
+    padding-bottom: 2rem !important;
+    margin-top: -7rem;
+    padding-left: 13rem;
+    color: #4ebab5;
 }
 
 .cash-display {
-  height: 7rem;
-  width: 7rem;
-  margin-left: 8rem;
+    height: 7rem;
+    width: 7rem;
+    margin-left: 8rem;
 }
 
 /*product page: access*/
 .access-product-dev {
-  padding-bottom: 10rem !important;
-  background-image: url('images/brbback.png');
-  background-size: 100% 100%;
-  background-position: center;
+    padding-bottom: 10rem !important;
+    background-image: url('images/brbback.png');
+    background-size: 100% 100%;
+    background-position: center;
 }
 
 
@@ -1126,317 +1263,320 @@ hr {
 
 /*product page:customize page*/
 .custom-product-dev {
-  padding: 3rem 0;
-  background-image: url('images/brbback.png');
-  background-size: cover;
-  background-position: center;
+    padding: 3rem 0;
+    background-image: url('images/brbback.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .custom-display {
-  height: 12rem;
-  width: 24rem;
-  padding-left: 2rem;
+    height: 12rem;
+    width: 24rem;
+    padding-left: 2rem;
 }
-.r-custom{
-  padding: 4rem 0rem;
+
+.r-custom {
+    padding: 4rem 0rem;
 }
 
 .c-product {
-  color: white !important;
-  padding-left: 4rem;
-  padding-top: 0rem !important;
-  font-size: 1.2rem;
-  font-weight: 600;
+    color: white !important;
+    padding-left: 4rem;
+    padding-top: 0rem !important;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 1225px) {
-  .brbcard-display {
-    height: 14rem;
-    width: 25rem;
-    padding-top: 2rem !important;
-    margin-bottom: 5rem;
-  }
+    .brbcard-display {
+        height: 14rem;
+        width: 25rem;
+        padding-top: 2rem !important;
+        margin-bottom: 5rem;
+    }
 
-  .col-custom1 {
-    margin-top: -20rem !important;
-    margin-left: -5rem !important;
-    padding-top: 0rem !important;
-  }
+    .col-custom1 {
+        margin-top: -20rem !important;
+        margin-left: -5rem !important;
+        padding-top: 0rem !important;
+    }
 
-  .col-custom2 {
-    margin-top: -20rem !important;
-    margin-right: -5rem !important;
-    padding-top: 0rem !important;
-  }
+    .col-custom2 {
+        margin-top: -20rem !important;
+        margin-right: -5rem !important;
+        padding-top: 0rem !important;
+    }
 
-  .col-custom3 {
-    padding-top: 0rem !important;
-    margin-top: 1rem !important;
-    padding-right: 10rem !important;
-  }
+    .col-custom3 {
+        padding-top: 0rem !important;
+        margin-top: 1rem !important;
+        padding-right: 10rem !important;
+    }
 
-  .col-custom4 {
-    padding-top: 0rem !important;
-    margin-top: 1rem !important;
-    padding-left: 10rem !important;
-  }
+    .col-custom4 {
+        padding-top: 0rem !important;
+        margin-top: 1rem !important;
+        padding-left: 10rem !important;
+    }
 
-  .col-custom5 {
-    padding-top: 0rem !important;
-    margin-top: -17rem !important;
-    font-size: 1.3rem;
-  }
+    .col-custom5 {
+        padding-top: 0rem !important;
+        margin-top: -17rem !important;
+        font-size: 1.3rem;
+    }
 }
 
 @media screen and (max-width: 999px) {
-  .brbcard-display {
-    height: 17rem;
-    width: 26rem;
-    padding-top: 2rem !important;
-    margin-bottom: 5rem;
-  }
+    .brbcard-display {
+        height: 17rem;
+        width: 26rem;
+        padding-top: 2rem !important;
+        margin-bottom: 5rem;
+    }
 
-  .col-custom1 {
-    margin-top: -20rem !important;
-    padding-right: 5rem !important;
-    padding-top: 0rem !important;
-  }
+    .col-custom1 {
+        margin-top: -20rem !important;
+        padding-right: 5rem !important;
+        padding-top: 0rem !important;
+    }
 
-  .col-custom2 {
-    margin-top: -20rem !important;
-    padding-left: 5rem !important;
-    padding-top: 0rem !important;
-  }
+    .col-custom2 {
+        margin-top: -20rem !important;
+        padding-left: 5rem !important;
+        padding-top: 0rem !important;
+    }
 
-  .col-custom3 {
-    color: white !important;
-    text-align: center !important;
-    padding-top: 0rem !important;
-    margin-top: 1rem !important;
-    padding-right: 5rem !important;
-    font-size: 1.3rem;
-  }
+    .col-custom3 {
+        color: white !important;
+        text-align: center !important;
+        padding-top: 0rem !important;
+        margin-top: 1rem !important;
+        padding-right: 5rem !important;
+        font-size: 1.3rem;
+    }
 
-  .col-custom4 {
-    color: white !important;
-    text-align: center !important;
-    padding-top: 0rem !important;
-    margin-top: 1rem !important;
-    padding-left: 5rem !important;
-    font-size: 1.3rem;
-  }
+    .col-custom4 {
+        color: white !important;
+        text-align: center !important;
+        padding-top: 0rem !important;
+        margin-top: 1rem !important;
+        padding-left: 5rem !important;
+        font-size: 1.3rem;
+    }
 
-  .col-custom5 {
-    color: white !important;
-    text-align: center !important;
-    padding-top: 0rem !important;
-    margin-top: -17rem !important;
-    font-size: 1.3rem;
-  }
+    .col-custom5 {
+        color: white !important;
+        text-align: center !important;
+        padding-top: 0rem !important;
+        margin-top: -17rem !important;
+        font-size: 1.3rem;
+    }
 }
 
 @media screen and (max-width: 866px) {
-  .brbcard-display {
-    margin-bottom: 0 !important;
-    height: 13rem !important;
-    width: 22rem !important;
-    padding-top: 2rem !important;
-    padding-left: 0.5rem !important;
-    padding-right: 0.5rem !important;
-  }
+    .brbcard-display {
+        margin-bottom: 0 !important;
+        height: 13rem !important;
+        width: 22rem !important;
+        padding-top: 2rem !important;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
 
-  .card-display {
-    height: 10rem;
-    width: 10rem;
-    padding: 1rem 1rem;
-  }
+    .card-display {
+        height: 10rem;
+        width: 10rem;
+        padding: 1rem 1rem;
+    }
 
-  .col-custom1 {
-    margin-top: 3rem !important;
-    margin-right: -40rem !important;
-    padding-top: 0 0;
-  }
+    .col-custom1 {
+        margin-top: 3rem !important;
+        margin-right: -40rem !important;
+        padding-top: 0 0;
+    }
 
-  .col-custom2 {
-    margin-top: 3rem !important;
-    margin-left: -40rem !important;
-    padding: 0 0;
-  }
+    .col-custom2 {
+        margin-top: 3rem !important;
+        margin-left: -40rem !important;
+        padding: 0 0;
+    }
 
-  .col-custom3 {
-    margin-top: 3rem !important;
-    margin-right: -7rem !important;
-    padding: 0 0;
-  }
+    .col-custom3 {
+        margin-top: 3rem !important;
+        margin-right: -7rem !important;
+        padding: 0 0;
+    }
 
-  .col-custom4 {
-    margin-top: 3rem !important;
-    margin-left: -7rem !important;
-    padding: 0 0;
-  }
+    .col-custom4 {
+        margin-top: 3rem !important;
+        margin-left: -7rem !important;
+        padding: 0 0;
+    }
 
-  .col-custom5 {
-    margin-top: 3rem !important;
-    padding: 0 0;
-  }
+    .col-custom5 {
+        margin-top: 3rem !important;
+        padding: 0 0;
+    }
 
-  .col-custom{
-    color: white !important;
-    text-align: center !important;
-    padding-top: 0rem !important;
-    font-size: 0.9rem;
-    margin: 0rem 1rem;
-  }
+    .col-custom {
+        color: white !important;
+        text-align: center !important;
+        padding-top: 0rem !important;
+        font-size: 0.9rem;
+        margin: 0rem 1rem;
+    }
 }
 
 @media screen and (max-width: 730px) {
-  .brbcard-display {
-    margin-bottom: 0 !important;
-    height: 13rem !important;
-    width: 22rem !important;
-    padding-top: 2rem !important;
-    padding-left: 0.5rem !important;
-    padding-right: 0.5rem !important;
-  }
+    .brbcard-display {
+        margin-bottom: 0 !important;
+        height: 13rem !important;
+        width: 22rem !important;
+        padding-top: 2rem !important;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
 
-  .card-display {
-    height: 10rem;
-    width: 10rem;
-    padding: 1rem 1rem;
-  }
+    .card-display {
+        height: 10rem;
+        width: 10rem;
+        padding: 1rem 1rem;
+    }
 
-  .col-custom1 {
-    margin-top: 3rem !important;
-    margin-right: -10rem !important;
-    padding-top: 0 0;
-  }
+    .col-custom1 {
+        margin-top: 3rem !important;
+        margin-right: -10rem !important;
+        padding-top: 0 0;
+    }
 
-  .col-custom2 {
-    margin-top: 3rem !important;
-    margin-left: -10rem !important;
-    padding: 0 0;
-  }
+    .col-custom2 {
+        margin-top: 3rem !important;
+        margin-left: -10rem !important;
+        padding: 0 0;
+    }
 
-  .col-custom3 {
-    margin-top: 3rem !important;
-    margin-right: -7rem !important;
-    padding: 0 0;
-  }
+    .col-custom3 {
+        margin-top: 3rem !important;
+        margin-right: -7rem !important;
+        padding: 0 0;
+    }
 
-  .col-custom4 {
-    margin-top: 3rem !important;
-    margin-left: -7rem !important;
-    padding: 0 0;
-  }
+    .col-custom4 {
+        margin-top: 3rem !important;
+        margin-left: -7rem !important;
+        padding: 0 0;
+    }
 
-  .col-custom5 {
-    margin-top: 3rem !important;
-    padding: 0 0;
-  }
+    .col-custom5 {
+        margin-top: 3rem !important;
+        padding: 0 0;
+    }
 
-  .col-custom{
-    color: white !important;
-    text-align: center !important;
-    padding-top: 0rem !important;
-    font-size: 0.9rem;
-    margin: 0rem 1rem;
-  }
+    .col-custom {
+        color: white !important;
+        text-align: center !important;
+        padding-top: 0rem !important;
+        font-size: 0.9rem;
+        margin: 0rem 1rem;
+    }
 }
 
 @media screen and (max-width: 320px) {
-  .brbcard-display {
-    margin-bottom: 0 !important;
-    height: 13rem !important;
-    width: 22rem !important;
-    padding-top: 2rem !important;
-    padding-left: 0.5rem !important;
-    padding-right: 0.5rem !important;
-  }
+    .brbcard-display {
+        margin-bottom: 0 !important;
+        height: 13rem !important;
+        width: 22rem !important;
+        padding-top: 2rem !important;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
 
-  .card-display {
-    height: 7em;
-    width: 7rem;
-    padding: 1rem 1rem;
-  }
+    .card-display {
+        height: 7em;
+        width: 7rem;
+        padding: 1rem 1rem;
+    }
 
-  .col-custom1 {
-    margin-top: 3rem !important;
-    padding-top: 0;
-    margin-right: 3rem !important;
-    padding-left: 13rem !important;
-  }
+    .col-custom1 {
+        margin-top: 3rem !important;
+        padding-top: 0;
+        margin-right: 3rem !important;
+        padding-left: 13rem !important;
+    }
 
-  .col-custom2 {
-    margin-top: 6em !important;
-    margin: 3rem !important;
-    padding: 0 0;
-  }
+    .col-custom2 {
+        margin-top: 6em !important;
+        margin: 3rem !important;
+        padding: 0 0;
+    }
 
-  .col-custom3 {
-    margin-top: 3rem !important;
-    padding-top: 0;
-    margin-left: 0rem !important;
-  }
+    .col-custom3 {
+        margin-top: 3rem !important;
+        padding-top: 0;
+        margin-left: 0rem !important;
+    }
 
-  .col-custom4 {
-    margin-top: 3rem !important;
-    padding: 0 0;
-    margin: 2rem !important;
-  }
+    .col-custom4 {
+        margin-top: 3rem !important;
+        padding: 0 0;
+        margin: 2rem !important;
+    }
 
-  .col-custom5 {
-    margin-top: 3rem !important;
-    padding: 0 0;
-  }
+    .col-custom5 {
+        margin-top: 3rem !important;
+        padding: 0 0;
+    }
 
-  .col-custom{
-    color: white !important;
-    text-align: center !important;
-    padding-top: 0rem !important;
-    font-size: 1rem;
-    margin: 0rem 0rem;
-  }
+    .col-custom {
+        color: white !important;
+        text-align: center !important;
+        padding-top: 0rem !important;
+        font-size: 1rem;
+        margin: 0rem 0rem;
+    }
 }
 
 /*services page content*/
 .hr1 {
-  margin: 0 0;
-  border: 3px solid #4ebab5 !important;
-  border-radius: 2px !important;
-  width: 30%;
+    margin: 0 0;
+    border: 3px solid #4ebab5 !important;
+    border-radius: 2px !important;
+    width: 30%;
 }
 
 /*full screen service page*/
 
 .balance {
-  padding: 6em 10em !important;
-  padding-left: 5em !important;
-  padding-top: 3em !important;
-  color: white;
-  background-image: url("images/bg/balance_bg.png") !important;
-  background-size: cover;
-  height: 45rem;
-  background-position: left;
-  background-repeat: no-repeat !important;
+    padding: 6em 10em !important;
+    padding-left: 5em !important;
+    padding-top: 3em !important;
+    color: white;
+    background-image: url("images/bg/balance_bg.png") !important;
+    background-size: cover;
+    height: 45rem;
+    background-position: left;
+    background-repeat: no-repeat !important;
 }
+
 /* backup solution incase scrollify go bananas
 height: 100% !important;
 width: 100% !important;*/
 
 .withdrawal {
 
-  padding: 6em 10em !important;
-  padding-left: 5em !important;
-  padding-top: 5em !important;
-  color: white;
-  background-image: url("images/bg/withdraw_bg.png") !important;
-  background-size: cover;
-  height: 45rem;
+    padding: 6em 10em !important;
+    padding-left: 5em !important;
+    padding-top: 5em !important;
+    color: white;
+    background-image: url("images/bg/withdraw_bg.png") !important;
+    background-size: cover;
+    height: 45rem;
 
-  background-position: left;
-  background-repeat: no-repeat !important;
+    background-position: left;
+    background-repeat: no-repeat !important;
 
 }
+
 /* backup solution incase scrollify go bananas
 height: 100% !important;
 width: 100% !important;
@@ -1444,105 +1584,106 @@ width: 100% !important;
   font-weight: bold !important;
 }*/
 
-
-
 .bills {
-  padding: 6em 10em !important;
-  padding-left: 5em !important;
-  padding-right: 35rem !important;
-  padding-top: 5em !important;
-  color: white;
-  background-image: url("images/bg/bill_bg.png") !important;
-  background-size: cover;
-  height: 45rem;
-  /* backup solution incase scrollify go bananas
+    padding: 6em 10em !important;
+    padding-left: 5em !important;
+    padding-right: 35rem !important;
+    padding-top: 5em !important;
+    color: white;
+    background-image: url("images/bg/bill_bg.png") !important;
+    background-size: cover;
+    height: 45rem;
+    /* backup solution incase scrollify go bananas
   height: 100% !important;
   width: 100% !important;*/
-  background-position: center;
-  background-repeat: no-repeat !important;
+    background-position: center;
+    background-repeat: no-repeat !important;
 }
 
 .purchase {
-  padding: 6em 10em !important;
-  padding-left: 5em !important;
-  padding-right: 35rem !important;
-  padding-top: 3em !important;
-  color: white;
-  background-image: url("images/bg/purchase_bg.png") !important;
-  background-blend-mode: multiply;
-  background-color: rgb(150, 146, 132);
-  background-size: cover;
-  height: 45rem;
-  /* backup solution incase scrollify go bananas
+    padding: 6em 10em !important;
+    padding-left: 5em !important;
+    padding-right: 35rem !important;
+    padding-top: 3em !important;
+    color: white;
+    background-image: url("images/bg/purchase_bg.png") !important;
+    background-blend-mode: multiply;
+    background-color: rgb(150, 146, 132);
+    background-size: cover;
+    height: 45rem;
+    /* backup solution incase scrollify go bananas
   height: 100% !important;
   width: 100% !important;*/
-  background-position: left;
-  background-repeat: no-repeat !important;
+    background-position: left;
+    background-repeat: no-repeat !important;
 }
 
 .payroll {
-  padding: 6em 10em !important;
-  padding-left: 5em !important;
-  padding-right: 25rem !important;
-  padding-top: 3em !important;
-  color: white;
-  background-image: url("images/bg/payroll_bg.png") !important;
-  background-blend-mode: multiply;
-  background-color: rgb(194, 189, 201);
-  background-size: cover;
-  height: 45rem;
-  /* backup solution incase scrollify go bananas
+    padding: 6em 10em !important;
+    padding-left: 5em !important;
+    padding-right: 25rem !important;
+    padding-top: 3em !important;
+    color: white;
+    background-image: url("images/bg/payroll_bg.png") !important;
+    background-blend-mode: multiply;
+    background-color: rgb(194, 189, 201);
+    background-size: cover;
+    height: 45rem;
+    /* backup solution incase scrollify go bananas
   height: 100% !important;
   width: 100% !important;*/
-  background-position: center;
-  background-repeat: no-repeat !important;
+    background-position: center;
+    background-repeat: no-repeat !important;
 }
 
 
 .e-bank {
-  padding: 6em 10em !important;
-  padding-left: 5em !important;
-  padding-right: 25rem !important;
-  padding-top: 1rem !important;
-  color: white;
-  background-image: url("images/bg/ebank_bg.png") !important;
-  background-size: cover;
-  height: 45rem;
-  width: 100% !important;
-  background-position: left;
-  background-repeat: no-repeat !important;
+    padding: 6em 10em !important;
+    padding-left: 5em !important;
+    padding-right: 25rem !important;
+    padding-top: 1rem !important;
+    color: white;
+    background-image: url("images/bg/ebank_bg.png") !important;
+    background-size: cover;
+    height: 45rem;
+    width: 100% !important;
+    background-position: left;
+    background-repeat: no-repeat !important;
 }
+
 /*additional ebank*/
-small{
-  font-size: 1rem!important;
+small {
+    font-size: 1rem !important;
 }
 
-.icon-ebank{
-  height: 6rem;
-  width: 4rem;
+.icon-ebank {
+    height: 6rem;
+    width: 4rem;
 }
 
-.ebank2{
-  margin-left: -2rem;
-  width: 6rem;
+.ebank2 {
+    margin-left: -2rem;
+    width: 6rem;
 }
 
-.row-ebank{
+.row-ebank {
 
-  margin-top: 3rem!important;
-  margin-left: 2.5rem !important;
-}
-.bank1{
-  margin-left: 0.5rem!important;
+    margin-top: 3rem !important;
+    margin-left: 2.5rem !important;
 }
 
-.bank2{
-  margin-top: -1rem!important;
-  margin-left: 1.5rem!important;
+.bank1 {
+    margin-left: 0.5rem !important;
 }
+
+.bank2 {
+    margin-top: -1rem !important;
+    margin-left: 1.5rem !important;
+}
+
 /*additional end*/
 .eload {
-  /*padding: 19em 8em !important;
+    /*padding: 19em 8em !important;
   padding-left: 85em !important;
   padding-top: 30em !important;
   color: white;
@@ -1551,29 +1692,30 @@ small{
   background-image: url("images/s_eload.png") !important;
   background-size: cover;
 */
-  padding: 6em 10em !important;
-  padding-right: 35rem!important;
-  padding-left: 5em !important;
+    padding: 6em 10em !important;
+    padding-right: 35rem !important;
+    padding-left: 5em !important;
 
-  padding-top: 15em !important;
-  color: white;
-  background-image: url("images/bg/eload_bg.png") !important;
-  background-size: cover;
-  background-blend-mode: multiply;
-  background-color: rgba(105, 77, 35, 0.5);
-  height: 45rem;
+    padding-top: 15em !important;
+    color: white;
+    background-image: url("images/bg/eload_bg.png") !important;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(105, 77, 35, 0.5);
+    height: 45rem;
 
-  background-position: center;
-  background-repeat: no-repeat !important;
+    background-position: center;
+    background-repeat: no-repeat !important;
 }
+
 /* backup solution incase scrollify go bananas
 height: 100% !important;
 width: 100% !important;*/
-  /*padding-left: 50em !important;*/
+/*padding-left: 50em !important;*/
 
 
 .remit {
-/*
+    /*
   padding: 19em 8em !important;
   padding-left: 85em !important;
   padding-bottom: 30em !important;
@@ -1583,23 +1725,23 @@ width: 100% !important;*/
   background-size: cover;
   background-repeat: no-repeat;
   */
-  padding: 6em 10em !important;
-  padding-left: 5em !important;
-  padding-right: 35rem !important;
-  padding-top: 3rem !important;
-  color: white;
-  background-image: url("images/bg/remit_bg.png") !important;
-  background-blend-mode: multiply;
-  background-color: rgba(107, 76, 158, 0.3);
-  background-size: cover;
-  height: 45rem !important;
-  width: 100% !important;
-  background-position: left;
-  background-repeat: no-repeat !important;
+    padding: 6em 10em !important;
+    padding-left: 5em !important;
+    padding-right: 35rem !important;
+    padding-top: 3rem !important;
+    color: white;
+    background-image: url("images/bg/remit_bg.png") !important;
+    background-blend-mode: multiply;
+    background-color: rgba(107, 76, 158, 0.3);
+    background-size: cover;
+    height: 45rem !important;
+    width: 100% !important;
+    background-position: left;
+    background-repeat: no-repeat !important;
 }
 
 .fund {
-/*
+    /*
   padding: 19em 8em;
   padding-left: 85em !important;
   padding-top: 30em !important;
@@ -1609,24 +1751,24 @@ width: 100% !important;*/
   background-size: cover;
   background-repeat: no-repeat;
 */
-  padding: 6em 10em !important;
-  padding-left: 5em !important;
-  padding-right: 35rem !important;
-  padding-top: 10em !important;
-  color: white;
-  background-image: url("images/bg/fund_bg.png") !important;
-  background-blend-mode: multiply;
-  background-color: rgba(107, 145, 176, 0.3);
-  background-size: cover;
-  height: 45rem !important;
-  width: 100% !important;
-  background-position: center;
-  background-repeat: no-repeat !important;
+    padding: 6em 10em !important;
+    padding-left: 5em !important;
+    padding-right: 35rem !important;
+    padding-top: 10em !important;
+    color: white;
+    background-image: url("images/bg/fund_bg.png") !important;
+    background-blend-mode: multiply;
+    background-color: rgba(107, 145, 176, 0.3);
+    background-size: cover;
+    height: 45rem !important;
+    width: 100% !important;
+    background-position: center;
+    background-repeat: no-repeat !important;
 }
 
 
 .mobile {
-/*
+    /*
   padding: 19em 8em !important;
   padding-left: 85em !important;
   padding-top: 30em !important;
@@ -1635,25 +1777,26 @@ width: 100% !important;*/
   background-image: url("images/s_mobile.png") !important;
   background-size: cover;
   background-repeat: no-repeat; */
-  padding: 6em 10em !important;
-  padding-right: 30rem !important;
-  padding-left: 5em !important;
-  padding-top: 10em !important;
-  color: white;
-  background-image: url("images/bg/mobile_bg.png") !important;
-  background-size: cover;
-  background-blend-mode: multiply;
-  background-color: rgba(112, 128, 153, 0.5);
-  height: 45rem;
+    padding: 6em 10em !important;
+    padding-right: 30rem !important;
+    padding-left: 5em !important;
+    padding-top: 10em !important;
+    color: white;
+    background-image: url("images/bg/mobile_bg.png") !important;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(112, 128, 153, 0.5);
+    height: 45rem;
 
-  width: 100% !important;
-  background-position: center;
-  background-repeat: no-repeat !important;
+    width: 100% !important;
+    background-position: center;
+    background-repeat: no-repeat !important;
 }
-  /*height: 100% !important;*/
+
+/*height: 100% !important;*/
 
 .online {
-  /*
+    /*
   padding: 19em 8em !important;
   padding-left: 85em !important;
   padding-top: 30em !important;
@@ -1662,25 +1805,27 @@ width: 100% !important;*/
   background-image: url("images/s_obank.png") !important;
   background-size: cover;
   background-repeat: no-repeat; */
-  padding: 6em 10em !important;
-  padding-right: 35rem!important;
-  padding-left: 5em !important;
-  padding-top: 10em !important;
-  color: white;
-  background-image: url("images/bg/online_bg.png") !important;
-  background-size: cover;
-  background-blend-mode: multiply;
-  background-color: rgba(35, 87, 105, 0.3);
-  height: 45rem;
+    padding: 6em 10em !important;
+    padding-right: 35rem !important;
+    padding-left: 5em !important;
+    padding-top: 10em !important;
+    color: white;
+    background-image: url("images/bg/online_bg.png") !important;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(35, 87, 105, 0.3);
+    height: 45rem;
 
-  width: 100% !important;
-  background-position: center;
-  background-repeat: no-repeat !important;
-}   /*height: 100% !important;*/
+    width: 100% !important;
+    background-position: center;
+    background-repeat: no-repeat !important;
+}
+
+/*height: 100% !important;*/
 
 
 .ewallet {
-  /*
+    /*
   padding: 19em 8em !important;
   padding-right: 85em !important;
   padding-top: 30em !important;
@@ -1689,117 +1834,120 @@ width: 100% !important;*/
   background-image: url("images/s_ewallet.png") !important;
   background-size: cover;
   background-repeat: no-repeat; */
-  padding: 6em 10em !important;
-  padding-right: 35rem!important;
-  padding-left: 5em !important;
-  padding-top: 7em !important;
-  color: white;
-  background-image: url("images/bg/ewallet_bg.png") !important;
-  background-size: cover;
-  background-blend-mode: multiply;
-  background-color: rgba(105, 77, 35, 0.5);
-  height: 45rem;
+    padding: 6em 10em !important;
+    padding-right: 35rem !important;
+    padding-left: 5em !important;
+    padding-top: 7em !important;
+    color: white;
+    background-image: url("images/bg/ewallet_bg.png") !important;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(105, 77, 35, 0.5);
+    height: 45rem;
 
-  width: 100% !important;
-  background-position: center;
-  background-repeat: no-repeat !important;
-}  /* backup solution incase scrollify go bananas
+    width: 100% !important;
+    background-position: center;
+    background-repeat: no-repeat !important;
+}
+
+/* backup solution incase scrollify go bananas
 height: 100% !important;*/
 
 
 /*image version*/
 .balance-img {
-  background-position: center;
-  background-size: contain;
-  width: 100% !important;
+    background-position: center;
+    background-size: contain;
+    width: 100% !important;
 }
 
 .ebank-img {
-  background-position: center;
-  background-size: cover;
-  width: 100% !important;
+    background-position: center;
+    background-size: cover;
+    width: 100% !important;
 }
 
 .withdraw-img {
-  background-position: center;
-  background-size: cover;
-  width: 100% !important;
+    background-position: center;
+    background-size: cover;
+    width: 100% !important;
 }
 
 .eload-img {
-  background-position: center;
-  background-size: cover;
-  width: 100% !important;
+    background-position: center;
+    background-size: cover;
+    width: 100% !important;
 }
 
 .remit-img {
-  background-position: center;
-  background-size: cover;
-  width: 100% !important;
+    background-position: center;
+    background-size: cover;
+    width: 100% !important;
 }
 
-.mobile-img{
-  background-position: center;
-  background-size: cover;
-  width: 100% !important;
+.mobile-img {
+    background-position: center;
+    background-size: cover;
+    width: 100% !important;
 }
 
-.online-img{
-  background-position: center;
-  background-size: cover;
-  width: 100% !important;
+.online-img {
+    background-position: center;
+    background-size: cover;
+    width: 100% !important;
 }
 
-.ewallet-img{
-  background-position: center;
-  background-size: cover;
-  width: 100% !important;
+.ewallet-img {
+    background-position: center;
+    background-size: cover;
+    width: 100% !important;
 }
 
 .fund-img {
-  background-position: center;
-  background-size: cover;
-  width: 100% !important;
+    background-position: center;
+    background-size: cover;
+    width: 100% !important;
 }
 
 
 /*services icon*/
 .icon-service {
-  height: 4rem;
-  width: 4rem;
-  padding: 0 0;
-  margin: 0.2rem 0.3rem;
+    height: 4rem;
+    width: 4rem;
+    padding: 0 0;
+    margin: 0.2rem 0.3rem;
 }
 
 .scroll-up-content {
-  padding: 9rem 0;
-  padding-left: 40rem;
-  margin-top: -8rem !important;
+    padding: 9rem 0;
+    padding-left: 40rem;
+    margin-top: -8rem !important;
 }
 
 .scroll-up {}
 
 .display-p {
-  font-size: 1.4rem;
+    font-size: 1.4rem;
 }
 
 h1 {
-  font-size: 5rem !important;
+    font-size: 5rem !important;
 }
 
 /* service page: vertical pagination position*/
 .btn-nav {
-  border: 1px solid;
-  border-right-color: #4ebab5 !important;
-  color: white !important;
-  padding: 0.5rem 0.5rem !important;
+    border: 1px solid;
+    border-right-color: #4ebab5 !important;
+    color: white !important;
+    padding: 0.5rem 0.5rem !important;
 }
 
 .btn-nav:hover {
-  background-color: #4ebab5 !important;
-  /* padding: 0.2rem 0.2rem !important;
+    background-color: #4ebab5 !important;
+    /* padding: 0.2rem 0.2rem !important;
   margin-right: 1.3rem !important;*/
 }
+
 /* by 35
 .btn-1 {
   position: fixed;
@@ -1895,108 +2043,502 @@ h1 {
 
 /* by 25*/
 .btn-1 {
-  position: fixed;
-  bottom: 520px;
-  right: 25px;
-  display: none;
+    position: fixed;
+    bottom: 520px;
+    right: 25px;
+    display: none;
 }
 
 .btn-2 {
-  position: fixed;
-  bottom: 490px;
-  right: 25px;
-  display: none;
+    position: fixed;
+    bottom: 490px;
+    right: 25px;
+    display: none;
 }
 
 .btn-3 {
-  position: fixed;
-  bottom: 460px;
-  right: 25px;
-  display: none;
+    position: fixed;
+    bottom: 460px;
+    right: 25px;
+    display: none;
 }
 
 .btn-4 {
-  position: fixed;
-  bottom: 430px;
-  right: 25px;
-  display: none;
+    position: fixed;
+    bottom: 430px;
+    right: 25px;
+    display: none;
 }
 
 .btn-5 {
-  position: fixed;
-  bottom: 400px;
-  right: 25px;
-  display: none;
+    position: fixed;
+    bottom: 400px;
+    right: 25px;
+    display: none;
 }
 
 .btn-6 {
-  position: fixed;
-  bottom: 370px;
-  right: 25px;
-  display: none;
+    position: fixed;
+    bottom: 370px;
+    right: 25px;
+    display: none;
 }
 
 .btn-7 {
-  position: fixed;
-  bottom: 340px;
-  right: 25px;
-  display: none;
+    position: fixed;
+    bottom: 340px;
+    right: 25px;
+    display: none;
 }
 
 .btn-8 {
-  position: fixed;
-  bottom: 310px;
-  right: 25px;
-  display: none;
+    position: fixed;
+    bottom: 310px;
+    right: 25px;
+    display: none;
 }
 
 .btn-9 {
-  position: fixed;
-  bottom: 280px;
-  right: 25px;
-  display: none;
+    position: fixed;
+    bottom: 280px;
+    right: 25px;
+    display: none;
 }
 
 .btn-10 {
-  position: fixed;
-  bottom: 250px;
-  right: 25px;
-  display: none;
+    position: fixed;
+    bottom: 250px;
+    right: 25px;
+    display: none;
 }
 
 .btn-11 {
-  position: fixed;
-  bottom: 220px;
-  right: 25px;
-  display: none;
+    position: fixed;
+    bottom: 220px;
+    right: 25px;
+    display: none;
 }
 
 .btn-12 {
-  position: fixed;
-  bottom: 190px;
-  right: 25px;
-  display: none;
+    position: fixed;
+    bottom: 190px;
+    right: 25px;
+    display: none;
 }
 
-.btn-top{
-  position: fixed;
-  bottom: 160px;
-  right: 25px;
-  display: none;
+.btn-top {
+    position: fixed;
+    bottom: 160px;
+    right: 25px;
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+
+    /*services page content*/
+    .hr1 {
+        margin: 0 0;
+        border: 3px solid #4ebab5 !important;
+        border-radius: 2px !important;
+        width: 30%;
+    }
+
+    .balance {
+        padding: 2rem 4rem !important;
+        text-align: justify;
+        color: white;
+        background-image: url("images/bg/balance_bg.png") !important;
+        background-size: cover;
+        /*height: 45rem;*/
+        background-position: left;
+        background-repeat: no-repeat !important;
+    }
+
+    .withdrawal {
+        padding: 2rem 4rem !important;
+        text-align: justify;
+        background-size: cover;
+        /*height: 45rem;*/
+        background-position: left;
+        background-repeat: no-repeat !important;
+
+    }
+
+    .bills {
+        padding: 2rem 4rem !important;
+        text-align: justify;
+        background-size: cover;
+        /*height: 45rem;*/
+        background-position: center;
+        background-repeat: no-repeat !important;
+    }
+
+    .purchase {
+        padding: 2rem 4rem !important;
+        text-align: justify;
+        background-size: cover;
+        /*height: 45rem;*/
+        background-position: left;
+        background-repeat: no-repeat !important;
+    }
+
+    .payroll {
+        padding: 2rem 4rem !important;
+        text-align: justify;
+        background-color: rgb(194, 189, 201);
+        background-size: cover;
+        /*height: 45rem;*/
+        background-position: center;
+        background-repeat: no-repeat !important;
+    }
+
+
+    .e-bank {
+        padding: 2rem 4rem !important;
+        text-align: justify;
+        color: white;
+        background-image: url("images/bg/ebank_bg.png") !important;
+        background-size: cover;
+        height: 45rem;
+        width: 100% !important;
+        background-position: left;
+        background-repeat: no-repeat !important;
+    }
+
+    /*additional ebank*/
+    small {
+        font-size: 1rem !important;
+    }
+
+    .icon-ebank {
+        height: 6rem;
+        width: 4rem;
+    }
+
+    .ebank2 {
+        margin-left: -2rem;
+        width: 6rem;
+    }
+
+    .row-ebank {
+        margin-top: 3rem !important;
+        margin-left: 2.5rem !important;
+    }
+
+    .bank1 {
+        margin-left: 0.5rem !important;
+    }
+
+    .bank2 {
+        margin-top: -1rem !important;
+        margin-left: 1.5rem !important;
+    }
+
+    .eload {
+        padding: 2rem 4rem !important;
+        text-align: justify;
+        height: 45rem;
+        background-position: center;
+        background-repeat: no-repeat !important;
+    }
+
+
+    .remit {
+        padding: 2rem 4rem !important;
+        text-align: justify;
+        background-size: cover;
+        height: 45rem !important;
+        width: 100% !important;
+        background-position: left;
+        background-repeat: no-repeat !important;
+    }
+
+    .fund {
+        padding: 2rem 4rem !important;
+        text-align: justify;
+        background-size: cover;
+        height: 45rem !important;
+        width: 100% !important;
+        background-position: center;
+        background-repeat: no-repeat !important;
+    }
+
+
+    .mobile {
+        padding: 2rem 4rem !important;
+        text-align: justify;
+        background-size: cover;
+        height: 45rem;
+        width: 100% !important;
+        background-position: center;
+        background-repeat: no-repeat !important;
+    }
+
+    /*height: 100% !important;*/
+
+    .online {
+        padding: 2rem 4rem !important;
+        text-align: justify;
+        height: 45rem;
+        width: 100% !important;
+        background-position: center;
+        background-repeat: no-repeat !important;
+    }
+
+
+    .ewallet {
+        padding: 2rem 4rem !important;
+        text-align: justify;
+        height: 45rem;
+        width: 100% !important;
+        background-position: center;
+        background-repeat: no-repeat !important;
+    }
+
+    .btn-nav {
+        border: 0px solid;
+        padding: 0rem 0rem !important;
+    }
+
+    .btn-1 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-2 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-3 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-4 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-5 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-6 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-7 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-8 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-9 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-10 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-11 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-12 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-top {
+        bottom: 0px;
+        right: 0px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    /*services page content*/
+    h1 {
+        text-align: center;
+        font-size: 3rem !important;
+    }
+
+    .display-p {
+        font-size: 1.2rem !important;
+    }
+
+    .balance {
+        padding: 2rem 2rem !important;
+    }
+
+    .withdrawal {
+        padding: 2rem 2rem !important;
+    }
+
+    .bills {
+        padding: 2rem 2rem !important;
+    }
+
+    .purchase {
+        padding: 2rem 2rem !important;
+    }
+
+    .payroll {
+        padding: 2rem 2rem !important;
+    }
+
+
+    .e-bank {
+        padding: 2rem 2rem !important;
+    }
+
+    /*additional ebank*/
+    small {
+        font-size: 1rem !important;
+    }
+
+    .icon-ebank {
+        height: 6rem;
+        width: 4rem;
+    }
+
+    .ebank2 {
+        margin-left: -2rem;
+        width: 6rem;
+    }
+
+    .row-ebank {
+        margin-top: 3rem !important;
+        margin-left: 2.5rem !important;
+    }
+
+    .bank1 {
+        margin-left: 0.5rem !important;
+    }
+
+    .bank2 {
+        margin-top: -1rem !important;
+        margin-left: 1.5rem !important;
+    }
+
+    .eload {
+        padding: 2rem 2rem !important;
+    }
+
+
+    .remit {
+        padding: 2rem 2rem !important;
+    }
+
+    .fund {
+        padding: 2rem 2rem !important;
+    }
+
+
+    .mobile {
+        padding: 2rem 2rem !important;
+    }
+
+    /*height: 100% !important;*/
+
+    .online {
+        padding: 2rem 2rem !important;
+    }
+
+
+    .ewallet {
+        padding: 2rem 2rem !important;
+    }
+
+    .btn-1 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-2 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-3 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-4 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-5 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-6 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-7 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-8 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-9 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-10 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-11 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-12 {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .btn-top {
+        bottom: 0px;
+        right: 0px;
+    }
 }
 
 /*partner page*/
 #partner-body-content {
-  background-image: url("images/brbback.png") !important;
-  background-position: center;
-  background-size: cover;
-  padding-bottom: 5rem;
+    background-image: url("images/brbback.png") !important;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 5rem;
 }
 
 .partner-img {
-  background-position: center;
-  background-size: cover;
-  width: 100% !important;
+    background-position: center;
+    background-size: cover;
+    width: 100% !important;
 }
 
 /*
@@ -2015,561 +2557,590 @@ h1 {
 } */
 /*lets talk page*/
 #talk-body-content {
-  background-image: url("images/brbback.png") !important;
-  padding-bottom: 8rem;
+    background-image: url("images/brbback.png") !important;
+    padding-bottom: 8rem;
 }
 
 /*calendar style*/
-.c-cal{
-  margin-top: -1.5rem;
+.c-cal {
+    margin-top: -1.5rem;
 }
 
-.card, .table{
-  background-color: transparent !important;
-  color: #4ebab5 !important;
-}
-.bg-info{
-  color: white !important;
-}
-.calendar-body{
-  border: 0px solid transparent;
+.card,
+.table {
+    background-color: transparent !important;
+    color: #4ebab5 !important;
 }
 
-.btn-outline-info{
-  color: #4ebab5 !important;
+.bg-info {
+    color: white !important;
 }
 
-.btn-outline-custom{
-  color: #4ebab5 !important;
-  border: 2px solid  #4ebab5 !important;
+.calendar-body {
+    border: 0px solid transparent;
 }
 
-h3{
-  text-align: center;
-  font-weight: bold !important;
-  padding: 0 0;
-  margin: 0 0;
+.btn-outline-info {
+    color: #4ebab5 !important;
 }
 
-td, th, .table-bordered, .table-responsive-sm{
-  border: 0px !important;
+.btn-outline-custom {
+    color: #4ebab5 !important;
+    border: 2px solid #4ebab5 !important;
 }
 
-th{
-  border-bottom: 1px solid  #4ebab5 !important;
+h3 {
+    text-align: center;
+    font-weight: bold !important;
+    padding: 0 0;
+    margin: 0 0;
 }
 
-.form-control{
-  margin: 0 3.9rem;
-  background-color: transparent!important;
-  color: #4ebab5 !important;
+td,
+th,
+.table-bordered,
+.table-responsive-sm {
+    border: 0px !important;
+}
+
+th {
+    border-bottom: 1px solid #4ebab5 !important;
+}
+
+.form-control {
+    margin: 0 3.9rem;
+    background-color: transparent !important;
+    color: #4ebab5 !important;
 }
 
 .footer-bottom {
-  background-color: #000718 !important;
-  padding: 1rem 1rem !important;
+    background-color: #000718 !important;
+    padding: 1rem 1rem !important;
 }
 
-#inputMDEx, #textarea-char-counter, label, .md-form {
-  color: #4ebab5 !important;
+#inputMDEx,
+#textarea-char-counter,
+label,
+.md-form {
+    color: #4ebab5 !important;
 }
 
 small {
-  color: white;
+    color: white;
 }
 
-.talk-1, .talk-2 {
-  background-color: #000718 !important;
-  margin: 2rem 2rem;
-  border: 1px solid;
-  border-color: #4ebab5 !important;
-  padding: 2rem 2rem !important;
+.talk-1,
+.talk-2 {
+    background-color: #000718 !important;
+    margin: 2rem 2rem;
+    border: 1px solid;
+    border-color: #4ebab5 !important;
+    padding: 2rem 2rem !important;
 }
 
 .talk-2 {
-  padding: 2rem 2rem !important;
+    padding: 2rem 2rem !important;
 }
 
 .btn-stalk {
-  padding: 1rem 3rem !important;
-  margin-left: 10rem !important;
-  margin-right: 10rem !important;
+    padding: 1rem 3rem !important;
+    margin-left: 10rem !important;
+    margin-right: 10rem !important;
 }
 
 .col-form-label {
-  font-size: 0.9rem !important;
-  padding-top: 0.5rem !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+    font-size: 0.9rem !important;
+    padding-top: 0.5rem !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
-.message-text, .form-control {
-  font-size: 0.9rem !important;
-  padding-left: 0rem !important;
+.message-text,
+.form-control {
+    font-size: 0.9rem !important;
+    padding-left: 0rem !important;
 }
 
 /*media screen for lets talk page*/
 @media screen and (max-width: 880px) {
-  .talk-1, .talk-2 {
-    padding: 2rem 2rem !important;
-    margin: 1 1 !important;
-  }
+
+    .talk-1,
+    .talk-2 {
+        padding: 2rem 2rem !important;
+        margin: 1 1 !important;
+    }
 }
 
 @media screen and (max-width: 580px) {
-  .talk-1, .talk-2 {
-    padding: 2rem 2rem !important;
-    margin: 0 0 !important;
-  }
 
-  .btn-stalk {
-    margin-left: 7rem !important;
-    margin-right: 7rem !important;
-  }
-
-  /*media screen for service page (adjust for monitor screen)*/
-  body {
-    background-color: grey;
-  }
-
-  @media screen and (max-width: 1870px) {
-    .eload {
-      padding: 6em 10em !important;
-      padding-left: 45em !important;
-      padding-top: 10em !important;
-      color: white;
-      background-image: url("images/s_eload.png") !important;
-      background-size: 100% 100%;
-      height: 35rem;
-      width: 100% !important;
-      background-repeat: no-repeat !important;
+    .talk-1,
+    .talk-2 {
+        padding: 2rem 2rem !important;
+        margin: 0 0 !important;
     }
 
-    .remit {
-      padding: 6em 10em !important;
-      padding-left: 45em !important;
-      padding-top: 10em !important;
-      color: white;
-      background-image: url("images/s_remit.png") !important;
-      background-size: 100% 100%;
-      height: 35rem;
-      width: 100% !important;
-      background-repeat: no-repeat !important;
+    .btn-stalk {
+        margin-left: 7rem !important;
+        margin-right: 7rem !important;
     }
 
-    .fund {
-      padding: 6em 10em !important;
-      padding-left: 45em !important;
-      padding-top: 10em !important;
-      color: white;
-      background-image: url("images/s_transfer.png") !important;
-      background-size: 100% 100%;
-      height: 35rem;
-      width: 100% !important;
-      background-repeat: no-repeat !important;
+    /*media screen for service page (adjust for monitor screen)*/
+    body {
+        background-color: grey;
     }
 
-    .mobile {
-      padding: 6em 10em !important;
-      padding-left: 45em !important;
-      padding-top: 10em !important;
-      color: white;
-      background-image: url("images/s_mobile.png") !important;
-      background-size: 100% 100%;
-      height: 35rem;
-      width: 100% !important;
-      background-repeat: no-repeat !important;
+    @media screen and (max-width: 1870px) {
+        .eload {
+            padding: 6em 10em !important;
+            padding-left: 45em !important;
+            padding-top: 10em !important;
+            color: white;
+            background-image: url("images/s_eload.png") !important;
+            background-size: 100% 100%;
+            height: 35rem;
+            width: 100% !important;
+            background-repeat: no-repeat !important;
+        }
+
+        .remit {
+            padding: 6em 10em !important;
+            padding-left: 45em !important;
+            padding-top: 10em !important;
+            color: white;
+            background-image: url("images/s_remit.png") !important;
+            background-size: 100% 100%;
+            height: 35rem;
+            width: 100% !important;
+            background-repeat: no-repeat !important;
+        }
+
+        .fund {
+            padding: 6em 10em !important;
+            padding-left: 45em !important;
+            padding-top: 10em !important;
+            color: white;
+            background-image: url("images/s_transfer.png") !important;
+            background-size: 100% 100%;
+            height: 35rem;
+            width: 100% !important;
+            background-repeat: no-repeat !important;
+        }
+
+        .mobile {
+            padding: 6em 10em !important;
+            padding-left: 45em !important;
+            padding-top: 10em !important;
+            color: white;
+            background-image: url("images/s_mobile.png") !important;
+            background-size: 100% 100%;
+            height: 35rem;
+            width: 100% !important;
+            background-repeat: no-repeat !important;
+        }
+
+        .online {
+            padding: 6em 10em !important;
+            padding-left: 45em !important;
+            padding-top: 10em !important;
+            color: white;
+            background-image: url("images/s_obank.png") !important;
+            background-size: 100% 100%;
+            height: 35rem;
+            width: 100% !important;
+            background-repeat: no-repeat !important;
+        }
+
+        .ewallet {
+            padding: 6em 10em !important;
+            padding-left: 45em !important;
+            padding-top: 10em !important;
+            color: white;
+            background-image: url("images/s_ewallet.png") !important;
+            background-size: 100% 100%;
+            height: 35rem;
+            width: 100% !important;
+            background-repeat: no-repeat !important;
+        }
     }
 
-    .online {
-      padding: 6em 10em !important;
-      padding-left: 45em !important;
-      padding-top: 10em !important;
-      color: white;
-      background-image: url("images/s_obank.png") !important;
-      background-size: 100% 100%;
-      height: 35rem;
-      width: 100% !important;
-      background-repeat: no-repeat !important;
-    }
+    @media screen and (max-width: 1270px) {
+        .eload {
+            padding: 13rem 8rem !important;
+            color: white;
+            background-image: url("images/s_eload.png") !important;
+            background-size: cover;
+            width: 100% !important;
+            background-repeat: no-repeat !important;
+        }
 
-    .ewallet {
-      padding: 6em 10em !important;
-      padding-left: 45em !important;
-      padding-top: 10em !important;
-      color: white;
-      background-image: url("images/s_ewallet.png") !important;
-      background-size: 100% 100%;
-      height: 35rem;
-      width: 100% !important;
-      background-repeat: no-repeat !important;
-    }
-  }
+        .remit {
+            padding: 10rem 6rem !important;
+            color: white;
+            background-image: url("images/s_remit.png") !important;
+            background-size: cover;
+            height: 35rem;
+            width: 100% !important;
+            background-repeat: no-repeat !important;
+        }
 
-  @media screen and (max-width: 1270px) {
-    .eload {
-      padding: 13rem 8rem !important;
-      color: white;
-      background-image: url("images/s_eload.png") !important;
-      background-size: cover;
-      width: 100% !important;
-      background-repeat: no-repeat !important;
-    }
+        .fund {
+            padding: 7rem 8rem !important;
+            color: white;
+            background-image: url("images/s_transfer.png") !important;
+            background-size: cover;
+            height: 35rem;
+            width: 100% !important;
+            background-repeat: no-repeat !important;
+        }
 
-    .remit {
-      padding: 10rem 6rem !important;
-      color: white;
-      background-image: url("images/s_remit.png") !important;
-      background-size: cover;
-      height: 35rem;
-      width: 100% !important;
-      background-repeat: no-repeat !important;
-    }
+        .mobile {
+            padding: 7rem 8rem !important;
+            color: white;
+            background-image: url("images/s_mobile.png") !important;
+            background-size: cover;
+            height: 35rem;
+            width: 100% !important;
+            background-repeat: no-repeat !important;
+        }
 
-    .fund {
-      padding: 7rem 8rem !important;
-      color: white;
-      background-image: url("images/s_transfer.png") !important;
-      background-size: cover;
-      height: 35rem;
-      width: 100% !important;
-      background-repeat: no-repeat !important;
-    }
+        .online {
+            padding: 7rem 8rem !important;
+            color: white;
+            background-image: url("images/s_obank.png") !important;
+            background-size: cover;
+            height: 35rem;
+            width: 100% !important;
+            background-repeat: no-repeat !important;
+        }
 
-    .mobile {
-      padding: 7rem 8rem !important;
-      color: white;
-      background-image: url("images/s_mobile.png") !important;
-      background-size: cover;
-      height: 35rem;
-      width: 100% !important;
-      background-repeat: no-repeat !important;
-    }
+        .ewallet {
+            padding: 13rem 7rem !important;
+            color: white;
+            background-image: url("images/s_ewallet.png") !important;
+            background-size: cover;
+            height: 35rem;
+            width: 100% !important;
+            background-repeat: no-repeat !important;
+        }
 
-    .online {
-      padding: 7rem 8rem !important;
-      color: white;
-      background-image: url("images/s_obank.png") !important;
-      background-size: cover;
-      height: 35rem;
-      width: 100% !important;
-      background-repeat: no-repeat !important;
-    }
+        /*media screen for service page (adjust for mobile screen)*/
+        @media screen and (max-width: 500px) {
+            .display-3 {
+                font-size: 3rem !important;
+                text-align: center !important;
+            }
 
-    .ewallet {
-      padding: 13rem 7rem !important;
-      color: white;
-      background-image: url("images/s_ewallet.png") !important;
-      background-size: cover;
-      height: 35rem;
-      width: 100% !important;
-      background-repeat: no-repeat !important;
-    }
+            .eload {
+                padding: 13rem 5rem !important;
+                color: white;
+                text-align: justify;
+                background-image: url("images/s_eload.png") !important;
+                background-size: cover;
+                background-position: center;
+                width: 100% !important;
+                background-repeat: no-repeat !important;
+            }
 
-    /*media screen for service page (adjust for mobile screen)*/
-    @media screen and (max-width: 500px) {
-      .display-3 {
-        font-size: 3rem !important;
-        text-align: center !important;
-      }
+            .remit {
+                padding: 10rem 3rem !important;
+                color: white;
+                text-align: justify;
+                background-image: url("images/s_remit.png") !important;
+                background-size: cover;
+                background-color: gray !important;
+                background-blend-mode: multiply;
+                height: 35rem;
+                width: 100% !important;
+                background-repeat: no-repeat !important;
+            }
 
-      .eload {
-        padding: 13rem 5rem !important;
-        color: white;
-        text-align: justify;
-        background-image: url("images/s_eload.png") !important;
-        background-size: cover;
-        background-position: center;
-        width: 100% !important;
-        background-repeat: no-repeat !important;
-      }
+            .fund {
+                padding: 10em 5rem !important;
+                color: white;
+                text-align: justify;
+                background-image: url("images/s_transfer.png") !important;
+                background-size: cover;
+                background-color: gray !important;
+                background-blend-mode: multiply;
+                height: 35rem;
+                width: 100% !important;
+                background-repeat: no-repeat !important;
+            }
 
-      .remit {
-        padding: 10rem 3rem !important;
-        color: white;
-        text-align: justify;
-        background-image: url("images/s_remit.png") !important;
-        background-size: cover;
-        background-color: gray !important;
-        background-blend-mode: multiply;
-        height: 35rem;
-        width: 100% !important;
-        background-repeat: no-repeat !important;
-      }
+            .mobile {
+                padding: 10rem 5rem !important;
+                color: white;
+                text-align: justify;
+                background-image: url("images/s_mobile.png") !important;
+                background-size: cover;
+                background-color: gray !important;
+                background-blend-mode: multiply;
+                height: 35rem;
+                width: 100% !important;
+                background-repeat: no-repeat !important;
+            }
 
-      .fund {
-        padding: 10em 5rem !important;
-        color: white;
-        text-align: justify;
-        background-image: url("images/s_transfer.png") !important;
-        background-size: cover;
-        background-color: gray !important;
-        background-blend-mode: multiply;
-        height: 35rem;
-        width: 100% !important;
-        background-repeat: no-repeat !important;
-      }
+            .online {
+                padding: 10rem 5rem !important;
+                color: white;
+                text-align: justify;
+                background-image: url("images/s_obank.png") !important;
+                background-size: cover;
+                background-color: gray !important;
+                background-blend-mode: multiply;
+                height: 35rem;
+                width: 100% !important;
+                background-repeat: no-repeat !important;
+            }
 
-      .mobile {
-        padding: 10rem 5rem !important;
-        color: white;
-        text-align: justify;
-        background-image: url("images/s_mobile.png") !important;
-        background-size: cover;
-        background-color: gray !important;
-        background-blend-mode: multiply;
-        height: 35rem;
-        width: 100% !important;
-        background-repeat: no-repeat !important;
-      }
+            .ewallet {
+                padding: 13rem 5rem !important;
+                color: white !important;
+                text-align: justify;
+                background-image: url("images/s_ewallet.png") !important;
+                background-size: cover;
+                background-color: gray !important;
+                background-blend-mode: multiply;
+                height: 35rem;
+                width: 100% !important;
+                background-repeat: no-repeat !important;
+            }
+        }
 
-      .online {
-        padding: 10rem 5rem !important;
-        color: white;
-        text-align: justify;
-        background-image: url("images/s_obank.png") !important;
-        background-size: cover;
-        background-color: gray !important;
-        background-blend-mode: multiply;
-        height: 35rem;
-        width: 100% !important;
-        background-repeat: no-repeat !important;
-      }
+        /*media screen for service page (adjust for mobile screen)*/
+        @media screen and (max-width: 320px) {
+            .display-3 {
+                font-size: 2rem !important;
+                text-align: center !important;
+            }
 
-      .ewallet {
-        padding: 13rem 5rem !important;
-        color: white !important;
-        text-align: justify;
-        background-image: url("images/s_ewallet.png") !important;
-        background-size: cover;
-        background-color: gray !important;
-        background-blend-mode: multiply;
-        height: 35rem;
-        width: 100% !important;
-        background-repeat: no-repeat !important;
-      }
-    }
+            .eload {
+                padding: 13rem 5rem !important;
+                color: white;
+                text-align: justify;
+                background-image: url("images/s_eload.png") !important;
+                background-size: cover;
+                background-position: center;
+                width: 100% !important;
+                background-repeat: no-repeat !important;
+            }
 
-    /*media screen for service page (adjust for mobile screen)*/
-    @media screen and (max-width: 320px) {
-      .display-3 {
-        font-size: 2rem !important;
-        text-align: center !important;
-      }
+            .remit {
+                padding: 10rem 3rem !important;
+                color: white;
+                text-align: justify;
+                background-image: url("images/s_remit.png") !important;
+                background-size: cover;
+                background-color: gray !important;
+                background-blend-mode: multiply;
+                height: 35rem;
+                width: 100% !important;
+                background-repeat: no-repeat !important;
+            }
 
-      .eload {
-        padding: 13rem 5rem !important;
-        color: white;
-        text-align: justify;
-        background-image: url("images/s_eload.png") !important;
-        background-size: cover;
-        background-position: center;
-        width: 100% !important;
-        background-repeat: no-repeat !important;
-      }
+            .fund {
+                padding: 10em 5rem !important;
+                color: white;
+                text-align: justify;
+                background-image: url("images/s_transfer.png") !important;
+                background-size: cover;
+                background-color: gray !important;
+                background-blend-mode: multiply;
+                height: 35rem;
+                width: 100% !important;
+                background-repeat: no-repeat !important;
+            }
 
-      .remit {
-        padding: 10rem 3rem !important;
-        color: white;
-        text-align: justify;
-        background-image: url("images/s_remit.png") !important;
-        background-size: cover;
-        background-color: gray !important;
-        background-blend-mode: multiply;
-        height: 35rem;
-        width: 100% !important;
-        background-repeat: no-repeat !important;
-      }
+            .mobile {
+                padding: 10rem 5rem !important;
+                color: white;
+                text-align: justify;
+                background-image: url("images/s_mobile.png") !important;
+                background-size: cover;
+                background-color: gray !important;
+                background-blend-mode: multiply;
+                height: 35rem;
+                width: 100% !important;
+                background-repeat: no-repeat !important;
+            }
 
-      .fund {
-        padding: 10em 5rem !important;
-        color: white;
-        text-align: justify;
-        background-image: url("images/s_transfer.png") !important;
-        background-size: cover;
-        background-color: gray !important;
-        background-blend-mode: multiply;
-        height: 35rem;
-        width: 100% !important;
-        background-repeat: no-repeat !important;
-      }
+            .online {
+                padding: 10rem 5rem !important;
+                color: white;
+                text-align: justify;
+                background-image: url("images/s_obank.png") !important;
+                background-size: cover;
+                background-color: gray !important;
+                background-blend-mode: multiply;
+                height: 35rem;
+                width: 100% !important;
+                background-repeat: no-repeat !important;
+            }
 
-      .mobile {
-        padding: 10rem 5rem !important;
-        color: white;
-        text-align: justify;
-        background-image: url("images/s_mobile.png") !important;
-        background-size: cover;
-        background-color: gray !important;
-        background-blend-mode: multiply;
-        height: 35rem;
-        width: 100% !important;
-        background-repeat: no-repeat !important;
-      }
+            .ewallet {
+                padding: 13rem 5rem !important;
+                color: white !important;
+                text-align: justify;
+                background-image: url("images/s_ewallet.png") !important;
+                background-size: cover;
+                background-color: gray !important;
+                background-blend-mode: multiply;
+                height: 35rem;
+                width: 100% !important;
+                background-repeat: no-repeat !important;
+            }
+        }
 
-      .online {
-        padding: 10rem 5rem !important;
-        color: white;
-        text-align: justify;
-        background-image: url("images/s_obank.png") !important;
-        background-size: cover;
-        background-color: gray !important;
-        background-blend-mode: multiply;
-        height: 35rem;
-        width: 100% !important;
-        background-repeat: no-repeat !important;
-      }
+        /*Navbar manipulation*/
+        /* Media Rules */
+        @media screen and (max-width: 1087px) {
+            .about {
+                font-size: 0.7rem !important;
+            }
 
-      .ewallet {
-        padding: 13rem 5rem !important;
-        color: white !important;
-        text-align: justify;
-        background-image: url("images/s_ewallet.png") !important;
-        background-size: cover;
-        background-color: gray !important;
-        background-blend-mode: multiply;
-        height: 35rem;
-        width: 100% !important;
-        background-repeat: no-repeat !important;
-      }
-    }
+            .about-dlist {
+                font-size: 0.7rem !important;
+            }
 
-    /*Navbar manipulation*/
-    /* Media Rules */
-    @media screen and (max-width: 1087px) {
-      .about {
-        font-size: 0.7rem !important;
-      }
+            .services {
+                font-size: 0.7rem !important;
+            }
 
-      .about-dlist {
-        font-size: 0.7rem !important;
-      }
+            .product {
+                font-size: 0.7rem !important;
+            }
 
-      .services {
-        font-size: 0.7rem !important;
-      }
+            .partners {
+                font-size: 0.7rem !important;
+            }
 
-      .product {
-        font-size: 0.7rem !important;
-      }
+            .log-btn {
+                font-size: 0.7rem !important;
+            }
 
-      .partners {
-        font-size: 0.7rem !important;
-      }
+            .letsTalk {
+                font-size: 0.7rem !important;
+            }
 
-      .log-btn {
-        font-size: 0.7rem !important;
-      }
+            .btn-border {
+                margin-right: 1.5rem;
+            }
 
-      .letsTalk {
-        font-size: 0.7rem !important;
-      }
+            .about-border {
+                border: 1px solid;
+                border-right-color: #171717 !important;
+                border-top: none !important;
+                border-left: none !important;
+                border-bottom: none;
+                padding-right: 1rem;
+                margin-right: 0;
+            }
+        }
 
-      .btn-border {
-        margin-right: 1.5rem;
-      }
+        @media screen and (max-width: 940px) {
 
-      .about-border {
-        border: 1px solid;
-        border-right-color: #4ebab5 !important;
-        border-top: none !important;
-        border-left: none !important;
-        border-bottom: none;
-        padding-right: 1rem;
-        margin-right: 0;
-      }
-    }
+            .dropdown-item,
+                {
+                font-size: 0.7rem !important;
+            }
 
-    @media screen and (max-width: 940px) {
-      .dropdown-item, {
-        font-size: 0.7rem !important;
-      }
+            .dropdown {
+                margin-right: 16px !important;
+                padding-right: 1rem !important;
+            }
 
-      .dropdown {
-        margin-right: 16px !important;
-        padding-right: 1rem !important;
-      }
+            .services {
+                font-size: 0.7rem !important;
+            }
 
-      .services {
-        font-size: 0.7rem !important;
-      }
+            .product {
+                font-size: 0.7rem !important;
+            }
 
-      .product {
-        font-size: 0.7rem !important;
-      }
+            .about {
+                font-size: 0.7rem !important;
+            }
 
-      .about {
-        font-size: 0.7rem !important;
-      }
+            .about-dlist {
+                font-size: 0.7rem !important;
+            }
 
-      .about-dlist {
-        font-size: 0.7rem !important;
-      }
+            .partners {
+                font-size: 0.7rem !important;
+            }
 
-      .partners {
-        font-size: 0.7rem !important;
-      }
+            .log-btn {
+                font-size: 0.7rem !important;
+            }
 
-      .log-btn {
-        font-size: 0.7rem !important;
-      }
+            .letsTalk {
+                font-size: 0.7rem !important;
+            }
 
-      .letsTalk {
-        font-size: 0.7rem !important;
-      }
+            .about-border {
+                border: 1px solid;
+                border-right-color: #171717 !important;
+                border-top: none !important;
+                border-left: none !important;
+                border-bottom: none;
+                padding-right: 1rem;
+                margin-right: 0;
+            }
+        }
 
-      .about-border {
-        border: 1px solid;
-        border-right-color: #4ebab5 !important;
-        border-top: none !important;
-        border-left: none !important;
-        border-bottom: none;
-        padding-right: 1rem;
-        margin-right: 0;
-      }
-    }
+        @media screen and (max-width: 450px) {
+            .brblogo {
+                height: 3rem;
+                width: 1.9rem;
+                margin-left: 2rem;
+                margin-right: 0.5rem;
+            }
 
-    @media screen and (max-width: 450px) {
-      .services {
-        font-size: 0.9rem !important;
-      }
+            .cashmate {
+                height: 1.1rem;
+                width: 7rem;
+            }
 
-      .product {
-        font-size: 0.9rem !important;
-      }
+            .services {
+                font-size: 0.9rem !important;
+            }
 
-      .about {
-        font-size: 0.9rem !important;
-      }
+            .product {
+                font-size: 0.9rem !important;
+            }
 
-      .about-dlist {
-        font-size: 0.9rem !important;
-      }
+            .about {
+                font-size: 0.9rem !important;
+            }
 
-      .partners {
-        font-size: 0.9rem !important;
-      }
+            .about-dlist {
+                font-size: 0.9rem !important;
+            }
 
-      .log-btn {
-        font-size: 0.9rem !important;
-      }
+            .partners {
+                font-size: 0.9rem !important;
+            }
 
-      .letsTalk {
-        font-size: 0.9rem !important;
-      }
+            .log-btn {
+                font-size: 0.9rem !important;
+            }
 
-      .about-border {
-        border: 1px solid;
-        border-right-color: #4ebab5 !important;
-        border-top: none !important;
-        border-left: none !important;
-        border-bottom: none;
-        padding-right: 0.1rem;
-        margin-right: 0;
-      }
-    }
+            .letsTalk {
+                font-size: 0.9rem !important;
+            }
 
-    /*Footer contact info
+            .about-border {
+                border: 1px solid;
+                border-right-color: #171717 !important;
+                border-top: none !important;
+                border-left: none !important;
+                border-bottom: none;
+                padding-right: 0.1rem;
+                margin-right: 0;
+            }
+        }
+
+        /*Footer contact info
     footer {
       font-size: 0.8rem !important;
       height: 100px;

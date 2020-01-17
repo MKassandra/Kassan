@@ -64,7 +64,7 @@ strong {
 .h-color,
 .header-nav,
 .nav-custom {
-    background-image: linear-gradient(to right, #c8c8c8, #999999) !important;
+    background-color: #5c6ac4 !important;
 }
 
 /* Paddings Header Section */
@@ -75,7 +75,7 @@ strong {
 /* Text Styles */
 /* HOVER EFFECTS */
 .navbar ul li a {
-    color: #171717 !important;
+    color: #b0d4d0 !important;
 }
 
 .navbar ul li a:hover {
@@ -83,25 +83,25 @@ strong {
 }
 
 .about {
-    color: #171717 !important;
+    color: #b0d4d0 !important;
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
 }
 
 .services {
-    color: #171717 !important;
+    color: #b0d4d0 !important;
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
 }
 
 .product {
-    color: #171717 !important;
+    color: #b0d4d0 !important;
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
 }
 
 .partners {
-    color: #171717 !important;
+    color: #b0d4d0 !important;
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
 }
@@ -113,7 +113,7 @@ strong {
     font-size: 1rem !important;
 }*/
 .letsTalk {
-    color: #171717 !important;
+    color: #b0d4d0 !important;
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
 }
@@ -129,7 +129,7 @@ strong {
 
 /*dropdown color*/
 .navbar-custom .dropdown-menu {
-    background-color: #999999;
+    background-color: #5c6ac4;
     /*bg color*/
     border-width: thin;
 }
@@ -145,14 +145,14 @@ strong {
 .navbar-custom .dropdown-item:focus {
     color: white !important;
     /*text color*/
-    background-color: #808a87;
+    background-color: #4e5bad;
     /*highlight*/
 }
 
 /* Border Manipulation */
 .about-border {
     border: 1px solid;
-    border-right-color: #171717 !important;
+    border-right-color: #b0d4d0 !important;
     border-top: none !important;
     border-left: none !important;
     border-bottom: none;
@@ -166,7 +166,7 @@ strong {
 
 .services-border {
     border: 1px solid;
-    border-right-color: #171717 !important;
+    border-right-color: #b0d4d0 !important;
     border-top: none !important;
     border-left: none !important;
     border-bottom: none;
@@ -176,7 +176,7 @@ strong {
 
 .product-border {
     border: 1px solid;
-    border-right-color: #171717 !important;
+    border-right-color: #b0d4d0 !important;
     border-top: none !important;
     border-left: none !important;
     border-bottom: none;
@@ -186,7 +186,7 @@ strong {
 
 .partners-border {
     border: 1px solid;
-    border-right-color: #171717 !important;
+    border-right-color: #b0d4d0 !important;
     border-top: none !important;
     border-left: none !important;
     border-bottom: none;
@@ -196,7 +196,7 @@ strong {
 
 .letsTalk-border {
     border: 1px solid;
-    border-right-color: #171717 !important;
+    border-right-color: #b0d4d0 !important;
     border-top: none !important;
     border-left: none !important;
     border-bottom: none;
@@ -229,7 +229,7 @@ footer {
     width: 100%;
     padding: 1rem 3rem;
     color: white !important;
-    background-color: #333333 !important;
+    background-color: #5c6ac4 !important;
 }
 
 /*Home page slideshow*/
@@ -240,11 +240,11 @@ footer {
 .jumbbank {
     padding: 6em 10em !important;
     color: white;
-    background-image: url("images/s_front.jpg") !important;
+    background-image: url("images/s_front2.jpg") !important;
     /* background-size: 100% 100%; */
     background-size: cover !important;
-    background-position: center !important;
-    height: 27rem;
+    background-position: left !important;
+    height: 30rem;
     background-repeat: no-repeat !important;
 }
 
@@ -255,7 +255,7 @@ footer {
     background-image: url("images/s_purchase.png") !important;
     background-size: cover !important;
     background-position: center !important;
-    height: 27rem;
+    height: 30rem;
     background-repeat: no-repeat !important;
 }
 
@@ -265,7 +265,7 @@ footer {
     background-image: url("images/s_bill.png") !important;
     background-size: cover !important;
     background-position: center !important;
-    height: 27rem;
+    height: 30rem;
     background-repeat: no-repeat !important;
 }
 
@@ -275,7 +275,7 @@ footer {
     background-image: url("images/s_payroll.png") !important;
     background-size: cover !important;
     background-position: center !important;
-    height: 27rem;
+    height: 30rem;
     background-repeat: no-repeat !important;
 }
 
@@ -285,7 +285,7 @@ footer {
     background-image: url("images/s_withdraw.png") !important;
     background-size: cover !important;
     background-position: center !important;
-    height: 27rem;
+    height: 30rem;
     background-repeat: no-repeat !important;
 }
 
@@ -295,7 +295,7 @@ footer {
     background-image: url("images/artboard1.jpg") !important;
     background-size: cover !important;
     background-position: center !important;
-    height: 27rem;
+    height: 30rem;
     background-repeat: no-repeat !important;
 }
 
@@ -313,15 +313,15 @@ footer {
 /*talk content from index.html*/
 .contact-content {
     text-align: center;
-    padding: 0.1rem 5rem;
+    padding: 1rem 5rem;
     padding-bottom: 6rem;
-    color: white;
-    background-color: rgba(99, 102, 106, 0.7) !important;
+    color: #b0d4d0;
+    background-color: #5c6ac4 !important;
     /*background-color: #776b5d !important;*/
 }
 
 .link-add {
-    color: white !important;
+    color: #b0d4d0 !important;
 }
 
 /*media manipulation in index page*/

@@ -21,7 +21,7 @@ body {
     /*background-image: url('images/bg_main.jpg');
   background-size: contain !important;
   background-position: center !important;*/
-    background-color: #c4c4c4 !important;
+    background-color: #5c6ac4 !important;
     width: 100%;
 }
 
@@ -243,7 +243,7 @@ footer {
     background-image: url("images/s_front2.jpg") !important;
     /* background-size: 100% 100%; */
     background-size: cover !important;
-    background-position: left !important;
+    background-position: center !important;
     height: 30rem;
     background-repeat: no-repeat !important;
 }
@@ -456,7 +456,67 @@ footer {
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 375px) {
+    .display-4 {
+        text-align: center;
+        font-size: 2.5rem !important;
+        padding-bottom: 1rem !important;
+        margin: 0 0 !important;
+    }
+
+    .lead {
+        text-align: center !important;
+        font-size: 1.3rem !important;
+    }
+
+    .btn-product {
+        margin-left: 2.9rem !important;
+    }
+
+    .jumbbank {
+        padding: 0 4rem !important;
+        padding-top: 3rem !important;
+        margin: 0 0 !important;
+    }
+
+    .s_purchase {
+        padding: 0 4rem !important;
+        padding-top: 3.5rem !important;
+        margin: 0 0 !important;
+    }
+
+    .s_bill {
+        padding: 0 4rem !important;
+        padding-top: 3.5rem !important;
+        margin: 0 0 !important;
+    }
+
+    .s_payroll {
+        padding: 0 4rem !important;
+        padding-top: 3.5rem !important;
+        margin: 0 0 !important;
+    }
+
+    .s_withdraw {
+        padding: 0 4rem !important;
+        padding-top: 3.5rem !important;
+        margin: 0 0 !important;
+    }
+
+    .s_product {
+        padding: 0 4rem !important;
+        padding-top: 3.5rem !important;
+        margin: 0 0 !important;
+    }
+
+    footer {
+        color: white !important;
+        background-color: #333333 !important;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
     .display-4 {
         text-align: center;
         font-size: 2.5rem !important;

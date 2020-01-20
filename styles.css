@@ -494,7 +494,7 @@ footer {
         color: #3a3a3b !important;
     }
  .contact-content{
-   padding-top: 2rem!important;
+   padding-top: 3rem!important;
    background-color: white !important;
    color:  #3a3a3b;
  }
@@ -562,7 +562,9 @@ footer {
         padding-top: 3.5rem !important;
         margin: 0 0 !important;
     }
-
+    .contact-content{
+       padding-top: 0.2rem!important;
+     }
 }
 
 

@@ -704,6 +704,7 @@ footer {
 .h6-bod-name{
     text-align: center !important;
     font-size:0.9rem;
+    padding-bottom: 2rem;
 }
 
 .row-bod{
@@ -714,8 +715,6 @@ footer {
 .bod-picture{
     height:5rem;
     width:5rem;
-    padding:0 0;
-    margin:0 0rem;
 }
 
 .bod-img {

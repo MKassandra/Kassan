@@ -313,6 +313,7 @@ footer {
 
 /*talk content from index.html*/
 .contact-content {
+  position: sticky;
     text-align: center;
     padding: 1rem 5rem;
     padding-bottom: 6rem;
@@ -338,9 +339,11 @@ footer {
 
     .h1-home-front{
       font-size: 5rem !important;
+      color: #4ebab5;
         }
 
     .display-4 {
+      color:  #4c008a;
         text-align: center;
         font-size: 5rem !important;
         padding-bottom: 1.5rem !important;
@@ -348,6 +351,7 @@ footer {
     }
 
     .lead {
+      color: #3a3a3b;
         text-align: center !important;
         font-size: 1.8rem !important;
     }
@@ -361,57 +365,58 @@ footer {
         padding: 0 8rem !important;
         padding-top: 3rem !important;
         margin: 0 0 !important;
+        background-blend-mode: screen;
+        background-color: rgba(63,87,110, 0.9);
     }
 
     .s_purchase {
         padding: 0 8rem !important;
         padding-top: 3rem !important;
         margin: 0 0 !important;
-        background-color: #969e96 !important;
-        background-blend-mode: multiply;
+        background-blend-mode: screen;
+        background-color: rgba(250,250,250, 0.6);
     }
 
     .s_bill {
         padding: 0 8rem !important;
         padding-top: 3rem !important;
         margin: 0 0 !important;
-        background-color: #969e96 !important;
-        background-blend-mode: multiply;
+        background-blend-mode: screen;
+        background-color: rgba(250,250,250, 0.6);
     }
 
     .s_payroll {
         padding: 0 8rem !important;
         padding-top: 3rem !important;
         margin: 0 0 !important;
-        background-color: #969e96 !important;
-        background-blend-mode: multiply;
+        background-blend-mode: screen;
+        background-color: rgba(250,250,250, 0.6);
     }
 
     .s_withdraw {
         padding: 0 8rem !important;
         padding-top: 3rem !important;
         margin: 0 0 !important;
-        background-color: #969e96 !important;
-        background-blend-mode: multiply;
+        background-blend-mode: screen;
+        background-color: rgba(250,250,250, 0.6);
     }
 
     .s_product {
         padding: 0 8rem !important;
         padding-top: 3rem !important;
         margin: 0 0 !important;
-        background-color: #969e96 !important;
-        background-blend-mode: multiply;
+        background-blend-mode: screen;
+        background-color: rgba(250,250,250, 0.6);
     }
 
-    footer {
-        color: white !important;
-        background-color: #333333 !important;
-    }
+
 }
 
 @media screen and (max-width: 500px) {
   .h1-home-front{
-           font-size: 3.5rem !important;
+    margin-top: -2rem !important;
+           font-size: 2.5rem !important;
+           text-align: left;
       }
 
     .display-4 {
@@ -431,48 +436,73 @@ footer {
     }
 
     .jumbbank {
+      background-size: cover !important;
       background-position: center !important;
       background-blend-mode: multiply;
-      background-color: rgba(55,88,117, 0.7);
+      background-color: rgba(63,87,110, 0.7);
+      height: 20rem;
       padding: 0 4rem !important;
       padding-top: 3.5rem !important;
       margin: 0 0 !important;
     }
 
     .s_purchase {
+      background-blend-mode: screen;
+      background-color: rgba(250,250,250, 0.6);
+      height: 20rem;
         padding: 0 4rem !important;
         padding-top: 3.5rem !important;
         margin: 0 0 !important;
     }
 
     .s_bill {
+      background-blend-mode: screen;
+      background-color: rgba(250,250,250, 0.6);
+      height: 20rem;
         padding: 0 4rem !important;
         padding-top: 3.5rem !important;
         margin: 0 0 !important;
     }
 
     .s_payroll {
+      background-blend-mode: screen;
+      background-color: rgba(250,250,250, 0.6);
+      height: 20rem;
         padding: 0 4rem !important;
         padding-top: 3.5rem !important;
         margin: 0 0 !important;
     }
 
     .s_withdraw {
+      background-blend-mode: screen;
+      background-color: rgba(250,250,250, 0.6);
+      height: 20rem;
         padding: 0 4rem !important;
         padding-top: 3.5rem !important;
         margin: 0 0 !important;
     }
 
     .s_product {
+      background-blend-mode: screen;
+      background-color: rgba(250,250,250, 0.6);
+      height: 20rem;
         padding: 0 4rem !important;
         padding-top: 3.5rem !important;
         margin: 0 0 !important;
     }
-
-    footer {
-        color: white !important;
-        background-color: #333333 !important;
+    a {
+        color: #3a3a3b !important;
     }
+ .contact-content{
+   padding-top: 3rem!important;
+   background-color: white !important;
+   color:  #3a3a3b;
+ }
+
+ .link-add {
+     color:#3a3a3b!important;
+ }
+
 }
 
 
@@ -533,10 +563,6 @@ footer {
         margin: 0 0 !important;
     }
 
-    footer {
-        color: white !important;
-        background-color: #333333 !important;
-    }
 }
 
 
@@ -596,10 +622,6 @@ footer {
         margin: 0 0 !important;
     }
 
-    footer {
-        color: white !important;
-        background-color: #333333 !important;
-    }
 }
 
 /*about page content*/

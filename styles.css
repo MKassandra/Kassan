@@ -331,6 +331,10 @@ footer {
         text-align: center !important;
     }
 
+    .h1-home-front{
+             font-size: 2rem !important;
+        }
+
     .display-4 {
         text-align: center;
         font-size: 5rem !important;

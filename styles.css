@@ -694,10 +694,28 @@ footer {
 
 #meet-body-content {
     padding: 4rem 0rem;
-    line-height: 2;
-    color: white;
-    background-color: #999999 !important;
+    color: black;
+    background-image: url("images/meet2.png");
+    background-size: cover!important;
+    background-repeat: no-repeat;
     padding-bottom: 10rem;
+}
+
+.h6-bod-name{
+    text-align: center !important;
+    font-size:0.9rem;
+}
+
+.row-bod{
+    text-align:center!important;
+    margin: 1rem 4rem!important;
+}
+
+.bod-picture{
+    height:5rem;
+    width:5rem;
+    padding:0 0;
+    margin:0 0rem;
 }
 
 .bod-img {
@@ -768,12 +786,6 @@ footer {
 }
 
 
-@media screen and (max-width: 400px) {
-    #meet-body-content {
-        padding: 0 2rem !important;
-    }
-
-}
 
 /*about page: vertical nagigation */
 .btn-history {

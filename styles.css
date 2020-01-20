@@ -238,9 +238,10 @@ footer {
 }
 
 .jumbbank {
-    padding: 6em 10em !important;
-    color: white;
-    background-image: url("images/s_front2.jpg") !important;
+    padding: 3rem 2rem !important;
+    font-weight: bolder !important;
+    color: #4dbab5;
+    background-image: url("images/main2.jpg") !important;
     /* background-size: 100% 100%; */
     background-size: cover !important;
     background-position: center !important;
@@ -414,9 +415,12 @@ footer {
     }
 
     .jumbbank {
-        padding: 0 4rem !important;
-        padding-top: 3rem !important;
-        margin: 0 0 !important;
+      background-position: center !important;
+      background-blend-mode: multiply;
+      background-color: rgba(55,88,117, 0.7);
+      padding: 0 4rem !important;
+      padding-top: 3rem !important;
+      margin: 0 0 !important;
     }
 
     .s_purchase {
@@ -579,19 +583,27 @@ footer {
 #history-body-content {
     /*padding: 4rem 3rem !important;*/
     padding-top: 1rem;
-    line-height: 2;
-    color: white;
+    line-height: 1.2;
+    color: black;
     text-align: justify;
-    background-color: #00081d !important;
+    background-image: url("images/history2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .row-h {
-    padding: 0 10rem !important;
+    padding: 0 2rem !important;
     padding-bottom: 3rem !important;
 }
 
 /*media for about page: history*/
 @media screen and (max-width: 800px) {
+
+  #history-body-content {
+    background-position: center !important;
+
+  }
     .row-h {
         padding: 0 5rem !important;
 
@@ -615,14 +627,16 @@ footer {
     .row-h {
         padding: 0 2rem !important;
     }
+
+
 }
 
 #who-body-content {
     padding: 4rem 6rem !important;
     line-height: 2;
-    color: white;
+    color: black;
     text-align: justify;
-    background-image: url("images/artboard1.jpg") !important;
+    background-image: url("images/who2.jpg") !important;
     background-size: cover !important;
     background-position: left;
     background-repeat: no-repeat;
@@ -631,6 +645,7 @@ footer {
 /*media for about page: history*/
 @media screen and (max-width: 800px) {
     #who-body-content {
+        background-position: center;
         padding: 0 4rem !important;
         text-align: justify;
     }
@@ -2011,6 +2026,10 @@ height: 100% !important;*/
 
 h1 {
     font-size: 5rem !important;
+}
+.h1-home-front{
+  font-size: 3rem !important;
+  font-weight: bolder !important;
 }
 
 /* service page: vertical pagination position*/

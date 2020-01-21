@@ -1016,6 +1016,10 @@ hr {
     margin: 0 0 !important;
 }
 
+.row-buttom{
+  padding-bottom: 5rem;
+}
+
 .p-product {
     font-size: 0.9rem !important;
     margin-top: -2rem !important;

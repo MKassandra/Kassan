@@ -2689,7 +2689,8 @@ h1 {
 
 /*partner page*/
 #partner-body-content {
-    background-image: url("images/brbback.png") !important;
+    padding: 0rem 4rem;
+    background-image: url("images/meet2.png") !important;
     background-position: center;
     background-size: cover;
     padding-bottom: 5rem;
@@ -2700,17 +2701,17 @@ h1 {
     background-size: cover;
     width: 100% !important;
 }
+.row-partner{
+  text-align:center!important;
+}
+
+.partner-display{
+  height: 7rem;
+  width: auto;
+  margin: 1rem 0rem;
+}
 
 /*
-.partner-display{
-  height: 6rem;
-  width: 10rem;
-}
-
-
-.col-partner{
-  color:white !important;
-}
 .r2-p{
   padding-top: 2rem;
   padding-left: 3rem;

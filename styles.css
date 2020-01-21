@@ -2820,33 +2820,6 @@ small {
     padding-left: 0rem !important;
 }
 
-/*media screen for lets talk page*/
-@media screen and (max-width: 880px) {
-
-    .talk-1,
-    .talk-2 {
-        padding: 2rem 2rem !important;
-        margin: 1 1 !important;
-    }
-}
-
-@media screen and (max-width: 580px) {
-
-    .talk-1,
-    .talk-2 {
-        padding: 2rem 2rem !important;
-        margin: 0 0 !important;
-    }
-
-    .btn-stalk {
-        margin-left: 7rem !important;
-        margin-right: 7rem !important;
-    }
-
-    /*media screen for service page (adjust for monitor screen)*/
-    body {
-        background-color: grey;
-    }
 
     @media screen and (max-width: 1870px) {
         .eload {

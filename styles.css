@@ -60,11 +60,11 @@ strong {
     width: 10rem;
 }
 
-/* Navbar Style */
+/* Navbar Style   */
 .h-color,
 .header-nav,
 .nav-custom {
-    background-color: #5c6ac4 !important;
+    background-color:#5c6ac4 !important;
 }
 
 /* Paddings Header Section */
@@ -3248,7 +3248,7 @@ small {
             .brblogo {
                 height: 3rem;
                 width: 1.9rem;
-                margin-left: 2rem;
+                margin-left: 0.1rem;
                 margin-right: 0.5rem;
             }
 

@@ -2784,6 +2784,10 @@ small {
     color: white;
 }
 
+.c-form{
+  text-align: center;
+}
+
 .talk-1,
 .talk-2 {
     background-color: #000718 !important;
@@ -2799,8 +2803,6 @@ small {
 
 .btn-stalk {
     padding: 1rem 3rem !important;
-    margin-left: 10rem !important;
-    margin-right: 10rem !important;
 }
 
 .col-form-label {
@@ -2809,6 +2811,7 @@ small {
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
+
 
 .message-text,
 .form-control {

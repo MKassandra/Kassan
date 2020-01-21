@@ -969,8 +969,8 @@ hr {
 }
 
 .brbcard-display {
-    height: 14rem;
-    width: 25rem;
+    height: auto;
+    width: 20rem;
     margin-bottom: -10rem;
 }
 

@@ -948,7 +948,7 @@ hr {
 
 /*product page content*/
 .product-dev {
-    background-image: url('images/brbback.png');
+    background-image: url('images/meet2.png');
     background-size: 100% 100%;
     padding-bottom: 5rem;
 }
@@ -1004,7 +1004,7 @@ hr {
 }
 
 .col-brb {
-    color: white !important;
+    color: #3a3a3b !important;
     text-align: center !important;
     padding-top: 0rem !important;
     font-size: 1.12rem;
@@ -1012,6 +1012,7 @@ hr {
 }
 
 .row-1 {
+    text-align: center;
     margin: 0 0 !important;
 }
 
@@ -1061,7 +1062,7 @@ hr {
 
 .col-custom,
 .p-product {
-    color: white !important;
+    color: #3a3a3b !important;
     text-align: center !important;
     padding-top: 0rem !important;
     font-size: 1.1rem;
@@ -1708,8 +1709,8 @@ hr {
     padding: 6em 10em !important;
     padding-left: 5em !important;
     padding-top: 3em !important;
-    color: white;
-    background-image: url("images/bg/balance_bg.png") !important;
+    color: #3a3a3b;
+    background-image: url("images/bg/balance_bg1.png") !important;
     background-size: cover;
     height: 45rem;
     background-position: left;
@@ -1747,8 +1748,8 @@ width: 100% !important;
     padding-left: 5em !important;
     padding-right: 35rem !important;
     padding-top: 5em !important;
-    color: white;
-    background-image: url("images/bg/bill_bg.png") !important;
+    color: #3a3a3b;
+    background-image: url("images/bg/bills_bg2.png") !important;
     background-size: cover;
     height: 45rem;
     /* backup solution incase scrollify go bananas
@@ -1763,8 +1764,8 @@ width: 100% !important;
     padding-left: 5em !important;
     padding-right: 35rem !important;
     padding-top: 3em !important;
-    color: white;
-    background-image: url("images/bg/purchase_bg.png") !important;
+    color: #3a3a3b;
+    background-image: url("images/bg/purchase_bg2.png") !important;
     background-blend-mode: multiply;
     background-color: rgb(150, 146, 132);
     background-size: cover;
@@ -1781,10 +1782,8 @@ width: 100% !important;
     padding-left: 5em !important;
     padding-right: 25rem !important;
     padding-top: 3em !important;
-    color: white;
-    background-image: url("images/bg/payroll_bg.png") !important;
-    background-blend-mode: multiply;
-    background-color: rgb(194, 189, 201);
+    color: #3a3a3b;
+    background-image: url("images/bg/payroll_bg2.png") !important;
     background-size: cover;
     height: 45rem;
     /* backup solution incase scrollify go bananas
@@ -1887,10 +1886,8 @@ width: 100% !important;*/
     padding-left: 5em !important;
     padding-right: 35rem !important;
     padding-top: 3rem !important;
-    color: white;
-    background-image: url("images/bg/remit_bg.png") !important;
-    background-blend-mode: multiply;
-    background-color: rgba(107, 76, 158, 0.3);
+    color: #3a3a3b;
+    background-image: url("images/bg/remit_bg2.png") !important;
     background-size: cover;
     height: 45rem !important;
     width: 100% !important;
@@ -1939,13 +1936,10 @@ width: 100% !important;*/
     padding-right: 30rem !important;
     padding-left: 5em !important;
     padding-top: 10em !important;
-    color: white;
-    background-image: url("images/bg/mobile_bg.png") !important;
+    color: #3a3a3b;
+    background-image: url("images/bg/mobile_bg2.png") !important;
     background-size: cover;
-    background-blend-mode: multiply;
-    background-color: rgba(112, 128, 153, 0.5);
     height: 45rem;
-
     width: 100% !important;
     background-position: center;
     background-repeat: no-repeat !important;
@@ -2094,9 +2088,7 @@ h1 {
 
 /* service page: vertical pagination position*/
 .btn-nav {
-    border: 1px solid;
-    border-right-color: #4ebab5 !important;
-    color: white !important;
+    color: black !important;
     padding: 0.5rem 0.5rem !important;
 }
 
@@ -2304,8 +2296,6 @@ h1 {
     .balance {
         padding: 2rem 4rem !important;
         text-align: justify;
-        color: white;
-        background-image: url("images/bg/balance_bg.png") !important;
         background-size: cover;
         /*height: 45rem;*/
         background-position: left;
@@ -2343,7 +2333,6 @@ h1 {
     .payroll {
         padding: 2rem 4rem !important;
         text-align: justify;
-        background-color: rgb(194, 189, 201);
         background-size: cover;
         /*height: 45rem;*/
         background-position: center;
@@ -2354,8 +2343,6 @@ h1 {
     .e-bank {
         padding: 2rem 4rem !important;
         text-align: justify;
-        color: white;
-        background-image: url("images/bg/ebank_bg.png") !important;
         background-size: cover;
         height: 45rem;
         width: 100% !important;

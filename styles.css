@@ -953,11 +953,6 @@ hr {
     background-size: cover;
     padding-bottom: 5rem;
 }
-
-.cashless-product-dev {
-    padding-bottom: 5rem;
-}
-
 .row {
     padding-top: 0.2rem;
 }
@@ -974,18 +969,6 @@ hr {
     margin-bottom: -10rem;
 }
 
-.brbcard-display {
-    height: auto;
-    width: 20rem;
-    margin-bottom: -10rem;
-}
-
-.product-display{
-  height: 6.5rem;
-  width: 6.5rem;
-  margin: 0 3rem !important;
-
-}
 @media screen and (max-width: 375px){
   .brbcard-display {
       height: auto;
@@ -993,6 +976,11 @@ hr {
   }
 }
 
+.product-display{
+  height: 6.5rem;
+  width: 6.5rem;
+  margin: 0 3rem !important;
+}
 
 .product2-display{
   height: 6.5rem;

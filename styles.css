@@ -2712,7 +2712,8 @@ h1 {
 } */
 /*lets talk page*/
 #talk-body-content {
-    background-image: url("images/brbback.png") !important;
+    background-image: url("images/meet2.png") !important;
+    background-size: cover;
     padding-bottom: 8rem;
 }
 
@@ -2723,8 +2724,8 @@ h1 {
 
 .card,
 .table {
-    background-color: transparent !important;
-    color: #4ebab5 !important;
+    background-color: white !important;
+    color: #3a3a3b !important;
 }
 
 .bg-info {
@@ -2736,12 +2737,12 @@ h1 {
 }
 
 .btn-outline-info {
-    color: #4ebab5 !important;
+    color: #3a3a3b !important;
 }
 
 .btn-outline-custom {
-    color: #4ebab5 !important;
-    border: 2px solid #4ebab5 !important;
+    color: #3a3a3b !important;
+    border: 2px solid #3a3a3b !important;
 }
 
 h3 {
@@ -2759,20 +2760,25 @@ th,
 }
 
 th {
-    border-bottom: 1px solid #4ebab5 !important;
+    border-bottom: 1px solid #3a3a3b !important;
 }
 
 .form-control {
     margin: 0 0rem;
     background-color: transparent !important;
-    color: #4ebab5 !important;
+    color: #3a3a3b !important;
+}
+
+.footer-bottom {
+    background-color: #3a3a3b !important;
+    padding: 1rem 1rem !important;
 }
 
 #inputMDEx,
 #textarea-char-counter,
 label,
 .md-form {
-    color: #4ebab5 !important;
+    color: #3a3a3b !important;
 }
 
 small {
@@ -2788,7 +2794,7 @@ small {
     background-color: #000718 !important;
     margin: 2rem 2rem;
     border: 1px solid;
-    border-color: #4ebab5 !important;
+    border-color: #3a3a3b !important;
     padding: 2rem 2rem !important;
 }
 
@@ -2807,14 +2813,40 @@ small {
     padding-right: 0 !important;
 }
 
+
 .message-text,
 .form-control {
     font-size: 0.9rem !important;
     padding-left: 0rem !important;
 }
 
+/*media screen for lets talk page*/
+@media screen and (max-width: 880px) {
 
+    .talk-1,
+    .talk-2 {
+        padding: 2rem 2rem !important;
+        margin: 1 1 !important;
+    }
+}
 
+@media screen and (max-width: 580px) {
+
+    .talk-1,
+    .talk-2 {
+        padding: 2rem 2rem !important;
+        margin: 0 0 !important;
+    }
+
+    .btn-stalk {
+        margin-left: 7rem !important;
+        margin-right: 7rem !important;
+    }
+
+    /*media screen for service page (adjust for monitor screen)*/
+    body {
+        background-color: grey;
+    }
 
     @media screen and (max-width: 1870px) {
         .eload {

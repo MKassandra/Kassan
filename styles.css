@@ -999,6 +999,7 @@ hr {
     padding: 1rem 1rem
 }
 
+
 .col-brb {
     color: #3a3a3b !important;
     text-align: center !important;
@@ -1397,7 +1398,7 @@ hr {
 
 .cash-display {
     height: 7rem;
-    width: 7rem;
+    width: auto;
 }
 @media screen and (max-width: 500px) {
 .col-cashless {
@@ -1413,16 +1414,16 @@ hr {
 
 }
 /*product page: access*/
-.access-product-dev {
+#access-product-body {
     padding-bottom: 10rem !important;
-    background-image: url('images/brbback.png');
-    background-size: 100% 100%;
+    background-image: url('images/meet2.png');
+    background-size: cover;
     background-position: center;
 }
 
-
-
-
+.access-product-dev{
+  text-align: center;
+}
 
 /*product page:customize page*/
 #cust-product-body{

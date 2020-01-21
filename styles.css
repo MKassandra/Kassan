@@ -342,7 +342,7 @@ footer {
       color: #4ebab5;
         }
 
-    .display-4 {
+    .display-home {
       color:  #4c008a;
         text-align: center;
         font-size: 5rem !important;
@@ -419,7 +419,7 @@ footer {
            text-align: left;
       }
 
-    .display-4 {
+    .display-home {
         text-align: center;
         font-size: 3rem !important;
         padding-bottom: 1rem !important;
@@ -508,18 +508,21 @@ footer {
 
 @media screen and (max-width: 375px) {
   .h1-home-front{
+
+            padding-top:1rem !important;
            font-size: 1.9rem !important;
       }
 
-    .display-4 {
-        text-align: center;
+    .display-home {
+        font-weight:bolder !important;
+        text-align: left;
         font-size: 2.5rem !important;
         padding-bottom: 1rem !important;
         margin: 0 0 !important;
     }
 
     .lead {
-        text-align: center !important;
+        text-align: left !important;
         font-size: 1.3rem !important;
     }
 
@@ -528,40 +531,47 @@ footer {
     }
 
     .jumbbank {
+        text-align:left !important;
         padding: 0 4rem !important;
         padding-top: 3rem !important;
         margin: 0 0 !important;
     }
 
     .s_purchase {
+        text-align:left !important;
         padding: 0 4rem !important;
         padding-top: 3.5rem !important;
         margin: 0 0 !important;
     }
 
     .s_bill {
+        text-align:left !important;
         padding: 0 4rem !important;
         padding-top: 1.5rem !important;
         margin: 0 0 !important;
     }
 
     .s_payroll {
+        text-align:left !important;
         padding: 0 4rem !important;
         padding-top: 3.5rem !important;
         margin: 0 0 !important;
     }
 
     .s_withdraw {
+        text-align:left !important;
         padding: 0 4rem !important;
         padding-top: 3.5rem !important;
         margin: 0 0 !important;
     }
 
     .s_product {
+        text-align:left !important;
         padding: 0 4rem !important;
         padding-top: 3.5rem !important;
         margin: 0 0 !important;
     }
+
     .contact-content{
        padding-top: 0.2rem!important;
      }
@@ -3248,7 +3258,7 @@ small {
             .brblogo {
                 height: 3rem;
                 width: 1.9rem;
-                margin-left: 0.1rem;
+                margin-left: 0.1rem !important;
                 margin-right: 0.5rem;
             }
 

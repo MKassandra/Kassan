@@ -1296,14 +1296,18 @@ hr {
 }
 
 /*product page: simple*/
+#simple-product-body{
+      padding-bottom: 15rem !important;
+      background-image: url('images/meet2.png');
+      background-size: cover;
+      background-position: center;
+}
 .simple-product-dev {
-    margin: 5rem 5rem !important;
+    text-align: center;
+    margin: 1rem 1rem !important;
 }
 
 .s-display {
-    margin-top: -5rem;
-    padding-left: 13rem;
-    color: white;
 }
 
 .card-simple {
@@ -1321,7 +1325,6 @@ hr {
 .simple-display {
     height: 8rem;
     width: 8rem;
-    padding: 1rem 1rem;
 }
 
 .co-sp {
@@ -1363,24 +1366,16 @@ hr {
 }
 
 /*product page: cashless*/
-.cashless-product-dev {
+#cashless-product-body {
     padding-bottom: 15rem !important;
-    background-image: url('images/bg/cashless_bg.png');
-    background-size: 100% 100%;
+    background-image: url('images/meet2.png');
+    background-size: cover;
     background-position: center;
 }
 
-.co-cash {
-    padding-left: 2rem !important;
-}
-
-.p-cashless {
-    padding-top: 2rem !important;
-    color: white !important;
-    text-align: center !important;
-    padding-top: 13rem !important;
-    font-size: 1.12rem !important;
-    margin: 0rem 3rem;
+.cashless-product-dev{
+      text-align: center;
+      padding: 0 4rem;
 }
 
 .col-b {
@@ -1391,23 +1386,32 @@ hr {
 .card-cashless {
     height: 7rem;
     width: 7rem;
-    margin-left: 5rem;
+
 }
 
 .c-display {
     font-weight: bold;
     padding-bottom: 2rem !important;
-    margin-top: -7rem;
-    padding-left: 13rem;
-    color: #4ebab5;
+    color: #3a3a3b;
 }
 
 .cash-display {
     height: 7rem;
     width: 7rem;
-    margin-left: 8rem;
 }
+@media screen and (max-width: 500px) {
+.col-cashless {
+    text-align: center;
+  }
+  .col-b {
+      border-right: 0px solid;
+      }
 
+      .c-display {
+          padding-left: 0rem;
+      }
+
+}
 /*product page: access*/
 .access-product-dev {
     padding-bottom: 10rem !important;
@@ -1421,23 +1425,25 @@ hr {
 
 
 /*product page:customize page*/
-.custom-product-dev {
-    padding: 3rem 0;
-    background-image: url('images/brbback.png');
+#cust-product-body{
+    padding-bottom: 15rem !important;
+    background-image: url('images/meet2.png');
     background-size: cover;
     background-position: center;
 }
 
+.custom-product-dev {
+    padding: 3rem 3rem !important;
+}
+
 .custom-display {
-    height: 12rem;
+    height: auto;
     width: 24rem;
-    padding-left: 2rem;
 }
 
 .r-custom {
     padding: 4rem 0rem;
 }
-
 .c-product {
     color: white !important;
     padding-left: 4rem;

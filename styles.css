@@ -1440,10 +1440,10 @@ hr {
     height: auto;
     width: 24rem;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 375px) {
 .custom-display {
     height: auto;
-    width: 15rem;
+    width: 15rem !important;
 }
 }
 .r-custom {

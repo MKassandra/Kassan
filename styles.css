@@ -2711,6 +2711,13 @@ h1 {
   margin: 1rem 0rem;
 }
 
+@media screen and (max-width: 375px) {
+    .partner-display{
+      height: auto;
+      width: 10rem;
+    }
+}
+
 /*
 .r2-p{
   padding-top: 2rem;

@@ -228,7 +228,7 @@ footer {
     bottom: 0;
     width: 100%;
     padding: 1rem 3rem;
-    color: white !important;
+    color: #b0d4d0 !important;
     background-color: #5c6ac4 !important;
 }
 
@@ -495,13 +495,9 @@ footer {
     }
  .contact-content{
    padding-top: 3rem!important;
-   background-color: white !important;
-   color:  #3a3a3b;
+
  }
 
- .link-add {
-     color:#3a3a3b!important;
- }
 
 }
 

@@ -989,8 +989,7 @@ hr {
 @media screen and (max-width: 375px){
   .brbcard-display {
       height: auto;
-      width: 15rem;
-      margin-bottom: -10rem;
+      width: 15rem !important;
   }
 }
 

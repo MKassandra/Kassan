@@ -1440,7 +1440,12 @@ hr {
     height: auto;
     width: 24rem;
 }
-
+@media screen and (max-width: 500px) {
+.custom-display {
+    height: auto;
+    width: 15rem;
+}
+}
 .r-custom {
     padding: 4rem 0rem;
 }

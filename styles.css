@@ -1297,6 +1297,96 @@ hr {
     padding-right: 0.4rem;
 }
 
+
+@media screen and (max-width: 500px) {
+
+.border-r {
+    border-top: 0px solid;
+    border-right: 0px solid;
+    border-color: #4ebab5;
+}
+
+.col1,
+.col2,
+.col3,
+.col4,
+.col5,
+.col6 {
+    color: #4ebab5;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 0rem !important;
+}
+
+.col1 {
+    padding-top: 0rem;
+    margin-top: 0rem;
+}
+
+.col2 {
+    padding-top: 0rem;
+    margin-top: 0rem;
+}
+
+.col3 {
+    padding-top: 0rem;
+    margin-top: 0rem;
+}
+
+.col4 {
+    padding-top: 0rem;
+    margin-top: 0rem;
+}
+
+.col5 {
+    padding-top: 0rem;
+    margin-top: 0rem;
+}
+
+.col6 {
+    padding-top: 0rem;
+    margin-top: 0rem;
+}
+
+.col7 {
+    padding-top: 0rem;
+}
+
+.r1 {
+    margin-top: 0rem;
+}
+
+.r2 {
+    margin-top: 0rem;
+    padding-right: 0;
+}
+
+.r3 {
+    margin-top: 0rem;
+    padding-right: 0;
+}
+
+.r4 {
+    margin-top: 0rem;
+    padding-right: 0;
+}
+
+.r5 {
+    margin-top: 0rem;
+    padding-right: 0;
+}
+
+.r6 {
+    margin-top: 0rem;
+    padding-right: 0;
+}
+
+.r7 {
+  margin-top: 0rem;
+  padding-right: 0;
+  }
+}
+
 /*product page: simple*/
 #simple-product-body{
     padding: 0 2rem ;
@@ -1445,8 +1535,13 @@ hr {
 @media screen and (max-width: 500px) {
   .col-access{
     margin-top:0rem;
-  }
+}
 
+@media screen and (max-width: 375px){
+  .brbcard-display {
+      height: auto;
+      width: 15rem !important;
+  }
 }
 
 /*product page:customize page*/

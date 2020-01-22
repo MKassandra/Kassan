@@ -1203,6 +1203,10 @@ hr {
     background-position: center;
 }
 
+.brb-upgrade {
+    height: 4rem;
+    width: 7rem;
+}
 .u-display,
 .s-display {
     font-weight: bold;
@@ -1215,7 +1219,7 @@ hr {
 }
 
 .upgrade-content {
-    margin: 0rem 3rem;
+    margin: 0rem 2rem;
     color: #3a3a3b;
     padding-bottom: 7rem;
 }
@@ -1318,6 +1322,10 @@ hr {
     padding: 0 1rem ;
     }
 
+    .brb-upgrade {
+        height: auto;
+        width: 20rem;
+    }
 
     .col-u{
         padding:3rem 3rem;
@@ -1480,10 +1488,6 @@ hr {
     color: white;
 }
 
-.brb-upgrade {
-    height: auto;
-    width: 15rem;
-}
 
 /*product page: cashless*/
 #cashless-product-body {

@@ -1188,7 +1188,8 @@ hr {
 
 
 #upgrade-product-body {
-    background-image: url('images/brbback.png');
+    padding: 0 2rem ;
+    background-image: url('images/meet2.png');
     background-size: cover;
     background-position: center;
 }
@@ -1206,7 +1207,7 @@ hr {
 
 .upgrade-content {
     margin: 0rem 3rem;
-    color: white;
+    color: #3a3a3b;
     padding-bottom: 7rem;
 }
 
@@ -1298,6 +1299,7 @@ hr {
 
 /*product page: simple*/
 #simple-product-body{
+    padding: 0 2rem ;
       padding-bottom: 15rem !important;
       background-image: url('images/meet2.png');
       background-size: cover;
@@ -1368,6 +1370,7 @@ hr {
 
 /*product page: cashless*/
 #cashless-product-body {
+    padding: 0 2rem ;
     padding-bottom: 15rem !important;
     background-image: url('images/meet2.png');
     background-size: cover;
@@ -1415,6 +1418,7 @@ hr {
 }
 /*product page: access*/
 #access-product-body {
+  padding: 0 2rem ;
     padding-bottom: 10rem !important;
     background-image: url('images/meet2.png');
     background-size: cover;
@@ -1422,11 +1426,32 @@ hr {
 }
 
 .access-product-dev{
-  text-align: center;
+  text-align: left;
+}
+
+.col-access{
+  margin-top:-10rem;
+}
+
+.text-access{
+  padding-top: 1rem;
+}
+
+.access-display{
+  height: 7rem;
+  width: 7rem;
+}
+
+@media screen and (max-width: 500px) {
+  .col-access{
+    margin-top:0rem;
+  }
+
 }
 
 /*product page:customize page*/
 #cust-product-body{
+    padding: 0 2rem ;
     padding-bottom: 15rem !important;
     background-image: url('images/meet2.png');
     background-size: cover;

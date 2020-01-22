@@ -1216,7 +1216,9 @@ hr {
     border-right: 5px solid;
     border-color: #4ebab5;
 }
-
+.row-u{
+  padding-top: 3rem;
+}
 .col-u{
     padding-bottom:3rem;
 }

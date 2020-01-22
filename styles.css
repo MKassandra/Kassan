@@ -1478,8 +1478,8 @@ hr {
 }
 
 .brb-upgrade {
-    height: 3rem;
-    width: 6rem;
+    height: auto;
+    width: 15rem;
 }
 
 /*product page: cashless*/
@@ -1523,6 +1523,7 @@ hr {
   }
   .col-b {
       border-right: 0px solid;
+          margin-bottom:3rem;
       }
 
       .c-display {
@@ -1577,7 +1578,7 @@ hr {
     margin-top:0rem;
   }
   .a-display{
-    padding-bottom: 2rem;
+    display: none;
   }
   .a-left{
     text-align: center;

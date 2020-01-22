@@ -1527,21 +1527,51 @@ hr {
   padding-top: 1rem;
 }
 
+.a-display {
+    height: auto;
+    width: 25rem !important;
+}
+
 .access-display{
   height: 7rem;
   width: 7rem;
 }
 
+.a-left{
+  text-align: right;
+}
+
+.a-right{
+  text-align: left;
+}
+
+@media screen and (max-width: 1130px) {
+  .a2,.a3.,.a6{
+    display: none!important;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .col-access{
     margin-top:0rem;
-}
+  }
 
-@media screen and (max-width: 375px){
-  .access-product-dev{
+  .a-left{
     text-align: center;
   }
-  .brbcard-display {
+
+  .a-right{
+    text-align: center;
+  }
+
+  .a2,.a4,.a6{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 375px){
+  .a-display {
       height: auto;
       width: 15rem !important;
   }

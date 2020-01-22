@@ -1095,7 +1095,16 @@ hr {
     margin-left: 4rem;
     margin-top: -3rem;
 }
+@media screen and (max-width: 500px){
+  .back-arrow {
+      margin-left: -1.9rem;
+  }
 
+  .back {
+      margin-left: 1.7rem;
+  }
+
+}
 /* ----old version-----
 .col-brb {
     color: white !important;
@@ -1188,7 +1197,7 @@ hr {
 
 
 #upgrade-product-body {
-    padding: 0 2rem ;
+    padding: 0 2rem;
     background-image: url('images/meet2.png');
     background-size: cover;
     background-position: center;

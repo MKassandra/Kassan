@@ -1610,6 +1610,10 @@ hr {
     width: 24rem;
 }
 @media screen and (max-width: 375px) {
+  .custom-product-dev{
+    text-align: center;
+  }
+
 .custom-display {
     height: auto;
     width: 15rem !important;

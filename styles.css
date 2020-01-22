@@ -1545,17 +1545,16 @@ hr {
   text-align: left;
 }
 
-@media screen and (max-width: 1130px) {
-  .a2,.a3.,.a6{
-    display: none!important;
-  }
-}
-
 @media screen and (max-width: 500px) {
+  .access-product-dev{
+    text-align: center;
+  }
   .col-access{
     margin-top:0rem;
   }
-
+  .a-display{
+    padding-bottom: 2rem;
+  }
   .a-left{
     text-align: center;
   }
@@ -1567,6 +1566,7 @@ hr {
   .a2,.a4,.a6{
     display: none;
   }
+
 }
 
 

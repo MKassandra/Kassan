@@ -1538,6 +1538,9 @@ hr {
 }
 
 @media screen and (max-width: 375px){
+  .access-product-dev{
+    text-align: center;
+  }
   .brbcard-display {
       height: auto;
       width: 15rem !important;

@@ -1612,8 +1612,12 @@ hr {
 }
 
 .custom-product-dev {
-    padding: 0rem 3rem !important;
+    padding: 0rem 0rem !important;
     margin-top: -3rem;
+}
+
+.custom-desc{
+  padding-left: 3rem;
 }
 
 .custom-display {
@@ -1623,6 +1627,9 @@ hr {
 @media screen and (max-width: 500px) {
   .custom-product-dev{
     text-align: center;
+  }
+  .custom-desc{
+    padding-left: 0rem;
   }
 
 .custom-display {

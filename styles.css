@@ -1602,14 +1602,15 @@ hr {
 }
 
 .custom-product-dev {
-    padding: 3rem 3rem !important;
+    padding: 0rem 3rem !important;
+    margin-top: -3rem;
 }
 
 .custom-display {
     height: auto;
     width: 24rem;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
   .custom-product-dev{
     text-align: center;
   }

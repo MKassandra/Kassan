@@ -502,7 +502,7 @@ footer {
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .h1-home-front{
 
             padding-top:1rem !important;
@@ -654,8 +654,9 @@ footer {
 @media screen and (max-width: 800px) {
 
   #history-body-content {
-    background-position: center !important;
-
+    background-position: left !important;
+    background-blend-mode: screen;
+    background-color: rgb(255, 255, 255, 0.7);
   }
     .row-h {
         padding: 0 5rem !important;
@@ -698,7 +699,9 @@ footer {
 /*media for about page: history*/
 @media screen and (max-width: 800px) {
     #who-body-content {
-        background-position: center;
+        background-position: left !important;
+        background-blend-mode: screen;
+        background-color: rgb(255, 255, 255, 0.7);
         padding: 0 4rem !important;
         text-align: justify;
     }
@@ -969,7 +972,7 @@ hr {
     margin-bottom: -10rem;
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 414px){
   .brbcard-display {
       height: auto;
       width: 15rem !important;
@@ -1203,10 +1206,6 @@ hr {
     background-position: center;
 }
 
-.brb-upgrade {
-    height: 4rem;
-    width: 7rem;
-}
 .u-display,
 .s-display {
     font-weight: bold;
@@ -1219,7 +1218,7 @@ hr {
 }
 
 .upgrade-content {
-    margin: 0rem 2rem;
+    margin: 0rem 3rem;
     color: #3a3a3b;
     padding-bottom: 7rem;
 }
@@ -1322,11 +1321,6 @@ hr {
     padding: 0 1rem ;
     }
 
-    .brb-upgrade {
-        height: auto;
-        width: 15rem;
-    }
-
     .col-u{
         padding:3rem 3rem;
     }
@@ -1335,9 +1329,8 @@ hr {
         border-top: 0px solid;
         border-right: 0px solid;
         border-left: 1px solid;
-        border-bottom: 70px solid;
+        border-bottom: 100px solid;
         border-color: #4ebab5;
-
     }
 
 .col1,
@@ -1488,6 +1481,10 @@ hr {
     color: white;
 }
 
+.brb-upgrade {
+    height: auto;
+    width: 15rem;
+}
 
 /*product page: cashless*/
 #cashless-product-body {
@@ -1602,7 +1599,7 @@ hr {
 }
 
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 414px){
   .a-display {
       height: auto;
       width: 15rem !important;
@@ -2907,7 +2904,7 @@ h1 {
   margin: 1rem 0rem;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
     .partner-display{
       height: auto;
       width: 10rem;

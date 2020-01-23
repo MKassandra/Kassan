@@ -1953,6 +1953,8 @@ width: 100% !important;
     padding-top: 5em !important;
     color: #3a3a3b;
     background-image: url("images/bg/bills_bg2.png") !important;
+    background-blend-mode: overlay;
+    background-color: rgba(232, 160, 213, 0.2);
     background-size: cover;
     height: 45rem;
     /* backup solution incase scrollify go bananas
@@ -1969,8 +1971,8 @@ width: 100% !important;
     padding-top: 3em !important;
     color: #3a3a3b;
     background-image: url("images/bg/purchase_bg2.png") !important;
-    background-blend-mode: multiply;
-    background-color: rgb(150, 146, 132);
+    background-blend-mode: overlay;
+    background-color: rgb(255, 255, 255, 0.5);
     background-size: cover;
     height: 45rem;
     /* backup solution incase scrollify go bananas
@@ -1983,10 +1985,12 @@ width: 100% !important;
 .payroll {
     padding: 6em 10em !important;
     padding-left: 5em !important;
-    padding-right: 25rem !important;
+    padding-right: 35rem !important;
     padding-top: 3em !important;
     color: #3a3a3b;
     background-image: url("images/bg/payroll_bg2.png") !important;
+    background-blend-mode: overlay;
+    background-color: rgb(255, 255, 255, 0.3);
     background-size: cover;
     height: 45rem;
     /* backup solution incase scrollify go bananas
@@ -2520,7 +2524,8 @@ h1 {
         text-align: justify;
         background-size: cover;
         /*height: 45rem;*/
-        background-position: center;
+        background-position: left;
+
         background-repeat: no-repeat !important;
     }
 

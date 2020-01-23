@@ -253,7 +253,7 @@ footer {
 .s_purchase {
     padding: 6em 10em !important;
     color: white;
-    background-image: url("images/s_purchase.png") !important;
+    background-image: url("images/bg/purchase_bg2.png") !important;
     background-size: cover !important;
     background-position: center !important;
     height: 30rem;

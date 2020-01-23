@@ -253,7 +253,7 @@ footer {
 .s_purchase {
     padding: 6em 10em !important;
     color: white;
-    background-image: url("images/s_purchase.png") !important;
+    background-image: url("images/bg/purchase_bg2.png") !important;
     background-size: cover !important;
     background-position: center !important;
     height: 30rem;
@@ -3139,7 +3139,7 @@ small {
             background-repeat: no-repeat !important;
         }
 ]
-        /*media screen for service page (adjust for mobile screen)*/
+        /*media screen for service page (adjust for mobile screen)
         @media screen and (max-width: 500px) {
             .display-3 {
                 font-size: 3rem !important;
@@ -3213,7 +3213,7 @@ small {
                 width: 100% !important;
                 background-repeat: no-repeat !important;
             }
-        }
+        }*/
 
         /*media screen for service page (adjust for mobile screen)*/
         @media screen and (max-width: 320px) {

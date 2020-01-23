@@ -745,6 +745,7 @@ footer {
 .bod-picture{
     height:8rem;
     width:8rem;
+    padding-bottom: 0.5rem;
 }
 
 .bod-img {

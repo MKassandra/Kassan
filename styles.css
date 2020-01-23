@@ -743,8 +743,8 @@ footer {
 }
 
 .bod-picture{
-    height:5rem;
-    width:5rem;
+    height:8rem;
+    width:8rem;
 }
 
 .bod-img {
@@ -1899,6 +1899,10 @@ hr {
 }
 
 /*services page content*/
+.h1-s{
+  font-weight: bolder;
+  color: rgb(77, 0, 138);
+}
 .hr1 {
     margin: 0 0;
     border: 3px solid #4ebab5 !important;
@@ -1929,8 +1933,10 @@ width: 100% !important;*/
     padding: 6em 10em !important;
     padding-left: 5em !important;
     padding-top: 5em !important;
-    color: white;
+    color: #3a3a3b;
     background-image: url("images/bg/withdraw_bg.png") !important;
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.6);
     background-size: cover;
     height: 45rem;
 
@@ -2006,8 +2012,10 @@ width: 100% !important;
     padding-left: 5em !important;
     padding-right: 25rem !important;
     padding-top: 1rem !important;
-    color: white;
+    color: #3a3a3b;
     background-image: url("images/bg/ebank_bg.png") !important;
+    background-blend-mode: overlay;
+    background-color: rgb(255, 255, 255, 0.6);
     background-size: cover;
     height: 45rem;
     width: 100% !important;
@@ -2061,11 +2069,11 @@ small {
     padding-left: 5em !important;
 
     padding-top: 15em !important;
-    color: white;
+    color: #3a3a3b;
     background-image: url("images/bg/eload_bg.png") !important;
     background-size: cover;
-    background-blend-mode: multiply;
-    background-color: rgba(105, 77, 35, 0.5);
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.5);
     height: 45rem;
 
     background-position: center;
@@ -2090,8 +2098,8 @@ width: 100% !important;*/
   background-repeat: no-repeat;
   */
     padding: 6em 10em !important;
-    padding-left: 5em !important;
-    padding-right: 35rem !important;
+    padding-left: 35em !important;
+    padding-right: 10rem !important;
     padding-top: 3rem !important;
     color: #3a3a3b;
     background-image: url("images/bg/remit_bg2.png") !important;
@@ -3035,7 +3043,6 @@ small {
             padding: 6em 10em !important;
             padding-left: 45em !important;
             padding-top: 10em !important;
-            color: white;
             background-image: url("images/s_eload.png") !important;
             background-size: 100% 100%;
             height: 35rem;
@@ -3045,9 +3052,8 @@ small {
 
         .remit {
             padding: 6em 10em !important;
-            padding-left: 45em !important;
+            padding-right:  45em !important;
             padding-top: 10em !important;
-            color: white;
             background-image: url("images/bg/remit_bg2.png") !important;
             background-size: 100% 100%;
             height: 35rem;
@@ -3059,7 +3065,6 @@ small {
             padding: 6em 10em !important;
             padding-left: 45em !important;
             padding-top: 10em !important;
-            color: white;
             background-image: url("images/s_transfer.png") !important;
             background-size: 100% 100%;
             height: 35rem;
@@ -3071,7 +3076,6 @@ small {
             padding: 6em 10em !important;
             padding-left: 45em !important;
             padding-top: 10em !important;
-            color: white;
             background-image: url("images/s_mobile.png") !important;
             background-size: 100% 100%;
             height: 35rem;
@@ -3083,7 +3087,6 @@ small {
             padding: 6em 10em !important;
             padding-left: 45em !important;
             padding-top: 10em !important;
-            color: white;
             background-image: url("images/s_obank.png") !important;
             background-size: 100% 100%;
             height: 35rem;
@@ -3095,7 +3098,6 @@ small {
             padding: 6em 10em !important;
             padding-left: 45em !important;
             padding-top: 10em !important;
-            color: white;
             background-image: url("images/s_ewallet.png") !important;
             background-size: 100% 100%;
             height: 35rem;
@@ -3107,7 +3109,7 @@ small {
     @media screen and (max-width: 1270px) {
         .eload {
             padding: 13rem 8rem !important;
-            color: white;
+            color: #3a3a3b;
             background-image: url("images/s_eload.png") !important;
             background-size: cover;
             width: 100% !important;
@@ -3116,7 +3118,7 @@ small {
 
         .remit {
             padding: 10rem 6rem !important;
-            color: white;
+            color: #3a3a3b;
             background-image: url("images/bg/remit_bg2.png") !important;
             background-size: cover;
             height: 35rem;
@@ -3176,7 +3178,7 @@ small {
 
             .eload {
                 padding: 13rem 5rem !important;
-                color: white;
+                color: #3a3a3b;
                 text-align: justify;
                 background-image: url("images/s_eload.png") !important;
                 background-size: cover;
@@ -3187,12 +3189,12 @@ small {
 
             .remit {
                 padding: 10rem 3rem !important;
-                color: white;
+                color: #3a3a3b;
                 text-align: justify;
                 background-image: url("images/bg/remit_bg2.png") !important;
                 background-size: cover;
-                background-color: gray !important;
-                background-blend-mode: multiply;
+                background-color: rgba(255, 255, 255, 0.5); !important;
+                background-blend-mode: overlay;
                 height: 35rem;
                 width: 100% !important;
                 background-repeat: no-repeat !important;
@@ -3259,7 +3261,7 @@ small {
             }
 
             .eload {
-                color: white;
+                color: #3a3a3b;
                 text-align: justify;
                 background-image: url("images/s_eload.png") !important;
                 background-size: cover;
@@ -3270,12 +3272,12 @@ small {
 
             .remit {
                 padding: 10rem 3rem !important;
-                color: white;
+                color: #3a3a3b;
                 text-align: justify;
                 background-image: url("images/bg/remit_bg2.png") !important;
                 background-size: cover;
-                background-color: gray !important;
-                background-blend-mode: multiply;
+                background-color: rgba(255, 255, 255, 0.5); !important;
+                background-blend-mode: overlay;
                 height: 35rem;
                 width: 100% !important;
                 background-repeat: no-repeat !important;

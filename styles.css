@@ -3045,7 +3045,7 @@ small {
             padding-left: 45em !important;
             padding-top: 10em !important;
             color: white;
-            background-image: url("images/s_remit.png") !important;
+            background-image: url("images/bg/remit_bg2.png") !important;
             background-size: 100% 100%;
             height: 35rem;
             width: 100% !important;
@@ -3114,7 +3114,7 @@ small {
         .remit {
             padding: 10rem 6rem !important;
             color: white;
-            background-image: url("images/s_remit.png") !important;
+            background-image: url("images/bg/remit_bg2.png") !important;
             background-size: cover;
             height: 35rem;
             width: 100% !important;

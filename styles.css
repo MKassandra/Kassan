@@ -2126,10 +2126,10 @@ width: 100% !important;*/
     padding-left: 5em !important;
     padding-right: 35rem !important;
     padding-top: 10em !important;
-    color: white;
+    color: #3a3a3b ;
     background-image: url("images/bg/fund_bg.png") !important;
-    background-blend-mode: multiply;
-    background-color: rgba(107, 145, 176, 0.3);
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.7);
     background-size: cover;
     height: 45rem !important;
     width: 100% !important;
@@ -3078,6 +3078,8 @@ small {
             padding-left: 45em !important;
             padding-top: 10em !important;
             background-image: url("images/s_mobile.png") !important;
+            background-color: rgba(255, 255, 255, 0.5) !important;
+            background-blend-mode: overlay;
             background-size: 100% 100%;
             height: 35rem;
             width: 100% !important;
@@ -3129,7 +3131,7 @@ small {
 
         .fund {
             padding: 7rem 8rem !important;
-            color: white;
+            color: #3a3a3b ;
             background-image: url("images/s_transfer.png") !important;
             background-size: cover;
             height: 35rem;
@@ -3139,8 +3141,10 @@ small {
 
         .mobile {
             padding: 7rem 8rem !important;
-            color: white;
+            color:  #3a3a3b;
             background-image: url("images/s_mobile.png") !important;
+            background-color: rgba(255, 255, 255, 0.5) !important;
+            background-blend-mode: overlay;
             background-size: cover;
             height: 35rem;
             width: 100% !important;
@@ -3194,7 +3198,7 @@ small {
                 text-align: justify;
                 background-image: url("images/bg/remit_bg2.png") !important;
                 background-size: cover;
-                background-color: rgba(255, 255, 255, 0.5); !important;
+                background-color: rgba(255, 255, 255, 0.5) !important;
                 background-blend-mode: overlay;
                 height: 35rem;
                 width: 100% !important;
@@ -3203,12 +3207,12 @@ small {
 
             .fund {
                 padding: 4rem 2rem !important;
-                color: white;
+                color: #3a3a3b ;
                 text-align: justify;
                 background-image: url("images/s_transfer.png") !important;
                 background-size: cover;
-                background-color: gray !important;
-                background-blend-mode: multiply;
+                background-color: rgba(255, 255, 255, 0.5) !important;
+                background-blend-mode: overlay;
                 height: 35rem;
                 width: 100% !important;
                 background-repeat: no-repeat !important;
@@ -3216,12 +3220,12 @@ small {
 
             .mobile {
                 padding: 4rem 2rem !important;
-                color: white;
                 text-align: justify;
+                color:  #3a3a3b;
                 background-image: url("images/s_mobile.png") !important;
+                background-color: rgba(255, 255, 255, 0.5) !important;
+                background-blend-mode: overlay;
                 background-size: cover;
-                background-color: gray !important;
-                background-blend-mode: multiply;
                 height: 35rem;
                 width: 100% !important;
                 background-repeat: no-repeat !important;
@@ -3286,12 +3290,12 @@ small {
 
             .fund {
                 padding: 10em 5rem !important;
-                color: white;
+                color: #3a3a3b ;
                 text-align: justify;
                 background-image: url("images/s_transfer.png") !important;
                 background-size: cover;
-                background-color: gray !important;
-                background-blend-mode: multiply;
+                background-color: rgba(255, 255, 255, 0.5) !important;
+                background-blend-mode: overlay;
                 height: 35rem;
                 width: 100% !important;
                 background-repeat: no-repeat !important;
@@ -3299,11 +3303,11 @@ small {
 
             .mobile {
                 padding: 10rem 5rem !important;
-                color: white;
                 text-align: justify;
+                color:  #3a3a3b;
                 background-image: url("images/s_mobile.png") !important;
-                background-size: cover;
-                background-color: gray !important;
+                background-color: rgba(255, 255, 255, 0.5) !important;
+                background-blend-mode: overlay;
                 background-blend-mode: multiply;
                 height: 35rem;
                 width: 100% !important;

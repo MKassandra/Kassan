@@ -1972,8 +1972,8 @@ width: 100% !important;
     padding-top: 3em !important;
     color: #3a3a3b;
     background-image: url("images/bg/purchase_bg2.png") !important;
-    background-blend-mode: multiply;
-    background-color: rgb(150, 146, 132);
+    background-blend-mode: overlay;
+    background-color: rgb(165, 219, 255, 0.3);
     background-size: cover;
     height: 45rem;
     /* backup solution incase scrollify go bananas
@@ -3032,12 +3032,8 @@ small {
             padding: 6em 10em !important;
             padding-left: 45em !important;
             padding-top: 10em !important;
-            color: white;
-            background-image: url("images/s_eload.png") !important;
             background-size: 100% 100%;
             height: 35rem;
-            width: 100% !important;
-            background-repeat: no-repeat !important;
         }
 
         .remit {
@@ -3045,7 +3041,6 @@ small {
             padding-left: 45em !important;
             padding-top: 10em !important;
             color: white;
-            background-image: url("images/bg/remit_bg2.png") !important;
             background-size: 100% 100%;
             height: 35rem;
             width: 100% !important;
@@ -3056,8 +3051,6 @@ small {
             padding: 6em 10em !important;
             padding-left: 45em !important;
             padding-top: 10em !important;
-            color: white;
-            background-image: url("images/s_transfer.png") !important;
             background-size: 100% 100%;
             height: 35rem;
             width: 100% !important;
@@ -3068,8 +3061,6 @@ small {
             padding: 6em 10em !important;
             padding-left: 45em !important;
             padding-top: 10em !important;
-            color: white;
-            background-image: url("images/s_mobile.png") !important;
             background-size: 100% 100%;
             height: 35rem;
             width: 100% !important;
@@ -3080,8 +3071,6 @@ small {
             padding: 6em 10em !important;
             padding-left: 45em !important;
             padding-top: 10em !important;
-            color: white;
-            background-image: url("images/s_obank.png") !important;
             background-size: 100% 100%;
             height: 35rem;
             width: 100% !important;
@@ -3092,8 +3081,6 @@ small {
             padding: 6em 10em !important;
             padding-left: 45em !important;
             padding-top: 10em !important;
-            color: white;
-            background-image: url("images/s_ewallet.png") !important;
             background-size: 100% 100%;
             height: 35rem;
             width: 100% !important;
@@ -3104,8 +3091,6 @@ small {
     @media screen and (max-width: 1270px) {
         .eload {
             padding: 13rem 8rem !important;
-            color: white;
-            background-image: url("images/s_eload.png") !important;
             background-size: cover;
             width: 100% !important;
             background-repeat: no-repeat !important;
@@ -3113,9 +3098,9 @@ small {
 
         .remit {
             padding: 10rem 6rem !important;
-            color: white;
-            background-image: url("images/bg/remit_bg2.png") !important;
             background-size: cover;
+            background-color: rgba(109, 107, 151, 0.5)!important;
+            background-blend-mode: multiply;
             height: 35rem;
             width: 100% !important;
             background-repeat: no-repeat !important;
@@ -3123,7 +3108,6 @@ small {
 
         .fund {
             padding: 7rem 8rem !important;
-            color: white;
             background-image: url("images/s_transfer.png") !important;
             background-size: cover;
             height: 35rem;
@@ -3133,8 +3117,6 @@ small {
 
         .mobile {
             padding: 7rem 8rem !important;
-            color: white;
-            background-image: url("images/s_mobile.png") !important;
             background-size: cover;
             height: 35rem;
             width: 100% !important;
@@ -3143,8 +3125,6 @@ small {
 
         .online {
             padding: 7rem 8rem !important;
-            color: white;
-            background-image: url("images/s_obank.png") !important;
             background-size: cover;
             height: 35rem;
             width: 100% !important;
@@ -3153,14 +3133,12 @@ small {
 
         .ewallet {
             padding: 13rem 7rem !important;
-            color: white;
-            background-image: url("images/s_ewallet.png") !important;
             background-size: cover;
             height: 35rem;
             width: 100% !important;
             background-repeat: no-repeat !important;
         }
-
+]
         /*media screen for service page (adjust for mobile screen)*/
         @media screen and (max-width: 500px) {
             .display-3 {
@@ -3173,9 +3151,7 @@ small {
 
             .eload {
                 padding: 13rem 5rem !important;
-                color: white;
                 text-align: justify;
-                background-image: url("images/s_eload.png") !important;
                 background-size: cover;
                 background-position: center;
                 width: 100% !important;
@@ -3184,22 +3160,15 @@ small {
 
             .remit {
                 padding: 10rem 3rem !important;
-                color: white;
+                background-position: right !important;
                 text-align: justify;
-                background-image: url("images/bg/remit_bg2.png") !important;
-                background-size: cover;
-                background-color: gray !important;
-                background-blend-mode: multiply;
                 height: 35rem;
-                width: 100% !important;
-                background-repeat: no-repeat !important;
             }
 
             .fund {
                 padding: 4rem 2rem !important;
                 color: white;
                 text-align: justify;
-                background-image: url("images/s_transfer.png") !important;
                 background-size: cover;
                 background-color: gray !important;
                 background-blend-mode: multiply;
@@ -3212,8 +3181,8 @@ small {
                 padding: 4rem 2rem !important;
                 color: white;
                 text-align: justify;
-                background-image: url("images/s_mobile.png") !important;
                 background-size: cover;
+                background-position: left;
                 background-color: gray !important;
                 background-blend-mode: multiply;
                 height: 35rem;
@@ -3225,7 +3194,6 @@ small {
                 padding: 4rem 2rem !important;
                 color: white;
                 text-align: justify;
-                background-image: url("images/s_obank.png") !important;
                 background-size: cover;
                 background-color: gray !important;
                 background-blend-mode: multiply;
@@ -3238,7 +3206,6 @@ small {
                 padding: 4rem 2rem !important;
                 color: white !important;
                 text-align: justify;
-                background-image: url("images/s_ewallet.png") !important;
                 background-size: cover;
                 background-color: gray !important;
                 background-blend-mode: multiply;
@@ -3258,7 +3225,6 @@ small {
             .eload {
                 color: white;
                 text-align: justify;
-                background-image: url("images/s_eload.png") !important;
                 background-size: cover;
                 background-position: center;
                 width: 100% !important;
@@ -3269,7 +3235,7 @@ small {
                 padding: 10rem 3rem !important;
                 color: white;
                 text-align: justify;
-                background-image: url("images/bg/remit_bg2.png") !important;
+
                 background-size: cover;
                 background-color: gray !important;
                 background-blend-mode: multiply;
@@ -3282,7 +3248,6 @@ small {
                 padding: 10em 5rem !important;
                 color: white;
                 text-align: justify;
-                background-image: url("images/s_transfer.png") !important;
                 background-size: cover;
                 background-color: gray !important;
                 background-blend-mode: multiply;
@@ -3295,7 +3260,6 @@ small {
                 padding: 10rem 5rem !important;
                 color: white;
                 text-align: justify;
-                background-image: url("images/s_mobile.png") !important;
                 background-size: cover;
                 background-color: gray !important;
                 background-blend-mode: multiply;
@@ -3308,7 +3272,6 @@ small {
                 padding: 10rem 5rem !important;
                 color: white;
                 text-align: justify;
-                background-image: url("images/s_obank.png") !important;
                 background-size: cover;
                 background-color: gray !important;
                 background-blend-mode: multiply;
@@ -3319,9 +3282,8 @@ small {
 
             .ewallet {
                 padding: 2rem 5rem !important;
-                color: white !important;
+                padding-bottom: 15rem;
                 text-align: justify;
-                background-image: url("images/s_ewallet.png") !important;
                 background-size: cover;
                 background-color: gray !important;
                 background-blend-mode: multiply;

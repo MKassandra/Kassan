@@ -2571,15 +2571,16 @@ h1 {
     .row-ebank {
         margin-top: 3rem !important;
         margin-left: 2.5rem !important;
+        text-align: center;
     }
 
     .bank1 {
-        margin-left: 0.5rem !important;
+        margin-left: 0 !important;
     }
 
     .bank2 {
-        margin-top: -1rem !important;
-        margin-left: 1.5rem !important;
+        margin-top: 0 !important;
+        margin-left: 0!important;
     }
 
     .eload {

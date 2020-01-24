@@ -1481,9 +1481,14 @@ hr {
 
 .brb-upgrade {
     height: auto;
-    width: 15rem;
+    width: 6rem;
 }
-
+@media screen and (max-width: 500px) {
+  .brb-upgrade {
+      height: auto;
+      width: 15rem;
+  }
+  }
 /*product page: cashless*/
 #cashless-product-body {
     padding: 0 2rem ;

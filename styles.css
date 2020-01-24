@@ -2253,7 +2253,8 @@ h1 {
 }
 
 .btn-nav:hover {
-    background-color: #4ebab5 !important;
+  color: white !important;
+    background-color: rgb(77, 0, 138) !important;
     /* padding: 0.2rem 0.2rem !important;
   margin-right: 1.3rem !important;*/
 }

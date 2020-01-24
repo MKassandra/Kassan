@@ -1915,7 +1915,7 @@ hr {
 
 .balance {
     padding: 6em 10em !important;
-    padding-left: 5em !important;
+    padding-left: 10em !important;
     padding-top: 3em !important;
     color: #3a3a3b;
     background-image: url("images/bg/balance_bg1.png") !important;
@@ -1932,7 +1932,7 @@ width: 100% !important;*/
 .withdrawal {
 
     padding: 6em 10em !important;
-    padding-left: 5em !important;
+    padding-left: 10em !important;
     padding-top: 5em !important;
     color: #3a3a3b;
     background-image: url("images/bg/withdraw_bg.png") !important;
@@ -1955,7 +1955,7 @@ width: 100% !important;
 
 .bills {
     padding: 6em 10em !important;
-    padding-left: 5em !important;
+    padding-left: 10em !important;
     padding-right: 35rem !important;
     padding-top: 5em !important;
     color: #3a3a3b;
@@ -1973,7 +1973,7 @@ width: 100% !important;
 
 .purchase {
     padding: 6em 10em !important;
-    padding-left: 5em !important;
+    padding-left: 10em !important;
     padding-right: 35rem !important;
     padding-top: 3em !important;
     color: #3a3a3b;
@@ -1991,7 +1991,7 @@ width: 100% !important;
 
 .payroll {
     padding: 6em 10em !important;
-    padding-left: 5em !important;
+    padding-left: 10em !important;
     padding-right: 35rem !important;
     padding-top: 3em !important;
     color: #3a3a3b;
@@ -2010,7 +2010,7 @@ width: 100% !important;
 
 .e-bank {
     padding: 6em 10em !important;
-    padding-left: 5em !important;
+    padding-left: 10em !important;
     padding-right: 25rem !important;
     padding-top: 1rem !important;
     color: #3a3a3b;
@@ -2067,7 +2067,7 @@ small {
 */
     padding: 6em 10em !important;
     padding-right: 35rem !important;
-    padding-left: 5em !important;
+    padding-left: 10em !important;
 
     padding-top: 15em !important;
     color: #3a3a3b;
@@ -2177,11 +2177,11 @@ width: 100% !important;*/
     padding-right: 35rem !important;
     padding-left: 5em !important;
     padding-top: 10em !important;
-    color: white;
+    color:  #3a3a3b;
     background-image: url("images/bg/online_bg.png") !important;
     background-size: cover;
-    background-blend-mode: multiply;
-    background-color: rgba(35, 87, 105, 0.3);
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.7);
     height: 45rem;
 
     width: 100% !important;
@@ -2206,11 +2206,11 @@ width: 100% !important;*/
     padding-right: 35rem !important;
     padding-left: 5em !important;
     padding-top: 7em !important;
-    color: white;
+    color: #3a3a3b;
     background-image: url("images/bg/ewallet_bg.png") !important;
     background-size: cover;
-    background-blend-mode: multiply;
-    background-color: rgba(105, 77, 35, 0.5);
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.5);
     height: 45rem;
 
     width: 100% !important;
@@ -2220,62 +2220,6 @@ width: 100% !important;*/
 
 /* backup solution incase scrollify go bananas
 height: 100% !important;*/
-
-
-/*image version*/
-.balance-img {
-    background-position: center;
-    background-size: contain;
-    width: 100% !important;
-}
-
-.ebank-img {
-    background-position: center;
-    background-size: cover;
-    width: 100% !important;
-}
-
-.withdraw-img {
-    background-position: center;
-    background-size: cover;
-    width: 100% !important;
-}
-
-.eload-img {
-    background-position: center;
-    background-size: cover;
-    width: 100% !important;
-}
-
-.remit-img {
-    background-position: center;
-    background-size: cover;
-    width: 100% !important;
-}
-
-.mobile-img {
-    background-position: center;
-    background-size: cover;
-    width: 100% !important;
-}
-
-.online-img {
-    background-position: center;
-    background-size: cover;
-    width: 100% !important;
-}
-
-.ewallet-img {
-    background-position: center;
-    background-size: cover;
-    width: 100% !important;
-}
-
-.fund-img {
-    background-position: center;
-    background-size: cover;
-    width: 100% !important;
-}
 
 
 /*services icon*/
@@ -2411,91 +2355,91 @@ h1 {
 .btn-1 {
     position: fixed;
     bottom: 520px;
-    right: 25px;
+    left: 25px;
     display: none;
 }
 
 .btn-2 {
     position: fixed;
     bottom: 490px;
-    right: 25px;
+    left: 25px;
     display: none;
 }
 
 .btn-3 {
     position: fixed;
     bottom: 460px;
-    right: 25px;
+    left: 25px;
     display: none;
 }
 
 .btn-4 {
     position: fixed;
     bottom: 430px;
-    right: 25px;
+    left: 25px;
     display: none;
 }
 
 .btn-5 {
     position: fixed;
     bottom: 400px;
-    right: 25px;
+    left: 25px;
     display: none;
 }
 
 .btn-6 {
     position: fixed;
     bottom: 370px;
-    right: 25px;
+    left: 25px;
     display: none;
 }
 
 .btn-7 {
     position: fixed;
     bottom: 340px;
-    right: 25px;
+    left: 25px;
     display: none;
 }
 
 .btn-8 {
     position: fixed;
     bottom: 310px;
-    right: 25px;
+    left: 25px;
     display: none;
 }
 
 .btn-9 {
     position: fixed;
     bottom: 280px;
-    right: 25px;
+    left: 25px;
     display: none;
 }
 
 .btn-10 {
     position: fixed;
     bottom: 250px;
-    right: 25px;
+    left: 25px;
     display: none;
 }
 
 .btn-11 {
     position: fixed;
     bottom: 220px;
-    right: 25px;
+    left: 25px;
     display: none;
 }
 
 .btn-12 {
     position: fixed;
     bottom: 190px;
-    right: 25px;
+    left: 25px;
     display: none;
 }
 
 .btn-top {
     position: fixed;
     bottom: 160px;
-    right: 25px;
+    left: 25px;
     display: none;
 }
 
@@ -3153,7 +3097,7 @@ small {
 
         .online {
             padding: 7rem 8rem !important;
-            color: white;
+            color:  #3a3a3b;
             background-image: url("images/s_obank.png") !important;
             background-size: cover;
             height: 35rem;
@@ -3163,7 +3107,7 @@ small {
 
         .ewallet {
             padding: 13rem 7rem !important;
-            color: white;
+            color: #3a3a3b;
             background-image: url("images/s_ewallet.png") !important;
             background-size: cover;
             height: 35rem;
@@ -3233,12 +3177,12 @@ small {
 
             .online {
                 padding: 4rem 2rem !important;
-                color: white;
+                color:  #3a3a3b;
                 text-align: justify;
                 background-image: url("images/s_obank.png") !important;
                 background-size: cover;
-                background-color: gray !important;
-                background-blend-mode: multiply;
+                background-color: rgba(255, 255, 255, 0.5) !important;
+                background-blend-mode: overlay;
                 height: 35rem;
                 width: 100% !important;
                 background-repeat: no-repeat !important;
@@ -3246,12 +3190,12 @@ small {
 
             .ewallet {
                 padding: 4rem 2rem !important;
-                color: white !important;
+                color: #3a3a3b !important;
                 text-align: justify;
                 background-image: url("images/s_ewallet.png") !important;
                 background-size: cover;
-                background-color: gray !important;
-                background-blend-mode: multiply;
+                background-color: rgba(255, 255, 255, 0.5) !important;
+                background-blend-mode: overlay;
                 height: 35rem;
                 width: 100% !important;
                 background-repeat: no-repeat !important;
@@ -3308,7 +3252,6 @@ small {
                 background-image: url("images/s_mobile.png") !important;
                 background-color: rgba(255, 255, 255, 0.5) !important;
                 background-blend-mode: overlay;
-                background-blend-mode: multiply;
                 height: 35rem;
                 width: 100% !important;
                 background-repeat: no-repeat !important;
@@ -3316,12 +3259,12 @@ small {
 
             .online {
                 padding: 10rem 5rem !important;
-                color: white;
+                color: #3a3a3b;
                 text-align: justify;
                 background-image: url("images/s_obank.png") !important;
                 background-size: cover;
-                background-color: gray !important;
-                background-blend-mode: multiply;
+                background-color: rgba(255, 255, 255, 0.5) !important;
+                background-blend-mode: overlay;
                 height: 35rem;
                 width: 100% !important;
                 background-repeat: no-repeat !important;
@@ -3329,12 +3272,12 @@ small {
 
             .ewallet {
                 padding: 2rem 5rem !important;
-                color: white !important;
+                color: #3a3a3b !important;
                 text-align: justify;
                 background-image: url("images/s_ewallet.png") !important;
                 background-size: cover;
-                background-color: gray !important;
-                background-blend-mode: multiply;
+                background-color: rgba(255, 255, 255, 0.5) !important;
+                background-blend-mode: overlay;
                 height: 35rem;
                 width: 100% !important;
                 background-repeat: no-repeat !important;

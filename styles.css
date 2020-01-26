@@ -21,7 +21,7 @@ body {
     /*background-image: url('images/bg_main.jpg');
   background-size: contain !important;
   background-position: center !important;*/
-    background-color: #5c6ac4 !important;
+    background-color: #730ac4 !important;
     width: 100%;
 }
 
@@ -64,7 +64,7 @@ strong {
 .h-color,
 .header-nav,
 .nav-custom {
-    background-color:#5c6ac4 !important;
+    background-color:#730ac4 !important;
 }
 
 /* Paddings Header Section */
@@ -129,7 +129,7 @@ strong {
 
 /*dropdown color*/
 .navbar-custom .dropdown-menu {
-    background-color: #5c6ac4;
+    background-color: #730ac4;
     /*bg color*/
     border-width: thin;
 }
@@ -145,7 +145,7 @@ strong {
 .navbar-custom .dropdown-item:focus {
     color: white !important;
     /*text color*/
-    background-color: #4e5bad;
+    background-color: #730ac4;
     /*highlight*/
 }
 
@@ -229,7 +229,7 @@ footer {
     width: 100%;
     padding: 1rem 3rem;
     color: #b0d4d0 !important;
-    background-color: #5c6ac4 !important;
+    background-color: #730ac4 !important;
 }
 
 /*Home page slideshow*/
@@ -252,7 +252,7 @@ footer {
 
 .s_purchase {
     padding: 6em 10em !important;
-    color: white;
+    color: #3a3a3b;
     background-image: url("images/bg/purchase_bg2.png") !important;
     background-size: cover !important;
     background-position: center !important;
@@ -283,7 +283,7 @@ footer {
 .s_withdraw {
     padding: 6em 10em !important;
     color: white;
-    background-image: url("images/withdraw.png") !important;
+    background-image: url("images/s_withdraw.png") !important;
     background-size: cover !important;
     background-position: center !important;
     height: 30rem;
@@ -318,7 +318,7 @@ footer {
     padding: 1rem 5rem;
     padding-bottom: 6rem;
     color: #b0d4d0;
-    background-color: #5c6ac4 !important;
+    background-color: #730ac4 !important;
     /*background-color: #776b5d !important;*/
 }
 
@@ -2938,7 +2938,6 @@ th {
 }
 
 .footer-bottom {
-    background-color: #3a3a3b !important;
     padding: 1rem 1rem !important;
 }
 

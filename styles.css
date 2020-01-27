@@ -657,14 +657,14 @@ footer {
            font-size: 2.3rem !important;
       }
     .display-4 {
-        text-align: center;
+        text-align: left;
         font-size: 2.5rem !important;
         padding-bottom: 1rem !important;
         margin: 0 0 !important;
     }
 
     .lead {
-        text-align: center !important;
+        text-align: left !important;
         font-size: 1.3rem !important;
     }
 

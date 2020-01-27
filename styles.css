@@ -2761,7 +2761,7 @@ h1 {
     }
 
     .ebank2 {
-        margin-left: -2rem;
+        margin-left: 0rem;
         width: 6rem;
     }
 
@@ -2948,6 +2948,10 @@ h1 {
     .e-bank {
         padding: 2rem 2rem !important;
         padding-bottom:5rem!important;
+    }
+
+    .col-bank{
+      text-align: center;
     }
 
     /*additional ebank*/

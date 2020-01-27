@@ -2113,7 +2113,7 @@ width: 100% !important;
 .e-bank {
     padding: 6em 10em !important;
     padding-left: 10em !important;
-    padding-right: 25rem !important;
+    padding-right: 25rem;
     padding-top: 1rem !important;
     color: #3a3a3b;
     background-image: url("images/bg/ebank_bg.png") !important;
@@ -2142,9 +2142,7 @@ small {
 }
 
 .row-ebank {
-
     margin-top: 3rem !important;
-    margin-left: 2.5rem !important;
 }
 
 .bank1 {
@@ -2767,7 +2765,7 @@ h1 {
 
     .row-ebank {
         margin-top: 3rem !important;
-        margin-left: 2.5rem !important;
+
         text-align: center;
     }
 

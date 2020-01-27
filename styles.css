@@ -497,12 +497,90 @@ footer {
    padding-top: 3rem!important;
 
  }
-
-
 }
 
 
+
 @media screen and (max-width: 414px) {
+  .h1-home-front{
+
+            padding-top:1rem !important;
+           font-size: 1.9rem !important;
+      }
+
+    .display-home {
+        font-weight:bolder !important;
+        text-align: left;
+        font-size: 2.5rem !important;
+        padding-bottom: 1rem !important;
+        margin: 0 0 !important;
+    }
+
+    .lead {
+        text-align: left !important;
+        font-size: 1.3rem !important;
+    }
+
+    .btn-product {
+        margin-left: 2.9rem !important;
+    }
+
+    .jumbbank {
+        padding: 0 2rem !important;
+        text-align:left !important;
+        padding-top: 3rem !important;
+        height: 24rem;
+        margin: 0 0 !important;
+    }
+
+    .s_purchase {
+        text-align:left !important;
+        padding: 0 4rem !important;
+        padding-top: 5.5rem !important;
+        height: 24rem;
+        margin: 0 0 !important;
+    }
+
+    .s_bill {
+        text-align:left !important;
+        padding: 0 4rem !important;
+        padding-top: 4.5rem !important;
+        height: 24rem;
+        margin: 0 0 !important;
+    }
+
+    .s_payroll {
+        text-align:left !important;
+        padding: 0 4rem !important;
+        padding-top: 5.5rem !important;
+        height: 24rem;
+        margin: 0 0 !important;
+    }
+
+    .s_withdraw {
+        text-align:left !important;
+        padding: 0 4rem !important;
+        padding-top: 5.5rem !important;
+        height: 24rem;
+        margin: 0 0 !important;
+    }
+
+    .s_product {
+        text-align:left !important;
+        padding: 0 4rem !important;
+        padding-top: 5.5rem !important;
+        height: 24rem;
+        margin: 0 0 !important;
+    }
+
+    .contact-content{
+       padding-top: 0.3rem!important;
+     }
+}
+
+
+
+@media screen and (max-width: 375px) {
   .h1-home-front{
 
             padding-top:1rem !important;

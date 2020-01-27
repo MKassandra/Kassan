@@ -2767,6 +2767,7 @@ h1 {
 
     .balance {
         padding: 2rem 4rem !important;
+        padding-top: 5rem;
         text-align: justify;
         background-size: cover;
         /*height: 45rem;*/
@@ -2999,6 +3000,7 @@ h1 {
 
     .balance {
         padding: 2rem 2rem !important;
+        padding-top: 5rem;
     }
 
     .withdrawal {

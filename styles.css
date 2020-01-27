@@ -3000,28 +3000,33 @@ h1 {
 
     .balance {
         padding: 2rem 2rem !important;
-        padding-top: 5rem;
+        padding-top: 10rem !important;
     }
 
     .withdrawal {
         padding: 2rem 2rem !important;
+        padding-top: 10rem !important;
     }
 
     .bills {
         padding: 2rem 2rem !important;
+        padding-top: 10rem !important;
     }
 
     .purchase {
         padding: 2rem 2rem !important;
+        padding-top: 10rem !important;
     }
 
     .payroll {
         padding: 2rem 2rem !important;
+        padding-top: 10rem !important;
     }
 
 
     .e-bank {
         padding: 2rem 2rem !important;
+        padding-top: 10rem !important;
         padding-bottom:5rem!important;
     }
 
@@ -3074,18 +3079,21 @@ h1 {
 
     .mobile {
         padding: 2rem 2rem !important;
+        padding-top: 10rem !important;
     }
 
     /*height: 100% !important;*/
 
     .online {
         padding: 2rem 2rem !important;
+        padding-top: 10rem !important;
     }
 
 
     .ewallet {
 
         padding: 2rem 2rem !important;
+        padding-top: 10rem !important;
     }
 
     .btn-1 {

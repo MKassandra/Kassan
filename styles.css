@@ -759,6 +759,10 @@ footer {
 
     }
 
+    .col-who-1{
+      margin-left: 0rem !important;
+    }
+
     .h1-about {
         text-align: center;
         padding: 0 0 !important;

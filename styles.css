@@ -825,7 +825,7 @@ footer {
     background-image: url("images/meet2.png");
     background-size: cover!important;
     background-repeat: no-repeat;
-    padding-bottom: 10rem;
+    padding-bottom: 1rem;
 }
 
 .h6-bod-name{
@@ -844,11 +844,86 @@ footer {
     width:8rem;
     padding-bottom: 0.5rem;
 }
+.bod-right{
+  margin-right: 1rem;
+}
 
+.col-s-custom{
+  padding: 0 0rem !important;
+  margin-right: 1rem;
+}
 .bod-img {
     width: 100%;
     background-position: center;
     background-size: cover;
+}
+
+.col-h{
+  margin-left: 9rem;
+
+}
+.bod-pic1{
+  margin-bottom:  1rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+.bod-pic2{
+  margin-top: 1rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+
+@media screen and (max-width: 990px) {
+  .row-bod{
+      text-align:center!important;
+  }
+
+  .bod-pic2{
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .col-s-custom{
+    padding: 0 0rem !important;
+    margin-right: 0rem;
+  }
+
+  .col-h{
+    margin-left: 0rem !important;
+
+  }
+
+  .bod-pic1{
+    margin-bottom:  0rem;
+    height: 8rem;
+    width: 8rem;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .bod-pic2{
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .col-s-custom{
+    padding: 0 3rem !important;
+    margin-right: 0rem;
+  }
+
+  .col-h{
+    margin-left: 0rem;
+
+  }
+
+  .bod-pic1{
+    margin-bottom:  0rem;
+    height: 8rem;
+    width: 8rem;
+  }
 }
 
 .vertical-nav {
@@ -918,28 +993,28 @@ footer {
 .btn-history {
     position: fixed;
     bottom: 400px;
-    right: 25px;
+    left: 25px;
     display: none;
 }
 
 .btn-who {
     position: fixed;
     bottom: 370px;
-    right: 25px;
+    left: 25px;
     display: none;
 }
 
 .btn-meet {
     position: fixed;
     bottom: 340px;
-    right: 25px;
+    left: 25px;
     display: none;
 }
 
 .btn-top-about {
     position: fixed;
     bottom: 310px;
-    right: 25px;
+    left: 25px;
     display: none;
 }
 

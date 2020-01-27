@@ -333,7 +333,9 @@ footer {
 
 /*media manipulation in index page*/
 @media screen and (max-width: 992px) {
-
+  u{
+    text-align: left !important;
+  }
 
     .h1-home-front{
       font-size: 3rem !important;

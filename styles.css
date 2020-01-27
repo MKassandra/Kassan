@@ -64,7 +64,7 @@ strong {
 .h-color,
 .header-nav,
 .nav-custom {
-    background-color:#730ac4 !important;
+    background-color:#e4c7fd !important;
 }
 
 /* Paddings Header Section */
@@ -75,7 +75,7 @@ strong {
 /* Text Styles */
 /* HOVER EFFECTS */
 .navbar ul li a {
-    color: #b0d4d0 !important;
+    color: #730ac4 !important;
 }
 
 .navbar ul li a:hover {
@@ -83,25 +83,25 @@ strong {
 }
 
 .about {
-    color: #b0d4d0 !important;
+    color: #730ac4 !important;
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
 }
 
 .services {
-    color: #b0d4d0 !important;
+    color: #730ac4 !important;
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
 }
 
 .product {
-    color: #b0d4d0 !important;
+    color: #730ac4 !important;
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
 }
 
 .partners {
-    color: #b0d4d0 !important;
+    color: #730ac4 !important;
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
 }
@@ -113,7 +113,7 @@ strong {
     font-size: 1rem !important;
 }*/
 .letsTalk {
-    color: #b0d4d0 !important;
+    color: #730ac4 !important;
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
 }
@@ -129,7 +129,7 @@ strong {
 
 /*dropdown color*/
 .navbar-custom .dropdown-menu {
-    background-color: #730ac4;
+    background-color: #e4c7fd;
     /*bg color*/
     border-width: thin;
 }
@@ -145,14 +145,14 @@ strong {
 .navbar-custom .dropdown-item:focus {
     color: white !important;
     /*text color*/
-    background-color: #730ac4;
+    background-color: #ba9dd4;
     /*highlight*/
 }
 
 /* Border Manipulation */
 .about-border {
     border: 1px solid;
-    border-right-color: #b0d4d0 !important;
+    border-right-color: #730ac4 !important;
     border-top: none !important;
     border-left: none !important;
     border-bottom: none;
@@ -166,7 +166,7 @@ strong {
 
 .services-border {
     border: 1px solid;
-    border-right-color: #b0d4d0 !important;
+    border-right-color: #730ac4 !important;
     border-top: none !important;
     border-left: none !important;
     border-bottom: none;
@@ -176,7 +176,7 @@ strong {
 
 .product-border {
     border: 1px solid;
-    border-right-color: #b0d4d0 !important;
+    border-right-color: #730ac4 !important;
     border-top: none !important;
     border-left: none !important;
     border-bottom: none;
@@ -186,7 +186,7 @@ strong {
 
 .partners-border {
     border: 1px solid;
-    border-right-color: #b0d4d0 !important;
+    border-right-color: #730ac4 !important;
     border-top: none !important;
     border-left: none !important;
     border-bottom: none;
@@ -196,7 +196,7 @@ strong {
 
 .letsTalk-border {
     border: 1px solid;
-    border-right-color: #b0d4d0 !important;
+    border-right-color: #730ac4 !important;
     border-top: none !important;
     border-left: none !important;
     border-bottom: none;
@@ -228,8 +228,8 @@ footer {
     bottom: 0;
     width: 100%;
     padding: 1rem 3rem;
-    color: #b0d4d0 !important;
-    background-color: #730ac4 !important;
+    color: #730ac4 !important;
+    background-color: #e4c7fd !important;
 }
 
 /*Home page slideshow*/
@@ -317,13 +317,13 @@ footer {
     text-align: center;
     padding: 1rem 5rem;
     padding-bottom: 6rem;
-    color: #b0d4d0;
-    background-color: #730ac4 !important;
+    color: #730ac4;
+    background-color: #e4c7fd !important;
     /*background-color: #776b5d !important;*/
 }
 
 .link-add {
-    color: #b0d4d0 !important;
+    color: #730ac4 !important;
 }
 
 
@@ -3337,7 +3337,7 @@ small {
 
             .about-border {
                 border: 1px solid;
-                border-right-color: #b0d4d0 !important;
+                border-right-color: #730ac4 !important;
                 border-top: none !important;
                 border-left: none !important;
                 border-bottom: none;
@@ -3388,7 +3388,7 @@ small {
 
             .about-border {
                 border: 1px solid;
-                border-right-color: #b0d4d0 !important;
+                border-right-color: #730ac4 !important;
                 border-top: none !important;
                 border-left: none !important;
                 border-bottom: none;
@@ -3440,7 +3440,7 @@ small {
 
             .about-border {
                 border: 1px solid;
-                border-right-color: #b0d4d0 !important;
+                border-right-color: #730ac4 !important;
                 border-top: none !important;
                 border-left: none !important;
                 border-bottom: none;

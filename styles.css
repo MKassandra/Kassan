@@ -501,7 +501,7 @@ footer {
 
 
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 479px) {
   .h1-home-front{
 
             padding-top:1rem !important;
@@ -1048,7 +1048,7 @@ hr {
     margin-bottom: -10rem;
 }
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 479px){
   .brbcard-display {
       height: auto;
       width: 15rem !important;
@@ -1680,7 +1680,7 @@ hr {
 }
 
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 479px){
   .a-display {
       height: auto;
       width: 15rem !important;
@@ -2944,7 +2944,7 @@ h1 {
   margin: 1rem 0rem;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 479px) {
     .partner-display{
       height: auto;
       width: 10rem;

@@ -365,7 +365,7 @@ footer {
         padding: 0 8rem !important;
         padding-top: 3rem !important;
         margin: 0 0 !important;
-        height: 40rem;
+        height: 3s0rem;
         background-blend-mode: screen;
         background-color: rgba(63,87,110, 0.9);
     }
@@ -455,7 +455,7 @@ footer {
       background-position: left !important;
       background-blend-mode: multiply;
       background-color: rgba(63,87,110, 0.7);
-      height: 30rem;
+      height: 40rem;
       padding: 0 4rem !important;
       padding-top: 3.5rem !important;
       margin: 0 0 !important;
@@ -464,7 +464,7 @@ footer {
     .s_purchase {
       background-blend-mode: screen;
       background-color: rgba(250,250,250, 0.6);
-      height: 30rem;
+      height: 40rem;
         padding: 0 4rem !important;
         padding-top: 3.5rem !important;
         margin: 0 0 !important;

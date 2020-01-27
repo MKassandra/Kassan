@@ -365,6 +365,7 @@ footer {
         padding: 0 8rem !important;
         padding-top: 3rem !important;
         margin: 0 0 !important;
+        height: 30rem;
         background-blend-mode: screen;
         background-color: rgba(63,87,110, 0.9);
     }
@@ -546,7 +547,7 @@ footer {
         text-align:left !important;
         padding: 0 4rem !important;
         padding-top: 5.5rem !important;
-        height: 24rem;
+        height: 20rem;
         margin: 0 0 !important;
     }
 
@@ -554,7 +555,7 @@ footer {
         text-align:left !important;
         padding: 0 4rem !important;
         padding-top: 4.5rem !important;
-        height: 24rem;
+        height: 20rem;
         margin: 0 0 !important;
     }
 
@@ -562,7 +563,7 @@ footer {
         text-align:left !important;
         padding: 0 4rem !important;
         padding-top: 5.5rem !important;
-        height: 24rem;
+        height: 20rem;
         margin: 0 0 !important;
     }
 
@@ -570,7 +571,7 @@ footer {
         text-align:left !important;
         padding: 0 4rem !important;
         padding-top: 5.5rem !important;
-        height: 24rem;
+        height: 20rem;
         margin: 0 0 !important;
     }
 
@@ -578,7 +579,7 @@ footer {
         text-align:left !important;
         padding: 0 4rem !important;
         padding-top: 5.5rem !important;
-        height: 24rem;
+        height: 20rem;
         margin: 0 0 !important;
     }
 

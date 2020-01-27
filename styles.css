@@ -333,7 +333,7 @@ footer {
 
 /*media manipulation in index page*/
 @media screen and (max-width: 992px) {
-    
+
 
     .h1-home-front{
       font-size: 3rem !important;
@@ -368,6 +368,7 @@ footer {
     }
 
     .s_purchase {
+        text-align: left;
         padding: 0 8rem !important;
         padding-top: 3rem !important;
         margin: 0 0 !important;
@@ -376,6 +377,7 @@ footer {
     }
 
     .s_bill {
+      text-align: left;
         padding: 0 8rem !important;
         padding-top: 3rem !important;
         margin: 0 0 !important;
@@ -384,6 +386,7 @@ footer {
     }
 
     .s_payroll {
+      text-align: left;
         padding: 0 8rem !important;
         padding-top: 3rem !important;
         margin: 0 0 !important;
@@ -392,6 +395,7 @@ footer {
     }
 
     .s_withdraw {
+      text-align: left;
         padding: 0 8rem !important;
         padding-top: 3rem !important;
         margin: 0 0 !important;
@@ -400,6 +404,7 @@ footer {
     }
 
     .s_product {
+      text-align: left;
         padding: 0 8rem !important;
         padding-top: 3rem !important;
         margin: 0 0 !important;

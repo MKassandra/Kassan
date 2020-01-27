@@ -338,13 +338,13 @@ footer {
     }
 
     .h1-home-front{
-      font-size: 5rem !important;
+      font-size: 3rem !important;
       color: #4ebab5;
         }
 
     .display-home {
       color:  #4c008a;
-        text-align: center;
+        text-align: left;
         font-size: 5rem !important;
         padding-bottom: 1.5rem !important;
         margin: 0 0 !important;
@@ -352,7 +352,7 @@ footer {
 
     .lead {
       color: #3a3a3b;
-        text-align: center !important;
+        text-align: left !important;
         font-size: 1.8rem !important;
     }
 

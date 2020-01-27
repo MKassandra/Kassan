@@ -252,12 +252,16 @@ footer {
 
 .s_purchase {
     padding: 6em 10em !important;
-    color: #3a3a3b;
+    color: #3a3a3b !important;
     background-image: url("images/bg/purchase_bg2.png") !important;
     background-size: cover !important;
     background-position: center !important;
     height: 30rem;
     background-repeat: no-repeat !important;
+}
+
+.u-purchase{
+    color: #3a3a3b !important;
 }
 
 .s_bill {

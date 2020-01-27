@@ -3070,10 +3070,12 @@ h1 {
 
     .remit {
         padding: 2rem 2rem !important;
+          padding-top: 10rem !important;
     }
 
     .fund {
         padding: 2rem 2rem !important;
+          padding-top: 10rem !important;
     }
 
 

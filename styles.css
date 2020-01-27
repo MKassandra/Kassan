@@ -1049,7 +1049,7 @@ hr {
     background-image: url('images/meet2.png');
     background-position: center;
     background-size: cover;
-    padding-bottom: 5rem;
+    padding-bottom: 0rem;
 }
 .row {
     padding-top: 0.2rem;
@@ -1589,7 +1589,7 @@ hr {
 /*product page: cashless*/
 #cashless-product-body {
     padding: 0 2rem ;
-    padding-bottom: 15rem !important;
+    padding-bottom: 3rem !important;
     background-image: url('images/meet2.png');
     background-size: cover;
     background-position: center;

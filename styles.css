@@ -1148,7 +1148,7 @@ hr {
     margin-bottom: -10rem;
 }
 
-@media screen and (max-width: 479px){
+@media screen and (max-width: 1080px){
   .brbcard-display {
       height: auto;
       width: 15rem !important;

@@ -1797,7 +1797,7 @@ hr {
 }
 
 .custom-product-dev {
-    padding: 0rem 5rem !important;
+    padding: 0rem 4rem !important;
     margin-top: -3rem;
 }
 
@@ -1810,16 +1810,15 @@ hr {
     width: 20rem;
 }
 @media screen and (max-width: 1080px) {
+
   .custom-product-dev {
       padding: 0rem 0rem !important;
-  }
-  .custom-desc{
-    padding-top: 3rem;
-    padding-left: 2rem;
+        text-align: center;
   }
 
-  .row-custom{
-    text-align: center !important;
+  .custom-desc{
+    padding-left: 2rem;
+    padding-top: 3rem;
   }
 
 .custom-display {
@@ -1838,7 +1837,7 @@ hr {
     font-weight: 600;
 }
 
-/*
+
 @media screen and (max-width: 1225px) {
     .brbcard-display {
         height: 14rem;
@@ -2086,7 +2085,7 @@ hr {
         font-size: 1rem;
         margin: 0rem 0rem;
     }
-}*/
+}
 
 /*services page content*/
 .h1-s{

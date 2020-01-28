@@ -2199,7 +2199,7 @@ width: 100% !important;
     color: #3a3a3b;
     background-image: url("images/bg/ebank_bg.png") !important;
     background-blend-mode: overlay;
-    background-color: rgb(255, 255, 255, 0.6);
+    background-color: rgb(255, 255, 255, 0.9);
     background-size: cover;
     height: 45rem;
     width: 100% !important;
@@ -3384,7 +3384,7 @@ label,
 }
 
 small {
-    color: white;
+    color: #3a3a3b ;
 }
 
 .c-form{

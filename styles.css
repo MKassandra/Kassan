@@ -86,24 +86,28 @@ strong {
     color: #730ac4 !important;
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
+    font-weight: bolder !important;
 }
 
 .services {
     color: #730ac4 !important;
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
+    font-weight: bolder !important;
 }
 
 .product {
     color: #730ac4 !important;
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
+    font-weight: bolder !important;
 }
 
 .partners {
     color: #730ac4 !important;
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
+    font-weight: bolder !important;
 }
 
 /*
@@ -116,6 +120,7 @@ strong {
     color: #730ac4 !important;
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
+    font-weight: bolder !important;
 }
 
 #navbarNav {

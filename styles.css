@@ -335,7 +335,7 @@ footer {
   font-weight: bolder !important;
 }
 
-/*media manipulation in index page*/
+/*media manipulation in index page
 @media screen and (max-width: 992px) {
   u{
     text-align: left !important;
@@ -425,7 +425,7 @@ footer {
     }
 
 
-}
+}*/
 
 @media screen and (max-width: 768px) {
   u{

@@ -1809,7 +1809,7 @@ hr {
     height: auto;
     width: 24rem;
 }
-@media screen and (max-width: 10800px) {
+@media screen and (max-width: 1080px) {
   .custom-product-dev{
     text-align: center;
   }

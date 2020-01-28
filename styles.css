@@ -1797,7 +1797,7 @@ hr {
 }
 
 .custom-product-dev {
-    padding: 0rem 0rem !important;
+    padding: 0rem 5rem !important;
     margin-top: -3rem;
 }
 
@@ -1807,11 +1807,15 @@ hr {
 
 .custom-display {
     height: auto;
-    width: 24rem;
+    width: 20rem;
 }
 @media screen and (max-width: 1080px) {
+  .custom-product-dev {
+      padding: 0rem 0rem !important;
+  }
   .custom-desc{
-    padding-left: 0rem;
+    padding-top: 3rem;
+    padding-left: 2rem;
   }
 
   .row-custom{

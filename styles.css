@@ -1708,14 +1708,12 @@ hr {
   }
   .col-b {
       border-right: 0px solid !important;
-          margin-bottom:3rem;
+      margin-bottom:3rem;
       }
 
-      .c-display {
-          padding-left: 0rem;
-      }
-
-
+  .c-display {
+      padding-left: 0rem;
+    }
 }
 /*product page: access*/
 #access-product-body {
@@ -1740,7 +1738,7 @@ hr {
 
 .a-display {
     height: auto;
-    width: 25rem !important;
+    width: 20rem !important;
 }
 
 .access-display{
@@ -1810,6 +1808,8 @@ hr {
     height: auto;
     width: 20rem;
 }
+
+
 @media screen and (max-width: 1080px) {
   .custom-product-dev{
     text-align: center;
@@ -1834,53 +1834,7 @@ hr {
     font-weight: 600;
 }
 
-@media screen and (max-width: 1225px) {
-    .brbcard-display {
-        height: 14rem;
-        width: 25rem;
-        padding-top: 2rem !important;
-        margin-bottom: 5rem;
-    }
-
-    .col-custom1 {
-        margin-top: -20rem !important;
-        margin-left: -5rem !important;
-        padding-top: 0rem !important;
-    }
-
-    .col-custom2 {
-        margin-top: -20rem !important;
-        margin-right: -5rem !important;
-        padding-top: 0rem !important;
-    }
-
-    .col-custom3 {
-        padding-top: 0rem !important;
-        margin-top: 1rem !important;
-        padding-right: 10rem !important;
-    }
-
-    .col-custom4 {
-        padding-top: 0rem !important;
-        margin-top: 1rem !important;
-        padding-left: 10rem !important;
-    }
-
-    .col-custom5 {
-        padding-top: 0rem !important;
-        margin-top: -17rem !important;
-        font-size: 1.3rem;
-    }
-}
-
 @media screen and (max-width: 999px) {
-    .brbcard-display {
-        height: 17rem;
-        width: 26rem;
-        padding-top: 2rem !important;
-        margin-bottom: 5rem;
-    }
-
     .col-custom1 {
         margin-top: -20rem !important;
         padding-right: 5rem !important;
@@ -1920,7 +1874,7 @@ hr {
     }
 }
 
-@media screen and (max-width: 866px) {
+@media screen and (max-width: 990px) {
     .brbcard-display {
         margin-bottom: 0 !important;
         height: 13rem !important;

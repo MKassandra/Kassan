@@ -2761,7 +2761,7 @@ height: 100% !important;*/
 
       }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1030px) {
 
     /*services page content*/
 
@@ -2933,6 +2933,7 @@ height: 100% !important;*/
 
     .ewallet {
         padding: 2rem 4rem !important;
+        padding-top: 5rem !important;
         text-align: justify;
         height: 45rem;
         width: 100% !important;

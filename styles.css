@@ -787,6 +787,7 @@ footer {
 
 #who-body-content {
     padding: 4rem 6rem !important;
+    padding-top: 2rem;
     line-height: 2;
     color: black;
     text-align: justify;
@@ -801,6 +802,7 @@ footer {
     #who-body-content {
         background-position: center;
         padding: 0 4rem !important;
+        padding-top: 2rem !important;
         text-align: justify;
     }
 
@@ -1592,7 +1594,7 @@ hr {
 /*product page: simple*/
 #simple-product-body{
     padding: 0 2rem ;
-      padding-bottom: 15rem !important;
+      padding-bottom: 1rem !important;
       background-image: url('images/meet2.png');
       background-size: cover;
       background-position: center;
@@ -1717,7 +1719,7 @@ hr {
 /*product page: access*/
 #access-product-body {
   padding: 0 2rem ;
-    padding-bottom: 10rem !important;
+    padding-bottom: 1rem !important;
     background-image: url('images/meet2.png');
     background-size: cover;
     background-position: center;
@@ -1788,7 +1790,7 @@ hr {
 /*product page:customize page*/
 #cust-product-body{
     padding: 0 2rem ;
-    padding-bottom: 15rem !important;
+    padding-bottom: 1rem !important;
     background-image: url('images/meet2.png');
     background-size: cover;
     background-position: center;

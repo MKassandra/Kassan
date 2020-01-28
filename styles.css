@@ -1797,7 +1797,7 @@ hr {
 }
 
 .custom-product-dev {
-    padding: 0rem 4rem !important;
+    padding: 0rem 0rem !important;
     margin-top: -3rem;
 }
 
@@ -1810,15 +1810,11 @@ hr {
     width: 20rem;
 }
 @media screen and (max-width: 1080px) {
-
-  .custom-product-dev {
-      padding: 0rem 0rem !important;
-        text-align: center;
+  .custom-product-dev{
+    text-align: center;
   }
-
   .custom-desc{
-    padding-left: 2rem;
-    padding-top: 3rem;
+    padding-left: 0rem;
   }
 
 .custom-display {
@@ -1836,7 +1832,6 @@ hr {
     font-size: 1.2rem;
     font-weight: 600;
 }
-
 
 @media screen and (max-width: 1225px) {
     .brbcard-display {

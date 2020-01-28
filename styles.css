@@ -1707,13 +1707,14 @@ hr {
     text-align: center;
   }
   .col-b {
-      border-right: 0px solid;
+      border-right: 0px solid !important;
           margin-bottom:3rem;
       }
 
       .c-display {
           padding-left: 0rem;
       }
+
 
 }
 /*product page: access*/

@@ -3312,6 +3312,9 @@ height: 100% !important;*/
     background-size: cover;
     padding-bottom: 8rem;
 }
+.card{
+  text-align: center;
+}
 
 /*calendar style*/
 .c-cal {
@@ -3339,6 +3342,7 @@ height: 100% !important;*/
 .btn-outline-custom {
     color: #3a3a3b !important;
     border: 2px solid #3a3a3b !important;
+    font-size: 0.7rem !important;
 }
 
 h3 {

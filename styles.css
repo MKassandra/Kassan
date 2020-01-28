@@ -1702,7 +1702,7 @@ hr {
     height: 7rem;
     width: auto;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1080px) {
 .col-cashless {
     text-align: center;
   }
@@ -1755,7 +1755,7 @@ hr {
   text-align: left;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1080px) {
   .access-product-dev{
     text-align: center;
   }

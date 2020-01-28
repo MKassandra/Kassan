@@ -427,7 +427,7 @@ footer {
 
 }*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
   u{
     text-align: left !important;
   }
@@ -440,12 +440,14 @@ footer {
 
     .display-home {
         text-align: left;
+          color: #3a3a3b !important;
         font-size: 2.5rem !important;
         padding-bottom: 1rem !important;
         margin: 0 0 !important;
     }
 
     .lead {
+        color: #3a3a3b !important;
         text-align: left !important;
         font-size: 1.5rem !important;
     }

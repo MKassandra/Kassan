@@ -1,14 +1,18 @@
-<!--Not instant scroll but focus on scrollify-->
+<!--Not instant scroll -->
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--  <meta name="viewport" content="width=1364">-->
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <link rel="stylesheet" href="styles.css">
 
+  <!-- BRB icon -->
+   <link rel="icon" href="brblogo.png" type="image/x-icon">
   <!-- Bootstrap 4 -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -23,32 +27,31 @@
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
 
-<!--scrollify-->
-<!--scrollSpeed: 1100,-->
+  <!--scrollify-->
+  <!--scrollSpeed: 1100,-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.min.js" integrity="sha256-RGlAwHKG24hsj1109SGQgvR+Orx7u8c6zyYH4Tk3ydU=" crossorigin="anonymous"></script>
-  <script>
-    $(function() {
-      $.scrollify({
-    section: ".scollstyle",
-    interstitialSection : "",
-    easing: "easeOutExpo",
-    scrollSpeed: 30,
-    offset : 0,
-    scrollbars: true,
-    standardScrollElements: "",
-    setHeights: true,
-    overflowScroll: true,
-    updateHash: true,
-    touchScroll:true,
-    before:function() {},
-    after:function() {},
-    afterResize:function() {},
-    afterRender:function() {}
+  <!--<script>
+  $(function() {
+    $.scrollify({
+      section: ".scollstyle",
+      interstitialSection: ".navbar",
+      easing: "easeOutExpo",
+      scrollSpeed: 100,
+      offset: 0,
+      scrollbars: true,
+      standardScrollElements: "",
+      setHeights: true,
+      overflowScroll: true,
+      updateHash: true,
+      touchScroll: true,
+      before: function() {},
+      after: function() {},
+      afterResize: function() {},
+      afterRender: function() {}
+    });
   });
-    $.scrollify.next();
-      });
-  </script>
+</script>-->
 
   <!-- Own Javascript -->
   <script src="effects_hover.js"></script>
@@ -107,114 +110,369 @@
   <!--Main Content-->
   <section id="body-content">
     <!--class="display-p"-->
-    <div class="balance scollstyle">
-      <img src="images/balance_full.png" alt="" class="balance-img">
-      <!--
-      <h1 >Balance Inquiry</h1>
-
-      <p class="display-p"> Since BRB is a BancNet registered digital bank, you can check balance at <br>any ATM or POS terminal with BancNet logo.</p>
-      <br>
+    <section id="1">
+      <div class="balance scollstyle">
+        <!--  <img src="images/balance_full.png" alt="" class="balance-img">-->
+        <h1 class="h1-s">Balance Inquiry</h1>
+        <p class="display-p">  BRB is a member of BancNet. <br>You can check your balance at any ATM and POS terminal with the BancNet logo.</p>
+        <br>
+        <!--
       <img src="images/cards.png" class="icon-service" alt=""> <img src="images/arrow.png" class="icon-service" alt=""> <img src="images/atm.png" class="icon-service" alt=""> <img src="images/arrow.png" class="icon-service" alt="">
       <img src="images/balance_i.png" class="icon-service" alt=""> -->
-    </div>
+      </div>
+    </section>
 
-    <div class="withdrawal scollstyle">
-      <img src="images/withdraw_full.png" alt="" class="withdraw-img">
-    <!--  <h1 >Withdrawal</h1>
-      <p class="display-p">In the Philippines, 98% of all transactions are still done by cash even though <br>Bangko Sentral ng Pilipinas has been aiming
-        and encouraging all Filipinos <br>to increase cashless transaction. There will be times that cashless is not <br>available from where you shop or dine.
-        Using your card, you can <br> withdraw your needed cash at any BancNet ATM and POS terminal.</p>
-      <br>
+    <section id="2">
+      <div class="withdrawal scollstyle #2">
+        <!--   <img src="images/withdraw_full.png" alt="" class="withdraw-img">  -->
+        <h1 class="h1-s">Withdrawal</h1>
+        <p class="display-p">In the Philippines, 98% of all transactions are still done by cash even though <br>Bangko Sentral ng Pilipinas has been aiming
+          and encouraging all Filipinos <br>to increase cashless transaction. There will be times that cashless is not <br>available from where you shop or dine.
+          Using your card, you can <br> withdraw your needed cash at any BancNet ATM and POS terminal.</p>
+        <br>
+        <!--
       <img src="images/cards.png" class="icon-service" alt=""> <img src="images/arrow.png" class="icon-service" alt=""> <img src="images/atm.png" class="icon-service" alt=""> <img src="images/arrow.png" class="icon-service" alt="">
       <img src="images/widraw.png" class="icon-service" alt=""> -->
-    </div>
+      </div>
+    </section>
 
-    <div class="bills scollstyle">
-      <h1>Bills Payment</h1>
-      <p class="display-p">
-        <dd class="display-p"> Securely pay your bills at any ATM/POS terminal near you.</dd>
-        <dd class="display-p"> Local billers from telecommunications to credit cards to utility is available.</dd>
-        <dd class="display-p"> Real time posting.</dd>
-      </p>
+    <section id="3">
+      <div class="bills scollstyle">
+        <h1 class="h1-s">Bills Payment</h1>
+        <p class="display-p">
+          <ul>
+          <li class="display-p"> Securely pay your bills at any ATM/POS terminal near you.</li>
+          <li class="display-p"> Local billers from telecommunications to credit cards to utility is available.</li>
+          <li class="display-p"> Real time posting.</li>
+          </ul>
+        </p>
+      </div>
+    </section>
 
-    </div>
+    <section id="4">
+      <div class="purchase scollstyle">
+        <h1 class="h1-s">Purchase</h1>
+        <p class="display-p">We love shopping online because we hate the long lines and the volume of people at a store. BRB cards can be used on your online and offline transactions.
+          Grocery, dinning, gas, shopping, one swipe and you are paid! Even if you are on a store, it will not take you
+          several minutes just to wait for change. No more annoying coins, no more insufficient change; just <em>sakto.</em></p>
+      </div>
+    </section>
 
-    <div class="purchase scollstyle">
-      <h1>Purchase</h1>
-      <p class="display-p">We love shopping online because we hate the long lines and the volume of people <br> at a store. BRB cards can be used on your online and offline transactions.
-        <br>Grocery, dinning, gas, shopping, one swipe and you are paid! Even if you <br>are on a store, it will not take you
-        several minutes just to wait for change. <br>No more annoying coins, no more insufficient change; just sakto.</p>
-    </div>
+    <section id="5">
+      <div class="payroll scollstyle">
+        <h1 class="h1-s">Payroll</h1>
+        <p class="display-p">Managing a business is never easy especially since this involves money <br> from restocking to your employees' salary. Open an account with is and easily distribute your employees' salaries. <br>
+          <dd class="display-p">1. Open an account.</dd>
+          <dd class="display-p">2. Funds must be available at least a day before payday.</dd>
+          <dd class="display-p">3. Send us the Debit/Credit note.</dd>
+          <dd class="display-p">4. Money will be transferred instantly with minimal fees.</dd>
+        </p>
+      </div>
+    </section>
 
-    <div class="payroll scollstyle">
-      <h1>Payroll</h1>
-      <p class="display-p">Managing a business is never easy especially since this involves money <br> from restocking to your employee's salary. Open a account with us <br>and easily distribute your employee's salary directly to their cards. <br>
-        <dd class="display-p">1. Open an account.</dd>
-        <dd class="display-p">2. Have funds available at least a day before payday.</dd>
-        <dd class="display-p">3. Send us the Debit/Credit note.</dd>
-        <dd class="display-p">4. Money will be transferred instantly with minimal fees.</dd></p>
-    </div>
+    <section id="6">
+      <div class="e-bank scollstyle">
+        <!--  <img src="images/ebank_full.png" alt="" class="ebank-img">-->
+        <h1 class="h1-s">E - Banking</h1>
+        <p class="display-p">Most of the time we are doubtful when trying to be cashless.
+          With e-Banking, you can do all bank transactions at your fingertips. You can securely access your account because it will be protected with one-time-passwords (OTP) that will be sent to your registered mobile number.
+        </p>
+        <div class="row row-ebank">
+          <div class="col-md-2 col-sm-2 col-bank bank1">
+          <img src="images/phone.png" class="icon-ebank" alt=""></div>
+          <div class="col-md-4 col-sm-4 col-bank bank1">
+            <small>Download the app, create a profile and you are all set.</small>
+          </div>
 
-    <div class="e-bank scollstyle">
-      <img src="images/ebank_full.png" alt="" class="ebank-img">
-      <!--
-      <h1>E-Banking</h1>
-      <p class="display-p">By this time, cashless is being encouraged though most people prefer cash because it is <br> what they are used to. Most of the time we are doubtful when trying to be cashless.
-        <br>With e-Banking, you can do all bank transactions at your fingertips. You can securely <br>access your account because it will be protected with one-time-passwords (OTP) <br> that will be sent to your registered mobile number.
-      </p>
-      <br>
+          <div class="col-md-2  col-sm-2 col-bank bank1">
+          <img src="images/computer.png" class="icon-ebank ebank2" alt="">  </div>
+          <div class="col-md-4 col-sm-4 col-bank bank1">
+            <small>Access it on web with the same log on information as your mobile banking. OTP will be sent to your mobile number.</small>
+          </div>
+        </div>
+        <br>
+        <!--
       <div class="row"> <img src="images/phone.png" class="icon-service" alt=""> <p class="display-p">Download the app, create a profile and you are all set</p> <br><br>
       </div>
       <div class="row"> <img src="images/computer.png" class="icon-service" alt=""> <p class="display-p">Access it on the web with the same log on information as your mobile banking. OTP will be sent to your mobile number.</p>
-      </div> -->
-    </div>
+      </div>
+    -->
+      </div>
+    </section>
 
     <!--    additional end -->
+
+    <section id="7">
       <div class="eload scollstyle">
-        <h1 >E-Load</h1>
+        <!--<img src="images/eload_full.png" alt="" class="eload-img"> -->
+        <h1 class="h1-s">E - Load</h1>
         <p class="display-p">Need load? Reload on the nearest ATM or POS terminal.</p>
       </div>
+    </section>
 
+    <section id="8">
       <div class="remit scollstyle">
-        <img src="images/remit_full.png" alt="" class="remit-img">
-        <!--
-        <h1>Remittance</h1>
-        <p class="display-p">Send money from all around the directly to your family’s cash card. It is safe and secure. No more forms to fill out, no more lines just to tell you that your transaction
-          is not in their system or it is still for clearing. No more wasted time and effort because an SMS notification will be sent to their registered mobile number as soon as the amount is ready for use.</p>
-          <br>
-          <img src="images/mcash.png" class="icon-service" alt=""> <img src="images/arrow.png" class="icon-service" alt=""> <img src="images/agent.png" class="icon-service" alt="">  <img src="images/arrow.png" class="icon-service" alt=""> <img src="images/sms_notif.png" class="icon-service" alt="">
-        -->
-      </div>
-
-      <div class="fund scollstyle">
-        <img src="images/fund_full.png" alt="" class="fund-img">
-        <!--
-        <h1>Fund Transfer</h1>
-        <p class="display-p">All cardholders can transfer money either from BRB to BRB Card, or BRB to other banks’ card. This feature can be done from any BancNet ATMs and POS terminals. This can also be considered as local remittance. </p>
+        <!--  <img src="images/remit_full2.png" alt="" class="remit-img">   -->
+        <h1 class="h1-s">Remittance</h1>
+        <p class="display-p">Safely and securely send money from all around the world directly to your family's cash card. No need for your family to fill out forms, no more long lines, no more wasted time and effort because an SMS notification will be sent to their registered mobile number as soon as the amount is available on the cash card.
+</p>
         <br>
-        <img src="images/cards.png" class="icon-service" alt=""> <img src="images/arrow.png" class="icon-service" alt=""> <img src="images/atm.png" class="icon-service" alt="">  <img src="images/arrow.png" class="icon-service" alt=""> <img src="images/brbcard.png" class="icon-service" alt="">
+        <!-- <img src="images/mcash.png" class="icon-service" alt=""> <img src="images/arrow.png" class="icon-service" alt=""> <img src="images/agent.png" class="icon-service" alt="">  <img src="images/arrow.png" class="icon-service" alt=""> <img src="images/sms_notif.png" class="icon-service" alt="">
+          -->
+      </div>
+    </section>
+
+    <section id="9">
+      <div class="fund scollstyle">
+        <!--<img src="images/fund_full.png" alt="" class="fund-img">  -->
+        <h1 class="h1-s">Fund Transfer</h1>
+        <p class="display-p">All cardholders can transfer money either from BRB to BRB Card, or BRB to other banks’ card. This feature can be done from any BancNet ATMs and POS terminals.</p>
+        <br>
+        <!--  <img src="images/cards.png" class="icon-service" alt=""> <img src="images/arrow.png" class="icon-service" alt=""> <img src="images/atm.png" class="icon-service" alt="">  <img src="images/arrow.png" class="icon-service" alt=""> <img src="images/brbcard.png" class="icon-service" alt="">
       -->
-</div>
+      </div>
+    </section>
 
+    <section id="10">
       <div class="mobile scollstyle">
-        <h1 >Mobile Banking</h1>
-        <p class="display-p">Banking on the gowhere you can make the best of all your banking needs. No need to you to a physical bank or ATM. Just log on your phone and you're all set.</p>
+        <!--  <img src="images/mobile_full2.png" alt="" class="mobile-img">    -->
+        <h1 class="h1-s">Mobile Banking</h1>
+        <p class="display-p">Make the best out of your mobile phone with banking on-the-go! No need to go to a physical store for your banking needs. Create profile, log on, and you're all set.</p>
       </div>
+    </section>
 
+    <section id="11">
       <div class="online scollstyle">
-        <h1 >Online Banking</h1>
-        <p class="display-p">Do you banking needs but can't leave the office or your home? We have online banking! You only need the internet connection and everything will be done in a jiffy</p>
+        <!-- <img src="images/online_full2.png" alt="" class="online-img">  -->
+        <h1 class="h1-s">Online Banking</h1>
+        <p class="display-p">You only need an internet connection and everything will be done in a jiffy. No hassle.</p>
       </div>
+    </section>
 
+    <section id="12">
       <div class="ewallet scollstyle">
-        <h1>E-wallet</h1>
-        <p class="display-p">A digital wallet stores your money safely and securely. Paying for your purchased goods and services has never been this easy. No annoying forms to fill out before confirming each payment.
-          Simplified process is for the customer convenience. It is like paying cold cash in a digital way.</p>
+        <!--  <img src="images/ewallet_full.png" alt="" class="ewallet-img">-->
+        <h1 class="h1-s">E-wallet</h1>
+        <p class="display-p">Securely store your money on this digital wallet that you can carry anywhere. Purchasing process made easy and simple for your convenience. Start paying your goods and services the digital way!</p>
       </div>
+    </section>
+
+    <div class="contact-content ">
+      <h4>Want to know more? <a class="link-add" href="talk-test.html"><strong><u>Let's Talk</u></strong></a></h4>
+      <!--<a href="talk-test.html" button type="button" class="btn btn-custom btn-info" ><h4>Let's Talk</h4></a>-->
     </div>
+    </div>
+
+
   </section>
 
+  <a id="btn-1" href="#1" class="btn btn-nav btn-sm btn-1" role="button">Balance Inquiry<i class="fas fa-chevron-up"></i></a>
+  <a id="btn-2" href="#2" class="btn btn-nav btn-sm btn-2" role="button">Withdrawal<i class="fas fa-chevron-up"></i></a>
+  <a id="btn-3" href="#3" class="btn btn-nav btn-sm btn-3" role="button">Bills Payment<i class="fas fa-chevron-up"></i></a>
+  <a id="btn-4" href="#4" class="btn btn-nav btn-sm btn-4" role="button">Purchase<i class="fas fa-chevron-up"></i></a>
+  <a id="btn-5" href="#5" class="btn btn-nav btn-sm btn-5" role="button">Payroll<i class="fas fa-chevron-up"></i></a>
+  <a id="btn-6" href="#6" class="btn btn-nav btn-sm btn-6" role="button">E-Banking<i class="fas fa-chevron-up"></i></a>
+  <a id="btn-7" href="#7" class="btn btn-nav btn-sm btn-7" role="button">E-Load<i class="fas fa-chevron-up"></i></a>
+  <a id="btn-8" href="#8" class="btn btn-nav btn-sm btn-8" role="button">Remittance<i class="fas fa-chevron-up"></i></a>
+  <a id="btn-9" href="#9" class="btn btn-nav btn-sm btn-9" role="button">Fund Transfer<i class="fas fa-chevron-up"></i></a>
+  <a id="btn-10" href="#10" class="btn btn-nav btn-sm btn-10" role="button">Mobile Banking<i class="fas fa-chevron-up"></i></a>
+  <a id="btn-11" href="#11" class="btn btn-nav btn-sm btn-11" role="button">Online Banking<i class="fas fa-chevron-up"></i></a>
+  <a id="btn-12" href="#12" class="btn btn-nav btn-sm btn-12" role="button">E-Wallet<i class="fas fa-chevron-up"></i></a>
+  <a id="btn-top" href="#header-nav" class="btn btn-nav btn-sm btn-top" role="button">Back to Top<i class="fas fa-chevron-up"></i></a>
 
+
+  <script>
+    $(document).ready(function() {
+      //for fade in and fade out effect
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+          $('#btn-1').fadeIn();
+        } else {
+          $('#btn-1').fadeOut();
+        }
+      });
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+          $('#btn-2').fadeIn();
+        } else {
+          $('#btn-2').fadeOut();
+        }
+      });
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+          $('#btn-3').fadeIn();
+        } else {
+          $('#btn-3').fadeOut();
+        }
+      });
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+          $('#btn-4').fadeIn();
+        } else {
+          $('#btn-4').fadeOut();
+        }
+      });
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+          $('#btn-5').fadeIn();
+        } else {
+          $('#btn-5').fadeOut();
+        }
+      });
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+          $('#btn-6').fadeIn();
+        } else {
+          $('#btn-6').fadeOut();
+        }
+      });
+
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+          $('#btn-7').fadeIn();
+        } else {
+          $('#btn-7').fadeOut();
+        }
+      });
+
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+          $('#btn-8').fadeIn();
+        } else {
+          $('#btn-8').fadeOut();
+        }
+      });
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+          $('#btn-9').fadeIn();
+        } else {
+          $('#btn-9').fadeOut();
+        }
+      });
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+          $('#btn-10').fadeIn();
+        } else {
+          $('#btn-10').fadeOut();
+        }
+      });
+
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+          $('#btn-11').fadeIn();
+        } else {
+          $('#btn-11').fadeOut();
+        }
+      });
+
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+          $('#btn-12').fadeIn();
+        } else {
+          $('#btn-12').fadeOut();
+        }
+      });
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+          $('#btn-top').fadeIn();
+        } else {
+          $('#btn-top').fadeOut();
+        }
+      });
+    });
+  </script> <!--
+      // scroll body to 0px on click 1
+      $('#btn-1').click(function() {
+        $('body,html').animate({
+          scrollTop: 50
+        }, 0);
+        return false;
+      });
+      //scroll to withdraw section 2
+      $('#btn-2').click(function() {
+        $('body,html').animate({
+          scrollTop: 760
+        }, 0);
+        return false;
+      });
+      //scroll to bill payment section 3
+      $('#btn-3').click(function() {
+        $('body,html').animate({
+          scrollTop: 1430
+        }, 0);
+        return false;
+      });
+      //scroll to purchase section 4
+      $('#btn-4').click(function() {
+        $('body,html').animate({
+          scrollTop: 2120
+        }, 0);
+        return false;
+      });
+      //scroll to payroll section 5
+      $('#btn-5').click(function() {
+        $('body,html').animate({
+          scrollTop: 2740
+        }, 0);
+        return false;
+      });
+      //scroll to e-banking section 6
+      $('#btn-6').click(function() {
+        $('body,html').animate({
+          scrollTop: 3410
+        }, 0);
+        return false;
+      });
+      //scroll to e-load section 7
+      $('#btn-7').click(function() {
+        $('body,html').animate({
+          scrollTop: 4050
+        }, 0);
+        return false;
+      });
+      //scroll to remittance section 8
+      $('#btn-8').click(function() {
+        $('body,html').animate({
+          scrollTop: 4730
+        }, 0);
+        return false;
+      });
+      //scroll to fund transfer section 9
+      $('#btn-9').click(function() {
+        $('body,html').animate({
+          scrollTop: 5370
+        }, 0);
+        return false;
+      });
+      //scroll to mobile banking section 10
+      $('#btn-10').click(function() {
+        $('body,html').animate({
+          scrollTop: 6010
+        }, 0);
+        return false;
+      });
+      //scroll to online banking section 11
+      $('#btn-11').click(function() {
+        $('body,html').animate({
+          scrollTop: 6690
+        }, 0);
+        return false;
+      });
+      //scroll to e-wallet section 12
+      $('#btn-12').click(function() {
+        $('body,html').animate({
+          scrollTop: 7370
+        }, 0);
+        return false;
+      });
+      $('#btn-top').click(function() {
+        $('body,html').animate({
+          scrollTop: 0
+        }, 0);
+        return false;
+      });
+
+  -->
 
   <!--Footer-->
   <section id="footer-content">
@@ -226,10 +484,10 @@
       </div>
 
       <div class="row">
-        <div class="col-3">2nd Floor, Planters Product Bldg.109 Esteban St. Legaspi Vilage 1223 Makati City, Philippines</div>
+        <div class="col-3">2nd Floor, Planters Products Bldg 109 Esteban St. Legaspi Vilage 1223 Makati City, Philippines</div>
         <div class="col-5">135 Baltazar Street, Brgy. Layunan, Binangonan 1940 Rizal, Philippines</div>
-        <div class="col-2">(02) 8478 6615 <br> (02) 8478 6618 </div>
-        <div class="col-2">(Globe) (+63)0916-6243607 <br> (Smart) (+63)0998-3268399</div>
+        <div class="col-2">+63 (2) 8852 1454 <br> +63 (2) 8478 6618 <br> +63 (2) 8478 6615 </div>
+        <div class="col-2">(Globe) +63 916 624 3607 <br> (Smart) +63 998 326 8399</div>
       </div>
     </footer>
   </section>

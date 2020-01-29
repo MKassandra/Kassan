@@ -242,6 +242,14 @@ footer {
     font-size: 1.5rem !important;
 }
 
+
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
 .jumbbank {
     padding: 3rem 2rem !important;
     font-weight: bolder !important;

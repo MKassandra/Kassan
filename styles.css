@@ -1167,7 +1167,7 @@ hr {
 @media screen and (max-width: 1080px){
   .brbcard-display {
       height: auto;
-      width: 15rem !important;
+      width: 20rem !important;
   }
 }
 
@@ -1828,7 +1828,7 @@ hr {
 @media screen and (max-width: 1225px) {
     .brbcard-display {
         height: 14rem;
-        width: 25rem;
+        width: 20rem;
         padding-top: 2rem !important;
         margin-bottom: 5rem;
     }
@@ -1932,7 +1932,7 @@ hr {
     .brbcard-display {
         margin-bottom: 0 !important;
         height: 13rem !important;
-        width: 22rem !important;
+        width: 20rem !important;
         padding-top: 2rem !important;
         padding-left: 0.5rem !important;
         padding-right: 0.5rem !important;
@@ -1986,7 +1986,7 @@ hr {
     .brbcard-display {
         margin-bottom: 0 !important;
         height: 13rem !important;
-        width: 22rem !important;
+        width: 20rem !important;
         padding-top: 2rem !important;
         padding-left: 0.5rem !important;
         padding-right: 0.5rem !important;
@@ -2040,7 +2040,7 @@ hr {
     .brbcard-display {
         margin-bottom: 0 !important;
         height: 13rem !important;
-        width: 22rem !important;
+        width: 20rem !important;
         padding-top: 2rem !important;
         padding-left: 0.5rem !important;
         padding-right: 0.5rem !important;

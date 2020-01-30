@@ -256,7 +256,7 @@
 -->
 
     </section>
-  
+
 
     </div>
 
@@ -272,70 +272,69 @@
         <a id="btn-meet" href="#meet-body-content" class="btn btn-nav btn-sm btn-meet" role="button">Meet the Team<i class="fas fa-chevron-up"></i></a>
         <a id="btn-top-about" href="#header-nav" class="btn btn-nav btn-sm btn-top-about" role="button">Back to Top<i class="fas fa-chevron-up"></i></a>
     </div><!---->
-    <!--
+
   <script>
       $(document).ready(function() {
         //all nav will fade when its in meet content
         $(window).scroll(function() {
-          if ($(this).scrollTop() < 1450) {
+          if ($(this).scrollTop() > 50) {
             $('#btn-history').fadeIn();
           } else {
             $('#btn-history').fadeOut();
           }
         });
         $(window).scroll(function() {
-          if ($(this).scrollTop() < 1450) {
+          if ($(this).scrollTop() > 50) {
             $('#btn-who').fadeIn();
           } else {
             $('#btn-who').fadeOut();
           }
         });
         $(window).scroll(function() {
-          if ($(this).scrollTop() < 1450) {
+          if ($(this).scrollTop() > 50) {
             $('#btn-meet').fadeIn();
           } else {
             $('#btn-meet').fadeOut();
           }
         });
         $(window).scroll(function() {
-          if ($(this).scrollTop() < 1450) {
+          if ($(this).scrollTop() > 50) {
             $('#btn-top-about').fadeIn();
           } else {
             $('#btn-top-about').fadeOut();
           }
         });
 
+/*
 
-  // scroll body to history
   $('#btn-history').click(function() {
     $('body,html').animate({
       scrollTop: 90
     }, 0);
     return false;
   });
-  //scroll to who we are
+
   $('#btn-who').click(function() {
     $('body,html').animate({
       scrollTop: 650
     }, 0);
     return false;
   });
-  //scroll to meet the team
+
   $('#btn-meet').click(function() {
     $('body,html').animate({
       scrollTop: 1400
     }, 0);
     return false;
   });
-  // scroll body to back to top
   $('#btn-top-about').click(function() {
     $('body,html').animate({
       scrollTop: 0
     }, 0);
     return false;
-  });
+  });  */
     });
-  </script> -->
+  </script>
     <!--
   <div class="copyright-content">
     <small>&copy; Copyright: BRB Digital, Inc.</small>

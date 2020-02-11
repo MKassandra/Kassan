@@ -66,7 +66,7 @@ strong {
 .h-color,
 .header-nav,
 .nav-custom {
-    background-color: white !important;
+    background-image: url("images/navcolor.png")!important;
 }
 
 /* Paddings Header Section */

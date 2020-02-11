@@ -269,7 +269,7 @@ footer {
     /* background-size: 100% 100%; */
     background-size: cover !important;
     background-position: center !important;
-    height: 30rem;
+    height: 40rem;
     background-repeat: no-repeat !important;
 }
 
@@ -485,7 +485,7 @@ footer {
       background-position: left !important;
       background-blend-mode: multiply;
       background-color: rgba(63,87,110, 0.7);
-      height: 30rem;
+      height: 100rem;
       padding: 0 4rem !important;
       padding-top: 3.5rem !important;
       margin: 0 0 !important;
@@ -574,7 +574,7 @@ footer {
         padding: 0 2rem !important;
         text-align:left !important;
         padding-top: 3rem !important;
-        height: 20rem;
+        height: 100rem;
         margin: 0 0 !important;
     }
 

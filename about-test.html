@@ -11,16 +11,20 @@
     <link rel="icon" href="brblogo.png" type="image/x-icon">
     <!-- Bootstrap 4 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style.css">
+
     <!-- Bootstrap 4 Javascript -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-    <!-- FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
-    <!--scrollify-->
+
+  <!--scrollify-->
     <!--scrollSpeed: 1100,-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.min.js" integrity="sha256-RGlAwHKG24hsj1109SGQgvR+Orx7u8c6zyYH4Tk3ydU=" crossorigin="anonymous"></script>
@@ -83,11 +87,11 @@
     </div>
 
     <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12"> -->
-     <section id="history-body-content">
+     <section id="history-body-content2">
         <!--<<img src="images/history_full.png" alt="" class="bod-img"> -->
         <div class="row row-h">
             <div class="col-lg-4 col-md-2 col-sm-1">
-
+<img src="images/history_ls.png" class="wow slideInLeft" height="100%" width="100%">
             </div>
             <div class="col-lg-8 col-md-10 col-sm-11">
               <h1 class="h1-about">History</h1>
@@ -98,19 +102,22 @@
         </div>
     </section>
 
-    <section id="who-body-content">
+    <section id="who-body-content2">
 
         <!--   <img src="images/who_full.png" alt="" class="bod-img">
 
  <hr class="hr1">-->
         <div class="row row-w">
-          <div class="col-lg-4 col-md-2 col-sm-1"> </div>
-            <div class="col-lg-8 col-md-10 col-sm-11 col-who-1">
-              <h1 class="h1-who">Who We Are</h1>
-                <p>BRB Digital is the first Philippine rural bank to launch its E-Money operations. <br><br> BRB Digital has its own complete E-money system and facilities, including Card Management and Remittance System, Card Issuing and Personalization System, Switch, among others. <br><br> As part of BRB's E-Money product offerings, it has initially launch its Cash Card products available to its BRB customers and the general public as Cashmate Card. It is also available as co-branded card for payroll, loan release, pension, etc. <br><br> BRB will launched its E-Wallet, online banking, mobile banking facilities by Q2 2019. <br><br> From being the oldest bank in Binangonan, Rizal, whose original mission was to extend credit to small farmers and merchants, BRB has now evolved into the most progressive and innovative digital rural bank not only in Rizal but in the whole Philippines. </p>
-            </div>
+          <div class="col-lg-8 col-md-10 col-sm-11 col-who-1">
+            <h1 class="h1-who">Who We Are</h1>
+              <p>BRB Digital is the first Philippine rural bank to launch its E-Money operations. <br><br> BRB Digital has its own complete E-money system and facilities, including Card Management and Remittance System, Card Issuing and Personalization System, Switch, among others. <br><br> As part of BRB's E-Money product offerings, it has initially launch its Cash Card products available to its BRB customers and the general public as Cashmate Card. It is also available as co-branded card for payroll, loan release, pension, etc. <br><br> BRB will launched its E-Wallet, online banking, mobile banking facilities by Q2 2019. <br><br> From being the oldest bank in Binangonan, Rizal, whose original mission was to extend credit to small farmers and merchants, BRB has now evolved into the most progressive and innovative digital rural bank not only in Rizal but in the whole Philippines. </p>
+          </div>
 
-        </div>
+            <div class="col-lg-4 col-md-2 col-sm-1">
+          <img src="images/who_ls.png" class="wow slideInRight" height="100%" width="100%">
+      </div>
+           </div>
+
     </section>
 
         <section id="meet-body-content">
@@ -259,7 +266,13 @@
     </section>
     </div>
     </section>
-
+<!--
+        <div class="container vertical-nav position-fixed">
+            <a id="btn-history" href="#history-body-content" class="btn btn-nav btn-sm btn-history" role="button">History<i class="fas fa-chevron-up"></i></a>
+            <a id="btn-who" href="#who-body-content" class="btn btn-nav btn-sm btn-who" role="button">Who We Are<i class="fas fa-chevron-up"></i></a>
+            <a id="btn-meet" href="#meet-body-content" class="btn btn-nav btn-sm btn-meet" role="button">Meet the Team<i class="fas fa-chevron-up"></i></a>
+            <a id="btn-top-about" href="#header-nav" class="btn btn-nav btn-sm btn-top-about" role="button">Back to Top<i class="fas fa-chevron-up"></i></a>
+        </div>-->
 
 
 
@@ -268,14 +281,17 @@
       <!--<a href="talk-test.html" button type="button" class="btn btn-custom btn-info" ><h4>Let's Talk</h4></a>-->
     </div>
 
-    <div class="container vertical-nav">
-        <a id="btn-history" href="#history-body-content" class="btn btn-nav btn-sm btn-history" role="button">History<i class="fas fa-chevron-up"></i></a>
-        <a id="btn-who" href="#who-body-content" class="btn btn-nav btn-sm btn-who" role="button">Who We Are<i class="fas fa-chevron-up"></i></a>
-        <a id="btn-meet" href="#meet-body-content" class="btn btn-nav btn-sm btn-meet" role="button">Meet the Team<i class="fas fa-chevron-up"></i></a>
-        <a id="btn-top-about" href="#header-nav" class="btn btn-nav btn-sm btn-top-about" role="button">Back to Top<i class="fas fa-chevron-up"></i></a>
-    </div><!---->
+
 
   <script type="text/javascript" src="wow.js"> </script>
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
 
   <script>
       $(document).ready(function() {

@@ -21,7 +21,7 @@ body {
     /*background-image: url('images/bg_main.jpg');
   background-size: contain !important;
   background-position: center !important;*/
-    background-color: #e4c7fd !important;
+  background-color:#5D03E8 !important;
     width: 100%;
 }
 
@@ -49,6 +49,7 @@ strong {
 
 /* Logo Size */
 .brblogo {
+  margin-top: 2rem;
     height: 5rem;
     width: 3.9rem;
     margin-left: 2rem;
@@ -56,6 +57,7 @@ strong {
 }
 
 .cashmate {
+  margin-top: 2rem;
     height: 3.1rem;
     width: 10rem;
 }
@@ -64,7 +66,7 @@ strong {
 .h-color,
 .header-nav,
 .nav-custom {
-    background-color:#e4c7fd !important;
+    background-image: url("images/navcolor.png") !important;
 }
 
 /* Paddings Header Section */
@@ -75,7 +77,9 @@ strong {
 /* Text Styles */
 /* HOVER EFFECTS */
 .navbar ul li a {
-    color: #730ac4 !important;
+margin-top: 1rem;
+margin-bottom: 1rem;
+    /*color: #730ac4 !important;*/
 }
 
 .navbar ul li a:hover {
@@ -83,6 +87,7 @@ strong {
 }
 
 .about {
+
     color: #730ac4 !important;
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
@@ -134,7 +139,8 @@ strong {
 
 /*dropdown color*/
 .navbar-custom .dropdown-menu {
-    background-color: #e4c7fd;
+    background-image: url("images/navcolor.png") !important;
+  /*  background-color: #e4c7fd;*/
     /*bg color*/
     border-width: thin;
 }
@@ -156,6 +162,7 @@ strong {
 
 /* Border Manipulation */
 .about-border {
+  margin-top: 2rem;
     border: 1px solid;
     border-right-color: #730ac4 !important;
     border-top: none !important;
@@ -170,6 +177,7 @@ strong {
 }
 
 .services-border {
+  margin-top: 2rem;
     border: 1px solid;
     border-right-color: #730ac4 !important;
     border-top: none !important;
@@ -180,6 +188,7 @@ strong {
 }
 
 .product-border {
+  margin-top: 2rem;
     border: 1px solid;
     border-right-color: #730ac4 !important;
     border-top: none !important;
@@ -190,6 +199,7 @@ strong {
 }
 
 .partners-border {
+  margin-top: 2rem;
     border: 1px solid;
     border-right-color: #730ac4 !important;
     border-top: none !important;
@@ -200,6 +210,7 @@ strong {
 }
 
 .letsTalk-border {
+  margin-top: 2rem;
     border: 1px solid;
     border-right-color: #730ac4 !important;
     border-top: none !important;
@@ -233,8 +244,6 @@ footer {
     bottom: 0;
     width: 100%;
     padding: 1rem 3rem;
-    color: #730ac4 !important;
-    background-color: #e4c7fd !important;
 }
 
 /*Home page slideshow*/
@@ -758,6 +767,19 @@ footer {
 
 }
 
+#history-body-content2 {
+    /*padding: 4rem 3rem !important;*/
+    padding-top: 1rem;
+    line-height: 1.2;
+    color: black;
+    text-align: justify;
+    background-image: url("images/meet2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
 .row-h {
     padding: 0 2rem !important;
     padding-bottom: 3rem !important;
@@ -808,6 +830,18 @@ footer {
     color: black;
     text-align: justify;
     background-image: url("images/who2.jpg") !important;
+    background-size: cover !important;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#who-body-content2 {
+    padding: 4rem 6rem !important;
+    padding-top: 2rem;
+    line-height: 2;
+    color: black;
+    text-align: justify;
+    background-color: white;
     background-size: cover !important;
     background-position: left;
     background-repeat: no-repeat;

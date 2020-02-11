@@ -1,3 +1,7 @@
+$( document ).ready(function() {
+  new WOW().init();
+});
+
 $(window).scroll(function() {
   $(".slideanim").each(function(){
     var pos = $(this).offset().top;

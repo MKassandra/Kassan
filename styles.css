@@ -359,8 +359,16 @@ footer {
   font-weight: bolder !important;
 }
 
-/*media manipulation in index page
-@media screen and (max-width: 992px) {
+
+@media screen and (max-width: 1080px) {
+.jumbbank {
+    background-position: left !important;
+    padding: 0 8rem !important;
+    padding-top: 3rem !important;
+    margin: 0 0 !important;
+    height: 100rem;
+  }
+/*
   u{
     text-align: left !important;
   }
@@ -388,15 +396,7 @@ footer {
         margin-left: 3.1rem !important;
     }
 
-    .jumbbank {
-        background-position: left !important;
-        padding: 0 8rem !important;
-        padding-top: 3rem !important;
-        margin: 0 0 !important;
-        height: 60rem;
-        background-blend-mode: screen;
-        background-color: rgba(63,87,110, 0.9);
-    }
+
 
     .s_purchase {
         text-align: left;
@@ -446,10 +446,10 @@ footer {
         height: 60rem;
         background-blend-mode: screen;
         background-color: rgba(250,250,250, 0.6);
-    }
+    }*/
 
 
-}*/
+}
 
 @media screen and (max-width: 770px) {
   u{

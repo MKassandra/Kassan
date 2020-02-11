@@ -21,7 +21,7 @@ body {
     /*background-image: url('images/bg_main.jpg');
   background-size: contain !important;
   background-position: center !important;*/
-  background-color:#8104E7 !important;
+  background-color: #8104E7 !important;
     width: 100%;
 }
 
@@ -83,33 +83,33 @@ margin-bottom: 1rem;
 }
 
 .navbar ul li a:hover {
-    color: white !important;
+    color:  #ba9dd4 !important;
 }
 
 .about {
 
-    color: #730ac4 !important;
+    color: #3a3a3b !important;
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
     font-weight: bolder !important;
 }
 
 .services {
-    color: #730ac4 !important;
+    color: #3a3a3b !important;
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
     font-weight: bolder !important;
 }
 
 .product {
-    color: #730ac4 !important;
+    color: #3a3a3b !important;
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
     font-weight: bolder !important;
 }
 
 .partners {
-    color: #730ac4 !important;
+    color: #3a3a3b !important;
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
     font-weight: bolder !important;
@@ -122,7 +122,7 @@ margin-bottom: 1rem;
     font-size: 1rem !important;
 }*/
 .letsTalk {
-    color: #730ac4 !important;
+    color: #3a3a3b !important;
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
     font-weight: bolder !important;
@@ -139,14 +139,14 @@ margin-bottom: 1rem;
 
 /*dropdown color*/
 .navbar-custom .dropdown-menu {
-    background-image: url("images/navcolor.png") !important;
-  /*  background-color: #e4c7fd;*/
+
+  background-color: white;
     /*bg color*/
     border-width: thin;
 }
 
 .navbar-custom .dropdown-item {
-    color: #171717;
+    color: #3a3a3b  !important;
     /*text color*/
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
@@ -154,7 +154,7 @@ margin-bottom: 1rem;
 
 .navbar-custom .dropdown-item:hover,
 .navbar-custom .dropdown-item:focus {
-    color: white !important;
+    color: #730ac4 !important;
     /*text color*/
     background-color: #ba9dd4;
     /*highlight*/
@@ -164,7 +164,7 @@ margin-bottom: 1rem;
 .about-border {
   margin-top: 2rem;
     border: 1px solid;
-    border-right-color: #730ac4 !important;
+    border-right-color: #3a3a3b !important;
     border-top: none !important;
     border-left: none !important;
     border-bottom: none;
@@ -179,7 +179,7 @@ margin-bottom: 1rem;
 .services-border {
   margin-top: 2rem;
     border: 1px solid;
-    border-right-color: #730ac4 !important;
+    border-right-color: #3a3a3b !important;
     border-top: none !important;
     border-left: none !important;
     border-bottom: none;
@@ -190,7 +190,7 @@ margin-bottom: 1rem;
 .product-border {
   margin-top: 2rem;
     border: 1px solid;
-    border-right-color: #730ac4 !important;
+    border-right-color: #3a3a3b !important;
     border-top: none !important;
     border-left: none !important;
     border-bottom: none;
@@ -201,7 +201,7 @@ margin-bottom: 1rem;
 .partners-border {
   margin-top: 2rem;
     border: 1px solid;
-    border-right-color: #730ac4 !important;
+    border-right-color: #3a3a3b !important;
     border-top: none !important;
     border-left: none !important;
     border-bottom: none;
@@ -212,7 +212,7 @@ margin-bottom: 1rem;
 .letsTalk-border {
   margin-top: 2rem;
     border: 1px solid;
-    border-right-color: #730ac4 !important;
+    border-right-color: #3a3a3b !important;
     border-top: none !important;
     border-left: none !important;
     border-bottom: none;
@@ -239,8 +239,10 @@ margin-bottom: 1rem;
 
 /*Footer contact info*/
 footer {
+    background-color:#8104E7 !important;
+    color: white;
     font-size: 0.8rem !important;
-    height: 100px;
+    height: 50px;
     bottom: 0;
     width: 100%;
     padding: 1rem 3rem;

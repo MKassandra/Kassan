@@ -366,7 +366,8 @@ footer {
     padding: 0 8rem !important;
     padding-top: 3rem !important;
     margin: 0 0 !important;
-    height: 40rem;
+    height: 30rem;
+    padding-bottom: 10rem !important;
   }
 /*
   u{

@@ -485,8 +485,9 @@ footer {
       background-position: left !important;
       background-blend-mode: multiply;
       background-color: rgba(63,87,110, 0.7);
-      height: 40rem;
+      height: 30rem;
       padding: 0 4rem !important;
+      padding-bottom: 10rem !important;
       padding-top: 3.5rem !important;
       margin: 0 0 !important;
     }
@@ -574,7 +575,8 @@ footer {
         padding: 0 2rem !important;
         text-align:left !important;
         padding-top: 3rem !important;
-        height: 40rem;
+        height: 30rem;
+        padding-bottom: 10rem !important;
         margin: 0 0 !important;
     }
 

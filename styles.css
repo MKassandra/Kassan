@@ -74,6 +74,10 @@ strong {
     /*padding: 1.2rem 2rem 0 2rem;*/
 }
 
+.navbar-toggler{
+    margin-top:2rem !important;
+}
+
 /* Text Styles */
 /* HOVER EFFECTS */
 .navbar ul li a {

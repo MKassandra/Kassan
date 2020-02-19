@@ -2159,7 +2159,7 @@ hr {
     padding-left: 10em !important;
     padding-top: 3em !important;
     color: #3a3a3b;
-    background-image: url("images/bg/balance_bg1.png") !important;
+    background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/balance_bg1.png") !important;
     background-size: cover;
     height: 45rem;
     background-position: left;
@@ -2176,9 +2176,9 @@ width: 100% !important;*/
     padding-left: 10em !important;
     padding-top: 5em !important;
     color: #3a3a3b;
-    background-image: url("images/bg/withdraw.png") !important;
-    background-blend-mode: overlay;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/withdraw.png") !important;
+    /*background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.6);*/
     background-size: cover;
     height: 45rem;
 
@@ -2200,9 +2200,12 @@ width: 100% !important;
     padding-right: 35rem !important;
     padding-top: 5em !important;
     color: #3a3a3b;
-    background-image: url("images/bg/bills_bg2.png") !important;
-    background-blend-mode: overlay;
-    background-color: rgba(232, 160, 213, 0.2);
+    background-image: linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%),url("images/bg/bills_bg2.png") !important;
+    /*background-blend-mode: overlay;*/
+    background-color:  !important;
+
+    /*background-color: rgba(232, 160, 213, 0.2);*/
+
     background-size: cover;
     height: 45rem;
     /* backup solution incase scrollify go bananas
@@ -2218,9 +2221,9 @@ width: 100% !important;
     padding-right: 35rem !important;
     padding-top: 3em !important;
     color: #3a3a3b;
-    background-image: url("images/bg/purchase_bg2.png") !important;
-    background-blend-mode: overlay;
-    background-color: rgb(255, 255, 255, 0.5);
+    background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/purchase_bg2.png") !important;
+    /*background-blend-mode: overlay;
+    background-color: rgb(255, 255, 255, 0.5);*/
     background-size: cover;
     height: 45rem;
     /* backup solution incase scrollify go bananas
@@ -2236,9 +2239,9 @@ width: 100% !important;
     padding-right: 35rem !important;
     padding-top: 3em !important;
     color: #3a3a3b;
-    background-image: url("images/bg/payroll_bg2.png") !important;
-    background-blend-mode: overlay;
-    background-color: rgb(255, 255, 255, 0.3);
+    background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/payroll_bg2.png") !important;
+    /*background-blend-mode: overlay;
+    background-color: rgb(255, 255, 255, 0.3);*/
     background-size: cover;
     height: 45rem;
     /* backup solution incase scrollify go bananas
@@ -2255,9 +2258,9 @@ width: 100% !important;
     padding-right: 15rem !important;
     padding-top: 1rem !important;
     color: #3a3a3b;
-    background-image: url("images/bg/ebank_bg.png") !important;
-    background-blend-mode: overlay;
-    background-color: rgb(255, 255, 255, 0.7);
+    background-image: linear-gradient(to right, rgba(251,251,251,1) 30%, rgba(255,255,255,0) 100%),url("images/bg/ebank_bg.png") !important;
+    /*background-blend-mode: overlay;
+    background-color: rgb(255, 255, 255, 0.7);*/
     background-size: cover;
     height: 45rem;
     width: 100% !important;
@@ -2690,7 +2693,7 @@ height: 100% !important;*/
             padding: 6em 10em !important;
             padding-left: 45em !important;
             padding-top: 10em !important;
-            background-image: url("images/s_eload.png") !important;
+            background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_eload.png") !important;
             background-size: 100% 100%;
             height: 35rem;
             width: 100% !important;
@@ -2701,7 +2704,7 @@ height: 100% !important;*/
             padding: 6em 10em !important;
             padding-right:  45em !important;
             padding-top: 10em !important;
-            background-image: url("images/bg/remit_bg2.png") !important;
+            background-image: linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%),url("images/bg/remit_bg2.png") !important;
             background-size: 100% 100%;
             height: 35rem;
             width: 100% !important;
@@ -2712,7 +2715,7 @@ height: 100% !important;*/
             padding: 6em 10em !important;
             padding-left: 45em !important;
             padding-top: 10em !important;
-            background-image: url("images/s_transfer.png") !important;
+            background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_transfer.png") !important;
             background-size: 100% 100%;
             height: 35rem;
             width: 100% !important;
@@ -2723,11 +2726,11 @@ height: 100% !important;*/
             padding: 6em 10em !important;
             padding-left: 45em !important;
             padding-top: 10em !important;
-            background-image: url("images/s_mobile.png") !important;
-            background-color: rgba(255, 255, 255, 0.5) !important;
-            background-blend-mode: overlay;
+            background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_mobile.png") !important;
+            /*background-color: rgba(255, 255, 255, 0.5) !important;
+            background-blend-mode: overlay;*/
             background-size: 100% 100%;
-            height: 35rem;
+            height: 45rem;
             width: 100% !important;
             background-repeat: no-repeat !important;
         }
@@ -2736,9 +2739,9 @@ height: 100% !important;*/
             padding: 6em 10em !important;
             padding-left: 45em !important;
             padding-top: 10em !important;
-            background-image: url("images/s_obank.png") !important;
+            background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_obank.png") !important;
             background-size: 100% 100%;
-            height: 35rem;
+            height: 45rem;
             width: 100% !important;
             background-repeat: no-repeat !important;
         }
@@ -2747,9 +2750,9 @@ height: 100% !important;*/
             padding: 6em 10em !important;
             padding-left: 45em !important;
             padding-top: 10em !important;
-            background-image: url("images/s_ewallet.png") !important;
+            background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_ewallet.png") !important;
             background-size: 100% 100%;
-            height: 35rem;
+            height: 45rem;
             width: 100% !important;
             background-repeat: no-repeat !important;
         }

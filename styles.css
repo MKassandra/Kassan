@@ -21,7 +21,7 @@ body {
     /*background-image: url('images/bg_main.jpg');
   background-size: contain !important;
   background-position: center !important;*/
-  background-color: #8104E7 !important;
+  background-color: #8104e7 !important;
     width: 100%;
 }
 
@@ -49,7 +49,7 @@ strong {
 
 /* Logo Size */
 .brblogo {
-  margin-top: 2rem;
+  margin-top: 1rem;
     height: 5rem;
     width: 8.9rem;
     margin-left: 2rem;
@@ -57,16 +57,34 @@ strong {
 }
 
 .cashmate {
-  margin-top: 2rem;
+  margin-top: 1rem;
     height: 3.1rem;
     width: 10rem;
 }
+
+.first-nav{
+    background-image: url("purple-bar.png");
+    height: 2rem !important;
+}
+
+.second-nav{
+  background: white;
+    top: 10px;
+}
+
+.bg-custom{
+    background-color: white;
+}
+
+
 
 /* Navbar Style   */
 .h-color,
 .header-nav,
 .nav-custom {
-    background-image: url("images/navcolor.png")!important;
+
+  background-color: white;
+    /* background-image: url("images/navcolor.png")!important;*/
 }
 
 /* Paddings Header Section */
@@ -76,6 +94,7 @@ strong {
 
 .navbar-toggler{
     margin-top:2rem !important;
+
 }
 
 /* Text Styles */
@@ -91,7 +110,6 @@ margin-bottom: 1rem;
 }
 
 .about {
-
     color: #3a3a3b !important;
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
@@ -134,6 +152,7 @@ margin-bottom: 1rem;
 
 #navbarNav {
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .navbar-toggler, .navbar-toggler-icon{
@@ -148,14 +167,14 @@ margin-bottom: 1rem;
 
 /*dropdown color*/
 .navbar-custom .dropdown-menu {
-
-  background-color: white;
+    color: #3a3a3b  !important;
+    background-color: white;
     /*bg color*/
     border-width: thin;
 }
 
 .navbar-custom .dropdown-item {
-    color: #3a3a3b  !important;
+    color: #3a3a3b !important;
     /*text color*/
     /*font-family: 'Noto Serif', serif !important;*/
     font-size: 1rem !important;
@@ -171,7 +190,7 @@ margin-bottom: 1rem;
 
 /* Border Manipulation */
 .about-border {
-  margin-top: 2rem;
+  margin-top: 1rem;
     border: 1px solid;
     border-right-color: #3a3a3b !important;
     border-top: none !important;
@@ -186,7 +205,7 @@ margin-bottom: 1rem;
 }
 
 .services-border {
-  margin-top: 2rem;
+  margin-top: 1rem;
     border: 1px solid;
     border-right-color: #3a3a3b !important;
     border-top: none !important;
@@ -197,7 +216,7 @@ margin-bottom: 1rem;
 }
 
 .product-border {
-  margin-top: 2rem;
+  margin-top: 1rem;
     border: 1px solid;
     border-right-color: #3a3a3b !important;
     border-top: none !important;
@@ -208,7 +227,7 @@ margin-bottom: 1rem;
 }
 
 .partners-border {
-  margin-top: 2rem;
+  margin-top: 1rem;
     border: 1px solid;
     border-right-color: #3a3a3b !important;
     border-top: none !important;
@@ -219,7 +238,7 @@ margin-bottom: 1rem;
 }
 
 .letsTalk-border {
-  margin-top: 2rem;
+  margin-top: 1rem;
     border: 1px solid;
     border-right-color: #3a3a3b !important;
     border-top: none !important;
@@ -248,7 +267,7 @@ margin-bottom: 1rem;
 
 /*Footer contact info*/
 footer {
-    background-color:#8104E7 !important;
+    background-color:#8104e7 !important;
     color: white;
     font-size: 0.8rem !important;
     height: 100px;
@@ -355,7 +374,10 @@ footer {
     padding: 1rem 5rem;
     padding-bottom: 6rem;
     color: #730ac4;
-    background-color: #e4c7fd !important;
+    background-image: url("purple-bar2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*background-color: #e4c7fd !important;*/
     /*background-color: #776b5d !important;*/
 }
 

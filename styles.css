@@ -49,7 +49,7 @@ strong {
 
 /* Logo Size */
 .brblogo {
-  margin-top: 1rem;
+  margin-top: 0rem;
     height: 5rem;
     width: 8.9rem;
     margin-left: 2rem;
@@ -57,14 +57,17 @@ strong {
 }
 
 .cashmate {
-  margin-top: 1rem;
+  margin-top: 0rem;
     height: 3.1rem;
     width: 10rem;
 }
 
 .first-nav{
-    background-image: url("purple-bar.png");
-    height: 2rem !important;
+    background-image: url("purple-bar1.png");
+    height: 3rem !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .second-nav{
@@ -97,11 +100,15 @@ strong {
 
 }
 
+.navbar{
+  padding: 0rem 0rem;
+}
+
 /* Text Styles */
 /* HOVER EFFECTS */
 .navbar ul li a {
-margin-top: 1rem;
-margin-bottom: 1rem;
+margin-top: 0rem;
+margin-bottom: 0rem;
     /*color: #730ac4 !important;*/
 }
 
@@ -151,6 +158,7 @@ margin-bottom: 1rem;
 }
 
 #navbarNav {
+
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -190,7 +198,7 @@ margin-bottom: 1rem;
 
 /* Border Manipulation */
 .about-border {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
     border: 1px solid;
     border-right-color: #3a3a3b !important;
     border-top: none !important;
@@ -205,7 +213,7 @@ margin-bottom: 1rem;
 }
 
 .services-border {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
     border: 1px solid;
     border-right-color: #3a3a3b !important;
     border-top: none !important;
@@ -216,7 +224,7 @@ margin-bottom: 1rem;
 }
 
 .product-border {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
     border: 1px solid;
     border-right-color: #3a3a3b !important;
     border-top: none !important;
@@ -227,7 +235,7 @@ margin-bottom: 1rem;
 }
 
 .partners-border {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
     border: 1px solid;
     border-right-color: #3a3a3b !important;
     border-top: none !important;
@@ -238,7 +246,7 @@ margin-bottom: 1rem;
 }
 
 .letsTalk-border {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
     border: 1px solid;
     border-right-color: #3a3a3b !important;
     border-top: none !important;
@@ -292,8 +300,9 @@ footer {
 .jumbbank {
     padding: 3rem 2rem !important;
     font-weight: bolder !important;
-    color: #4dbab5;
-    background-image: url("images/main2.jpg") !important;
+    color: white;
+    background-image: url("banner.jpg") !important;
+    /*background-image: url("images/main2.jpg") !important;*/
     /* background-size: 100% 100%; */
     background-size: cover !important;
     background-position: center !important;
@@ -387,6 +396,7 @@ footer {
 
 
 .h1-home-front{
+  color: white;
   font-weight: bolder !important;
 }
 

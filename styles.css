@@ -273,12 +273,19 @@ margin-bottom: 0rem;
     background-color: #4ebab5 !important;
 }
 
+.purple-banner2{
+  background-image: url("purple-bar2.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: center;
+  background-size: cover!important;
+}
 /*Footer contact info*/
 footer {
+
     background-color:#8104e7 !important;
     color: white;
     font-size: 0.8rem !important;
-    height: 100px;
+    /*height: 100px;*/
     bottom: 0;
     width: 100%;
     padding: 1rem 3rem;

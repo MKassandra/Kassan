@@ -51,7 +51,7 @@ strong {
 .brblogo {
   margin-top: 0rem;
     height: 3rem;
-    width: 8.9rem;
+    width: 6.9rem;
     margin-left: 2rem;
     margin-right: 0.5rem;
 }
@@ -71,12 +71,13 @@ strong {
 }
 
 .second-nav{
-  background: white;
+  background: #eeddfc;
     top: 10px;
+    color: #3a3a3b !important;
 }
 
 .bg-custom{
-    background-color: white;
+    background-color: #eeddfc;
 }
 
 
@@ -85,8 +86,8 @@ strong {
 .h-color,
 .header-nav,
 .nav-custom {
-
-  background-color: white;
+color: #3a3a3b !important;
+  background-color: #eeddfc;
     /* background-image: url("images/navcolor.png")!important;*/
 }
 
@@ -109,6 +110,7 @@ strong {
 .navbar ul li a {
 margin-top: 0rem;
 margin-bottom: 0rem;
+color: #3a3a3b !important;
     /*color: #730ac4 !important;*/
 }
 
@@ -176,7 +178,7 @@ margin-bottom: 0rem;
 /*dropdown color*/
 .navbar-custom .dropdown-menu {
     color: #3a3a3b  !important;
-    background-color: white;
+    background-color: #eeddfc;
     /*bg color*/
     border-width: thin;
 }

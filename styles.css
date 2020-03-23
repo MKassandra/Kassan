@@ -63,8 +63,8 @@ strong {
 }
 
 .first-nav{
-    background-image: url("purple-bar1.png");
-    height: 3rem !important;
+    background-image: url("purple-only.png");
+    height: 2rem !important;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

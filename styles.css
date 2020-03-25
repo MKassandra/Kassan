@@ -6,13 +6,15 @@ html {
 /*font style - basic*/
 @font-face {
     font-family: myBento;
-    src: url('font/BentonSans_book.otf');
+    src: url('font/BentonSans_bold.otf');
+    /*font/BentonSans_book.otf*/
 }
 
 /*font style - header*/
 @font-face {
     font-family: myBento_head;
     src: url('font/BentonSans_regular.otf');
+    /*font/BentonSans_regular.otf*/
 }
 
 body {
@@ -74,6 +76,7 @@ strong {
   background: #eeddfc;
     top: 10px;
     color: #3a3a3b !important;
+    font-weight: bolder !important;
 }
 
 .bg-custom{
@@ -121,28 +124,28 @@ color: #3a3a3b !important;
 .about {
     color: #3a3a3b !important;
     /*font-family: 'Noto Serif', serif !important;*/
-    font-size: 1rem !important;
+    font-size: 1.4rem !important;
     font-weight: bolder !important;
 }
 
 .services {
     color: #3a3a3b !important;
     /*font-family: 'Noto Serif', serif !important;*/
-    font-size: 1rem !important;
+    font-size: 1.4rem !important;
     font-weight: bolder !important;
 }
 
 .product {
     color: #3a3a3b !important;
     /*font-family: 'Noto Serif', serif !important;*/
-    font-size: 1rem !important;
+    font-size: 1.4rem !important;
     font-weight: bolder !important;
 }
 
 .partners {
     color: #3a3a3b !important;
     /*font-family: 'Noto Serif', serif !important;*/
-    font-size: 1rem !important;
+    font-size: 1.4rem !important;
     font-weight: bolder !important;
 }
 
@@ -155,12 +158,11 @@ color: #3a3a3b !important;
 .letsTalk {
     color: #3a3a3b !important;
     /*font-family: 'Noto Serif', serif !important;*/
-    font-size: 1rem !important;
+    font-size: 1.4rem !important;
     font-weight: bolder !important;
 }
 
 #navbarNav {
-
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -177,8 +179,8 @@ color: #3a3a3b !important;
 
 /*dropdown color*/
 .navbar-custom .dropdown-menu {
+    background-color:  #eeddfc !important;
     color: #3a3a3b  !important;
-    background-color: #eeddfc;
     /*bg color*/
     border-width: thin;
 }
@@ -249,7 +251,7 @@ color: #3a3a3b !important;
 
 .letsTalk-border {
   margin-top: 0.5rem;
-    border: 1px solid;
+    border: 0px solid;
     border-right-color: #3a3a3b !important;
     border-top: none !important;
     border-left: none !important;

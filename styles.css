@@ -16,7 +16,10 @@ html {
     src: url('font/BentonSans_regular.otf');
     /*font/BentonSans_regular.otf*/
 }
-
+.t-down{
+    padding: 10rem 10rem;
+    text-align:center;
+}
 body {
     font-family: myBento !important;
     /* background-image: bodyimg.png !important; */

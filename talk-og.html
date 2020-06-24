@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--  <meta name="viewport" content="width=1364">-->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- BRB icon -->
+   <link rel="icon" href="brblogo.png" type="image/x-icon">
+   <!-- Bootstrap 4 -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+   <!-- Material Design Bootstrap -->
+   <link rel="stylesheet" href="css/mdb.min.css">
+   <!-- Bootstrap 4 Javascript -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+   </script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+   </script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+   </script>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>BRB</title>
+
+</head>
+<!--Header-->
+
+<body>
+  <section id="header-nav">
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top first-nav">
+      <button class="navbar-toggler invisible" type="button" data-toggle="collapse" data-target="#navbar1">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+    <div class="navbar-collapse collapse invisible" id="navbar1">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Link <span class="sr-only">Home</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!--
+dark
+-->
+<nav class="navbar navbar-expand-lg bg-custom navbar-light sticky-top second-nav">
+      <a class="navbar-brand" href="index.html"><img src="images/brb_logo.png" class="brblogo"><img src="cashmatelogo.png" class="cashmate"></a>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse ul-holder" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+             <li class="nav-item product-border ml-auto">
+              <a class="nav-link product" href="product.html">Product</a>
+            </li>
+            <li class="nav-item services-border ml-auto">
+              <a class="nav-link services" href="services.html">Services</a>
+            </li>
+            <li class="nav-item dropdown about-dlist about-border ml-auto">
+
+            <a class="nav-link about dropdown-toggle" href="about.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item about-dlist" href="about.html#history-body-content">History</a>
+              <a class="dropdown-item about-dlist" href="about.html#who-body-content">Who we are</a>
+              <a class="dropdown-item about-dlist" href="about.html#meet-body-content">Meet Our Team</a>
+            </div>
+          </li>
+
+          <li class="nav-item partners-border ml-auto">
+            <a class="nav-link partners" href="partners.html">Partners</a>
+          </li>
+          <li class="nav-item letsTalk-border ml-auto">
+            <a class="nav-link letsTalk" href="talk.html">Let's Talk</a>
+          </li>
+        </ul>
+    </div>
+</nav>
+<!--
+    <nav class="navbar navbar-expand-lg navbar-custom navbar-light h-color ">
+      <a class="navbar-brand" href="index.html"><img src="images/brblogo_new.png" class="brblogo"><img src="cashmatelogo.png" class="cashmate"></a>
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse ul-holder" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item product-border ml-auto">
+                      <a class="nav-link product" href="product.html">Product</a>
+                    </li>
+                    <li class="nav-item services-border ml-auto">
+                      <a class="nav-link services" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item dropdown about-dlist about-border ml-auto">
+
+                    <a class="nav-link about dropdown-toggle" href="about.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item about-dlist" href="about.html#history-body-content">History</a>
+                      <a class="dropdown-item about-dlist" href="about.html#who-body-content">Who we are</a>
+                      <a class="dropdown-item about-dlist" href="about.html#meet-body-content">Meet Our Team</a>
+                    </div>
+                  </li>
+
+                  <li class="nav-item partners-border ml-auto">
+                    <a class="nav-link partners" href="partners.html">Partners</a>
+                  </li>
+                  <li class="nav-item letsTalk-border ml-auto">
+                    <a class="nav-link letsTalk" href="talk.html">Let's Talk</a>
+                  </li>
+
+          <li class="nav-item ml-auto btn-border">
+            <button type="button" class="btn btn-outline-primary log-btn">Login</button>
+          </li>
+        </ul>
+      </div>
+    </nav> -->
+  </section>
+  <!--Main Content-->
+    <section id="talk-body-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 c-cal">
+            <!-- Calendar view start -->
+            <div class="container col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5">
+              <div class="card">
+                <h3 class="card-header" id="monthAndYear"></h3>
+                <form class="form-inline">
+                  <!--<label class="lead mr-2 ml-2" for="month">Jump To: </label>-->
+                  <select class="form-control col-sm-6" name="month" id="month" onchange="jump()">
+                    <option value=0>Jan</option>
+                    <option value=1>Feb</option>
+                    <option value=2>Mar</option>
+                    <option value=3>Apr</option>
+                    <option value=4>May</option>
+                    <option value=5>Jun</option>
+                    <option value=6>Jul</option>
+                    <option value=7>Aug</option>
+                    <option value=8>Sep</option>
+                    <option value=9>Oct</option>
+                    <option value=10>Nov</option>
+                    <option value=11>Dec</option>
+                  </select>
+
+
+                  <label for="year"></label><select class="form-control col-sm-6" name="year" id="year" onchange="jump()">
+                    <option value=1990>1990</option>
+                    <option value=1991>1991</option>
+                    <option value=1992>1992</option>
+                    <option value=1993>1993</option>
+                    <option value=1994>1994</option>
+                    <option value=1995>1995</option>
+                    <option value=1996>1996</option>
+                    <option value=1997>1997</option>
+                    <option value=1998>1998</option>
+                    <option value=1999>1999</option>
+                    <option value=2000>2000</option>
+                    <option value=2001>2001</option>
+                    <option value=2002>2002</option>
+                    <option value=2003>2003</option>
+                    <option value=2004>2004</option>
+                    <option value=2005>2005</option>
+                    <option value=2006>2006</option>
+                    <option value=2007>2007</option>
+                    <option value=2008>2008</option>
+                    <option value=2009>2009</option>
+                    <option value=2010>2010</option>
+                    <option value=2011>2011</option>
+                    <option value=2012>2012</option>
+                    <option value=2013>2013</option>
+                    <option value=2014>2014</option>
+                    <option value=2015>2015</option>
+                    <option value=2016>2016</option>
+                    <option value=2017>2017</option>
+                    <option value=2018>2018</option>
+                    <option value=2019>2019</option>
+                    <option value=2020>2020</option>
+                    <option value=2021>2021</option>
+                    <option value=2022>2022</option>
+                    <option value=2023>2023</option>
+                    <option value=2024>2024</option>
+                    <option value=2025>2025</option>
+                    <option value=2026>2026</option>
+                    <option value=2027>2027</option>
+                    <option value=2028>2028</option>
+                    <option value=2029>2029</option>
+                    <option value=2030>2030</option>
+                  </select></form>
+
+                <table class="table table-bordered table-responsive-sm" id="calendar">
+                  <thead>
+                    <tr>
+                      <th>Sun</th>
+                      <th>Mon</th>
+                      <th>Tue</th>
+                      <th>Wed</th>
+                      <th>Thu</th>
+                      <th>Fri</th>
+                      <th>Sat</th>
+                    </tr>
+                  </thead>
+
+                  <tbody id="calendar-body">
+
+                  </tbody>
+                </table>
+
+                <div class="form-inline">
+                  <button class="btn btn-outline-custom col-md-4 col-sm-4" id="previous" onclick="previous()">Previous</button>
+                  <button class="btn btn-outline-custom col-md-3 col-sm-3" id="Today" onclick="todayDate()">Today</button>
+                  <button class="btn btn-outline-custom col-md-4 col-sm-4" id="next" onclick="next()">Next</button>
+                </div>
+                <br />
+
+              </div>
+            </div>
+
+            <!-- <script language="javascript">
+              var tbl = document.getElementById("tbl");
+              if (tbl != null) {
+                for (var i = 0; i < tbl.rows.length; i++) {
+                  for (var j = 0; j < tbl.rows[i].cells.length; j++)
+                    tbl.rows[i].cells[j].onclick = function() {
+                      getval(this);
+                    };
+                }
+              }
+
+              function getval(cel) {
+                alert(cel.innerHTML);
+              }
+            </script> -->
+
+            <!-- Calendar view end -->
+
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 c-form">
+            <!-- Material form group -->
+            <form>
+              <!-- Large input -->
+              <div class="md-form">
+                <input type="text" id="inputMDEx" class="form-control " required>
+                <label for="inputMDEx">Name</label>
+              </div>
+              <div class="md-form ">
+                <input type="text" id="inputMDEx" class="form-control">
+                <label for="inputMDEx">Contact Number</label>
+              </div>
+              <div class="md-form">
+                <input type="text" id="inputMDEx" class="form-control" placeholder="name@example.com">
+                <label for="inputMDEx">Email</label>
+              </div>
+            <!--Text Area Message -->
+              <div class="md-form ">
+                <textarea id="textarea-char-counter" class="form-control md-textarea" length="120" rows="3">Good day! We would like to set a meeting on  </textarea>
+                <label for="textarea-char-counter">Message</label>
+              </div>
+              <!-- </div><small>*Note: Please contanct for confirmation</small> -->
+              <br><br>
+
+              <button type="button" onclick="myFunction()" class="btn btn-default btn-stalk">Submit</button>
+            </form>
+          </div>
+        </div>
+
+
+        <!--
+      <div class="copyright-content">
+        <small>&copy; Copyright: BRB Digital, Inc.</small>
+      </div>
+  -->
+
+    </section>
+
+<!--
+  <section id="footer-bottom">
+
+
+
+
+
+
+      <div class="container-fluid text-center text-md-left">
+
+
+        <div class="row">
+
+
+          <div class="col-lg-3 col-md-3 mt-md-0 mt-3">
+
+
+            <h6 class="text-uppercase">Makati Office Address</h6>
+            <p>2nd Floor, Planters Product Bldg.109 Esteban St. Legaspi Vilage 1223 Makati City, Philippines</p>
+
+          </div>
+
+          <div class="col-lg-3 col-md-3 mt-md-0 mt-3">
+
+
+            <h6 class="text-uppercase">Bank Address</h6>
+            <p> 135 Baltazar Street, Brgy. Layunan, Binangonan 1940 Rizal, Philippines</p>
+
+          </div>
+
+
+          <div class="col-lg-3 col-md-3 mb-md-0 mb-3">
+
+                  <h6 class="text-uppercase">Customer Care Hotline:</h6>
+                  <ul class="list-unstyled">
+                      <li>
+                          <p>(02) 8478 6615 <br> (02) 8478 6618</p>
+                      </li>
+                  </ul>
+              </div>
+
+              <div class="col-lg-3 col-md-3 mb-md-0 mb-3">
+
+                  <h6 class="text-uppercase invisible"> Customer Care Hotline:</h6>
+                  <ul class="list-unstyled">
+                      <li>
+                          <p>(Globe) (+63)0916-6243607 <br>(Smart) (+63)0998-3268399</p>
+                      </li>
+                  </ul>
+              </div>
+
+
+        </div>
+
+
+      </div>
+
+    </footer>
+  </section> -->
+
+
+  <section id="footer-content">
+  <footer class="fixed-bottom">
+    <div class="row">
+      <div class="col-3">Makati Office Address:</div>
+      <div class="col-5">Bank Address:</div>
+      <div class="col-4">Customer Care Hotline:</div>
+    </div>
+
+    <div class="row">
+      <div class="col-3">2nd Floor, Planters Products Bldg 109 Esteban St. Legaspi Vilage 1223 Makati City, Philippines</div>
+      <div class="col-5">135 Baltazar Street, Brgy. Layunan, Binangonan 1940 Rizal, Philippines</div>
+      <div class="col-2">+63 (2) 8852 1454 <br> +63 (2) 8478 6618 <br> +63 (2) 8478 6615 </div>
+      <div class="col-2">(Globe) +63 916 624 3607 <br> (Smart) +63 998 326 8399</div>
+    </div>
+  </footer>
+  </section>
+
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript" src="scripts.js"></script>
+
+</body>
+
+</html>

@@ -64,7 +64,7 @@ strong {
 .cashmate {
   margin-top: 0rem;
     height: 3.1rem;
-    width: 10rem;
+    width: 3.1rem;
 }
 /*
 .first-nav{
@@ -316,7 +316,8 @@ footer {
     font-weight: bolder !important;
     color: #523883 !important;
     text-align: right;
-    background-image: url("banner.jpg") !important;
+    background-image: url("images/bg/home_new.jpg") !important;
+    /*background-image: url("banner.jpg") !important;*/
     /*background-image: url("images/main2.jpg") !important;*/
     /* background-size: 100% 100%; */
     background-size: cover !important;

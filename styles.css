@@ -1104,10 +1104,18 @@ footer {
 .h1-who {
   color:#523883 !important;
     margin: 0rem 0rem;
-    padding-left: -3rem;
+    text-align: right;
+    /*padding-left: -3rem;*/
     padding-bottom: 0 !important;
 }
 
+.h1-meet {
+  color:#523883 !important;
+    margin: 0rem 0rem;
+    text-align: center;
+    /*padding-left: -3rem;*/
+    padding-bottom: 0 !important;
+}
 
 
 /*about page: vertical nagigation */

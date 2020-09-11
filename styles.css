@@ -44,7 +44,7 @@ p {
 }
 
 a {
-    color: white !important;
+    color: white;
 }
 
 strong {
@@ -57,7 +57,7 @@ strong {
   margin-top: 0rem;
     height: 3rem;
     width: 6.9rem;
-    margin-left: 2rem;
+    /* margin-left: 2rem;*/
     margin-right: 0.5rem;
 }
 
@@ -66,7 +66,7 @@ strong {
     height: 3.1rem;
     width: 10rem;
 }
-
+/*
 .first-nav{
     background-image: url("purple-only.png");
     height: 2rem !important;
@@ -76,14 +76,14 @@ strong {
 }
 
 .second-nav{
-  background: #eeddfc;
+  background: white;
     top: 10px;
     color: #3a3a3b !important;
     font-weight: bolder !important;
-}
+} */
 
 .bg-custom{
-    background-color: #eeddfc;
+    background-color: white;
 }
 
 
@@ -93,7 +93,7 @@ strong {
 .header-nav,
 .nav-custom {
 color: #3a3a3b !important;
-  background-color: #eeddfc;
+  background-color: white;
     /* background-image: url("images/navcolor.png")!important;*/
 }
 
@@ -314,7 +314,8 @@ footer {
 .jumbbank {
     padding: 3rem 2rem !important;
     font-weight: bolder !important;
-    color: white;
+    color: #523883 !important;
+    text-align: right;
     background-image: url("banner.jpg") !important;
     /*background-image: url("images/main2.jpg") !important;*/
     /* background-size: 100% 100%; */
@@ -410,7 +411,7 @@ footer {
 
 
 .h1-home-front{
-  color: white;
+  color: #523883;
   font-weight: bolder !important;
 }
 
@@ -821,7 +822,7 @@ footer {
     line-height: 1.2;
     color: black;
     text-align: justify;
-    background-image: url("images/history2.jpg");
+    /*background-image: url("images/history2.jpg");*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -834,7 +835,7 @@ footer {
     line-height: 1.2;
     color: black;
     text-align: justify;
-    background-image: url("images/meet2.png");
+    /*background-image: url("images/meet2.png");*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -863,6 +864,7 @@ footer {
     }
 
     .h1-about {
+
         text-align: center;
         padding: 0 0 !important;
     }
@@ -890,7 +892,7 @@ footer {
     line-height: 2;
     color: black;
     text-align: justify;
-    background-image: url("images/who2.jpg") !important;
+    /*background-image: url("images/who2.jpg") !important;*/
     background-size: cover !important;
     background-position: left;
     background-repeat: no-repeat;
@@ -939,7 +941,7 @@ footer {
 #meet-body-content {
     padding: 4rem 0rem;
     color: black;
-    background-image: url("images/meet2.png");
+    /*background-image: url("images/meet2.png");*/
     background-size: cover!important;
     background-repeat: no-repeat;
     padding-bottom: 1rem;
@@ -1093,12 +1095,14 @@ footer {
 }
 
 .h1-about {
+  color:#523883 !important;
     margin: 0rem 0rem;
     padding-left: 5rem;
     padding-bottom: 0 !important;
 }
 
 .h1-who {
+  color:#523883 !important;
     margin: 0rem 0rem;
     padding-left: -3rem;
     padding-bottom: 0 !important;

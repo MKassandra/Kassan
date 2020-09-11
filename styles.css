@@ -830,7 +830,7 @@ footer {
     background-image: url("images/bg/history_new.jpg");
     /*background-image: url("images/history2.jpg");*/
     background-size: cover;
-    background-position: bottom;
+    background-position: bottom right;
     background-repeat: no-repeat;
 
 }
@@ -894,14 +894,14 @@ footer {
 
 #who-body-content {
     padding: 4rem 6rem !important;
-    padding-top: 2rem;
-    line-height: 2;
+    padding-top: 10rem !important;
+    line-height: 1;
     color: black;
     text-align: justify;
     background-image: url("images/bg/who_new.jpg") !important;
     /*background-image: url("images/who2.jpg") !important;*/
     background-size: cover !important;
-    background-position: top;
+    background-position:  top left;
     background-repeat: no-repeat;
 }
 
@@ -915,6 +915,10 @@ footer {
     background-size: cover !important;
     background-position: left;
     background-repeat: no-repeat;
+}
+
+.row-who{
+    padding-top: 10rem !important;
 }
 
 /*media for about page: history*/

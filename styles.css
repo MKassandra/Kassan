@@ -2264,7 +2264,8 @@ hr {
     padding-left: 10em !important;
     padding-top: 3em !important;
     color: #3a3a3b;
-    background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/balance_bg1.png") !important;
+    background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/balance_new.jpg") !important;
+    /*background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/balance_bg1.png") !important;*/
     background-size: cover;
     height: 45rem;
     background-position: left;
@@ -2281,7 +2282,8 @@ width: 100% !important;*/
     padding-left: 10em !important;
     padding-top: 5em !important;
     color: #3a3a3b;
-    background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/withdraw.png") !important;
+    background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/withdraw_new.jpg") !important;
+    /*background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/withdraw.png") !important;*/
     /*background-blend-mode: overlay;
     background-color: rgba(255, 255, 255, 0.6);*/
     background-size: cover;
@@ -2305,7 +2307,8 @@ width: 100% !important;
     padding-right: 35rem !important;
     padding-top: 5em !important;
     color: #3a3a3b;
-    background-image: linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%),url("images/bg/bills_bg2.png") !important;
+    background-image: linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%),url("images/bg/bills_new.jpg") !important;
+    /*background-image: linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%),url("images/bg/bills_bg2.png") !important;*/
     /*background-blend-mode: overlay;*/
     background-color:  !important;
 
@@ -2326,7 +2329,8 @@ width: 100% !important;
     padding-right: 35rem !important;
     padding-top: 3em !important;
     color: #3a3a3b;
-    background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/purchase_bg2.png") !important;
+    background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/purchase_new.jpg") !important;
+    /*background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/purchase_bg2.png") !important;*/
     /*background-blend-mode: overlay;
     background-color: rgb(255, 255, 255, 0.5);*/
     background-size: cover;
@@ -2344,7 +2348,8 @@ width: 100% !important;
     padding-right: 35rem !important;
     padding-top: 3em !important;
     color: #3a3a3b;
-    background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/payroll_bg2.png") !important;
+    background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/payroll_new.jpg") !important;
+    /*background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/payroll_bg2.png") !important;*/
     /*background-blend-mode: overlay;
     background-color: rgb(255, 255, 255, 0.3);*/
     background-size: cover;
@@ -2363,7 +2368,8 @@ width: 100% !important;
     padding-right: 15rem !important;
     padding-top: 1rem !important;
     color: #3a3a3b;
-    background-image: linear-gradient(to right, rgba(251,251,251,1) 30%, rgba(255,255,255,0) 100%),url("images/bg/ebank_bg.png") !important;
+    background-image: linear-gradient(to right, rgba(251,251,251,1) 30%, rgba(255,255,255,0) 100%),url("images/bg/ebank_new.jpg") !important;
+    /*background-image: linear-gradient(to right, rgba(251,251,251,1) 30%, rgba(255,255,255,0) 100%),url("images/bg/ebank_bg.png") !important;*/
     /*background-blend-mode: overlay;
     background-color: rgb(255, 255, 255, 0.7);*/
     background-size: cover;
@@ -2418,7 +2424,8 @@ small {
 
     padding-top: 15em !important;
     color: #3a3a3b;
-    background-image: url("images/bg/eload_bg.png") !important;
+    background-image: url("images/bg/new.jpg") !important;
+    /*background-image: url("images/bg/eload_bg.png") !important;*/
     background-size: cover;
     background-blend-mode: overlay;
     background-color: rgba(255, 255, 255, 0.5);
@@ -2450,7 +2457,8 @@ width: 100% !important;*/
     padding-right: 10rem !important;
     padding-top: 3rem !important;
     color: #3a3a3b;
-    background-image: url("images/bg/remit_bg2.png") !important;
+    background-image: url("images/bg/remittance_new.jpg") !important;
+    /*background-image: url("images/bg/remit_bg2.png") !important;*/
     background-size: cover;
     height: 45rem !important;
     width: 100% !important;
@@ -2474,7 +2482,8 @@ width: 100% !important;*/
     padding-right: 35rem !important;
     padding-top: 10em !important;
     color: #3a3a3b ;
-    background-image: url("images/bg/fund_bg.png") !important;
+    background-image: url("images/bg/fund_new.jpg") !important;
+    /*background-image: url("images/bg/fund_bg.png") !important;*/
     background-blend-mode: overlay;
     background-color: rgba(255, 255, 255, 0.7);
     background-size: cover;
@@ -2500,7 +2509,8 @@ width: 100% !important;*/
     padding-left: 5em !important;
     padding-top: 10em !important;
     color: #3a3a3b;
-    background-image: url("images/bg/mobile_bg2.png") !important;
+    background-image: url("images/bg/mobile_new.jpg") !important;
+    /*background-image: url("images/bg/mobile_bg2.png") !important;*/
     background-size: cover;
     height: 45rem;
     width: 100% !important;
@@ -2525,7 +2535,8 @@ width: 100% !important;*/
     padding-left: 5em !important;
     padding-top: 10em !important;
     color:  #3a3a3b;
-    background-image: url("images/bg/online_bg.png") !important;
+    background-image: url("images/bg/online_new.jpg") !important;
+    /*background-image: url("images/bg/online_bg.png") !important;*/
     background-size: cover;
     background-blend-mode: overlay;
     background-color: rgba(255, 255, 255, 0.7);
@@ -2554,7 +2565,8 @@ width: 100% !important;*/
     padding-left: 5em !important;
     padding-top: 7em !important;
     color: #3a3a3b;
-    background-image: url("images/bg/ewallet_bg.png") !important;
+    background-image: url("images/bg/ewallet_new.jpg") !important;
+    /*background-image: url("images/bg/ewallet_bg.png") !important;*/
     background-size: cover;
     background-blend-mode: overlay;
     background-color: rgba(255, 255, 255, 0.5);

@@ -1297,11 +1297,22 @@ hr {
 
 /*product page content*/
 .product-dev {
-    background-image: url('images/meet2.png');
+    background-image: url("images/bg/product_new.jpg");
+    height: 30rem;
+  /*background-image: url('images/meet2.png');*/
     background-position: center;
     background-size: cover;
-    padding-bottom: 0rem;
+    padding: 0 1rem;
 }
+
+.col-p-down{
+  margin-top:23rem;
+}
+
+.col-p-up{
+  margin-top:8rem;
+}
+
 .row {
     padding-top: 0.2rem;
 }
@@ -1423,7 +1434,7 @@ hr {
 .back-arrow {
     height: 4rem;
     width: 4rem;
-    margin-left: 3rem;
+    /*margin-left: 3rem;*/
 }
 
 .back-arrow-u {
@@ -1433,14 +1444,14 @@ hr {
 }
 
 .back {
-    color: #4ebab5;
-    margin-left: 7rem;
+    color: #512a83;
+    margin-left: 4rem;
+    /*margin-left: 7rem;*/
     margin-top: -3rem;
 }
 
 .back-u {
-    color: #4ebab5;
-    font-weight: bold;
+    color: white;
     margin-left: 4rem;
     margin-top: -3rem;
 }
@@ -1546,12 +1557,25 @@ hr {
 
 
 #upgrade-product-body {
-    padding: 0 2rem;
-    background-image: url('images/meet2.png');
+/*  padding: 2rem 6rem ;
+    padding-bottom: 1rem !important;*/
+    height: 40rem;
+    /*padding: 0 2rem;*/
+    background-image: url('images/bg/upgrade_new.jpg');
+    /*background-image: url('images/meet2.png');*/
     background-size: cover;
-    background-position: center;
+    background-position: top;
+    background-repeat: no-repeat;
+
 }
 
+.col-down{
+  margin-top: 30rem;
+}
+
+.col-up{
+
+}
 .u-display,
 .s-display {
     font-weight: bold;
@@ -1763,17 +1787,24 @@ hr {
 
 /*product page: simple*/
 #simple-product-body{
-    padding: 0 2rem ;
-      padding-bottom: 1rem !important;
-      background-image: url('images/meet2.png');
+  /*padding: 2rem 6rem ;
+    padding-bottom: 1rem !important;*/
+    height: 40rem;
+  /*  padding: 0 2rem ;
+      padding-bottom: 1rem !important;*/
+      background-image: url("images/bg/simple_new.jpg");
+      /*background-image: url('images/meet2.png');*/
       background-size: cover;
-      background-position: center;
+      background-position: bottom;
 }
 .simple-product-dev {
     text-align: center;
     margin: 1rem 1rem !important;
 }
 
+.simple-row{
+  padding-top:30rem;
+}
 .s-display {
 }
 
@@ -1839,16 +1870,25 @@ hr {
   }
 /*product page: cashless*/
 #cashless-product-body {
-    padding: 0 2rem ;
-    padding-bottom: 3rem !important;
-    background-image: url('images/meet2.png');
+/*  padding: 2rem 6rem ;
+    padding-bottom: 1rem !important;*/
+    height:40rem;
+    /*padding: 0 2rem ;
+    padding-bottom: 3rem !important;*/
+    background-image: url('images/bg/cashless_new.jpg');
+    /*background-image: url('images/meet2.png');*/
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .cashless-product-dev{
       text-align: center;
-      padding: 0 4rem;
+      padding: 0 1rem;
+}
+
+.cashless-row{
+  padding-top: 30rem;
 }
 
 .col-b {
@@ -1887,15 +1927,16 @@ hr {
 }
 /*product page: access*/
 #access-product-body {
-  padding: 0 2rem ;
-    padding-bottom: 1rem !important;
-    background-image: url('images/meet2.png');
+  /*padding: 2rem 6rem ;*/
+    /*padding-bottom: 1rem !important;*/
+    height: 40rem;
+    background-image: url('images/bg/access_new.jpg');
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: top;
 }
-
-.access-product-dev{
-  text-align: left;
+.h3-access, .access-product-dev{
+  text-align: left !important;
 }
 
 .col-access{
@@ -1958,16 +1999,19 @@ hr {
 
 /*product page:customize page*/
 #cust-product-body{
+    /*padding: 2rem 6rem ;
     padding: 0 2rem ;
-    padding-bottom: 1rem !important;
-    background-image: url('images/meet2.png');
+    padding-bottom: 1rem !important;*/
+    background-image: url('images/bg/customize_new.jpg');
+    height: 40rem;
+    /*background-image: url('images/meet2.png');*/
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
 }
 
 .custom-product-dev {
-    padding: 0rem 0rem !important;
-    margin-top: -3rem;
+ padding: 0rem 2rem !important;
+    /*   margin-top: -3rem;*/
 }
 
 .custom-desc{
@@ -2853,9 +2897,10 @@ height: 100% !important;*/
             padding-top: 10em !important;
             background-image: url("images/bg/remittance_new.jpg") !important;
             /*background-image: linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%),url("images/bg/remit_bg2.png") !important;*/
-            background-size: 100% 100%;
+            background-size: cover;
             height: 35rem;
             width: 100% !important;
+            background-position: top !top;
             background-repeat: no-repeat !important;
         }
 

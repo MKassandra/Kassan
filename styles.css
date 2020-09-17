@@ -1795,6 +1795,7 @@ hr {
     height: 40rem;
   /*  padding: 0 2rem ;
       padding-bottom: 1rem !important;*/
+      padding: 0rem 4rem ;
       background-image: url("images/bg/simple_new.jpg");
       /*background-image: url('images/meet2.png');*/
       background-size: cover;
@@ -1802,11 +1803,12 @@ hr {
 }
 .simple-product-dev {
     text-align: center;
-    margin: 1rem 1rem !important;
+    padding: 0rem 3rem;
+    /*margin: 1rem 1rem !important;*/
 }
 
 .simple-row{
-  padding-top:30rem;
+  padding-top:2rem;
 }
 .s-display {
 }

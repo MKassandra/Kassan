@@ -1304,6 +1304,9 @@ hr {
     background-size: cover;
     padding: 0 1rem;
 }
+.h3-p{
+  color: #3a3a3b;
+}
 
 .col-p-down{
   margin-top:23rem;

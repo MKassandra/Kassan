@@ -2023,6 +2023,21 @@ hr {
     width: 20rem;
 }
 
+.custom-display-front{
+  position: relative;
+  z-index: 1;
+
+}
+
+.custom-display-back{
+  margin-top: -4rem;
+  margin-left: 4rem;
+  position: initial;
+  z-index: 2
+
+}
+
+
 @media screen and (max-width: 1225px) {
     .brbcard-display {
         height: 14rem;

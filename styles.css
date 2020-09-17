@@ -1572,13 +1572,35 @@ hr {
 
 }
 
+.h4-u{
+ color: #512a83;
+}
+
+.h4-up{
+    text-align: center;
+ ;
+}
+
+.h4-down{
+  text-align: center;
+}
+
 .col-down{
-  margin-top: 30rem;
+  text-align: center;
+  margin-top: 26rem;
 }
 
 .col-up{
+  margin-top: 5rem;
 
 }
+
+.p-upgrade{
+
+  font-size: 0.8rem;
+}
+
+
 .u-display,
 .s-display {
     font-weight: bold;

@@ -1620,7 +1620,7 @@ hr {
 .upgrade-content {
     margin: 0rem 3rem;
     color: #3a3a3b;
-    padding-bottom: 7rem;
+    /*padding-bottom: 7rem;*/
 }
 
 .border-r {

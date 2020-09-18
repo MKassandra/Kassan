@@ -1585,6 +1585,11 @@ hr {
   text-align: center;
 }
 
+.h5-u{
+  color: #512a83;
+  font-size: 0.9rem;
+}
+
 .col-down{
   text-align: center;
   margin-top: 26rem;
@@ -1816,8 +1821,8 @@ hr {
     padding-bottom: 1rem !important;*/
     height: 40rem;
   /*  padding: 0 2rem ;
-      padding-bottom: 1rem !important;*/
-      padding: 0rem 4rem ;
+      padding-bottom: 1rem !important;
+      padding: 0rem 4rem ;*/
       background-image: url("images/bg/simple_new.jpg");
       /*background-image: url('images/meet2.png');*/
       background-size: cover;

@@ -3645,9 +3645,11 @@ height: 100% !important;*/
 /*partner page*/
 #partner-body-content {
     padding: 0rem 4rem;
-    background-image: url("images/meet2.png") !important;
+    background-image: url("images/bg/partner_new.png") !important;
+    height: 35rem;
     background-size: cover;
-    padding-bottom: 5rem;
+    background-position: center;
+
 }
 
 .partner-img {
@@ -3679,7 +3681,7 @@ height: 100% !important;*/
 } */
 /*lets talk page*/
 #talk-body-content {
-    background-image: url("images/meet2.png") !important;
+    background-image: url("images/bg/talk_new.png") !important;
     background-size: cover;
     padding-bottom: 8rem;
 }

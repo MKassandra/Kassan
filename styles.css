@@ -1845,6 +1845,11 @@ hr {
   top: -29rem;
   position: relative;
 }
+
+.s-box1{
+
+}
+
 .s-display {
   position: relative;
   height: 33rem;
@@ -2395,7 +2400,7 @@ hr {
 }
 .balance-text{
   margin-top: 14rem;
-
+  font-weight: bolder !important;
 }
 /* backup solution incase scrollify go bananas
 height: 100% !important;
@@ -2419,6 +2424,7 @@ width: 100% !important;*/
 
 .withdraw-text{
   margin-top: 7rem;
+  font-weight: bolder !important;
 }
 
 /* backup solution incase scrollify go bananas
@@ -2450,6 +2456,7 @@ width: 100% !important;
 
 .bills-text{
   margin-top: 20rem;
+  font-weight: bolder !important;
 }
 
 .purchase {
@@ -2473,6 +2480,7 @@ width: 100% !important;
 
 .purchase-text{
   margin-top: 11rem;
+  font-weight: bolder !important;
 }
 
 .payroll {
@@ -2497,6 +2505,7 @@ width: 100% !important;
 }
 .payroll-text{
   margin-top: 12rem;
+  font-weight: bolder !important;
 }
 
 .e-bank {
@@ -2518,6 +2527,7 @@ width: 100% !important;
 
 .ebank-text{
   margin-top: 10rem;
+  font-weight: bolder !important;
 }
 
 /*additional ebank*/
@@ -2577,6 +2587,7 @@ small {
 
 .eload-text{
     margin-top: 15rem;
+    font-weight: bolder !important;
 }
 
 /* backup solution incase scrollify go bananas
@@ -2610,7 +2621,9 @@ width: 100% !important;*/
     background-repeat: no-repeat !important;
 }
 
-
+.remit-text{
+  font-weight: bolder !important;
+}
 
 .fund {
     /*
@@ -2639,6 +2652,9 @@ width: 100% !important;*/
     background-repeat: no-repeat !important;
 }
 
+.fund-text{
+    font-weight: bolder !important;
+}
 
 .mobile {
     /*
@@ -2662,6 +2678,10 @@ width: 100% !important;*/
     width: 100% !important;
     background-position: center;
     background-repeat: no-repeat !important;
+}
+
+.mobile-text{
+    font-weight: bolder !important;
 }
 
 /*height: 100% !important;*/
@@ -2695,6 +2715,7 @@ width: 100% !important;*/
 
 .online-text{
   margin-top: 7rem;
+  font-weight: bolder !important;
 }
 /*height: 100% !important;*/
 
@@ -2729,6 +2750,9 @@ width: 100% !important;*/
 /* backup solution incase scrollify go bananas
 height: 100% !important;*/
 
+.ewallet-text{
+    font-weight: bolder !important;
+}
 
 /*services icon*/
 .icon-service {
@@ -3648,7 +3672,7 @@ height: 100% !important;*/
     background-image: url("images/bg/partner_new.png") !important;
     height: 35rem;
     background-size: cover;
-    background-position: center;
+    background-position: center left;
 
 }
 

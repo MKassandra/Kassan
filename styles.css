@@ -306,10 +306,65 @@ footer {
 }
 
 .carousel-indicators li {
-    width: 10px;
-    height: 10px;
+  width: 150px !important;
+     height: 150px !important;
+     background-color: transparent !important;
+    /*width: 10px;
+    height: 10px;*/
     border-radius: 100%;
 }
+
+/*for product page*/
+.s_customize {
+    padding: 6em 10em !important;
+    color: #3a3a3b !important;
+    background-image: url("images/bg/purchase_bg2.png") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 40rem;
+    background-repeat: no-repeat !important;
+}
+
+.s_upgrade {
+    padding: 6em 10em !important;
+    color: #3a3a3b !important;
+    background-image: url("images/bg/purchase_bg2.png") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 40rem;
+    background-repeat: no-repeat !important;
+}
+
+.s_cashless {
+    padding: 6em 10em !important;
+    color: #3a3a3b !important;
+    background-image: url("images/bg/purchase_bg2.png") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 40rem;
+    background-repeat: no-repeat !important;
+}
+
+.s_access {
+    padding: 6em 10em !important;
+    color: #3a3a3b !important;
+    background-image: url("images/bg/purchase_bg2.png") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 40rem;
+    background-repeat: no-repeat !important;
+}
+
+.s_simple {
+    padding: 6em 10em !important;
+    color: #3a3a3b !important;
+    background-image: url("images/bg/purchase_bg2.png") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 40rem;
+    background-repeat: no-repeat !important;
+}
+
 
 
 
@@ -329,6 +384,16 @@ footer {
     background-repeat: no-repeat !important;
 }
 
+.s_custom {
+    padding: 6em 10em !important;
+    color: #3a3a3b !important;
+    background-image: url("images/bg/purchase_bg2.png") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 40rem;
+    background-repeat: no-repeat !important;
+}
+
 
 .s_purchase {
     padding: 6em 10em !important;
@@ -336,7 +401,7 @@ footer {
     background-image: url("images/bg/purchase_bg2.png") !important;
     background-size: cover !important;
     background-position: center !important;
-    height: 30rem;
+    height: 40rem;
     background-repeat: no-repeat !important;
 }
 
@@ -350,7 +415,7 @@ footer {
     background-image: url("images/s_bill.png") !important;
     background-size: cover !important;
     background-position: center !important;
-    height: 30rem;
+    height: 40rem;
     background-repeat: no-repeat !important;
 }
 
@@ -360,7 +425,7 @@ footer {
     background-image: url("images/s_payroll.png") !important;
     background-size: cover !important;
     background-position: center !important;
-    height: 30rem;
+    height: 40rem;
     background-repeat: no-repeat !important;
 }
 
@@ -370,7 +435,7 @@ footer {
     background-image: url("images/s_withdraw.png") !important;
     background-size: cover !important;
     background-position: center !important;
-    height: 30rem;
+    height: 40rem;
     background-repeat: no-repeat !important;
 }
 
@@ -380,7 +445,7 @@ footer {
     background-image: url("images/artboard1.jpg") !important;
     background-size: cover !important;
     background-position: center !important;
-    height: 30rem;
+    height: 40rem;
     background-repeat: no-repeat !important;
 }
 
@@ -1302,7 +1367,7 @@ hr {
   /*background-image: url('images/meet2.png');*/
     background-position: center;
     background-size: cover;
-    padding: 0 4rem;
+    /*padding: 0 4rem;*/
 }
 .h3-p{
   color: #3a3a3b;
@@ -2783,7 +2848,14 @@ height: 100% !important;*/
 .btn-nav {
     color: black !important;
     padding: 0.5rem 0.5rem !important;
+
 }
+
+/*
+.btn:active{
+    background-color: rgb(77, 0, 138) !important;
+}
+*/
 
 .btn-nav:hover {
   color: white !important;

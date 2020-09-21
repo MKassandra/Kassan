@@ -9,18 +9,20 @@
 
   <link rel="stylesheet" href="styles.css">
 
-
-  <!-- BRB icon -->
-   <link rel="icon" href="brblogo.png" type="image/x-icon">
   <!-- Bootstrap 4 -->
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- Material Design Bootstrap -->
-  <link rel="stylesheet" href="css/mdb.min.css">
-  <!-- Your custom styles (optional) -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+  <!-- Bootstrap 4 Javascript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
 
   <title>BRB</title>
 
@@ -103,47 +105,61 @@
     </div>
   </div>-->
     <div class="product-dev">
-
-      <div class="row row-1 ">
-        <div class="col-lg-6 col-md-12 col-sm-12 col-brb">
-            <h1 class="">Core Product</h1> <!-- display-4brb-->
-          <img src="images/brbcard.png" class="brbcard-display animated slideInLeft">
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 ">
-          <div class="row"> <!--  col-custom1  class="card-display  product-display"-->
-
-            <div class="col-lg-4 col-md-6 col-sm-6 "><a href="p-customize.html"><img src="images/customize.png" class="card-display " alt=""></a><br><h3>Customize</h3> <br>
-              <p class="p-product">Give it identity by designing your own card.</p>
-            </div><!-- col-custom5-->
-            <div class="col-lg-4 col-md-6 col-sm-6 "><a href="p-upgrade.html"><img src="images/upgrade.png" class="card-display " alt=""><br></a><h3>Upgrade</h3> <br>
-              <p class="p-product">Mainly a cash card but more. Make it multipurpose.</p>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"><img src="images/services_icons1.png" class="imag-e d-block w-100" alt="..."></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"><img src="images/services_icons1.png" class="imag-e d-block w-100" alt="..."></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"><img src="images/services_icons1.png" class="imag-e d-block w-100" alt="..."></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"><img src="images/services_icons1.png" class="imag-e d-block w-100" alt="..."></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"><img src="images/services_icons1.png" class="imag-e d-block w-100" alt="..."></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"><img src="images/services_icons1.png" class="imag-e d-block w-100" alt="..."></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="s_customize">
+              <h1 class="h1-home-front">Customize</h1>
             </div>
           </div>
-          <div class="row row-buttom animated slideInUp"><!-- col-custom4-->
-            <div class="col-lg-3 col-md-4 col-sm-4 "><a href="p-cashless.html"><img src="images/cashless.png" class="card-display " alt=""></a><br><h3>Cashless</h3> <br>
-              <p class="p-product">Money is securely stored on a card.</p>
-            </div><!--  col-custom2-->
-            <div class="col-lg-3 col-md-4 col-sm-4 "><a href="p-access.html"><img src="images/access.png" class="card-display" alt=""></a><br><h3>Access</h3> <br>
-              <p class="p-product">Transact on all BancNet ATMs and POS terminals using your card.</p>
-            </div><!-- col-custom3-->
-            <div class="col-lg-3 col-md-4 col-sm-4 "><a href="p-simple.html"><img src="images/digital.png" class="card-display " alt=""></a><br><h3>Simple</h3> <br>
-              <p class="p-product">Improve your experience by making transaction easier, faster, more convenient.</p>
+          <div class="carousel-item">
+            <div class="s_upgrade">
+              <h1 class="display-home">Upgrade</h1>
+
             </div>
+          </div>
+          <div class="carousel-item">
+            <div class="s_cashless">
+              <h1 class="display-home">Cashless</h1>
 
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="s_access">
+              <h1 class="display-home">Access</h1>
 
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="s_simple">
+              <h1 class="display-home">Simple</h1>
 
+            </div>
           </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
+
     </div>
 
   <!--  <div class="copyright-content">
       <small>&copy; Copyright: BRB Digital, Inc.</small>
     </div>-->
-    <div class="contact-content ">
-      <h4>Want to know more? <a class="link-add" href="talk-test.html"><strong><u>Let's Talk</u></strong></a></h4>
-      <!--<a href="talk-test.html" button type="button" class="btn btn-custom btn-info" ><h4>Let's Talk</h4></a>-->
-    </div>
 </section>
 
 
@@ -178,23 +194,7 @@
   </section>
 -->
 
-  <!--Footer-->
-  <section id="footer-content">
-  <footer class="fixed-bottom">
-    <div class="row">
-      <div class="col-3">Makati Office Address:</div>
-      <div class="col-5">Bank Address:</div>
-      <div class="col-4">Customer Care Hotline:</div>
-    </div>
 
-    <div class="row">
-      <div class="col-3">2nd Floor, Planters Products Bldg 109 Esteban St. Legaspi Vilage 1223 Makati City, Philippines</div>
-      <div class="col-5">135 Baltazar Street, Brgy. Layunan, Binangonan 1940 Rizal, Philippines</div>
-      <div class="col-2">+63 (2) 8852 1454 <br> +63 (2) 8478 6618 <br> +63 (2) 8478 6615 </div>
-      <div class="col-2">(Globe) +63 916 624 3607 <br> (Smart) +63 998 326 8399</div>
-    </div>
-  </footer>
-  </section>
 </body>
 
 </html>

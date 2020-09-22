@@ -306,83 +306,6 @@ footer {
 }
 
 
-/* product icon button*/
-.carousel-indicators li {
-  width: 120px !important;
-  height: 120px !important;
-     background-color: transparent !important;
-    /*width: 10px;
-    height: 10px;*/
-    border-radius: 100%;
-}
-
-.carousel-indicators li:hover{
-  transform: scale(1.5);
-
-  /*
-margin: 0rem 1rem;
-  width: 150px !important;
-  height: 150px !important;*/
-
-}
-
-.icon-up{
- bottom: 10rem !important;
-}
-
-/* product icon button end*/
-
-/*for product page*/
-.s_customize {
-    padding: 6em 10em !important;
-    color: #3a3a3b !important;
-    background-image: url("images/bg/p-slide1.jpg") !important;
-    background-size: cover !important;
-    background-position: bottom !important;
-    height: 35rem;
-    background-repeat: no-repeat !important;
-}
-
-.s_upgrade {
-    padding: 6em 10em !important;
-    color: #3a3a3b !important;
-    background-image: url("images/bg/p-slide2.jpg") !important;
-    background-size: cover !important;
-    background-position: bottom !important;
-    height: 35rem;
-    background-repeat: no-repeat !important;
-}
-
-.s_cashless {
-    padding: 6em 10em !important;
-    color: #3a3a3b !important;
-    background-image: url("images/bg/p-slide3.jpg") !important;
-    background-size: cover !important;
-    background-position: bottom !important;
-    height: 35rem;
-    background-repeat: no-repeat !important;
-}
-
-.s_access {
-    padding: 6em 10em !important;
-    color: #3a3a3b !important;
-    background-image: url("images/bg/p-slide4.jpg") !important;
-    background-size: cover !important;
-    background-position: bottom !important;
-    height: 35rem;
-    background-repeat: no-repeat !important;
-}
-
-.s_simple {
-    padding: 6em 10em !important;
-    color: #3a3a3b !important;
-    background-image: url("images/bg/p-slide5.jpg") !important;
-    background-size: cover !important;
-    background-position: bottom !important;
-    height: 35rem;
-    background-repeat: no-repeat !important;
-}
-
 
 
 
@@ -457,7 +380,7 @@ margin: 0rem 1rem;
     background-repeat: no-repeat !important;
 }
 
-.s_product {
+.s_t {
     padding: 4em 10em !important;
     color: white;
     background-image: url("images/artboard1.jpg") !important;
@@ -1380,7 +1303,9 @@ hr {
 
 /*product page content*/
 .product-dev {
-    background-image: url("images/bg/product_new.jpg");
+    /*margin-top: -5rem!important;*/
+    position: relative;
+  background-image: url("images/bg/product_new.jpg");
     height: 30rem;
   /*background-image: url('images/meet2.png');*/
     background-position: center;
@@ -1414,6 +1339,90 @@ hr {
     width: 20rem;
     margin-bottom: -10rem;
 }
+
+
+/* product icon button*/
+.carousel-indicators li {
+  width: 120px !important;
+  height: 120px !important;
+  transition: transform .2s; /* Animation */
+     background-color: transparent !important;
+    /*width: 10px;
+    height: 10px;*/
+    border-radius: 100%;
+
+}
+
+.carousel-indicators li:hover{
+  transform: scale(1.5);
+
+  /*
+margin: 0rem 1rem;
+  width: 150px !important;
+  height: 150px !important;*/
+
+}
+
+.icon-up{
+ bottom: 10rem !important;
+}
+
+/* product icon button end*/
+
+/*for product page*/
+.s_customize {
+  position: relative;
+    padding: 6em 10em !important;
+    color: #3a3a3b !important;
+  /*  background-image: url("images/bg/custom_txt.png") !important;*/
+    background-size: cover !important;
+    background-position: bottom !important;
+    height: 35rem;
+    background-repeat: no-repeat !important;
+}
+
+.s_upgrade {
+    position: relative;
+    padding: 6em 10em !important;
+    color: #3a3a3b !important;
+  /*  background-image: url("images/bg/upgrade-txt.png") !important;*/
+    background-size: cover !important;
+    background-position: bottom !important;
+    height: 35rem;
+    background-repeat: no-repeat !important;
+}
+
+.s_cashless {
+    padding: 6em 10em !important;
+    color: #3a3a3b !important;
+/*    background-image: url("images/bg/cashless-txt.png") !important;*/
+    background-size: cover !important;
+    background-position: bottom !important;
+    height: 35rem;
+    background-repeat: no-repeat !important;
+}
+
+.s_access {
+    padding: 6em 10em !important;
+    color: #3a3a3b !important;
+/*    background-image: url("images/bg/access-txt.png") !important;*/
+    background-size: cover !important;
+    background-position: bottom !important;
+    height: 35rem;
+    background-repeat: no-repeat !important;
+}
+
+.s_simple {
+    padding: 6em 10em !important;
+    color: #3a3a3b !important;
+    background-image: url("images/bg/simple_new.jpg") !important;
+    background-size: cover !important;
+    background-position: bottom !important;
+    height: 35rem;
+    background-repeat: no-repeat !important;
+}
+
+
 
 @media screen and (max-width: 1080px){
   .brbcard-display {
@@ -2149,6 +2158,16 @@ hr {
 
 /*product page:customize page*/
 #cust-product-body{
+    /*padding: 2rem 6rem ;
+    padding: 0 2rem ;
+    padding-bottom: 1rem !important;*/
+    background-image: url('images/bg/customize_new.jpg');
+    height: 40rem;
+    /*background-image: url('images/meet2.png');*/
+    background-size: cover;
+    background-position: bottom;
+}
+.cust-product-body{
     /*padding: 2rem 6rem ;
     padding: 0 2rem ;
     padding-bottom: 1rem !important;*/

@@ -305,6 +305,8 @@ footer {
     font-size: 1.5rem !important;
 }
 
+
+/* product icon button*/
 .carousel-indicators li {
   width: 120px !important;
   height: 120px !important;
@@ -315,59 +317,69 @@ footer {
 }
 
 .carousel-indicators li:hover{
-  margin: 0rem 1rem;
+  transform: scale(1.5);
+
+  /*
+margin: 0rem 1rem;
   width: 150px !important;
-  height: 150px !important;
+  height: 150px !important;*/
+
 }
+
+.icon-up{
+ bottom: 10rem !important;
+}
+
+/* product icon button end*/
 
 /*for product page*/
 .s_customize {
     padding: 6em 10em !important;
     color: #3a3a3b !important;
-    background-image: url("images/bg/purchase_bg2.png") !important;
+    background-image: url("images/bg/p-slide1.jpg") !important;
     background-size: cover !important;
-    background-position: center !important;
-    height: 40rem;
+    background-position: bottom !important;
+    height: 35rem;
     background-repeat: no-repeat !important;
 }
 
 .s_upgrade {
     padding: 6em 10em !important;
     color: #3a3a3b !important;
-    background-image: url("images/bg/purchase_bg2.png") !important;
+    background-image: url("images/bg/p-slide2.jpg") !important;
     background-size: cover !important;
-    background-position: center !important;
-    height: 40rem;
+    background-position: bottom !important;
+    height: 35rem;
     background-repeat: no-repeat !important;
 }
 
 .s_cashless {
     padding: 6em 10em !important;
     color: #3a3a3b !important;
-    background-image: url("images/bg/purchase_bg2.png") !important;
+    background-image: url("images/bg/p-slide3.jpg") !important;
     background-size: cover !important;
-    background-position: center !important;
-    height: 40rem;
+    background-position: bottom !important;
+    height: 35rem;
     background-repeat: no-repeat !important;
 }
 
 .s_access {
     padding: 6em 10em !important;
     color: #3a3a3b !important;
-    background-image: url("images/bg/purchase_bg2.png") !important;
+    background-image: url("images/bg/p-slide4.jpg") !important;
     background-size: cover !important;
-    background-position: center !important;
-    height: 40rem;
+    background-position: bottom !important;
+    height: 35rem;
     background-repeat: no-repeat !important;
 }
 
 .s_simple {
     padding: 6em 10em !important;
     color: #3a3a3b !important;
-    background-image: url("images/bg/purchase_bg2.png") !important;
+    background-image: url("images/bg/p-slide5.jpg") !important;
     background-size: cover !important;
-    background-position: center !important;
-    height: 40rem;
+    background-position: bottom !important;
+    height: 35rem;
     background-repeat: no-repeat !important;
 }
 
@@ -3746,7 +3758,7 @@ height: 100% !important;*/
 
 /*partner page*/
 #partner-body-content {
-    padding: 0rem 0rem;
+    padding: 0rem 1rem;
     background-image: url("images/bg/partner_new.png") !important;
     height: 35rem;
     background-size: cover;
@@ -3761,11 +3773,11 @@ height: 100% !important;*/
 }
 .row-partner{
   text-align:center!important;
-  padding-left: 32rem;
+  padding-left: 31rem;
 }
 
 .partner-display{
-  height: 5rem;
+  height: 4rem;
   width: auto;
   margin: 1rem 0rem;
 }

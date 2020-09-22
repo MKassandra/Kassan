@@ -306,12 +306,18 @@ footer {
 }
 
 .carousel-indicators li {
-  width: 150px !important;
-     height: 150px !important;
+  width: 120px !important;
+  height: 120px !important;
      background-color: transparent !important;
     /*width: 10px;
     height: 10px;*/
     border-radius: 100%;
+}
+
+.carousel-indicators li:hover{
+  margin: 0rem 1rem;
+  width: 150px !important;
+  height: 150px !important;
 }
 
 /*for product page*/
@@ -3740,7 +3746,7 @@ height: 100% !important;*/
 
 /*partner page*/
 #partner-body-content {
-    padding: 0rem 4rem;
+    padding: 0rem 0rem;
     background-image: url("images/bg/partner_new.png") !important;
     height: 35rem;
     background-size: cover;
@@ -3755,10 +3761,11 @@ height: 100% !important;*/
 }
 .row-partner{
   text-align:center!important;
+  padding-left: 32rem;
 }
 
 .partner-display{
-  height: 7rem;
+  height: 5rem;
   width: auto;
   margin: 1rem 0rem;
 }

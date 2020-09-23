@@ -1317,6 +1317,18 @@ hr {
   color: #3a3a3b;
 }
 
+.h3-upgrade{
+  margin-top: 3rem;
+}
+
+.h3-cashless{
+  margin-top: -2rem;
+}
+
+.h3-access{
+margin-top: -1rem;
+}
+
 .col-p-down{
   margin-top:23rem;
 }
@@ -1386,7 +1398,7 @@ margin: 0rem 1rem;
 }
 
 .s_upgrade {
-    padding: 2rem 2rem  !important;
+    padding: 1rem 2rem  !important;
     color: #3a3a3b !important;
     background-image: url("images/bg/upgrade_new.jpg") !important;
     background-size: cover !important;
@@ -1687,13 +1699,13 @@ margin: 0rem 1rem;
 }
 
 .col-down{
-   margin-top: 16rem;
+   margin-top: 15rem;
   text-align: center;
 /*  margin-top: 26rem;*/
 }
 
 .col-up{
-   margin-top: -2rem;
+   margin-top: -4rem;
   /*margin-top: 5rem;*/
 
 }
@@ -2053,7 +2065,7 @@ margin: 0rem 1rem;
 }
 
 .cashless-row{
-  padding-top: 23rem;
+  padding-top: 26rem;
 /*  padding-top: 30rem;*/
 }
 

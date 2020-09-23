@@ -1318,17 +1318,30 @@ hr {
   color: white;
   font-weight: bolder;
 }
-
+.h3-customize{
+  padding-top: 10rem;
+  padding-left:6rem;
+}
 .h3-upgrade{
-  margin-top: 1rem;
+  padding-top: 10rem;
+  padding-left:6rem;
+/*  margin-top: 1rem;*/
 }
 
 .h3-cashless{
-  margin-top: 1rem;
+  padding-top: 10rem;
+  padding-left:6rem;
+/*margin-top: 1rem;*/
 }
 
 .h3-access{
-margin-top: 0rem;
+  padding-top: 10rem;
+  padding-left:6rem;
+/*margin-top: 0rem;*/
+}
+.h3-simple{
+  padding-top: 10rem;
+  padding-left:6rem;
 }
 
 .col-p-down{

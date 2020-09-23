@@ -1304,9 +1304,9 @@ hr {
 
 /*product page content*/
 .product-dev {
-    /*margin-top: -5rem!important;*/
+  margin-top: -5rem!important;
     position: relative;
-  background-image: url("images/bg/product_new.jpg");
+  /*background-image: url("images/bg/product_new.jpg");*/
     height: 30rem;
   /*background-image: url('images/meet2.png');*/
     background-position: center;
@@ -1318,15 +1318,15 @@ hr {
 }
 
 .h3-upgrade{
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 .h3-cashless{
-  margin-top: -2rem;
+  margin-top: 1rem;
 }
 
 .h3-access{
-margin-top: -1rem;
+margin-top: 0rem;
 }
 
 .col-p-down{
@@ -1377,7 +1377,7 @@ margin: 0rem 1rem;
 }
 
 .carousel-inner{
-  margin: auto;
+  margin-top: auto;
 }
 
 .icon-up{
@@ -1389,6 +1389,7 @@ margin: 0rem 1rem;
 /*for product page*/
 .s_customize {
     padding: 2rem 2rem !important;
+    padding-top: 5rem!important;
     color: #3a3a3b !important;
    background-image: url("images/bg/customize_new.jpg") !important;
     background-size: cover !important;
@@ -1399,6 +1400,7 @@ margin: 0rem 1rem;
 
 .s_upgrade {
     padding: 1rem 2rem  !important;
+    padding-top: 5rem!important;
     color: #3a3a3b !important;
     background-image: url("images/bg/upgrade_new.jpg") !important;
     background-size: cover !important;
@@ -1409,20 +1411,22 @@ margin: 0rem 1rem;
 
 .s_cashless {
     padding: 2rem 2rem  !important;
+    padding-top: 5rem!important;
     color: #3a3a3b !important;
     background-image: url("images/bg/cashless_new.jpg") !important;
     background-size: cover !important;
-    background-position: bottom !important;
+    background-position: center !important;
     height: 40rem;
     background-repeat: no-repeat !important;
 }
 
 .s_access {
     padding:  2rem 2rem  !important;
+    padding-top: 5rem!important;
     color: #3a3a3b !important;
     background-image: url("images/bg/access_new.jpg") !important;
     background-size: cover !important;
-    background-position: center !important;
+    background-position: top !important;
     height: 40rem;
     background-repeat: no-repeat !important;
 }
@@ -2065,7 +2069,7 @@ margin: 0rem 1rem;
 }
 
 .cashless-row{
-  padding-top: 26rem;
+  padding-top: 23rem;
 /*  padding-top: 30rem;*/
 }
 

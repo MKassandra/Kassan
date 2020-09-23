@@ -1401,7 +1401,7 @@ margin: 0rem 1rem;
     color: #3a3a3b !important;
    background-image: url("images/bg/p-slide1.jpg") !important;
     background-size: cover !important;
-    background-position: bottom !important;
+    background-position: top !important;
     height: 40rem;
     background-repeat: no-repeat !important;
 }
@@ -1412,7 +1412,7 @@ margin: 0rem 1rem;
     color: #3a3a3b !important;
     background-image: url("images/bg/p-slide2.jpg") !important;
     background-size: cover !important;
-    background-position: bottom !important;
+    background-position: top !important;
     height: 40rem;
     background-repeat: no-repeat !important;
 }
@@ -1423,7 +1423,7 @@ margin: 0rem 1rem;
     color: #3a3a3b !important;
     background-image: url("images/bg/p-slide3.jpg") !important;
     background-size: cover !important;
-    background-position: center !important;
+    background-position: top !important;
     height: 40rem;
     background-repeat: no-repeat !important;
 }
@@ -1445,7 +1445,7 @@ margin: 0rem 1rem;
       padding-top: 5rem!important;
     background-image: url("images/bg/p-slide5.jpg") !important;
     background-size: cover !important;
-    background-position: bottom !important;
+    background-position: top !important;
     height: 40rem;
     background-repeat: no-repeat !important;
 }

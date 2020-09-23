@@ -1391,6 +1391,12 @@ margin: 0rem 1rem;
     transform: scale(1.5);
 }
 
+.imag-c{
+  height: 15rem;
+  width: 55rem;
+  z-index: 10;
+}
+
 .icon-up{
  bottom: 10rem !important;
 }
@@ -1500,6 +1506,13 @@ margin: 0rem 1rem;
   left: 22rem;
   z-index: 99;
 }
+.row-product-line{
+  position: absolute;
+  top:24rem;
+  left: 15rem;
+  z-index: 80;
+}
+
 
 .row-1 {
     text-align: center;

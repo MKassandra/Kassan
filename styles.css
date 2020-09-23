@@ -1517,13 +1517,13 @@ margin: 0rem 1rem;
 .row-product-btn{
 
   position: absolute;
-  top:25rem;
+  top:23rem;
   left: 23rem;
   z-index: 99;
 }
 .row-product-line{
   position: absolute;
-  top:21rem;
+  top:19rem;
   left: 15.2rem;
   z-index: 80;
 }

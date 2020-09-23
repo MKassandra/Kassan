@@ -1314,7 +1314,9 @@ hr {
     /*padding: 0 4rem;*/
 }
 .h3-p{
-  color: #3a3a3b;
+  padding-top: 1rem;
+  color: white;
+  font-weight: bolder;
 }
 
 .h3-upgrade{
@@ -1379,6 +1381,12 @@ margin: 0rem 1rem;
 .carousel-inner{
   margin-top: auto;
 }
+.imag-e
+{
+  position:
+
+  bottom: 2rem !important;
+}
 
 .icon-up{
  bottom: 10rem !important;
@@ -1391,7 +1399,7 @@ margin: 0rem 1rem;
     padding: 2rem 2rem !important;
     padding-top: 5rem!important;
     color: #3a3a3b !important;
-   background-image: url("images/bg/customize_new.jpg") !important;
+   background-image: url("images/bg/p-slide1.jpg") !important;
     background-size: cover !important;
     background-position: bottom !important;
     height: 40rem;
@@ -1399,10 +1407,10 @@ margin: 0rem 1rem;
 }
 
 .s_upgrade {
-    padding: 1rem 2rem  !important;
+    padding: 2rem 2rem  !important;
     padding-top: 5rem!important;
     color: #3a3a3b !important;
-    background-image: url("images/bg/upgrade_new.jpg") !important;
+    background-image: url("images/bg/p-slide2.jpg") !important;
     background-size: cover !important;
     background-position: bottom !important;
     height: 40rem;
@@ -1413,7 +1421,7 @@ margin: 0rem 1rem;
     padding: 2rem 2rem  !important;
     padding-top: 5rem!important;
     color: #3a3a3b !important;
-    background-image: url("images/bg/cashless_new.jpg") !important;
+    background-image: url("images/bg/p-slide3.jpg") !important;
     background-size: cover !important;
     background-position: center !important;
     height: 40rem;
@@ -1424,7 +1432,7 @@ margin: 0rem 1rem;
     padding:  2rem 2rem  !important;
     padding-top: 5rem!important;
     color: #3a3a3b !important;
-    background-image: url("images/bg/access_new.jpg") !important;
+    background-image: url("images/bg/p-slide4.jpg") !important;
     background-size: cover !important;
     background-position: top !important;
     height: 40rem;
@@ -1432,9 +1440,10 @@ margin: 0rem 1rem;
 }
 
 .s_simple {
-    padding: 6em 10em !important;
+    padding:2rem 2rem !important;
     color: #3a3a3b !important;
-    background-image: url("images/bg/simple_new.jpg") !important;
+      padding-top: 5rem!important;
+    background-image: url("images/bg/p-slide5.jpg") !important;
     background-size: cover !important;
     background-position: bottom !important;
     height: 40rem;

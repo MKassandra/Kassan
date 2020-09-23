@@ -2166,6 +2166,9 @@ padding-top: 30rem;
 .h3-access, .access-product-dev{
   text-align: left !important;
 }
+.h3-access-p{
+  text-align: left;
+}
 
 .col-access{
   margin-top:-10rem;

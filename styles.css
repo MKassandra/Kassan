@@ -1396,7 +1396,7 @@ margin: 0rem 1rem;
 }
 .imag-e
 {
-    margin: 0 -1.9rem;
+  margin: 0 -1.9rem;
   height: 12rem;
   width: 12rem;
 }
@@ -1412,6 +1412,21 @@ margin: 0rem 1rem;
 
 .icon-up{
  bottom: 10rem !important;
+}
+
+.icon-up{
+ bottom: 10rem !important;
+}
+
+.col-low{
+  top: 1rem;
+}
+
+.col-low2{
+  top:1.7rem;
+}
+.col-lift{
+top:-1.3rem;
 }
 
 /* product icon button end*/

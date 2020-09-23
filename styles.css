@@ -1396,17 +1396,17 @@ margin: 0rem 1rem;
 }
 .imag-e
 {
-  height: 130px;
-  width: 130px;
-  bottom: 2rem !important;
+    margin: 0 -1.9rem;
+  height: 12rem;
+  width: 12rem;
 }
 .imag-e:hover{
     transform: scale(1.5);
 }
 
 .imag-c{
-  height: 15rem;
-  width: 55rem;
+  height: 21rem;
+  width: 56rem;
   z-index: 10;
 }
 
@@ -1515,15 +1515,16 @@ margin: 0rem 1rem;
 }
 
 .row-product-btn{
+
   position: absolute;
-  top:27rem;
-  left: 22rem;
+  top:25rem;
+  left: 23rem;
   z-index: 99;
 }
 .row-product-line{
   position: absolute;
-  top:24rem;
-  left: 15rem;
+  top:21rem;
+  left: 15.2rem;
   z-index: 80;
 }
 

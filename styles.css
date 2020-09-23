@@ -1371,44 +1371,42 @@ margin: 0rem 1rem;
 
 /*for product page*/
 .s_customize {
-  position: relative;
-    padding: 6em 10em !important;
+    padding: 2rem 2rem !important;
     color: #3a3a3b !important;
-  /*  background-image: url("images/bg/custom_txt.png") !important;*/
+   background-image: url("images/bg/customize_new.jpg") !important;
     background-size: cover !important;
     background-position: bottom !important;
-    height: 35rem;
+    height: 40rem;
     background-repeat: no-repeat !important;
 }
 
 .s_upgrade {
-    position: relative;
-    padding: 6em 10em !important;
+    padding: 2rem 2rem  !important;
     color: #3a3a3b !important;
-  /*  background-image: url("images/bg/upgrade-txt.png") !important;*/
+    background-image: url("images/bg/upgrade_new.jpg") !important;
     background-size: cover !important;
     background-position: bottom !important;
-    height: 35rem;
+    height: 40rem;
     background-repeat: no-repeat !important;
 }
 
 .s_cashless {
-    padding: 6em 10em !important;
+    padding: 2rem 2rem  !important;
     color: #3a3a3b !important;
-/*    background-image: url("images/bg/cashless-txt.png") !important;*/
+    background-image: url("images/bg/cashless_new.jpg") !important;
     background-size: cover !important;
     background-position: bottom !important;
-    height: 35rem;
+    height: 40rem;
     background-repeat: no-repeat !important;
 }
 
 .s_access {
-    padding: 6em 10em !important;
+    padding:  2rem 2rem  !important;
     color: #3a3a3b !important;
-/*    background-image: url("images/bg/access-txt.png") !important;*/
+    background-image: url("images/bg/access_new.jpg") !important;
     background-size: cover !important;
     background-position: bottom !important;
-    height: 35rem;
+    height: 40rem;
     background-repeat: no-repeat !important;
 }
 
@@ -1418,7 +1416,7 @@ margin: 0rem 1rem;
     background-image: url("images/bg/simple_new.jpg") !important;
     background-size: cover !important;
     background-position: bottom !important;
-    height: 35rem;
+    height: 40rem;
     background-repeat: no-repeat !important;
 }
 
@@ -1666,6 +1664,7 @@ margin: 0rem 1rem;
 
 .h4-u{
  color: #512a83;
+   font-size: 1.2rem;
 }
 
 .h4-up{
@@ -1679,22 +1678,24 @@ margin: 0rem 1rem;
 
 .h5-u{
   color: #512a83;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
 }
 
 .col-down{
+   margin-top: 16rem;
   text-align: center;
-  margin-top: 26rem;
+/*  margin-top: 26rem;*/
 }
 
 .col-up{
-  margin-top: 5rem;
+   margin-top: -2rem;
+  /*margin-top: 5rem;*/
 
 }
 
 .p-upgrade{
 
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 
@@ -2047,7 +2048,8 @@ margin: 0rem 1rem;
 }
 
 .cashless-row{
-  padding-top: 30rem;
+  padding-top: 23rem;
+/*  padding-top: 30rem;*/
 }
 
 .col-b {

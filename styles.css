@@ -1735,20 +1735,19 @@ margin: 0rem 1rem;
 }
 
 .col-down{
-   margin-top: 15rem;
   text-align: center;
-/*  margin-top: 26rem;*/
+ margin-top: 26rem;
 }
 
 .col-up{
-   margin-top: -4rem;
-  /*margin-top: 5rem;*/
+
+  margin-top: 5rem;
 
 }
 
 .p-upgrade{
 
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 }
 
 
@@ -2101,8 +2100,8 @@ margin: 0rem 1rem;
 }
 
 .cashless-row{
-  padding-top: 23rem;
-/*  padding-top: 30rem;*/
+
+padding-top: 30rem;
 }
 
 .col-b {

@@ -1319,24 +1319,24 @@ hr {
   font-weight: bolder;
 }
 .h3-customize{
-  padding-top: 10rem;
-  padding-left:6rem;
+  padding-top: 7rem;
+  padding-left:10rem;
 }
 .h3-upgrade{
-  padding-top: 10rem;
-  padding-left:6rem;
+  padding-top: 7rem;
+  padding-left:10rem;
 /*  margin-top: 1rem;*/
 }
 
 .h3-cashless{
-  padding-top: 10rem;
-  padding-left:6rem;
+  padding-top: 8rem;
+  padding-left:10rem;
 /*margin-top: 1rem;*/
 }
 
 .h3-access{
-  padding-top: 10rem;
-  padding-left:6rem;
+  padding-top: 7rem;
+  padding-left:10rem;
 /*margin-top: 0rem;*/
 }
 .h3-simple{
@@ -1421,7 +1421,7 @@ margin: 0rem 1rem;
     padding: 2rem 2rem !important;
     padding-top: 5rem!important;
     color: #3a3a3b !important;
-   background-image: url("images/bg/p-slide1.jpg") !important;
+      background-image: url("images/bg/p-slide2.png") !important;
     background-size: cover !important;
     background-position: top !important;
     height: 40rem;
@@ -1432,7 +1432,7 @@ margin: 0rem 1rem;
     padding: 2rem 2rem  !important;
     padding-top: 5rem!important;
     color: #3a3a3b !important;
-    background-image: url("images/bg/p-slide2.png") !important;
+  background-image: url("images/bg/p-slide1.jpg") !important;
     background-size: cover !important;
     background-position: top !important;
     height: 40rem;
@@ -1443,7 +1443,8 @@ margin: 0rem 1rem;
     padding: 2rem 2rem  !important;
     padding-top: 5rem!important;
     color: #3a3a3b !important;
-    background-image: url("images/bg/p-slide3.png") !important;
+      background-image: url("images/bg/p-slide4.jpg") !important;
+
     background-size: cover !important;
     background-position: top !important;
     height: 40rem;
@@ -1454,7 +1455,7 @@ margin: 0rem 1rem;
     padding:  2rem 2rem  !important;
     padding-top: 5rem!important;
     color: #3a3a3b !important;
-    background-image: url("images/bg/p-slide4.jpg") !important;
+    background-image: url("images/bg/p-slide3.png") !important;
     background-size: cover !important;
     background-position: top !important;
     height: 40rem;

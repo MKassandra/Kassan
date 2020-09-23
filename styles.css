@@ -1383,9 +1383,12 @@ margin: 0rem 1rem;
 }
 .imag-e
 {
-  position:
-
+  height: 130px;
+  width: 130px;
   bottom: 2rem !important;
+}
+.imag-e:hover{
+    transform: scale(1.5);
 }
 
 .icon-up{
@@ -1410,7 +1413,7 @@ margin: 0rem 1rem;
     padding: 2rem 2rem  !important;
     padding-top: 5rem!important;
     color: #3a3a3b !important;
-    background-image: url("images/bg/p-slide2.jpg") !important;
+    background-image: url("images/bg/p-slide2.png") !important;
     background-size: cover !important;
     background-position: top !important;
     height: 40rem;
@@ -1421,7 +1424,7 @@ margin: 0rem 1rem;
     padding: 2rem 2rem  !important;
     padding-top: 5rem!important;
     color: #3a3a3b !important;
-    background-image: url("images/bg/p-slide3.jpg") !important;
+    background-image: url("images/bg/p-slide3.png") !important;
     background-size: cover !important;
     background-position: top !important;
     height: 40rem;
@@ -1489,6 +1492,13 @@ margin: 0rem 1rem;
     padding: 0rem 0rem !important;
     font-size: 1.12rem;
     margin-top: 2rem;
+}
+
+.row-product-btn{
+  position: absolute;
+  top:27rem;
+  left: 22rem;
+  z-index: 99;
 }
 
 .row-1 {

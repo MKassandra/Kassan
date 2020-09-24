@@ -4021,7 +4021,8 @@ small {
 }
 
 .btn-stalk {
-    padding: 1rem 3rem !important;
+    padding: 1rem 5rem !important;
+    background-color: #a683bc!important;
 }
 
 .col-form-label {

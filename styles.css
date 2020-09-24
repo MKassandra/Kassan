@@ -1396,6 +1396,7 @@ margin: 0rem 1rem;
 }
 .imag-e
 {
+  transition: .3s;
   margin: 0 -1.6rem;
   height: 6rem;
   width: 6rem;
@@ -1406,9 +1407,18 @@ margin: 0rem 1rem;
   */
 }
 .imag-e:hover{
-    transform: scale(1.1);
-
+  /*  animation-name:jump-btn;
+    animation-duration: 4s;
+      animation-iteration-count: 2;
+      animation-direction: normal;*/
+    transform: scale(1.2);
 }
+
+/*@keyframes jump-btn{
+  0% {background-color:transparent; left:0px; top:30rem;}
+  50% {background-color:transparent; left:0px; top:0px;}
+  100% {background-color:transparent; left:0px; top:30rem;}
+}*/
 
 .imag-c{
   height: 9rem;
@@ -1417,6 +1427,10 @@ margin: 0rem 1rem;
   height: 21rem;
   width: 56rem;*/
   z-index: 10;
+}
+
+.imag-c:hover{
+
 }
 
 .icon-up{

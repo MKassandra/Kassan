@@ -81,6 +81,19 @@ strong {
     color: #3a3a3b !important;
     font-weight: bolder !important;
 } */
+
+.first-nav{
+/*  background-color: #ba95ff;
+  background-image:linear-gradient(rgba(186,149,255), rgba(208, 176, 255))!important;*/
+  background-image:linear-gradient(#ba95ff, #d0b0ff)!important;
+}
+
+.second-nav{
+/*  background-color: #d0b0ff;*/
+    background-image:linear-gradient(#d0b0ff,#ba95ff)!important;
+  text-align: center !important;
+  top: -0.1rem;
+}
 .navbar-transparent{
     background-color: transparent!important;
 }

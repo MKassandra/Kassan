@@ -3969,7 +3969,7 @@ height: 100% !important;*/
 /*partner page*/
 #partner-body-content {
     padding: 0rem 1rem;
-    background-image: url("images/bg/partner_new.png") !important;
+    background-image: url("images/bg/partner_new.jpg") !important;
     height: 35rem;
     background-size: cover;
     background-position: center left;
@@ -4006,7 +4006,7 @@ height: 100% !important;*/
 } */
 /*lets talk page*/
 #talk-body-content {
-    background-image: url("images/bg/talk_new.png") !important;
+    background-image: url("images/bg/talk_new.jpg") !important;
     background-size: cover;
     padding-bottom: 8rem;
 }

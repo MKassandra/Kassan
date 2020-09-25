@@ -91,9 +91,15 @@ strong {
 .second-nav{
 /*  background-color: #d0b0ff;*/
     background-image:linear-gradient(#d0b0ff,#ba95ff)!important;
+    font-weight: normal!important;
   text-align: center !important;
   top: -0.1rem;
 }
+
+.hr-white{
+
+}
+
 .navbar-transparent{
     background-color: transparent!important;
 }
@@ -1311,8 +1317,12 @@ footer {
 /*product page content*/
 /*product content page*/
 hr {
+  border: 1px solid white !important;
+  margin-top: 0rem !important;
+  margin-bottom: 0.1rem !important;
+  /*
     border: 10px solid #4ebab5 !important;
-    border-radius: 5px !important;
+    border-radius: 5px !important;*/
 }
 
 /*product page content*/

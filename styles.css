@@ -98,9 +98,11 @@ strong {
 .second-nav{
 /*  background-color: #d0b0ff;*/
 font-family: myBento_nav2 !important;
+  font-weight: lighter!important;
 background-image:linear-gradient(#d0b0ff,#ba95ff)!important;
   text-align: center !important;
   top: -0.1rem;
+
 }
 
 .second-nav:active{
@@ -242,7 +244,7 @@ color: #3a3a3b !important;
 
 /* Border Manipulation */
 .about-border {
-  margin-top: 0.5rem;
+    margin-top: 0.5rem;
     border: 1px solid;
     border-right-color: #3a3a3b !important;
     border-top: none !important;

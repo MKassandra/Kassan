@@ -2671,7 +2671,7 @@ padding-top: 30rem;
     padding-left: 60em !important;
     padding-top: 4em !important;
     color: #3a3a3b;
-
+  text-align: justify !important;
     background-image: url("images/bg/bal2_new.jpg") !important;
     /*background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/balance_bg1.png") !important;*/
     background-size: cover;
@@ -2892,9 +2892,10 @@ width: 100% !important;*/
   */
     padding: 6em 10em !important;
     padding-left: 3em !important;
-    padding-right: 10rem !important;
+    padding-right: 11rem !important;
     padding-top: 3rem !important;
     color: #3a3a3b;
+    text-align: justify!important;
     background-image: url("images/bg/remittance_new.jpg") !important;
     /*background-image: url("images/bg/remit_bg2.png") !important;*/
     background-size: cover;

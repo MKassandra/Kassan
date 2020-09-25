@@ -4022,9 +4022,33 @@ height: 100% !important;*/
     margin-top: 1.2rem;
 }
 
+
+.btn{
+  padding: 0rem 0rem !important;
+}
+
+.form-inline{
+  padding: 0rem 3rem;
+}
+
+
+.col-yr{
+  padding: 0rem 0rem !important;
+}
+
+.arrow-left{
+  length:3rem;
+  width: 3rem;
+}
+
+.arrow-right{
+  length:3rem;
+  width: 3rem;
+}
+
 .card,
 .table {
-    background-color: white !important;
+    background-color: transparent !important;
     color: #3a3a3b !important;
 }
 
@@ -4042,7 +4066,7 @@ height: 100% !important;*/
 
 .btn-outline-custom {
     color: #3a3a3b !important;
-    border: 2px solid #3a3a3b !important;
+    border: 0px solid #3a3a3b !important;
     font-size: 0.7rem !important;
 }
 

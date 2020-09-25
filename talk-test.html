@@ -85,6 +85,11 @@
             <!-- Calendar view start -->
             <div class="container col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5">
               <div class="card">
+                <div class="form-inline">
+                  <button class="btn btn-outline-custom col-md-2 col-sm-4" id="previous" onclick="previous()">P</button>
+                    <button class="btn btn-outline-custom col-md-7 col-sm-3" id="Today" onclick="todayDate()"><h3 class="card-header" id="monthAndYear"></h3></button>
+                  <button class="btn btn-outline-custom col-md-2 col-sm-4" id="next" onclick="next()">N</button>
+                </div>
                 <h3 class="card-header" id="monthAndYear"></h3>
                 <form class="form-inline">
                   <!--<label class="lead mr-2 ml-2" for="month">Jump To: </label>-->
@@ -166,12 +171,13 @@
                   </tbody>
                 </table>
 
+                <!--
                 <div class="form-inline">
                   <button class="btn btn-outline-custom col-md-4 col-sm-4" id="previous" onclick="previous()">Previous</button>
                   <button class="btn btn-outline-custom col-md-3 col-sm-3" id="Today" onclick="todayDate()">Today</button>
                   <button class="btn btn-outline-custom col-md-4 col-sm-4" id="next" onclick="next()">Next</button>
-                </div>
-                <br />
+                </div>-->
+
 
               </div>
             </div>

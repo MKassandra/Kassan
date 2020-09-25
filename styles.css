@@ -2719,11 +2719,12 @@ width: 100% !important;
 
 .bills {
     padding: 6em 6em !important;
-    padding-left: 55em !important;
+    padding-left: 53em !important;
     /*padding-right: 35rem !important;
     padding-left: 10em !important;*/
     padding-top: 5em !important;
     color: #3a3a3b;
+    text-align: justify!important;
     background-image:url("images/bg/bills_new.jpg") !important;
     /*background-image: linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%),url("images/bg/bills_bg2.png") !important;*/
     /*background-blend-mode: overlay;*/
@@ -2744,10 +2745,11 @@ width: 100% !important;
 
 .purchase {
     padding: 6em 10em !important;
-    padding-left: 10em !important;
-    padding-right: 35rem !important;
-    padding-top: 3em !important;
+    padding-left: 7em !important;
+    padding-right: 51em !important;
+    padding-top: 4em !important;
     color: #3a3a3b;
+    text-align: justify;
     background-image:url("images/bg/purchase_new.jpg") !important;
     /*background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/purchase_bg2.png") !important;*/
     /*background-blend-mode: overlay;
@@ -2774,6 +2776,7 @@ width: 100% !important;
     padding-right: 35rem !important;*/
     padding-top: 3em !important;
     color: #3a3a3b;
+    text-align: justify;
     background-image: url("images/bg/payroll_new.jpg") !important;
     /*background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/payroll_bg2.png") !important;*/
     /*background-blend-mode: overlay;
@@ -2797,6 +2800,7 @@ width: 100% !important;
     /*padding-right: 15rem !important;*/
     padding-top: 1rem !important;
     color: #3a3a3b;
+    text-align: justify;
     background-image:url("images/bg/ebank_new.jpg") !important;
     /*background-image: linear-gradient(to right, rgba(251,251,251,1) 30%, rgba(255,255,255,0) 100%),url("images/bg/ebank_bg.png") !important;*/
     /*background-blend-mode: overlay;
@@ -2922,9 +2926,10 @@ width: 100% !important;*/
 */
     padding: 6em 10em !important;
     padding-left: 5em !important;
-    padding-right: 35rem !important;
+    padding-right: 39rem !important;
     padding-top: 10em !important;
     color: #3a3a3b ;
+    text-align: justify;
     background-image: url("images/bg/fund_new.jpg") !important;
     /*background-image: url("images/bg/fund_bg.png") !important;
     background-blend-mode: overlay;
@@ -2955,6 +2960,7 @@ width: 100% !important;*/
     padding-left: 5em !important;
     padding-top: 10em !important;
     color: #3a3a3b;
+    text-align: justify;
     background-image: url("images/bg/mobile_new.jpg") !important;
     /*background-image: url("images/bg/mobile_bg2.png") !important;*/
     background-size: cover;
@@ -2985,6 +2991,7 @@ width: 100% !important;*/
     padding-left: 5em !important;
     padding-top: 10em !important;
     color:  #3a3a3b;
+    text-align: justify;
     background-image: url("images/bg/online_new.jpg") !important;
     /*background-image: url("images/bg/online_bg.png") !important;*/
     background-size: cover;
@@ -3019,6 +3026,7 @@ width: 100% !important;*/
     padding-left: 5em !important;
     padding-top: 7em !important;
     color: #3a3a3b;
+    text-align: justify;
     background-image: url("images/bg/ewallet_new.jpg") !important;
     /*background-image: url("images/bg/ewallet_bg.png") !important;*/
     background-size: cover;
@@ -3297,8 +3305,8 @@ height: 100% !important;*/
         }
 
         .fund {
-            padding: 6em 10em !important;
-            padding-right: 45em !important;
+            padding: 6em 7em !important;
+            padding-right: 50em !important;
             padding-top: 10em !important;
             background-image: url("images/bg/fund_new.jpg") !important;
             /*background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_transfer.png") !important;*/
@@ -3312,6 +3320,7 @@ height: 100% !important;*/
             padding: 6em 10em !important;
             padding-left: 50em !important;
             padding-top: 10em !important;
+            text-align: justify;
             background-image: url("images/bg/mobile_new.jpg") !important;
             /*background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_mobile.png") !important;*/
             /*background-color: rgba(255, 255, 255, 0.5) !important;
@@ -3325,7 +3334,7 @@ height: 100% !important;*/
         .online {
             padding: 6em 6em !important;
             padding-left: 60em !important;
-            padding-top: 10em !important;
+            padding-top: 12em !important;
             background-image: url("images/bg/online_new.jpg") !important;
             /*background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_obank.png") !important;*/
             background-size: 100% 100%;

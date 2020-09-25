@@ -4008,15 +4008,17 @@ height: 100% !important;*/
 #talk-body-content {
     background-image: url("images/bg/talk_new.jpg") !important;
     background-size: cover;
-    padding-bottom: 8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 6rem;
 }
 .card{
   text-align: center;
 }
 
 /*calendar style*/
-.c-cal {
-    margin-top: -1.5rem;
+.c-form, .c-cal {
+    margin-top: 1.2rem;
 }
 
 .card,

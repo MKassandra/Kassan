@@ -7,7 +7,7 @@ html {
 @font-face {
     font-family: myBento;
     src: url('font/BentonSans_bold.otf');
-    /*font/BentonSans_book.otf*/
+    /*src:url('font/BentonSans_book.otf');*/
 }
 
 /*font style - header*/
@@ -16,6 +16,13 @@ html {
     src: url('font/BentonSans_regular.otf');
     /*font/BentonSans_regular.otf*/
 }
+
+/*font style - second-nav*/
+@font-face {
+    font-family: myBento_nav2;
+    src:url('font/BentonSans_book.otf');
+}
+
 .t-down{
     padding: 10rem 10rem;
     text-align:center;
@@ -90,14 +97,15 @@ strong {
 
 .second-nav{
 /*  background-color: #d0b0ff;*/
+font-family: myBento_nav2 !important;
     background-image:linear-gradient(#d0b0ff,#ba95ff)!important;
-    font-weight: normal!important;
+    font-weight: bold!important;
   text-align: center !important;
   top: -0.1rem;
 }
 
-.hr-white{
-
+.second-nav:active{
+    color: red !important;
 }
 
 .navbar-transparent{

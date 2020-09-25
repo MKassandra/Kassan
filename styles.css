@@ -171,7 +171,8 @@ color: #3a3a3b !important;
 }
 
 .navbar ul li a:hover {
-    color:  #ba9dd4 !important;
+  color:  #730ac4 !important;
+  /*  color:  #ba9dd4 !important;*/
 }
 
 .about {
@@ -232,7 +233,8 @@ color: #3a3a3b !important;
 
 /*dropdown color*/
 .navbar-custom .dropdown-menu {
-    background-color:  #eeddfc !important;
+  background-image:linear-gradient(#ba95ff, #d0b0ff)!important;
+  /*  background-color:  #eeddfc !important;*/
     color: #3a3a3b  !important;
     /*bg color*/
     border-width: thin;

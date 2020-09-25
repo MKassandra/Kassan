@@ -2691,6 +2691,8 @@ width: 100% !important;*/
     padding: 6em 10em !important;
     padding-left: 10em !important;
     padding-top: 10em !important;
+    padding-right: 48em !important;
+      text-align: justify !important;
     color: #3a3a3b;
     background-image: url("images/bg/withdraw_new.jpg") !important;
     /*background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/withdraw.png") !important;*/
@@ -2889,7 +2891,7 @@ width: 100% !important;*/
   background-repeat: no-repeat;
   */
     padding: 6em 10em !important;
-    padding-left: 35em !important;
+    padding-left: 3em !important;
     padding-right: 10rem !important;
     padding-top: 3rem !important;
     color: #3a3a3b;

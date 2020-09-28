@@ -2683,14 +2683,22 @@ padding-top: 30rem;
 
 /*full screen service page*/
 
+.service-body-content{
+  background-image: url("images/bg/service_bg_all.png") !important;
+  background-size: cover;
+  background-position: center;
+
+}
+
+
 .balance {
     padding: 6em 6em !important;
     padding-left: 60em !important;
     padding-top: 4em !important;
     color: #3a3a3b;
   text-align: justify !important;
-    background-image: url("images/bg/bal2_new.jpg") !important;
-    /*background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/balance_bg1.png") !important;*/
+  /*  background-image: url("images/bg/bal2_new.jpg") !important;
+    background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/balance_bg1.png") !important;*/
     background-size: cover;
     height: 45rem;
     background-position: top right;
@@ -2711,8 +2719,8 @@ width: 100% !important;*/
     padding-right: 48em !important;
       text-align: justify !important;
     color: #3a3a3b;
-    background-image: url("images/bg/withdraw_new.jpg") !important;
-    /*background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/withdraw.png") !important;*/
+    /*  background-image: url("images/bg/withdraw_new.jpg") !important;
+  background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/withdraw.png") !important;*/
     /*background-blend-mode: overlay;
     background-color: rgba(255, 255, 255, 0.6);*/
     background-size: cover;
@@ -2742,8 +2750,8 @@ width: 100% !important;
     padding-top: 5em !important;
     color: #3a3a3b;
     text-align: justify!important;
-    background-image:url("images/bg/bills_new.jpg") !important;
-    /*background-image: linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%),url("images/bg/bills_bg2.png") !important;*/
+    /*  background-image:url("images/bg/bills_new.jpg") !important;
+  background-image: linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%),url("images/bg/bills_bg2.png") !important;*/
     /*background-blend-mode: overlay;*/
     /*background-color: rgba(232, 160, 213, 0.2);*/
     background-size: cover;
@@ -2767,8 +2775,8 @@ width: 100% !important;
     padding-top: 4em !important;
     color: #3a3a3b;
     text-align: justify;
-    background-image:url("images/bg/purchase_new.jpg") !important;
-    /*background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/purchase_bg2.png") !important;*/
+    /*  background-image:url("images/bg/purchase_new.jpg") !important;
+  background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/purchase_bg2.png") !important;*/
     /*background-blend-mode: overlay;
     background-color: rgb(255, 255, 255, 0.5);*/
     background-size: cover;
@@ -2794,8 +2802,8 @@ width: 100% !important;
     padding-top: 3em !important;
     color: #3a3a3b;
     text-align: justify;
-    background-image: url("images/bg/payroll_new.jpg") !important;
-    /*background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/payroll_bg2.png") !important;*/
+    /*  background-image: url("images/bg/payroll_new.jpg") !important;
+  background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/payroll_bg2.png") !important;*/
     /*background-blend-mode: overlay;
     background-color: rgb(255, 255, 255, 0.3);*/
     background-size: cover;
@@ -2818,8 +2826,8 @@ width: 100% !important;
     padding-top: 1rem !important;
     color: #3a3a3b;
     text-align: justify;
-    background-image:url("images/bg/ebank_new.jpg") !important;
-    /*background-image: linear-gradient(to right, rgba(251,251,251,1) 30%, rgba(255,255,255,0) 100%),url("images/bg/ebank_bg.png") !important;*/
+  /*  background-image:url("images/bg/ebank_new.jpg") !important;
+    background-image: linear-gradient(to right, rgba(251,251,251,1) 30%, rgba(255,255,255,0) 100%),url("images/bg/ebank_bg.png") !important;*/
     /*background-blend-mode: overlay;
     background-color: rgb(255, 255, 255, 0.7);*/
     background-size: cover;
@@ -2878,8 +2886,8 @@ small {
     padding-left: 10em !important;
     padding-top: 15em !important;
     color: #3a3a3b;
-    background-image: url("images/bg/new.jpg") !important;
-    /*background-image: url("images/bg/eload_bg.png") !important;*/
+  /*  background-image: url("images/bg/new.jpg") !important;
+    background-image: url("images/bg/eload_bg.png") !important;*/
     background-size: cover;
     /*background-blend-mode: overlay;
     background-color: rgba(255, 255, 255, 0.5);*/
@@ -2917,8 +2925,8 @@ width: 100% !important;*/
     padding-top: 3rem !important;
     color: #3a3a3b;
     text-align: justify!important;
-    background-image: url("images/bg/remittance_new.jpg") !important;
-    /*background-image: url("images/bg/remit_bg2.png") !important;*/
+  /*    background-image: url("images/bg/remittance_new.jpg") !important;
+  background-image: url("images/bg/remit_bg2.png") !important;*/
     background-size: cover;
     height: 45rem !important;
     width: 100% !important;
@@ -2947,8 +2955,8 @@ width: 100% !important;*/
     padding-top: 10em !important;
     color: #3a3a3b ;
     text-align: justify;
-    background-image: url("images/bg/fund_new.jpg") !important;
-    /*background-image: url("images/bg/fund_bg.png") !important;
+  /*    background-image: url("images/bg/fund_new.jpg") !important;
+  background-image: url("images/bg/fund_bg.png") !important;
     background-blend-mode: overlay;
     background-color: rgba(255, 255, 255, 0.7);*/
     background-size: cover;
@@ -2978,8 +2986,8 @@ width: 100% !important;*/
     padding-top: 10em !important;
     color: #3a3a3b;
     text-align: justify;
-    background-image: url("images/bg/mobile_new.jpg") !important;
-    /*background-image: url("images/bg/mobile_bg2.png") !important;*/
+    /*  background-image: url("images/bg/mobile_new.jpg") !important;
+  background-image: url("images/bg/mobile_bg2.png") !important;*/
     background-size: cover;
     height: 45rem;
     width: 100% !important;
@@ -3009,8 +3017,8 @@ width: 100% !important;*/
     padding-top: 10em !important;
     color:  #3a3a3b;
     text-align: justify;
-    background-image: url("images/bg/online_new.jpg") !important;
-    /*background-image: url("images/bg/online_bg.png") !important;*/
+    /*  background-image: url("images/bg/online_new.jpg") !important;
+  background-image: url("images/bg/online_bg.png") !important;*/
     background-size: cover;
     /*background-blend-mode: overlay;
     background-color: rgba(255, 255, 255, 0.7);*/
@@ -3044,8 +3052,8 @@ width: 100% !important;*/
     padding-top: 7em !important;
     color: #3a3a3b;
     text-align: justify;
-    background-image: url("images/bg/ewallet_new.jpg") !important;
-    /*background-image: url("images/bg/ewallet_bg.png") !important;*/
+/*    background-image: url("images/bg/ewallet_new.jpg") !important;
+    background-image: url("images/bg/ewallet_bg.png") !important;*/
     background-size: cover;
     /*background-blend-mode: overlay;
     background-color: rgba(255, 255, 255, 0.5);*/
@@ -3300,8 +3308,8 @@ height: 100% !important;*/
             padding: 6em 10em !important;
             padding-right: 45em !important;
             padding-top: 10em !important;
-            background-image: url("images/bg/eload_new.jpg") !important;
-            /*background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_eload.png") !important;*/
+            /*  background-image: url("images/bg/eload_new.jpg") !important;
+          background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_eload.png") !important;*/
             background-size: 100% 100%;
             height: 35rem;
             width: 100% !important;
@@ -3312,8 +3320,8 @@ height: 100% !important;*/
             padding: 6em 10em !important;
             padding-left: 47em !important;
             padding-top: 10em !important;
-            background-image: url("images/bg/remittance_new.jpg") !important;
-            /*background-image: linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%),url("images/bg/remit_bg2.png") !important;*/
+          /*  background-image: url("images/bg/remittance_new.jpg") !important;
+            background-image: linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%),url("images/bg/remit_bg2.png") !important;*/
             background-size: cover;
             height: 35rem;
             width: 100% !important;
@@ -3325,8 +3333,8 @@ height: 100% !important;*/
             padding: 6em 7em !important;
             padding-right: 50em !important;
             padding-top: 10em !important;
-            background-image: url("images/bg/fund_new.jpg") !important;
-            /*background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_transfer.png") !important;*/
+          /*  background-image: url("images/bg/fund_new.jpg") !important;
+            background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_transfer.png") !important;*/
             background-size: 100% 100%;
             height: 35rem;
             width: 100% !important;
@@ -3338,8 +3346,8 @@ height: 100% !important;*/
             padding-left: 50em !important;
             padding-top: 10em !important;
             text-align: justify;
-            background-image: url("images/bg/mobile_new.jpg") !important;
-            /*background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_mobile.png") !important;*/
+            /*  background-image: url("images/bg/mobile_new.jpg") !important;
+          background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_mobile.png") !important;*/
             /*background-color: rgba(255, 255, 255, 0.5) !important;
             background-blend-mode: overlay;*/
             background-size: 100% 100%;
@@ -3352,8 +3360,8 @@ height: 100% !important;*/
             padding: 6em 6em !important;
             padding-left: 60em !important;
             padding-top: 12em !important;
-            background-image: url("images/bg/online_new.jpg") !important;
-            /*background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_obank.png") !important;*/
+              /*background-image: url("images/bg/online_new.jpg") !important;
+          background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_obank.png") !important;*/
             background-size: 100% 100%;
             height: 45rem;
             width: 100% !important;
@@ -3364,8 +3372,8 @@ height: 100% !important;*/
             padding: 6em 10em !important;
             padding-right: 45em !important;
             padding-top: 10em !important;
-              background-image: url("images/bg/ewallet_new.jpg") !important;
-            /*background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_ewallet.png") !important;*/
+              /*  background-image: url("images/bg/ewallet_new.jpg") !important;
+          background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_ewallet.png") !important;*/
             background-size: 100% 100%;
             height: 45rem;
             width: 100% !important;

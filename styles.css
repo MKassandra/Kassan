@@ -4192,9 +4192,10 @@ padding-left: 36rem !important;
     color: #3a3a3b !important;
 }
 
-.bg-info {
-text-shadow: : #c4a1ff !important;
+.bg-highligh-cutstom {
+background-color:  #c4a1ff !important;
     color: white !important;
+    border-radius: 50%;
 
 }
 

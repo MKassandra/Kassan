@@ -116,7 +116,7 @@ function showCalendar(month, year) {
         //   //alert(dd1, dd2, dd3);
         // }
         if (date === dd2 && month === dd1 && year === dd3) {
-          cell.classList.add("bg-info");
+          cell.classList.add("bg-highligh-cutstom");
           //alert(month, date, year);
         }
           cell.appendChild(cellText);

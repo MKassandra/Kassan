@@ -2233,18 +2233,18 @@ top:19rem;
     background-image: url('images/bg/cashless_new.jpg');
     /*background-image: url('images/meet2.png');*/
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
 }
 
 .cashless-product-dev{
       text-align: center;
-      padding: 0 1rem;
+      padding: 0 0rem;
 }
 
 .cashless-row{
 
-padding-top: 30rem;
+padding-top: 26rem;
 }
 
 .col-b {

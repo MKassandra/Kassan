@@ -1925,11 +1925,53 @@ margin-top: 2rem;
 
 }
 
-.p-upgrade{
+.row-upper{
+ padding-top: 8rem;
+}
 
+.col-upper{
+margin-left:10.6rem;
+}
+.col-upper2, .col-upper3{
+margin-left: 10rem;
+}
+
+.col-upper2{
+margin-top: -3rem;
+}
+
+.col-upper3{
+margin-top: 2rem;
+}
+
+
+.row-lower{
+    padding-top: 8rem;
+}
+
+.col-lower{
+margin: 0 8.7rem;
+}
+
+.col-lower2{
+  margin-left:1rem;
+}
+
+.col-lower3{
+  margin-left: 9.6rem;
+}
+
+
+
+.p-upgrade{
   font-size: 0.8rem;
 }
 
+.upgrade-long-icon{
+  height: auto;
+  width: 80rem !important;
+  text-align: center;
+}
 
 .u-display,
 .s-display {
@@ -1943,7 +1985,7 @@ margin-top: 2rem;
 }
 
 .upgrade-content {
-    margin: 0rem 0rem;
+    margin: 0rem 1rem !important;
     color: #3a3a3b;
     text-align: justify !important;
     /*padding-bottom: 7rem;*/
@@ -4151,9 +4193,9 @@ padding-left: 36rem !important;
 }
 
 .bg-info {
-
+text-shadow: : #c4a1ff !important;
     color: white !important;
-  background-color: #c4a1ff !important;
+
 }
 
 .calendar-body {

@@ -896,7 +896,7 @@ footer {
 
 /*about page content*/
 #history-body-content {
-    /*padding: 4rem 3rem !important;*/
+  padding: 4rem 3rem !important;
     padding-top: 1rem;
     line-height: 1.2;
     color: black;

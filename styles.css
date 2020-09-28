@@ -2686,7 +2686,7 @@ padding-top: 30rem;
 .service-body-content{
   background-image: url("images/bg/service_bg_all.png") !important;
   background-size: cover;
-  background-position: center;
+  background-position: top center;
 
 }
 
@@ -2700,7 +2700,7 @@ padding-top: 30rem;
   /*  background-image: url("images/bg/bal2_new.jpg") !important;
     background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/balance_bg1.png") !important;*/
     background-size: cover;
-    height: 45rem;
+  height: 45rem;
     background-position: top right;
     background-repeat: no-repeat !important;
 }
@@ -2746,8 +2746,9 @@ width: 100% !important;
     padding: 6em 6em !important;
     padding-left: 53em !important;
     /*padding-right: 35rem !important;
-    padding-left: 10em !important;*/
-    padding-top: 5em !important;
+    padding-left: 10em !important;
+    padding-top: 5em !important;*/
+      padding-top: 12em !important;
     color: #3a3a3b;
     text-align: justify!important;
     /*  background-image:url("images/bg/bills_new.jpg") !important;
@@ -2772,7 +2773,8 @@ width: 100% !important;
     padding: 6em 10em !important;
     padding-left: 7em !important;
     padding-right: 51em !important;
-    padding-top: 4em !important;
+    padding-top: 15em !important;
+    /*padding-top: 4em !important;*/
     color: #3a3a3b;
     text-align: justify;
     /*  background-image:url("images/bg/purchase_new.jpg") !important;

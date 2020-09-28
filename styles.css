@@ -25,7 +25,7 @@ html {
 
 @font-face {
     font-family: openSans;
-    src:url('font/open-sans/OpenSans-Light.ttf');
+    src:url('font/open-sans/OpenSans-Regular.ttf');
 }
 
 @font-face {
@@ -55,7 +55,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: openSans_bold !important;
+    font-family: myBento_head !important;
 }
 
 p {
@@ -105,6 +105,7 @@ strong {
 .first-nav{
 /*  background-color: #ba95ff;
   background-image:linear-gradient(rgba(186,149,255), rgba(208, 176, 255))!important;*/
+  font-family: myBento !important;
   background-image:linear-gradient(#ba95ff, #d0b0ff)!important;
 }
 
@@ -2715,7 +2716,7 @@ width: 100% !important;*/
 .withdrawal {
     padding: 6em 10em !important;
     padding-left: 10em !important;
-    padding-top: 10em !important;
+    padding-top: 15em !important;
     padding-right: 48em !important;
       text-align: justify !important;
     color: #3a3a3b;
@@ -2748,7 +2749,7 @@ width: 100% !important;
     /*padding-right: 35rem !important;
     padding-left: 10em !important;
     padding-top: 5em !important;*/
-      padding-top: 12em !important;
+      padding-top: 19em !important;
     color: #3a3a3b;
     text-align: justify!important;
     /*  background-image:url("images/bg/bills_new.jpg") !important;
@@ -4021,9 +4022,19 @@ height: 100% !important;*/
   text-align:center!important;
   padding-left: 31rem;
 }
+.row-p1{
+
+}
+.row-p2{
+
+}
+
+.row-p3{
+padding-left: 36rem !important;
+}
 
 .partner-display{
-  height: 4rem;
+  height: 6rem;
   width: auto;
   margin: 1rem 0rem;
 }
@@ -4058,7 +4069,7 @@ height: 100% !important;*/
     margin-top: 1.2rem;
 }
 .c-form{
-  margin-top: 3rem !important;
+  margin-top: 5rem !important;
     margin-left: 2rem !important;
 }
 
@@ -4099,7 +4110,9 @@ height: 100% !important;*/
 }
 
 .bg-info {
+
     color: white !important;
+  background-color: #c4a1ff !important;
 }
 
 .calendar-body {
@@ -4151,12 +4164,16 @@ label,
     color: #3a3a3b !important;
 }
 
+.md-form{
+  padding-right: 1rem;
+}
+
 small {
     color: #3a3a3b ;
 }
 
 .c-form{
-  text-align: center;
+  text-align: left;
 }
 
 .talk-1,
@@ -4175,6 +4192,7 @@ small {
 .btn-stalk {
     padding: 1rem 5rem !important;
     background-color: #a683bc!important;
+    margin: 0rem 10rem !important;
 }
 
 .col-form-label {

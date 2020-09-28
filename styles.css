@@ -23,12 +23,25 @@ html {
     src:url('font/BentonSans_book.otf');
 }
 
+@font-face {
+    font-family: openSans;
+    src:url('font/open-sans/OpenSans-Light.ttf');
+}
+
+@font-face {
+    font-family: openSans_bold;
+    src:url('font/open-sans/OpenSans-Semibold.ttf');
+}
+
+
+
+
 .t-down{
     padding: 10rem 10rem;
     text-align:center;
 }
 body {
-    font-family: myBento !important;
+    font-family: openSans !important;
     /* background-image: bodyimg.png !important; */
     /*background-image: url('images/bg_main.jpg');
   background-size: contain !important;
@@ -42,7 +55,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: myBento_head !important;
+    font-family: openSans_bold !important;
 }
 
 p {
@@ -4020,6 +4033,9 @@ height: 100% !important;*/
 /*calendar style*/
 .c-form, .c-cal {
     margin-top: 1.2rem;
+}
+.c-form{
+  margin-top: 3rem !important;
 }
 
 

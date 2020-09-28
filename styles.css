@@ -4166,7 +4166,7 @@ padding-left: 36rem !important;
 }
 
 .form-inline{
-  padding: 0rem 3rem;
+  padding: 0rem 3.8rem;
 }
 
 .calendar-move{
@@ -4184,6 +4184,22 @@ padding-left: 36rem !important;
 .arrow-right{
   length:3rem;
   width: 3rem;
+}
+
+.btn-l{
+  width: 0 !important;
+	height: 0 !important;
+	border-top: 25px solid transparent !important;
+	border-right: 50px solid #c4a1ff  !important;
+	border-bottom: 25px solid transparent !important;
+}
+
+.btn-r{
+  width: 0 !important;
+	height: 0 !important;
+	border-top: 25px solid transparent !important;
+	border-left: 50px solid #c4a1ff  !important;
+	border-bottom: 25px solid transparent !important;
 }
 
 .card,

@@ -2243,7 +2243,6 @@ top:19rem;
 }
 
 .cashless-row{
-
 padding-top: 26rem;
 }
 
@@ -2380,6 +2379,7 @@ padding-top: 26rem;
 
 .custom-product-dev {
  padding: 0rem 2rem !important;
+ padding-top: 2rem !important;
     /*   margin-top: -3rem;*/
 }
 

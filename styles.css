@@ -74,15 +74,17 @@ strong {
 
 /* Logo Size */
 .brblogo {
-  margin-top: 0rem;
-    height: 3rem;
-    width: 6.9rem;
+  margin-top: -0.3rem;
+      height: auto;
+  /*  height: 3rem;*
+    width: 6.9rem;*/
+    width: 8rem;
     /* margin-left: 2rem;*/
     margin-right: 0.5rem;
 }
 
 .cashmate {
-  margin-top: 0rem;
+  margin-top: -0.5rem;
     height: 3.1rem;
     width: 3.1rem;
 }
@@ -143,6 +145,7 @@ padding: 0.2rem 0.6rem !important;
 }
 
 .navbar-transparent{
+  font-family: myBento !important;
     background-color: transparent!important;
 }
 .bg-custom{

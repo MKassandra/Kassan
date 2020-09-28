@@ -1718,28 +1718,33 @@ top:19rem;
 
 /*back arrow*/
 .back-arrow {
-    height: 4rem;
-    width: 4rem;
+    height: 2.7rem;
+    width: 2.7rem;
     /*margin-left: 3rem;*/
 }
 
 .back-arrow-u {
-    height: 4rem;
-    width: 4rem;
+    height: 2.7rem;
+    width: 2.7rem;
     margin-left: 0rem;
 }
 
 .back {
     color: #512a83;
-    margin-left: 4rem;
+    margin-left: 3rem;
     /*margin-left: 7rem;*/
-    margin-top: -3rem;
+    margin-top: -2rem;
+
 }
 
 .back-u {
     color: white;
+    margin-left: 3rem;
+    /*margin-left: 7rem;*/
+    margin-top: -2rem;
+    /*
     margin-left: 4rem;
-    margin-top: -3rem;
+    margin-top: -3rem;*/
 }
 @media screen and (max-width: 500px){
   .back-arrow {

@@ -1853,11 +1853,12 @@ top:19rem;
 
 .h4-u{
  color: #512a83;
+   text-align: center !important;
    font-size: 1.2rem;
 }
 
 .h4-up{
-    text-align: center;
+    text-align: center !important;
  ;
 }
 
@@ -1868,15 +1869,16 @@ top:19rem;
 .h5-u{
   color: #512a83;
   font-size: 0.7rem;
+  text-align: center !important;
 }
 
 .col-down{
-  text-align: center;
+  text-align: justify;
  margin-top: 26rem;
 }
 
 .col-up{
-
+  text-align: justify;
   margin-top: 5rem;
 
 }
@@ -1901,6 +1903,7 @@ top:19rem;
 .upgrade-content {
     margin: 0rem 3rem;
     color: #3a3a3b;
+    text-align: justify !important;
     /*padding-bottom: 7rem;*/
 }
 

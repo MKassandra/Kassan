@@ -968,7 +968,7 @@ footer {
 
 #who-body-content {
     padding: 4rem 6rem !important;
-    padding-top: 13rem !important;
+    padding-top: 17rem !important;
     padding-bottom: 11rem !important;
     line-height: 1;
     color: black;
@@ -1218,7 +1218,7 @@ footer {
 .h1-about {
   color:#523883 !important;
     margin: 0rem 0rem;
-    padding-left: 5rem;
+    padding-left: 0rem;
     padding-bottom: 0 !important;
 }
 
@@ -1894,7 +1894,34 @@ top:19rem;
 
 .col-up{
   text-align: justify;
-  margin-top: 5rem;
+  margin-top: 7rem;
+}
+
+.col-one{
+
+}
+
+.col-two{
+
+}
+
+.col-three{
+
+}
+
+.col-four{
+margin-top: 2rem;
+}
+
+.col-five{
+
+}
+
+.col-six{
+
+}
+
+.col-seven{
 
 }
 
@@ -1916,7 +1943,7 @@ top:19rem;
 }
 
 .upgrade-content {
-    margin: 0rem 3rem;
+    margin: 0rem 0rem;
     color: #3a3a3b;
     text-align: justify !important;
     /*padding-bottom: 7rem;*/
@@ -2817,7 +2844,7 @@ width: 100% !important;
     padding-left: 10em !important;
     padding-right: 35rem !important;
     padding-top: 3em !important;*/
-    padding-top: 15em !important;
+    padding-top: 20em !important;
     color: #3a3a3b;
     text-align: justify;
     /*  background-image: url("images/bg/payroll_new.jpg") !important;
@@ -3330,7 +3357,7 @@ height: 100% !important;*/
             /*  background-image: url("images/bg/eload_new.jpg") !important;
           background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_eload.png") !important;*/
             background-size: 100% 100%;
-            height: 35rem;
+            height: 45rem;
             width: 100% !important;
             background-repeat: no-repeat !important;
         }
@@ -3343,7 +3370,7 @@ height: 100% !important;*/
           /*  background-image: url("images/bg/remittance_new.jpg") !important;
             background-image: linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%),url("images/bg/remit_bg2.png") !important;*/
             background-size: cover;
-            height: 35rem;
+            height: 45rem;
             width: 100% !important;
             background-position: top !top;
             background-repeat: no-repeat !important;
@@ -3357,7 +3384,7 @@ height: 100% !important;*/
           /*  background-image: url("images/bg/fund_new.jpg") !important;
             background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_transfer.png") !important;*/
             background-size: 100% 100%;
-            height: 35rem;
+            height: 45rem;
             width: 100% !important;
             background-repeat: no-repeat !important;
         }

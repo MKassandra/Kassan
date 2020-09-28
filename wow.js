@@ -7,7 +7,7 @@ $(window).scroll(function() {
     var pos = $(this).offset().top;
 
     var winTop = $(window).scrollTop();
-    if (pos < winTop + 400) {
+    if (pos < winTop + 400) { //400 is original
       $(this).addClass("slide");
     }
   });

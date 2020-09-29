@@ -395,16 +395,39 @@ footer {
 }
 
 @media screen and (min-width: 1366px) {
-.jumbbank{height: 39.9rem;}
+.jumbbank{
+  height: 39.9rem;
+}
+
+.h1-home-front{
+  font-size: 3.7rem;
+}
+
 }
 @media screen and (min-width: 1440px) {
-.jumbbank{height: 49.9rem;}
+.jumbbank{height: 45.9rem;}
+.h1-home-front{
+  font-size: 3.7rem;
+}
 }
 @media screen and (min-width: 1600px) {
-.jumbbank{height: 59.9rem;}
+.jumbbank{height: 55.9rem;}
+.h1-home-front{
+  font-size: 4.7rem;
+}
 }
 @media screen and (min-width: 1920px) {
-.jumbbank{height: 69.9rem;}
+.jumbbank{height: 65.9rem;}
+.h1-home-front{
+  font-size: 5.7rem;
+}
+}
+
+@media screen and (min-width: 2640px) {
+.jumbbank{height: 85.9rem;}
+.h1-home-front{
+  font-size: 6.7rem;
+}
 }
 
 .s_custom {

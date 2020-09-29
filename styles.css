@@ -3400,8 +3400,8 @@ width: 100% !important;
     padding: 6em 10em !important;
     padding-left: 7em !important;
     padding-right: 51em !important;
-    padding-top: 15em !important;
-  padding-top: 4em !important;*/
+  /*  padding-top: 15em !important;*/
+  padding-top: 5em !important;
     color: #3a3a3b;
     text-align: justify;
  background-image:url("images/bg/purchase_new.jpg") !important;
@@ -3413,7 +3413,7 @@ width: 100% !important;
     /* backup solution incase scrollify go bananas
   height: 100% !important;
   width: 100% !important;*/
-    background-position: left;
+    background-position: top center;
     background-repeat: no-repeat !important;
 }
 
@@ -3425,11 +3425,12 @@ width: 100% !important;
 .payroll {
     padding: 6em 6em !important;
     padding-left: 55em !important;
+      padding-top: 3em !important;
     /*
     padding-left: 10em !important;
     padding-right: 35rem !important;
-    padding-top: 3em !important;*/
-    padding-top: 20em !important;
+
+    padding-top: 20em !important;*/
     color: #3a3a3b;
     text-align: justify;
   background-image: url("images/bg/payroll_new.jpg") !important;
@@ -3441,7 +3442,7 @@ width: 100% !important;
     /* backup solution incase scrollify go bananas
   height: 100% !important;
   width: 100% !important;*/
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat !important;
 }
 .payroll-text{
@@ -3454,7 +3455,7 @@ width: 100% !important;
     padding-left: 40em !important;
     /*padding-right: 15rem !important;
     padding-top: 1rem !important;*/
-      padding-top: 19rem !important;
+      padding-top: 1rem !important;
     color: #3a3a3b;
     text-align: justify;
   background-image:url("images/bg/ebank_new.jpg") !important;

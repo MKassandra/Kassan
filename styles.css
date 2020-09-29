@@ -378,7 +378,7 @@ footer {
 
 
 
-.jumbbank {
+.home-body {
     padding: 3rem 2rem !important;
     margin-top: -5rem!important;
     font-weight: bolder !important;
@@ -394,8 +394,9 @@ footer {
     background-repeat: no-repeat !important;
 }
 
+/*MEDIA-HOME*/
 @media screen and (min-width: 1366px) {
-.jumbbank{
+.home-body{
   height: 39.9rem;
 }
 
@@ -405,28 +406,28 @@ footer {
 
 }
 @media screen and (min-width: 1440px) {
-.jumbbank{height: 45.9rem;}
-.h1-home-front{
-  font-size: 3.7rem;
-}
-}
-@media screen and (min-width: 1600px) {
-.jumbbank{height: 55.9rem;}
-.h1-home-front{
-  font-size: 4.7rem;
-}
-}
-@media screen and (min-width: 1920px) {
-.jumbbank{height: 65.9rem;}
+.home-body{height: 45.9rem;}
 .h1-home-front{
   font-size: 5.7rem;
 }
 }
-
-@media screen and (min-width: 2640px) {
-.jumbbank{height: 85.9rem;}
+@media screen and (min-width: 1600px) {
+.home-body{height: 55.9rem;}
 .h1-home-front{
   font-size: 6.7rem;
+}
+}
+@media screen and (min-width: 1920px) {
+.home-body{height: 65.9rem;}
+.h1-home-front{
+  font-size: 7.7rem;
+}
+}
+
+@media screen and (min-width: 2640px) {
+.home-body{height: 85.9rem;}
+.h1-home-front{
+  font-size: 8.7rem;
 }
 }
 
@@ -1696,11 +1697,45 @@ top:19rem;
   left: 15.2rem;*/
   z-index: 80;
 }
-/*ZOOM OUT PRODUCT PAGE*/
-@media screen and (min-width: 1400px){
+/*MEDIA-PRODUCT*/
+@media screen and (min-width: 1240px) {
   .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
-      height: 50rem;
+      height: 42rem;
   }
+}
+@media screen and (min-width: 1366px) {
+  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
+      height: 42rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
+      height: 48rem;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
+      height: 57rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
+      height: 70rem;
+  }
+
+}
+@media screen and (min-width: 2640px) {
+  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
+      height: 80rem;
+  }
+
+}
+
+
+@media screen and (min-width: 1400px){
+/*  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
+      height: 50rem;
+  }*/
 
   .row-product-btn{
     position: absolute;
@@ -1721,21 +1756,69 @@ top:19rem;
   .row-product-btn{
     position: absolute;
     top:40rem;
-      left: 44rem!important;
+      left: 42rem!important;
     z-index: 99;
   }
   .row-product-line{
     position: absolute;
     top:38rem;
-    left:25rem !important;
+    left:23rem !important;
     z-index: 80;
   }
 }
 
 @media screen and (min-width: 1800px){
-  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
-      height: 60rem;
+  /*.s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
+      height: 70rem;
+  }*/
+  .row-product-btn{
+    position: absolute;
+    top:42rem;
+      left: 46rem!important;
+    z-index: 99;
   }
+  .row-product-line{
+    position: absolute;
+    top:40rem;
+    left:27rem !important;
+    z-index: 80;
+  }
+
+}
+
+@media screen and (min-width: 2040px){
+  /*.s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
+      height: 70rem;
+  }*/
+  .row-product-btn{
+    position: absolute;
+    top:48rem;
+      left: 54rem!important;
+    z-index: 99;
+  }
+  .row-product-line{
+    position: absolute;
+    top:46rem;
+    left:35rem !important;
+    z-index: 80;
+  }
+
+}
+
+@media screen and (min-width: 2700px){
+  .row-product-btn{
+    position: absolute;
+    top:64rem;
+      left: 74rem!important;
+    z-index: 99;
+  }
+  .row-product-line{
+    position: absolute;
+    top:62rem;
+    left:55rem !important;
+    z-index: 80;
+  }
+
 }
 
 

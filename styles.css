@@ -1712,6 +1712,7 @@ top:19rem;
   .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
       height: 48rem;
   }
+
 }
 @media screen and (min-width: 1600px) {
   .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {

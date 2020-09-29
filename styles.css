@@ -2566,6 +2566,32 @@ padding-top: 26rem;
 .a-right{
   text-align: left;
 }
+/*MEDIA-ACCESS*/
+@media screen and (min-width: 1366px) {
+  #access-product-body {
+      height: 40rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #access-product-body {
+      height: 40rem;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #access-product-body {
+      height: 50rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #access-product-body {
+      height: 60rem;
+  }
+}
+@media screen and (min-width: 2640px) {
+  #access-product-body {
+      height: 80rem;
+  }
+}
 
 @media screen and (max-width: 1080px) {
   .access-product-dev{

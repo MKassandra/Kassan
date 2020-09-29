@@ -2776,6 +2776,11 @@ padding-top: 26rem;
   padding-bottom: 30rem;
 }
 
+.balance, .withdrawal, .bills, .purchase, .payroll, .e-bank, .eload., .remit, .funds, .mobile,.online{
+  padding: 6em 10em !important;
+  height: 65rem !important;
+  background-position: top;
+}
 
 .balance {
     padding: 6em 6em !important;
@@ -3395,7 +3400,7 @@ height: 100% !important;*/
     @media screen and (max-width: 1870px) {
 .balance, .withdrawal, .bills, .purchase, .payroll, .e-bank, .eload., .remit, .funds, .mobile,.online{
   padding: 6em 10em !important;
-  height: 55rem !important;
+  height: 65rem !important;
 }
 
 

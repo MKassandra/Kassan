@@ -1646,7 +1646,7 @@ left:0.3rem;
 .row-product-btn{
   position: absolute;
   top:33rem;
-    left: 35rem;
+    left: 33rem;
 /*  top:23rem;
   left: 23rem;*/
   z-index: 99;
@@ -1654,11 +1654,52 @@ left:0.3rem;
 .row-product-line{
   position: absolute;
   top:31rem;
-  left:16rem;
+  left:14rem;
   /*  left: 28rem;
 top:19rem;
   left: 15.2rem;*/
   z-index: 80;
+}
+/*ZOOM OUT PRODUCT PAGE*/
+@media screen and (min-width: 1400px){
+  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
+      height: 50rem;
+  }
+
+  .row-product-btn{
+    position: absolute;
+    top:36rem;
+      left: 37rem!important;
+    z-index: 99;
+  }
+  .row-product-line{
+    position: absolute;
+    top:34rem;
+    left:18rem !important;
+    z-index: 80;
+  }
+
+}
+
+@media screen and (min-width: 1670px){
+  .row-product-btn{
+    position: absolute;
+    top:40rem;
+      left: 44rem!important;
+    z-index: 99;
+  }
+  .row-product-line{
+    position: absolute;
+    top:38rem;
+    left:25rem !important;
+    z-index: 80;
+  }
+}
+
+@media screen and (min-width: 1800px){
+  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
+      height: 60rem;
+  }
 }
 
 

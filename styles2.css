@@ -3395,6 +3395,7 @@ height: 100% !important;*/
     @media screen and (max-width: 1870px) {
 .balance, .withdrawal, .bills, .purchase, .payroll, .e-bank, .eload., .remit, .funds, .mobile,.online{
   padding: 6em 10em !important;
+  height: 55rem !important;
 }
 
 

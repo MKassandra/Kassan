@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h3>Colored Navbar</h3>
+  <p>Use any of the .bg-color classes to add a background color to the navbar.</p>
+  <p>Tip: Add a white text color to all links in the navbar with the .navbar-dark class, or use the .navbar-light class to add a black text color.</p>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <ul class="navbar-nav active">
+    <li class="nav-item ">
+        <a class="nav-link second-nav-item" href="#"></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link second-nav-item" href="#"></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link second-nav-item" href="#"></a>
+    </li>
+      <li class="nav-item second-n-border">
+          <a class="nav-link second-nav-item " href="#1">Balance</a>
+      </li>
+      <li class="nav-item second-n-border">
+          <a class="nav-link second-nav-item" href="#2">Withdrawal</a>
+      </li>
+      <li class="nav-item second-n-border">
+          <a class="nav-link second-nav-item" href="#3">Bills Payment</a>
+      </li>
+      <li class="nav-item second-n-border">
+          <a class="nav-link second-nav-item" href="#4">Purchase</a>
+      </li>
+      <li class="nav-item second-n-border">
+          <a class="nav-link second-nav-item" href="#5">Payroll</a>
+      </li>
+      <li class="nav-item second-n-border">
+          <a class="nav-link second-nav-item" href="#6">E-banking</a>
+      </li>
+      <li class="nav-item second-n-border">
+          <a class="nav-link second-nav-item" href="#7">E-loading</a>
+      </li>
+      <li class="nav-item second-n-border">
+          <a class="nav-link second-nav-item" href="#8">Remittance</a>
+      </li>
+      <li class="nav-item second-n-border">
+          <a class="nav-link second-nav-item" href="#9">Fund Transfer</a>
+      </li>
+      <li class="nav-item second-n-border">
+          <a class="nav-link second-nav-item" href="#10">Mobile Banking</a>
+      </li>
+      <li class="nav-item second-n-border">
+          <a class="nav-link second-nav-item" href="#11">Online Banking</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link second-nav-item" href="#12">E-Wallet</a>
+      </li>
+  </ul>
+</nav>
+
+<script>
+$('.navbar-nav .nav-link').click(function(){
+    $('.navbar-nav .nav-link').removeClass('active');
+    $(this).addClass('active');
+})
+</script>
+
+</body>
+</html>

@@ -1788,9 +1788,6 @@ top:19rem;
 }
 
 @media screen and (min-width: 2040px){
-  /*.s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
-      height: 70rem;
-  }*/
   .row-product-btn{
     position: absolute;
     top:48rem;
@@ -1821,7 +1818,6 @@ top:19rem;
   }
 
 }
-
 
 .row-1 {
     text-align: center;
@@ -4377,6 +4373,32 @@ padding-left: 36rem !important;
   margin: 1rem 0rem;
 }
 
+@media screen and (min-width: 1366px) {
+  #partner-body-content {
+      height: 39rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #partner-body-content {
+      height: 40rem;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #partner-body-content {
+      height: 48rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #partner-body-content {
+      height: 58rem;
+  }
+}
+@media screen and (min-width: 2640px) {
+  #partner-body-content {
+      height: 75rem;
+  }
+}
+
 @media screen and (max-width: 479px) {
     .partner-display{
       height: auto;
@@ -4421,7 +4443,8 @@ padding-left: 36rem !important;
 }
 
 .form-inline{
-  padding: 0rem 3.8rem;
+  padding: 0rem 1rem;
+  /*padding: 0rem 3.8rem;*/
 }
 
 .calendar-move{
@@ -4547,7 +4570,7 @@ small {
 .btn-stalk {
     padding: 1rem 5rem !important;
     background-color: #a683bc!important;
-    margin: 0rem 10rem !important;
+    margin: 0rem 9rem !important;
 }
 
 .col-form-label {
@@ -4564,6 +4587,33 @@ small {
     padding-left: 0rem !important;
 }
 
+/*MEDIA-TALK*/
+
+@media screen and (min-width: 1366px) {
+  #talk-body-content {
+      height: 40rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #talk-body-content {
+      height: 40rem;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #talk-body-content {
+      height: 48rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #talk-body-content {
+      height: 55rem;
+  }
+}
+@media screen and (min-width: 2640px) {
+  #talk-body-content {
+      height: 73rem;
+  }
+}
 
         /*Navbar manipulation*/
         /* Media Rules */

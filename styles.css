@@ -2773,7 +2773,6 @@ padding-top: 26rem;
   /*background-image: url("images/bg/service_bg_all.png") !important;*/
   background-size: cover;
   background-position: top center;
-  padding-bottom: 30rem;
 }
 
 
@@ -2833,8 +2832,9 @@ width: 100% !important;
     padding-left: 53em !important;
     /*padding-right: 35rem !important;
     padding-left: 10em !important;
-    padding-top: 5em !important;*/
-      padding-top: 19em !important;
+      padding-top: 19em !important;*/
+
+      padding-top: 5em !important;
     color: #3a3a3b;
     text-align: justify!important;
    background-image:url("images/bg/bills_new.jpg") !important;
@@ -2860,7 +2860,7 @@ width: 100% !important;
     padding-left: 7em !important;
     padding-right: 51em !important;
     padding-top: 15em !important;
-    /*padding-top: 4em !important;*/
+  padding-top: 4em !important;*/
     color: #3a3a3b;
     text-align: justify;
  background-image:url("images/bg/purchase_new.jpg") !important;
@@ -3393,15 +3393,11 @@ height: 100% !important;*/
 
 
     @media screen and (max-width: 1870px) {
-.balance, .withdrawal, .bills, .purchase, .payroll, .e-bank, .eload., .remit, .funds, .mobile,.online{
-  padding: 6em 10em !important;
-}
-
 
         .eload {
             padding: 6em 10em !important;
             padding-right: 45em !important;
-            padding-top: 30em !important;
+            padding-top: 15em !important;
           background-image: url("images/bg/eload_new.jpg") !important;
             /*  background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_eload.png") !important;*/
             background-size: 100% 100%;
@@ -3413,8 +3409,8 @@ height: 100% !important;*/
         .remit {
             padding: 6em 10em !important;
             padding-left: 47em !important;
-        /*    padding-top: 10em !important;*/
-              padding-top: 38em !important;
+        padding-top: 10em !important;
+              /*    padding-top: 38em !important;*/
           background-image: url("images/bg/remittance_new.jpg") !important;
             /*  background-image: linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%),url("images/bg/remit_bg2.png") !important;*/
             background-size: cover;
@@ -3427,8 +3423,8 @@ height: 100% !important;*/
         .fund {
             padding: 6em 7em !important;
             padding-right: 50em !important;
-            padding-top: 39em !important;
-              /*padding-top: 10em !important;*/
+              /*  padding-top: 39em !important;*/
+          padding-top: 10em !important;
             background-image: url("images/bg/fund_new.jpg") !important;
           /*  background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_transfer.png") !important;*/
             background-size: 100% 100%;
@@ -3440,8 +3436,8 @@ height: 100% !important;*/
         .mobile {
             padding: 6em 10em !important;
             padding-left: 50em !important;
-            /*padding-top: 10em !important;*/
-              padding-top: 45em !important;
+            padding-top: 10em !important;
+            /*  padding-top: 45em !important;*/
             text-align: justify;
          background-image: url("images/bg/mobile_new.jpg") !important;
             /*   background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_mobile.png") !important;*/
@@ -3456,11 +3452,11 @@ height: 100% !important;*/
         .online {
             padding: 6em 6em !important;
             padding-left: 60em !important;
-            padding-top: 43em !important;
+            padding-top: 12em !important;
               background-image: url("images/bg/online_new.jpg") !important;
               /*
-  padding-top: 12em !important;
 
+  padding-top: 43em !important;
           background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_obank.png") !important;*/
             background-size: 100% 100%;
             height: 45rem;
@@ -3471,10 +3467,11 @@ height: 100% !important;*/
         .ewallet {
             padding: 6em 10em !important;
             padding-right: 45em !important;
-            padding-top: 40em !important;
+              padding-top: 10em !important;
+
               background-image: url("images/bg/ewallet_new.jpg") !important;
               /*
-                  padding-top: 10em !important;
+                padding-top: 40em !important;
 
           background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_ewallet.png") !important;*/
             background-size: 100% 100%;

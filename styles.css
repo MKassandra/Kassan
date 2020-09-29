@@ -2515,23 +2515,45 @@ padding-top: 26rem;
   #cashless-product-body {
       height:40rem;
   }
+  .cashless-row{
+  padding-top: 26rem;
+  }
 }
 @media screen and (min-width: 1440px) {
   #cashless-product-body {
       background-position: center;
       height:40rem;
   }
+  .cashless-row{
+  padding-top: 31rem;
+  }
 }
 @media screen and (min-width: 1600px) {
+  #cashless-product-body {
+      background-position: bottom;
+      height:50rem;
+  }
+  .cashless-row{
+  padding-top: 33rem;
+  }
+}
+@media screen and (min-width: 1800px) {
   #cashless-product-body {
       background-position: center;
       height:50rem;
   }
+  .cashless-row{
+  padding-top: 39rem;
+  }
 }
+
 @media screen and (min-width: 1920px) {
   #cashless-product-body {
       background-position: center;
       height:55rem;
+  }
+  .cashless-row{
+  padding-top: 44rem;
   }
 }
 @media screen and (min-width: 2640px) {
@@ -2539,7 +2561,12 @@ padding-top: 26rem;
       background-position: center;
       height:70rem;
   }
+  .cashless-row{
+  padding-top: 58rem;
+  }
 }
+
+
 
 @media screen and (max-width: 1080px) {
 .col-cashless {
@@ -4377,26 +4404,59 @@ padding-left: 36rem !important;
   #partner-body-content {
       height: 39rem;
   }
+  .partner-display{
+      margin: 1rem 0;
+    height: 6rem;}
 }
 @media screen and (min-width: 1440px) {
   #partner-body-content {
       height: 40rem;
   }
+  .partner-display{
+    margin: 1rem 0;
+      height: 6rem}
 }
 @media screen and (min-width: 1600px) {
   #partner-body-content {
       height: 48rem;
   }
+  .row-partner{
+    padding-left: 50rem;
+  }
+  .row-p3{
+  padding-left: 56rem !important;
+  }
+  .partner-display{
+    margin: 2rem 1rem;
+      height: 7.4rem}
 }
 @media screen and (min-width: 1920px) {
   #partner-body-content {
       height: 58rem;
   }
+  .row-partner{
+    padding-left: 50rem;
+  }
+  .row-p3{
+  padding-left: 56rem !important;
+  }
+  .partner-display{
+    margin: 3rem 0;
+      height: 10rem;}
 }
+
 @media screen and (min-width: 2640px) {
   #partner-body-content {
       height: 75rem;
   }
+  .row-partner{
+    padding-left: 60rem;
+  }
+  .row-p3{
+  padding-left: 66rem !important;
+  }
+  .partner-display{
+    height: 15rem;}
 }
 
 @media screen and (max-width: 479px) {

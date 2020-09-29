@@ -2774,25 +2774,26 @@ padding-top: 26rem;
   background-size: cover;
   background-position: top center;
   padding-bottom: 30rem;
+  color: #3a3a3b;
+  text-align: justify !important;
 }
 
+/*
 .balance, .withdrawal, .bills, .purchase, .payroll, .e-bank, .eload., .remit, .funds, .mobile,.online{
   padding: 6em 10em !important;
   height: 65rem !important;
   background-position: top;
-}
+}*/
 
 .balance {
-    padding: 6em 6em !important;
+    /*padding: 6em 6em !important;
     padding-left: 60em !important;
-    padding-top: 4em !important;
-    color: #3a3a3b;
-  text-align: justify !important;
+    padding-top: 4em !important;*/
  background-image: url("images/bg/bal2_new.jpg") !important;
     /*   background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/balance_bg1.png") !important;*/
     background-size: cover;
   height: 45rem;
-    background-position: top right;
+    background-position: center;
     background-repeat: no-repeat !important;
 }
 .balance-text{
@@ -2816,7 +2817,7 @@ width: 100% !important;*/
     background-color: rgba(255, 255, 255, 0.6);*/
     background-size: cover;
     height: 45rem;
-    background-position: top right;
+    background-position: center;
     background-repeat: no-repeat !important;
 
 }
@@ -3191,6 +3192,170 @@ height: 100% !important;*/
     font-size: 5rem !important;
 }
 
+/*MEDIA-SERVICES*/
+
+    @media screen and (min-width: 1870px) {
+.balance, .withdrawal, .bills, .purchase, .payroll, .e-bank, .eload., .remit, .funds, .mobile,.online{
+  height: 65rem !important;
+}
+        .eload {
+            padding: 6em 10em !important;
+            padding-right: 45em !important;
+            padding-top: 30em !important;
+          background-image: url("images/bg/eload_new.jpg") !important;
+            /*  background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_eload.png") !important;*/
+            background-size: 100% 100%;
+            height: 45rem;
+            width: 100% !important;
+            background-repeat: no-repeat !important;
+        }
+
+        .remit {
+            padding: 6em 10em !important;
+            padding-left: 47em !important;
+        /*    padding-top: 10em !important;*/
+              padding-top: 38em !important;
+          background-image: url("images/bg/remittance_new.jpg") !important;
+            /*  background-image: linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%),url("images/bg/remit_bg2.png") !important;*/
+            background-size: cover;
+            height: 45rem;
+            width: 100% !important;
+            background-position: top !top;
+            background-repeat: no-repeat !important;
+        }
+
+        .fund {
+            padding: 6em 7em !important;
+            padding-right: 50em !important;
+            padding-top: 39em !important;
+              /*padding-top: 10em !important;*/
+            background-image: url("images/bg/fund_new.jpg") !important;
+          /*  background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_transfer.png") !important;*/
+            background-size: 100% 100%;
+            height: 45rem;
+            width: 100% !important;
+            background-repeat: no-repeat !important;
+        }
+
+        .mobile {
+            padding: 6em 10em !important;
+            padding-left: 50em !important;
+            /*padding-top: 10em !important;*/
+              padding-top: 45em !important;
+            text-align: justify;
+         background-image: url("images/bg/mobile_new.jpg") !important;
+            /*   background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_mobile.png") !important;*/
+            /*background-color: rgba(255, 255, 255, 0.5) !important;
+            background-blend-mode: overlay;*/
+            background-size: 100% 100%;
+            height: 45rem;
+            width: 100% !important;
+            background-repeat: no-repeat !important;
+        }
+
+        .online {
+            padding: 6em 6em !important;
+            padding-left: 60em !important;
+            padding-top: 43em !important;
+              background-image: url("images/bg/online_new.jpg") !important;
+              /*
+  padding-top: 12em !important;
+
+          background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_obank.png") !important;*/
+            background-size: 100% 100%;
+            height: 45rem;
+            width: 100% !important;
+            background-repeat: no-repeat !important;
+        }
+
+        .ewallet {
+            padding: 6em 10em !important;
+            padding-right: 45em !important;
+            padding-top: 40em !important;
+              background-image: url("images/bg/ewallet_new.jpg") !important;
+              /*
+                  padding-top: 10em !important;
+
+          background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_ewallet.png") !important;*/
+            background-size: 100% 100%;
+            height: 45rem;
+            width: 100% !important;
+            background-repeat: no-repeat !important;
+        }
+    }
+
+
+
+    @media screen and (max-width: 1270px) {
+        .eload {
+            padding: 13rem 8rem !important;
+            color: #3a3a3b;
+            background-image: url("images/s_eload.png") !important;
+            background-size: cover;
+            width: 100% !important;
+            background-repeat: no-repeat !important;
+        }
+
+        .remit {
+            padding: 10rem 6rem !important;
+            color: #3a3a3b;
+            background-image: url("images/bg/remit_bg2.png") !important;
+            background-size: cover;
+            height: 35rem;
+            width: 100% !important;
+            background-repeat: no-repeat !important;
+        }
+
+        .fund {
+            padding: 7rem 8rem !important;
+            color: #3a3a3b ;
+            background-image: url("images/s_transfer.png") !important;
+            background-size: cover;
+            height: 35rem;
+            width: 100% !important;
+            background-repeat: no-repeat !important;
+        }
+
+        .mobile {
+            padding: 7rem 8rem !important;
+            color:  #3a3a3b;
+            background-image: url("images/s_mobile.png") !important;
+            background-color: rgba(255, 255, 255, 0.5) !important;
+            background-blend-mode: overlay;
+            background-size: cover;
+            height: 35rem;
+            width: 100% !important;
+            background-repeat: no-repeat !important;
+        }
+
+        .online {
+            padding: 7rem 8rem !important;
+            color:  #3a3a3b;
+            background-image: url("images/s_obank.png") !important;
+            background-size: cover;
+            height: 35rem;
+            width: 100% !important;
+            background-repeat: no-repeat !important;
+        }
+
+        .ewallet {
+            padding: 13rem 7rem !important;
+            color: #3a3a3b;
+            background-image: url("images/s_ewallet.png") !important;
+            background-size: cover;
+            height: 35rem;
+            width: 100% !important;
+            background-repeat: no-repeat !important;
+        }
+
+      }
+
+
+
+
+
+
+
 /* service page: vertical pagination position*/
 .btn-nav {
     color: black !important;
@@ -3396,163 +3561,6 @@ height: 100% !important;*/
     display: none;
 }
 
-
-    @media screen and (max-width: 1870px) {
-.balance, .withdrawal, .bills, .purchase, .payroll, .e-bank, .eload., .remit, .funds, .mobile,.online{
-  padding: 6em 10em !important;
-  height: 65rem !important;
-}
-
-
-        .eload {
-            padding: 6em 10em !important;
-            padding-right: 45em !important;
-            padding-top: 30em !important;
-          background-image: url("images/bg/eload_new.jpg") !important;
-            /*  background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_eload.png") !important;*/
-            background-size: 100% 100%;
-            height: 45rem;
-            width: 100% !important;
-            background-repeat: no-repeat !important;
-        }
-
-        .remit {
-            padding: 6em 10em !important;
-            padding-left: 47em !important;
-        /*    padding-top: 10em !important;*/
-              padding-top: 38em !important;
-          background-image: url("images/bg/remittance_new.jpg") !important;
-            /*  background-image: linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%),url("images/bg/remit_bg2.png") !important;*/
-            background-size: cover;
-            height: 45rem;
-            width: 100% !important;
-            background-position: top !top;
-            background-repeat: no-repeat !important;
-        }
-
-        .fund {
-            padding: 6em 7em !important;
-            padding-right: 50em !important;
-            padding-top: 39em !important;
-              /*padding-top: 10em !important;*/
-            background-image: url("images/bg/fund_new.jpg") !important;
-          /*  background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_transfer.png") !important;*/
-            background-size: 100% 100%;
-            height: 45rem;
-            width: 100% !important;
-            background-repeat: no-repeat !important;
-        }
-
-        .mobile {
-            padding: 6em 10em !important;
-            padding-left: 50em !important;
-            /*padding-top: 10em !important;*/
-              padding-top: 45em !important;
-            text-align: justify;
-         background-image: url("images/bg/mobile_new.jpg") !important;
-            /*   background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_mobile.png") !important;*/
-            /*background-color: rgba(255, 255, 255, 0.5) !important;
-            background-blend-mode: overlay;*/
-            background-size: 100% 100%;
-            height: 45rem;
-            width: 100% !important;
-            background-repeat: no-repeat !important;
-        }
-
-        .online {
-            padding: 6em 6em !important;
-            padding-left: 60em !important;
-            padding-top: 43em !important;
-              background-image: url("images/bg/online_new.jpg") !important;
-              /*
-  padding-top: 12em !important;
-
-          background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_obank.png") !important;*/
-            background-size: 100% 100%;
-            height: 45rem;
-            width: 100% !important;
-            background-repeat: no-repeat !important;
-        }
-
-        .ewallet {
-            padding: 6em 10em !important;
-            padding-right: 45em !important;
-            padding-top: 40em !important;
-              background-image: url("images/bg/ewallet_new.jpg") !important;
-              /*
-                  padding-top: 10em !important;
-
-          background-image: linear-gradient(to left, rgba(251,251,251,1) 20%, rgba(255,255,255,0) 100%),url("images/s_ewallet.png") !important;*/
-            background-size: 100% 100%;
-            height: 45rem;
-            width: 100% !important;
-            background-repeat: no-repeat !important;
-        }
-    }
-
-    @media screen and (max-width: 1270px) {
-        .eload {
-            padding: 13rem 8rem !important;
-            color: #3a3a3b;
-            background-image: url("images/s_eload.png") !important;
-            background-size: cover;
-            width: 100% !important;
-            background-repeat: no-repeat !important;
-        }
-
-        .remit {
-            padding: 10rem 6rem !important;
-            color: #3a3a3b;
-            background-image: url("images/bg/remit_bg2.png") !important;
-            background-size: cover;
-            height: 35rem;
-            width: 100% !important;
-            background-repeat: no-repeat !important;
-        }
-
-        .fund {
-            padding: 7rem 8rem !important;
-            color: #3a3a3b ;
-            background-image: url("images/s_transfer.png") !important;
-            background-size: cover;
-            height: 35rem;
-            width: 100% !important;
-            background-repeat: no-repeat !important;
-        }
-
-        .mobile {
-            padding: 7rem 8rem !important;
-            color:  #3a3a3b;
-            background-image: url("images/s_mobile.png") !important;
-            background-color: rgba(255, 255, 255, 0.5) !important;
-            background-blend-mode: overlay;
-            background-size: cover;
-            height: 35rem;
-            width: 100% !important;
-            background-repeat: no-repeat !important;
-        }
-
-        .online {
-            padding: 7rem 8rem !important;
-            color:  #3a3a3b;
-            background-image: url("images/s_obank.png") !important;
-            background-size: cover;
-            height: 35rem;
-            width: 100% !important;
-            background-repeat: no-repeat !important;
-        }
-
-        .ewallet {
-            padding: 13rem 7rem !important;
-            color: #3a3a3b;
-            background-image: url("images/s_ewallet.png") !important;
-            background-size: cover;
-            height: 35rem;
-            width: 100% !important;
-            background-repeat: no-repeat !important;
-        }
-
-      }
 
 @media screen and (max-width: 1080px) {
 

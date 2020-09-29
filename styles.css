@@ -394,6 +394,19 @@ footer {
     background-repeat: no-repeat !important;
 }
 
+@media screen and (min-width: 1366px) {
+.jumbbank{height: 39.9rem;}
+}
+@media screen and (min-width: 1440px) {
+.jumbbank{height: 49.9rem;}
+}
+@media screen and (min-width: 1600px) {
+.jumbbank{height: 59.9rem;}
+}
+@media screen and (min-width: 1920px) {
+.jumbbank{height: 69.9rem;}
+}
+
 .s_custom {
     padding: 6em 10em !important;
     color: #3a3a3b !important;

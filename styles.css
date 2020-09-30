@@ -1427,6 +1427,34 @@ footer {
   width: 5rem;
 }
 
+/*MEDIA-BOD*/
+/*MEDIA-WHO*/
+@media screen and (min-width: 1440px) {
+.h6-bod-name{
+    font-size: 1rem !important;
+  }
+}
+@media screen and (min-width: 1600px) {
+.h6-bod-name{
+    font-size: 1.1rem !important;
+  }
+}
+@media screen and (min-width: 1810px) {
+.h6-bod-name {
+    font-size: 1.2rem !important;
+  }
+}
+@media screen and (min-width: 1920px) {
+..h6-bod-name{
+    font-size: 1.3rem !important;
+  }
+}
+@media screen and (min-width: 2640px) {
+.h6-bod-name{
+    font-size: 1.8rem !important;
+  }
+}
+
 
 @media screen and (max-width: 990px) {
   .row-bod{

@@ -3933,8 +3933,195 @@ height: 100% !important;*/
     display: none;
 }
 
+/*MEDIA-SERVICE*/
+    @media screen and (max-width: 2770px) {/*max-width: 1870px*/
 
-    @media screen and (max-width: 1870px) {
+      .balance {
+          padding: 6em 6em !important;
+          padding-left: 60em !important;
+          padding-top: 4em !important;
+          color: #3a3a3b;
+        text-align: justify !important;
+       background-image: url("images/bg/bal2_new.jpg") !important;
+          /*   background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/balance_bg1.png") !important;*/
+        background-size: 100% 100%;
+        height: 45rem;
+        width: 100% !important;
+          background-repeat: no-repeat !important;
+      }
+      .balance-text{
+        margin-top: 14rem;
+        font-weight: bolder !important;
+      }
+      /* backup solution incase scrollify go bananas
+      height: 100% !important;
+      width: 100% !important;*/
+
+      .withdrawal {
+          padding: 6em 10em !important;
+          padding-left: 10em !important;
+          padding-top: 15em !important;
+          padding-right: 48em !important;
+            text-align: justify !important;
+          color: #3a3a3b;
+         background-image: url("images/bg/withdraw_new.jpg") !important;
+        /*   background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/withdraw.png") !important;*/
+          /*background-blend-mode: overlay;
+          background-color: rgba(255, 255, 255, 0.6);*/
+          background-size: 100% 100%;
+          height: 45rem;
+          width: 100% !important;
+          background-repeat: no-repeat !important;
+
+      }
+
+      .withdraw-text{
+        margin-top: 7rem;
+        font-weight: bolder !important;
+      }
+
+      /* backup solution incase scrollify go bananas
+      height: 100% !important;
+      width: 100% !important;
+       h1{
+        font-weight: bold !important;
+      }*/
+
+      .bills {
+          padding: 6em 6em !important;
+          padding-left: 53em !important;
+          /*padding-right: 35rem !important;
+          padding-left: 10em !important;
+            padding-top: 19em !important;*/
+
+            padding-top: 5em !important;
+          color: #3a3a3b;
+          text-align: justify!important;
+         background-image:url("images/bg/bills_new.jpg") !important;
+        /*   background-image: linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%),url("images/bg/bills_bg2.png") !important;*/
+          /*background-blend-mode: overlay;*/
+          /*background-color: rgba(232, 160, 213, 0.2);*/
+          background-size: 100% 100%;
+          height: 45rem;
+          width: 100% !important;
+          /* backup solution incase scrollify go bananas
+        height: 100% !important;
+        width: 100% !important;*/
+          background-repeat: no-repeat !important;
+      }
+
+      .bills-text{
+        margin-top: 20rem;
+        font-weight: bolder !important;
+      }
+
+      .purchase {
+          padding: 6em 10em !important;
+          padding-left: 7em !important;
+          padding-right: 51em !important;
+        /*  padding-top: 15em !important;*/
+        padding-top: 5em !important;
+          color: #3a3a3b;
+          text-align: justify;
+       background-image:url("images/bg/purchase_new.jpg") !important;
+          /*   background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/purchase_bg2.png") !important;*/
+          /*background-blend-mode: overlay;
+          background-color: rgb(255, 255, 255, 0.5);*/
+          background-size: 100% 100%;
+          height: 45rem;
+          width: 100% !important;
+          /* backup solution incase scrollify go bananas
+        height: 100% !important;
+        width: 100% !important;*/
+          background-repeat: no-repeat !important;
+      }
+
+      .purchase-text{
+        margin-top: 11rem;
+        font-weight: bolder !important;
+      }
+
+      .payroll {
+          padding: 6em 6em !important;
+          padding-left: 55em !important;
+            padding-top: 3em !important;
+          /*
+          padding-left: 10em !important;
+          padding-right: 35rem !important;
+
+          padding-top: 20em !important;*/
+          color: #3a3a3b;
+          text-align: justify;
+        background-image: url("images/bg/payroll_new.jpg") !important;
+          /*  background-image:linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%), url("images/bg/payroll_bg2.png") !important;*/
+          /*background-blend-mode: overlay;
+          background-color: rgb(255, 255, 255, 0.3);*/
+          background-size: 100% 100%;
+          height: 45rem;
+          width: 100% !important;
+          /* backup solution incase scrollify go bananas
+        height: 100% !important;
+        width: 100% !important;*/
+          background-repeat: no-repeat !important;
+      }
+      .payroll-text{
+        margin-top: 12rem;
+        font-weight: bolder !important;
+      }
+
+      .e-bank {
+          padding: 6em 10em !important;
+          padding-left: 40em !important;
+          /*padding-right: 15rem !important;
+          padding-top: 1rem !important;*/
+            padding-top: 1rem !important;
+          color: #3a3a3b;
+          text-align: justify;
+        background-image:url("images/bg/ebank_new.jpg") !important;
+          /*  background-image: linear-gradient(to right, rgba(251,251,251,1) 30%, rgba(255,255,255,0) 100%),url("images/bg/ebank_bg.png") !important;*/
+          /*background-blend-mode: overlay;
+          background-color: rgb(255, 255, 255, 0.7);*/
+          background-size: cover;
+          height: 45rem;
+          width: 100% !important;
+          background-position: left;
+          background-repeat: no-repeat !important;
+      }
+
+      .ebank-text{
+        margin-top: 10rem;
+        font-weight: bolder !important;
+      }
+
+      /*additional ebank*/
+      small {
+          font-size: 1rem !important;
+      }
+
+      .icon-ebank {
+          height: 6rem;
+          width: 4rem;
+      }
+
+      .ebank2 {
+          margin-left: -2rem;
+          width: 6rem;
+      }
+
+      .row-ebank {
+          margin-top: 3rem !important;
+      }
+
+      .bank1 {
+          margin-left: 0rem !important;
+      }
+
+      .bank2 {
+          margin-top: -1rem !important;
+          margin-left: 1.5rem !important;
+      }
+
+
 
         .eload {
             padding: 6em 10em !important;
@@ -4027,7 +4214,7 @@ height: 100% !important;*/
         .eload {
             padding: 13rem 8rem !important;
             color: #3a3a3b;
-            background-image: url("images/s_eload.png") !important;
+            /*background-image: url("images/s_eload.png") !important;*/
             background-size: cover;
             width: 100% !important;
             background-repeat: no-repeat !important;

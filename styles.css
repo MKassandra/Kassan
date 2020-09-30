@@ -4190,36 +4190,43 @@ height: 100% !important;*/
 
     @media screen and (min-width: 1440px) {/*max-width: 1870px*/
 .display-p{
-font-size: 1.5rem!important;
+font-size: 1.3rem!important;
 }
 .balance-text, .withdraw-text, .bills-text, .purchase-text, .payroll-text, .ebank-text, .eload-text,
  .remit-text, .funds-text, .mobile-text, .online-text, .ewallet-text{
-      font-size: 2.5rem!important;
+      font-size: 2.3rem!important;
 }
 
       .balance {
         height: 50rem;
+        padding-left: 65rem!important;
       }
 
       .withdrawal {
           height: 50rem;
-
+    padding-right: 50rem!important;
       }
 
       .bills {
           height: 50rem;
+            padding-left: 65rem!important;
       }
 
       .purchase {
           height: 50rem;
+          padding-top: 8rem !important;
+            padding-right: 59rem!important;
       }
 
       .payroll {
           height: 50rem;
+          padding-left: 60rem!important;
       }
 
       .e-bank {
           height: 50rem;
+          padding-top: 4rem !important;
+            padding-left: 45rem!important;
       }
 
         .eload {
@@ -4228,10 +4235,12 @@ font-size: 1.5rem!important;
 
         .remit {
             height: 50rem !important;
+              padding-left: 50rem!important;
         }
 
         .fund {
             height: 50rem !important;
+              padding-right: 60rem!important;
         }
 
         .mobile {
@@ -4240,6 +4249,8 @@ font-size: 1.5rem!important;
 
         .online {
             height: 50rem;
+            padding-top:15rem !important;
+              padding-left: 67rem!important;
         }
 
         .ewallet {
@@ -4249,14 +4260,16 @@ font-size: 1.5rem!important;
 
     @media screen and (min-width: 1660px) {/*max-width: 1870px*/
       .display-p{
-      font-size: 1.9rem!important;
+      font-size: 1.6rem!important;
       }
       .balance-text, .withdraw-text, .bills-text, .purchase-text, .payroll-text, .ebank-text, .eload-text,
        .remit-text, .funds-text, .mobile-text, .online-text, .ewallet-text{
-            font-size: 2.9rem!important;
+            font-size: 2.6rem!important;
       }
       .balance {
         height: 60rem;
+        padding-top: 10rem !important;
+          padding-left: 74rem!important;
       }
 
       .withdrawal {

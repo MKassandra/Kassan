@@ -4081,10 +4081,9 @@ height: 100% !important;*/
           /*  background-image: linear-gradient(to right, rgba(251,251,251,1) 30%, rgba(255,255,255,0) 100%),url("images/bg/ebank_bg.png") !important;*/
           /*background-blend-mode: overlay;
           background-color: rgb(255, 255, 255, 0.7);*/
-          background-size: cover;
+          background-size: 100% 100%;
           height: 45rem;
           width: 100% !important;
-          background-position: left;
           background-repeat: no-repeat !important;
       }
 
@@ -4142,10 +4141,9 @@ height: 100% !important;*/
               /*    padding-top: 38em !important;*/
           background-image: url("images/bg/remittance_new.jpg") !important;
             /*  background-image: linear-gradient(to right, rgba(251,251,251,1) 5%, rgba(255,255,255,0) 100%),url("images/bg/remit_bg2.png") !important;*/
-            background-size: cover;
+            background-size: 100% 100%;
             height: 45rem;
             width: 100% !important;
-            background-position: top !top;
             background-repeat: no-repeat !important;
         }
 

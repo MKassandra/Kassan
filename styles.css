@@ -1832,6 +1832,47 @@ margin: 0rem 1rem;
     transform: scale(1.2);
 }
 
+/*MEDIA-PROD-BTN-CARO
+@media screen and (min-width: 1440px) {
+  .imag-e
+  {
+    height: 7rem;
+    width: 6rem;
+  }
+
+}
+@media screen and (min-width: 1600px) {
+  .imag-e
+  {
+    height: 6rem;
+    width: 6rem;
+  }
+
+}
+@media screen and (min-width: 1810px) {
+  .imag-e
+  {
+    height: 6rem;
+    width: 6rem;
+  }
+
+}
+@media screen and (min-width: 1920px) {
+  .imag-e
+  {
+    height: 6rem;
+    width: 6rem;
+  }
+
+}
+@media screen and (min-width: 2640px) {
+  .imag-e
+  {
+    height: 6rem;
+    width: 6rem;
+  }
+}*/
+
 /*@keyframes jump-btn{
   0% {background-color:transparent; left:0px; top:30rem;}
   50% {background-color:transparent; left:0px; top:0px;}
@@ -1940,7 +1981,50 @@ left:0.3rem;
     height: 40rem;
     background-repeat: no-repeat !important;
 }
+/*MEDIA-PRODUCT*/
+@media screen and (min-width: 1240px) {
+  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
+      height: 42rem;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
+      height: 42rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
+      height: 48rem;
+  }
+  .h3-p{
 
+    font-size:2.2rem!important;}
+
+}
+@media screen and (min-width: 1600px) {
+  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
+      height: 57rem;
+  }
+  .h3-p{
+
+    font-size:2.5rem!important;}
+}
+@media screen and (min-width: 1920px) {
+  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
+      height: 70rem;
+  }
+  .h3-p{
+    font-size:3.5rem!important;}
+
+}
+@media screen and (min-width: 2640px) {
+  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
+      height: 80rem;
+  }
+  .h3-p{
+
+    font-size:5rem!important;}
+}
 
 
 @media screen and (max-width: 1080px){
@@ -1999,47 +2083,10 @@ top:19rem;
   left: 15.2rem;*/
   z-index: 80;
 }
-/*MEDIA-PRODUCT*/
-@media screen and (min-width: 1240px) {
-  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
-      height: 42rem;
-  }
-}
-@media screen and (min-width: 1366px) {
-  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
-      height: 42rem;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
-      height: 48rem;
-  }
-
-}
-@media screen and (min-width: 1600px) {
-  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
-      height: 57rem;
-  }
-}
-@media screen and (min-width: 1920px) {
-  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
-      height: 70rem;
-  }
-
-}
-@media screen and (min-width: 2640px) {
-  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
-      height: 80rem;
-  }
-
-}
 
 
+/*MEDIA-PROD-BUTTON*/
 @media screen and (min-width: 1400px){
-/*  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
-      height: 50rem;
-  }*/
-
   .row-product-btn{
     top:36rem;
       left: 37rem!important;
@@ -2063,9 +2110,6 @@ top:19rem;
 }
 
 @media screen and (min-width: 1800px){
-  /*.s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
-      height: 70rem;
-  }*/
   .row-product-btn{
     top:42rem;
       left: 46rem!important;

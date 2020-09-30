@@ -88,6 +88,7 @@ strong {
     height: 3.1rem;
     width: 3.1rem;
 }
+
 /*
 .first-nav{
     background-image: url("purple-only.png");
@@ -118,7 +119,32 @@ font-family: myBento_nav2 !important;
 background-image:linear-gradient(#d0b0ff,#ba95ff)!important;
   text-align: center !important;
   top: -0.1rem;
-
+}
+/*MEDIA-SECOND NAV*/
+@media screen and (min-width: 1440px) {
+.second-nav{
+  font-size: 1.2rem!important;
+}
+}
+@media screen and (min-width: 1600px) {
+.second-nav{
+  font-size: 1.3rem!important;
+}
+}
+@media screen and (min-width: 1810px) {
+.second-nav{
+  font-size: 1.4rem!important;
+}
+}
+@media screen and (min-width: 1920px) {
+.second-nav{
+  font-size: 1.6rem!important;
+}
+}
+@media screen and (min-width: 2640px) {
+.second-nav{
+  font-size: 1.9rem!important;
+}
 }
 
 .nav-link{
@@ -334,6 +360,162 @@ color: #3a3a3b !important;
     margin-right: 1rem;
 }
 
+/*MEDIA-NAVBAR*/
+@media screen and (min-width: 1440px) {
+    .about {
+        font-size: 1.6rem !important;
+    }
+
+    .about-dlist {
+        font-size: 1.6rem !important;
+    }
+
+    .services {
+        font-size: 1.6rem !important;
+    }
+
+    .product {
+        font-size: 1.6rem !important;
+    }
+
+    .partners {
+        font-size: 1.6rem !important;
+    }
+
+    .log-btn {
+        font-size: 1.6rem !important;
+    }
+
+    .letsTalk {
+        font-size: 1.6rem !important;
+    }
+
+}
+
+@media screen and (min-width: 1600px) {
+    .about {
+        font-size: 1.9rem !important;
+    }
+
+    .about-dlist {
+        font-size: 1.9rem !important;
+    }
+
+    .services {
+        font-size: 1.9rem !important;
+    }
+
+    .product {
+        font-size: 1.9rem !important;
+    }
+
+    .partners {
+        font-size: 1.9rem !important;
+    }
+
+    .log-btn {
+        font-size: 1.9rem !important;
+    }
+
+    .letsTalk {
+        font-size: 1.9rem !important;
+    }
+
+}
+
+@media screen and (min-width: 1810px) {
+    .about {
+        font-size: 2.1rem !important;
+    }
+
+    .about-dlist {
+        font-size: 2.1rem !important;
+    }
+
+    .services {
+        font-size: 2.1rem !important;
+    }
+
+    .product {
+        font-size: 2.1rem !important;
+    }
+
+    .partners {
+        font-size: 2.1rem !important;
+    }
+
+    .log-btn {
+        font-size: 2.1rem !important;
+    }
+
+    .letsTalk {
+        font-size: 2.1rem !important;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .about {
+        font-size: 2.3rem !important;
+    }
+
+    .about-dlist {
+        font-size: 2.3rem !important;
+    }
+
+    .services {
+        font-size: 2.3rem !important;
+    }
+
+    .product {
+        font-size: 2.3rem !important;
+    }
+
+    .partners {
+        font-size: 2.3rem !important;
+    }
+
+    .log-btn {
+        font-size: 2.3rem !important;
+    }
+
+    .letsTalk {
+        font-size: 2.3rem !important;
+    }
+
+}
+
+@media screen and (min-width: 2640px) {
+    .about {
+        font-size: 2.8rem !important;
+    }
+
+    .about-dlist {
+        font-size: 2.8rem !important;
+    }
+
+    .services {
+        font-size: 2.8rem !important;
+    }
+
+    .product {
+        font-size: 2.8rem !important;
+    }
+
+    .partners {
+        font-size: 2.8rem !important;
+    }
+
+    .log-btn {
+        font-size: 2.8rem !important;
+    }
+
+    .letsTalk {
+        font-size: 2.8rem !important;
+    }
+
+}
+
+
 /* Button Header */
 .log-btn {
     color: #4ebab5 !important;
@@ -408,26 +590,32 @@ footer {
 @media screen and (min-width: 1440px) {
 .home-body{height: 45.9rem;}
 .h1-home-front{
-  font-size: 5.7rem;
+  font-size: 3.2rem!important;
 }
 }
 @media screen and (min-width: 1600px) {
 .home-body{height: 55.9rem;}
 .h1-home-front{
-  font-size: 6.7rem;
+  font-size: 3.5rem!important;
+}
+}
+@media screen and (min-width: 1810px) {
+.home-body{height: 60.9rem;}
+.h1-home-front{
+  font-size: 3.8rem!important;
 }
 }
 @media screen and (min-width: 1920px) {
 .home-body{height: 65.9rem;}
 .h1-home-front{
-  font-size: 7.7rem;
+  font-size: 4.1rem!important;
 }
 }
 
 @media screen and (min-width: 2640px) {
 .home-body{height: 85.9rem;}
 .h1-home-front{
-  font-size: 8.7rem;
+  font-size: 5rem!important;
 }
 }
 
@@ -5431,6 +5619,9 @@ small {
 
         /*Navbar manipulation*/
         /* Media Rules */
+
+
+
         @media screen and (max-width: 1087px) {
             .about {
                 font-size: 0.7rem !important;

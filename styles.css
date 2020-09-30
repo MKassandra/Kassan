@@ -4287,6 +4287,8 @@ font-size: 1.3rem!important;
 
       .payroll {
           height: 60rem;
+          padding-top: 8rem !important;
+
       }
 
       .e-bank {
@@ -4327,52 +4329,59 @@ font-size: 1.3rem!important;
             font-size: 2.9rem!important;
       }
       .balance {
-        height: 80rem;
+        height: 75rem;
+        padding-top: 17rem!important;
+        padding-left: 89rem!important;
       }
 
       .withdrawal {
-          height: 80rem;
+          height: 75rem;
+          padding-top: 27rem !important;
 
       }
 
       .bills {
-          height: 80rem;
+          height: 75rem;
+          padding-top: 20rem !important;
+          padding-left: 80rem !important;
       }
 
       .purchase {
-          height: 80rem;
+          height: 75rem;
+              padding-top: 18rem !important;
+              padding-right: 79rem !important;
       }
 
       .payroll {
-          height: 80rem;
+          height: 75rem;
       }
 
       .e-bank {
-          height: 80rem;
+          height: 75rem;
       }
 
         .eload {
-            height: 80rem;
+            height: 75rem;
         }
 
         .remit {
-            height: 80rem !important;
+            height: 75rem !important;
         }
 
         .fund {
-            height: 80rem !important;
+            height: 75rem !important;
         }
 
         .mobile {
-            height: 80rem;
+            height: 75rem;
         }
 
         .online {
-            height: 80rem;
+            height: 75rem;
         }
 
         .ewallet {
-            height: 80rem;
+            height: 75rem;
         }
     }
 

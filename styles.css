@@ -4320,6 +4320,61 @@ font-size: 1.3rem!important;
         }
     }
 
+    @media screen and (min-width: 1800px) {/*max-width: 1870px*/
+
+      .balance {
+
+          padding-left: 80rem!important;
+      }
+
+      .withdrawal {
+
+
+      }
+
+      .bills {
+        padding-left: 75rem!important;
+      }
+
+      .purchase {
+        padding-right: 70rem!important;
+      }
+
+      .payroll {
+          padding-top: 8rem !important;
+
+      }
+
+      .e-bank {
+        padding-left: 50rem!important;
+      }
+
+        .eload {
+
+        }
+
+        .remit {
+
+        }
+
+        .fund {
+
+        }
+
+        .mobile {
+          padding-left: 60rem!important;
+        }
+
+        .online {
+              padding-left: 83rem!important;
+        }
+
+        .ewallet {
+            padding-right: 60rem!important;
+        }
+    }
+
+
     @media screen and (min-width: 1960px) {/*max-width: 1870px*/
       .display-p{
       font-size: 2.1rem!important;

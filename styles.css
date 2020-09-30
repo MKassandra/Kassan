@@ -3285,20 +3285,44 @@ padding-top: 26rem;
   #access-product-body {
       height: 40rem;
   }
+  .h3-access-p{
+    font-size: 2rem!important;
+  }
+  .p-access{
+    font-size: 1rem!important;
+  }
 }
 @media screen and (min-width: 1600px) {
   #access-product-body {
       height: 50rem;
+  }
+  .h3-access-p{
+    font-size: 2.3rem!important;
+  }
+  .p-access{
+    font-size: 1.3rem!important;
   }
 }
 @media screen and (min-width: 1920px) {
   #access-product-body {
       height: 60rem;
   }
+  .h3-access-p{
+    font-size: 2.5rem!important;
+  }
+  .p-access{
+    font-size: 1.5rem!important;
+  }
 }
 @media screen and (min-width: 2640px) {
   #access-product-body {
       height: 80rem;
+  }
+  .h3-access-p{
+    font-size: 3.3rem!important;
+  }
+  .p-access{
+    font-size: 2.3rem!important;
   }
 }
 

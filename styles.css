@@ -4240,11 +4240,11 @@ height: 100% !important;*/
         }
 
         .remit {
-            height: 50rem;
+            height: 50rem !important;
         }
 
         .fund {
-            height: 50rem;
+            height: 50rem !important;
         }
 
         .mobile {
@@ -4292,11 +4292,11 @@ height: 100% !important;*/
         }
 
         .remit {
-            height: 55rem;
+            height: 55rem!important;
         }
 
         .fund {
-            height: 55rem;
+            height: 55rem !important;
         }
 
         .mobile {
@@ -4344,11 +4344,11 @@ height: 100% !important;*/
         }
 
         .remit {
-            height: 70rem;
+            height: 70rem !important;
         }
 
         .fund {
-            height: 70rem;
+            height: 70rem !important;
         }
 
         .mobile {
@@ -4396,11 +4396,11 @@ height: 100% !important;*/
         }
 
         .remit {
-            height: 80rem;
+            height: 80rem !important;
         }
 
         .fund {
-            height: 80rem;
+            height: 80rem !important;
         }
 
         .mobile {

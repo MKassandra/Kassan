@@ -2544,15 +2544,24 @@ margin: 0 8.6rem;
       background-position: top;
   }
 
+  .h4-u{
+    font-size: 1.2rem!important;
+  }
+
+  .p-upgrade{
+    font-size: 0.9rem !important;
+  }
+
+
   .row-upper{
    padding-top: 9rem;
   }
 
   .col-upper{
-  margin-left:10.6rem;
+  margin-left:11.6rem;
   }
   .col-upper2, .col-upper3{
-  margin-left: 12rem;
+  margin-left: 11rem;
   }
 
   .col-upper2{
@@ -2577,7 +2586,7 @@ margin: 0 8.6rem;
   }
 
   .col-lower3{
-    margin-left: 9.9rem;
+    margin-left: 10.5rem;
   }
 }
 @media screen and (min-width: 1600px) {
@@ -2586,15 +2595,24 @@ margin: 0 8.6rem;
           background-position: top;
   }
 
+
+    .h4-u{
+      font-size: 1.3rem!important;
+    }
+
+    .p-upgrade{
+      font-size: 1rem !important;
+    }
+
   .row-upper{
-   padding-top: 8rem;
+   padding-top: 13rem;
   }
 
   .col-upper{
-  margin-left:10.6rem;
+  margin-left:12.6rem;
   }
   .col-upper2, .col-upper3{
-  margin-left: 11rem;
+  margin-left: 13rem;
   }
 
   .col-upper2{
@@ -2607,19 +2625,19 @@ margin: 0 8.6rem;
 
 
   .row-lower{
-      padding-top: 20rem;
+      padding-top: 10rem;
   }
 
   .col-lower{
-  margin: 0 8.6rem;
+  margin: 0 10.6rem;
   }
 
   .col-lower2{
-    margin-left:1rem;
+    margin-left:2rem;
   }
 
   .col-lower3{
-    margin-left: 9.8rem;
+    margin-left: 11.7rem;
   }
 }
 @media screen and (min-width: 1810px) {
@@ -2670,11 +2688,18 @@ margin: 0 8.6rem;
 
 @media screen and (min-width: 1890px) {
   #upgrade-product-body {
-      height:60rem;
+      height:65rem;
+  }
+  .h4-u{
+    font-size: 1.8rem!important;
+  }
+
+  .p-upgrade{
+    font-size: 1.3rem !important;
   }
 
     .row-upper{
-     padding-top: 21rem;
+     padding-top: 15rem;
     }
 
     .col-upper{
@@ -2685,7 +2710,7 @@ margin: 0 8.6rem;
     }
 
     .col-upper2{
-    margin-top: -3rem;
+    margin-top: -5rem;
     }
 
     .col-upper3{
@@ -2694,21 +2719,21 @@ margin: 0 8.6rem;
 
 
     .row-lower{
-        padding-top: 10rem;
+        padding-top: 11rem;
     }
 
     .col-lower{
-    margin: 0 10.6rem;
+    margin: 0 10.8rem;
     }
     .col-lower1{
       margin-left:2rem;
     }
     .col-lower2{
-      margin-left:4.3rem;
+      margin-left:3.6rem;
     }
 
     .col-lower3{
-      margin-left: 11.8rem;
+      margin-left: 14.8rem;
     }
 }
 @media screen and (min-width: 2640px) {
@@ -2716,8 +2741,17 @@ margin: 0 8.6rem;
       height:90rem;
   }
 
+  .h4-u{
+    font-size: 2.1rem!important;
+  }
+
+  .p-upgrade{
+    font-size: 1.5rem !important;
+  }
+
+
     .row-upper{
-     padding-top: 32rem;
+     padding-top: 25rem;
     }
 
     .col-upper{
@@ -2728,16 +2762,16 @@ margin: 0 8.6rem;
     }
 
     .col-upper2{
-    margin-top: -3rem;
+    margin-top: -7rem;
     }
 
     .col-upper3{
-    margin-top: 2rem;
+    margin-top: 1rem;
     }
 
 
     .row-lower{
-        padding-top: 14rem;
+        padding-top: 16rem;
     }
 
     .col-lower{

@@ -1739,32 +1739,24 @@ top:19rem;
   }*/
 
   .row-product-btn{
-    position: absolute;
     top:36rem;
       left: 37rem!important;
-    z-index: 99;
   }
   .row-product-line{
-    position: absolute;
     top:34rem;
     left:18rem !important;
-    z-index: 80;
   }
 
 }
 
 @media screen and (min-width: 1670px){
   .row-product-btn{
-    position: absolute;
     top:40rem;
       left: 42rem!important;
-    z-index: 99;
   }
   .row-product-line{
-    position: absolute;
     top:38rem;
     left:23rem !important;
-    z-index: 80;
   }
 }
 
@@ -1773,48 +1765,36 @@ top:19rem;
       height: 70rem;
   }*/
   .row-product-btn{
-    position: absolute;
     top:42rem;
       left: 46rem!important;
-    z-index: 99;
   }
   .row-product-line{
-    position: absolute;
     top:40rem;
     left:27rem !important;
-    z-index: 80;
   }
 
 }
 
 @media screen and (min-width: 2040px){
   .row-product-btn{
-    position: absolute;
     top:48rem;
       left: 54rem!important;
-    z-index: 99;
   }
   .row-product-line{
-    position: absolute;
     top:46rem;
     left:35rem !important;
-    z-index: 80;
   }
 
 }
 
 @media screen and (min-width: 2700px){
   .row-product-btn{
-    position: absolute;
     top:64rem;
       left: 74rem!important;
-    z-index: 99;
   }
   .row-product-line{
-    position: absolute;
     top:62rem;
     left:55rem !important;
-    z-index: 80;
   }
 
 }
@@ -4209,6 +4189,13 @@ height: 100% !important;*/
     }
 
     @media screen and (min-width: 1440px) {/*max-width: 1870px*/
+.display-p{
+font-size: 1.5rem!important;
+}
+.balance-text, .withdraw-text, .bills-text, .purchase-text, .payroll-text, .ebank-text, .eload-text,
+ .remit-text, .funds-text, .mobile-text, .online-text, .ewallet-text{
+      font-size: 2.5rem!important;
+}
 
       .balance {
         height: 50rem;
@@ -4261,7 +4248,13 @@ height: 100% !important;*/
     }
 
     @media screen and (min-width: 1660px) {/*max-width: 1870px*/
-
+      .display-p{
+      font-size: 1.9rem!important;
+      }
+      .balance-text, .withdraw-text, .bills-text, .purchase-text, .payroll-text, .ebank-text, .eload-text,
+       .remit-text, .funds-text, .mobile-text, .online-text, .ewallet-text{
+            font-size: 2.9rem!important;
+      }
       .balance {
         height: 60rem;
       }
@@ -4313,7 +4306,13 @@ height: 100% !important;*/
     }
 
     @media screen and (min-width: 1960px) {/*max-width: 1870px*/
-
+      .display-p{
+      font-size: 2.1rem!important;
+      }
+      .balance-text, .withdraw-text, .bills-text, .purchase-text, .payroll-text, .ebank-text, .eload-text,
+       .remit-text, .funds-text, .mobile-text, .online-text, .ewallet-text{
+            font-size: 2.9rem!important;
+      }
       .balance {
         height: 80rem;
       }

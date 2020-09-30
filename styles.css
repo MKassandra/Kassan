@@ -5704,30 +5704,28 @@ small {
 }
 
 /*MEDIA-TALK*/
-
-@media screen and (min-width: 1366px) {
-  #talk-body-content {
-      height: 40rem;
-  }
-}
 @media screen and (min-width: 1440px) {
   #talk-body-content {
       height: 40rem;
+      font-size: 1.1rem!important;
   }
 }
 @media screen and (min-width: 1600px) {
   #talk-body-content {
       height: 48rem;
+      font-size: 1.5rem!important;
   }
 }
 @media screen and (min-width: 1920px) {
   #talk-body-content {
       height: 55rem;
+      font-size: 1.7rem!important;
   }
 }
 @media screen and (min-width: 2640px) {
   #talk-body-content {
       height: 73rem;
+        font-size: 2rem!important;
   }
 }
 

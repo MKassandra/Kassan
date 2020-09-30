@@ -4312,6 +4312,111 @@ height: 100% !important;*/
         }
     }
 
+    @media screen and (min-width: 1920px) {/*max-width: 1870px*/
+
+      .balance {
+        height: 70rem;
+      }
+
+      .withdrawal {
+          height: 70rem;
+
+      }
+
+      .bills {
+          height: 70rem;
+      }
+
+      .purchase {
+          height: 70rem;
+      }
+
+      .payroll {
+          height: 70rem;
+      }
+
+      .e-bank {
+          height: 70rem;
+      }
+
+        .eload {
+            height: 70rem;
+        }
+
+        .remit {
+            height: 70rem;
+        }
+
+        .fund {
+            height: 70rem;
+        }
+
+        .mobile {
+            height: 70rem;
+        }
+
+        .online {
+            height: 70rem;
+        }
+
+        .ewallet {
+            height: 70rem;
+        }
+    }
+
+    @media screen and (min-width: 2640px) {/*max-width: 1870px*/
+
+      .balance {
+        height: 80rem;
+      }
+
+      .withdrawal {
+          height: 80rem;
+
+      }
+
+      .bills {
+          height: 80rem;
+      }
+
+      .purchase {
+          height: 80rem;
+      }
+
+      .payroll {
+          height: 80rem;
+      }
+
+      .e-bank {
+          height: 80rem;
+      }
+
+        .eload {
+            height: 80rem;
+        }
+
+        .remit {
+            height: 80rem;
+        }
+
+        .fund {
+            height: 80rem;
+        }
+
+        .mobile {
+            height: 80rem;
+        }
+
+        .online {
+            height: 80rem;
+        }
+
+        .ewallet {
+            height: 80rem;
+        }
+    }
+
+
     @media screen and (max-width: 1270px) {
         .eload {
             padding: 13rem 8rem !important;
@@ -4327,7 +4432,7 @@ height: 100% !important;*/
             color: #3a3a3b;
             background-image: url("images/bg/remit_bg2.png") !important;
             background-size: cover;
-            height: 35rem;
+          /*  height: 35rem;*/
             width: 100% !important;
             background-repeat: no-repeat !important;
         }
@@ -4337,7 +4442,7 @@ height: 100% !important;*/
             color: #3a3a3b ;
             background-image: url("images/s_transfer.png") !important;
             background-size: cover;
-            height: 35rem;
+          /*  height: 35rem;*/
             width: 100% !important;
             background-repeat: no-repeat !important;
         }
@@ -4349,7 +4454,7 @@ height: 100% !important;*/
             background-color: rgba(255, 255, 255, 0.5) !important;
             background-blend-mode: overlay;
             background-size: cover;
-            height: 35rem;
+        /*    height: 35rem;*/
             width: 100% !important;
             background-repeat: no-repeat !important;
         }
@@ -4359,7 +4464,7 @@ height: 100% !important;*/
             color:  #3a3a3b;
             background-image: url("images/s_obank.png") !important;
             background-size: cover;
-            height: 35rem;
+          /*  height: 35rem;*/
             width: 100% !important;
             background-repeat: no-repeat !important;
         }
@@ -4369,7 +4474,7 @@ height: 100% !important;*/
             color: #3a3a3b;
             background-image: url("images/s_ewallet.png") !important;
             background-size: cover;
-            height: 35rem;
+          /*  height: 35rem;*/
             width: 100% !important;
             background-repeat: no-repeat !important;
         }
@@ -4493,7 +4598,7 @@ height: 100% !important;*/
         padding: 2rem 4rem !important;
         padding-top: 10rem !important;
         text-align: justify;
-        height: 45rem;
+          /*  height: 45rem !important;*/
         background-position: center;
         background-repeat: no-repeat !important;
     }
@@ -4504,7 +4609,7 @@ height: 100% !important;*/
         padding-top: 5rem !important;
         text-align: justify;
         background-size: cover;
-        height: 45rem !important;
+      /*  height: 45rem !important;*/
         width: 100% !important;
         background-position: left;
         background-repeat: no-repeat !important;
@@ -4515,7 +4620,7 @@ height: 100% !important;*/
         padding-top: 5rem !important;
         text-align: justify;
         background-size: cover;
-        height: 45rem !important;
+          /*  height: 45rem !important;*/
         width: 100% !important;
         background-position: center;
         background-repeat: no-repeat !important;
@@ -4527,7 +4632,7 @@ height: 100% !important;*/
         padding-top: 5rem !important;
         text-align: justify;
         background-size: cover;
-        height: 45rem;
+          /*  height: 45rem !important;*/
         width: 100% !important;
         background-position: center;
         background-repeat: no-repeat !important;
@@ -4539,7 +4644,7 @@ height: 100% !important;*/
         padding: 2rem 4rem !important;
         padding-top: 5rem !important;
         text-align: justify;
-        height: 45rem;
+        /*  height: 45rem !important;*/
         width: 100% !important;
         background-position: center;
         background-repeat: no-repeat !important;
@@ -4550,7 +4655,7 @@ height: 100% !important;*/
         padding: 2rem 4rem !important;
         padding-top: 5rem !important;
         text-align: justify;
-        height: 45rem;
+        /*  height: 45rem !important;*/
         width: 100% !important;
         background-position: center;
         background-repeat: no-repeat !important;

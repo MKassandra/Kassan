@@ -4208,6 +4208,110 @@ height: 100% !important;*/
         }
     }
 
+    @media screen and (min-width: 1440px) {/*max-width: 1870px*/
+
+      .balance {
+        height: 50rem;
+      }
+
+      .withdrawal {
+          height: 50rem;
+
+      }
+
+      .bills {
+          height: 50rem;
+      }
+
+      .purchase {
+          height: 50rem;
+      }
+
+      .payroll {
+          height: 50rem;
+      }
+
+      .e-bank {
+          height: 50rem;
+      }
+
+        .eload {
+            height: 50rem;
+        }
+
+        .remit {
+            height: 50rem;
+        }
+
+        .fund {
+            height: 50rem;
+        }
+
+        .mobile {
+            height: 50rem;
+        }
+
+        .online {
+            height: 50rem;
+        }
+
+        .ewallet {
+            height: 50rem;
+        }
+    }
+
+    @media screen and (min-width: 1660px) {/*max-width: 1870px*/
+
+      .balance {
+        height: 55rem;
+      }
+
+      .withdrawal {
+          height: 55rem;
+
+      }
+
+      .bills {
+          height: 55rem;
+      }
+
+      .purchase {
+          height: 55rem;
+      }
+
+      .payroll {
+          height: 55rem;
+      }
+
+      .e-bank {
+          height: 55rem;
+      }
+
+        .eload {
+            height: 55rem;
+        }
+
+        .remit {
+            height: 55rem;
+        }
+
+        .fund {
+            height: 55rem;
+        }
+
+        .mobile {
+            height: 55rem;
+        }
+
+        .online {
+            height: 55rem;
+        }
+
+        .ewallet {
+            height: 55rem;
+        }
+    }
+
     @media screen and (max-width: 1270px) {
         .eload {
             padding: 13rem 8rem !important;

@@ -2237,6 +2237,46 @@ top:19rem;
     margin-left: 4rem;
     margin-top: -3rem;*/
 }
+
+@media screen and (min-width: 1440px) {
+  .back-arrow, .back-arrow-u {
+      height: 2.7rem;
+      width: 2.7rem;
+  }
+
+}
+@media screen and (min-width: 1600px) {
+  .back {
+    font-size: 1.8rem !important;
+  }
+  .back-arrow, .back-arrow-u {
+      height: 2.7rem;
+      width: 2.7rem;
+  }
+}
+@media screen and (min-width: 1810px) {
+  .back {
+    font-size: 2rem !important;
+  }
+  .back-arrow, .back-arrow-u {
+      height: 2.7rem;
+      width: 2.7rem;
+  }
+
+}
+@media screen and (min-width: 1920px) {
+  .back {
+    font-size: 2.2rem !important;
+  }
+  .back-arrow, .back-arrow-u {
+      height: 3rem;
+      width: 3rem;
+  }
+}
+@media screen and (min-width: 2640px) {
+
+}
+
 @media screen and (max-width: 500px){
   .back-arrow {
       margin-left: -1.9rem;
@@ -3105,6 +3145,8 @@ padding-top: 26rem;
 #access-product-body {
     height: 40rem;
 }
+
+/*MEDIA-CASHLESS*/
 @media screen and (min-width: 1366px) {
   #cashless-product-body {
       height:40rem;
@@ -3118,6 +3160,9 @@ padding-top: 26rem;
       background-position: center;
       height:40rem;
   }
+  .p-cash{
+    font-size: 1rem!important;
+  }
   .cashless-row{
   padding-top: 31rem;
   }
@@ -3126,6 +3171,9 @@ padding-top: 26rem;
   #cashless-product-body {
       background-position: bottom;
       height:50rem;
+  }
+  .p-cash{
+    font-size: 1.1rem!important;
   }
   .cashless-row{
   padding-top: 33rem;
@@ -3136,8 +3184,11 @@ padding-top: 26rem;
       background-position: center;
       height:50rem;
   }
+  .p-cash{
+    font-size: 1.2rem!important;
+  }
   .cashless-row{
-  padding-top: 39rem;
+  padding-top: 38rem;
   }
 }
 
@@ -3146,14 +3197,20 @@ padding-top: 26rem;
       background-position: center;
       height:55rem;
   }
+  .p-cash{
+    font-size: 1.4rem!important;
+  }
   .cashless-row{
-  padding-top: 44rem;
+  padding-top: 43rem;
   }
 }
 @media screen and (min-width: 2640px) {
   #cashless-product-body {
       background-position: center;
       height:70rem;
+  }
+  .p-cash{
+    font-size: 2rem!important;
   }
   .cashless-row{
   padding-top: 58rem;
@@ -3338,20 +3395,42 @@ padding-top: 26rem;
   #cust-product-body{
       height: 40rem;
   }
+  .custom-display {
+      width: 22rem!important;
+  }
 }
 @media screen and (min-width: 1690px) {
     #cust-product-body{
       height: 48rem;
   }
+  .custom-display {
+      width: 26rem!important;
+  }
 }
+
+@media screen and (min-width: 1810px) {
+    #cust-product-body{
+      height: 55rem;
+  }
+  .custom-display {
+      width: 29rem!important;
+  }
+}
+
 @media screen and (min-width: 1920px) {
     #cust-product-body{
       height: 55rem;
+  }
+  .custom-display {
+      width: 33rem!important;
   }
 }
 @media screen and (min-width: 2640px) {
   #cust-product-body{
       height: 75rem;
+  }
+  .custom-display {
+      width: 41rem!important;
   }
 }
 

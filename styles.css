@@ -2239,14 +2239,14 @@ top:19rem;
 }
 
 @media screen and (min-width: 1440px) {
-  .back-arrow, .back-arrow-u {
+  .back-arrow, .back-u {
       height: 2.7rem;
       width: 2.7rem;
   }
 
 }
 @media screen and (min-width: 1600px) {
-  .back {
+  .back, .back-u  {
     font-size: 1.8rem !important;
   }
   .back-arrow, .back-arrow-u {
@@ -2255,7 +2255,7 @@ top:19rem;
   }
 }
 @media screen and (min-width: 1810px) {
-  .back {
+  .back, .back-u  {
     font-size: 2rem !important;
   }
   .back-arrow, .back-arrow-u {
@@ -2265,7 +2265,7 @@ top:19rem;
 
 }
 @media screen and (min-width: 1920px) {
-  .back {
+  .back, .back-u  {
     font-size: 2.2rem !important;
   }
   .back-arrow, .back-arrow-u {

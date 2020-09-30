@@ -4354,30 +4354,43 @@ font-size: 1.3rem!important;
 
       .payroll {
           height: 75rem;
+          padding-top: 15rem !important;
+          padding-left: 79rem !important;
       }
 
       .e-bank {
           height: 75rem;
+          padding-top: 13rem !important;
+          padding-left: 59rem !important;
       }
 
         .eload {
             height: 75rem;
+              padding-top: 33rem !important;
         }
 
         .remit {
             height: 75rem !important;
+            padding-top: 13rem !important;
+            padding-left: 59rem !important;
         }
 
         .fund {
             height: 75rem !important;
+            padding-top: 13rem !important;
+            padding-right: 69rem !important;
         }
 
         .mobile {
             height: 75rem;
+            padding-top: 13rem !important;
+            padding-left: 59rem !important;
         }
 
         .online {
             height: 75rem;
+            padding-top: 27rem !important;
+            padding-left: 89rem !important;
         }
 
         .ewallet {

@@ -1154,7 +1154,48 @@ footer {
     padding-bottom: 3rem !important;
 }
 
-/*media for about page: history*/
+/*MEDIA-HISTORY*/
+@media screen and (min-width: 1440px) {
+  .h1-about{
+    font-size: 2.7rem !important;
+  }
+.p-h {
+    font-size: 1rem !important;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .h1-about{
+    font-size: 3.5rem !important;
+  }
+.p-h {
+    font-size: 1.1rem !important;
+  }
+}
+@media screen and (min-width: 1810px) {
+  .h1-about{
+    font-size: 4rem !important;
+  }
+.p-h {
+    font-size: 1.2rem !important;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .h1-about{
+    font-size: 4.5rem !important;
+  }
+.p-h {
+    font-size: 1.3rem !important;
+  }
+}
+@media screen and (min-width: 2640px) {
+  .h1-about{
+    font-size: 5.5rem !important;
+  }
+.p-h {
+    font-size: 1.8rem !important;
+  }
+}
+
 @media screen and (max-width: 800px) {
 
   #history-body-content {
@@ -1223,7 +1264,52 @@ footer {
     padding-top: 10rem !important;
 }
 
-/*media for about page: history*/
+/*MEDIA-WHO*/
+@media screen and (min-width: 1440px) {
+  .h1-who{
+    font-size: 2.7rem !important;
+  }
+.p-who {
+    font-size: 1rem !important;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .h1-who{
+    font-size: 3.5rem !important;
+  }
+.p-who {
+    font-size: 1.1rem !important;
+  }
+}
+@media screen and (min-width: 1810px) {
+  .h1-who{
+    font-size: 4rem !important;
+  }
+.p-who {
+    font-size: 1.2rem !important;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .h1-who{
+    font-size: 4.5rem !important;
+  }
+.p-who {
+    font-size: 1.3rem !important;
+  }
+}
+@media screen and (min-width: 2640px) {
+  #who-body-content2 {
+      padding-top: 3rem;
+  }
+  .h1-who{
+    font-size: 5.5rem !important;
+  }
+.p-who {
+    font-size: 1.8rem !important;
+  }
+}
+
+
 @media screen and (max-width: 800px) {
     #who-body-content {
         background-position: center;

@@ -6794,33 +6794,205 @@ small {
 }
 @media screen and (min-width: 1600px) {
   #talk-body-content {
-      height: 48rem;
-      font-size: 1.5rem!important;
+      height: 42rem;
+      font-size: 1.3rem!important;
+  }
+  .h3-t{
+      font-size: 2.4rem !important;
+  }
+  .h5-t{
+      font-size: 1.4rem !important;
+  }
+  .h5-t2{
+      font-size: 1.2rem !important;
+  }
+  .form-b{
+
+  }
+  .btn-stalk{
+margin: 0rem 14rem!important;
+  }
+
+  .btn-l, .btn-r{
+
   }
 }
+
+@media screen and (min-width: 1810px) {
+  #talk-body-content {
+      height: 45rem;
+      font-size: 1.3rem!important;
+  }
+  .h3-t{
+      font-size: 2.4rem !important;
+  }
+  .h5-t{
+      font-size: 1.4rem !important;
+  }
+  .h5-t2{
+      font-size: 1.2rem !important;
+  }
+  .form-b{
+      padding: 1rem 0rem!important;
+  }
+  .btn-stalk{
+margin: 0 15rem!important;
+  }
+
+  .btn-l, .btn-r{
+
+  }
+}
+
 @media screen and (min-width: 1920px) {
   #talk-body-content {
       height: 55rem;
-      font-size: 1.7rem!important;
+      font-size: 1.6rem!important;
+  }
+  .h3-t{
+
+  }
+  .h5-t{
+    font-size: 1.6rem!important;
+  }
+  .h5-t2{
+    font-size: 1.4rem!important;
+  }
+
+
+  .form-b{
+    padding: 1.4rem 0rem!important;
+  }
+  .btn-stalk{
+    margin: 0rem 18rem!important;
+  }
+
+  .btn-l, .btn-r{
+
   }
 }
 @media screen and (min-width: 2640px) {
   #talk-body-content {
-      height: 73rem;
+      height: 70rem;
         font-size: 2rem!important;
   }
+  .h3-t{
+      font-size: 3.6rem!important;
+  }
+  .h5-t{
+      font-size: 2.2rem!important;
+  }
+  .h5-t2{
+      font-size: 2rem!important;
+  }
+  .form-b{
+  padding: 2rem 0rem!important;
+  }
+  .btn-stalk{
+    margin: 0rem 24rem!important;
+    padding: 1.5rem 6.5rem !important;
+    font-size: 1.5rem!important;
+  }
+  .card-header{
+    font-size: 3rem!important;
+  }
+
+
 }
 @media screen and (min-width: 4050px) {
   #talk-body-content {
-      height: 73rem;
-        font-size: 2rem!important;
+      height: 103rem;
+        font-size: 3.2rem!important;
+  }
+  .h3-t{
+        font-size: 5rem!important;
+  }
+  .h5-t{
+        font-size: 2.9rem!important;
+  }
+
+  .h5-t{
+        font-size: 2.7rem!important;
+  }
+
+  .form-line{
+    padding: 0rem 0.5rem!important;
+  }
+
+  .form-b{
+  padding: 2.7rem 0rem!important;
+  }
+  .btn-stalk{
+    margin: 0rem 38rem!important;
+    padding: 2.5rem 10.5rem !important;
+    font-size: 2.5rem!important;
+  }
+
+  .card-header{
+    font-size: 3.6rem!important;
+  }
+
+  .btn-l{
+    width: 0 !important;
+    height: 0 !important;
+    border-top: 3rem solid transparent !important;
+    border-right: 5rem solid #c4a1ff !important;
+    border-bottom: 3rem solid transparent !important;
+  }
+
+  .btn-r{
+    width: 0 !important;
+    height: 0 !important;
+    border-top: 3rem solid transparent !important;
+    border-left: 5rem solid #c4a1ff !important;
+    border-bottom: 3rem solid transparent !important;
   }
 }
 
 @media screen and (min-width: 5400px) {
   #talk-body-content {
-      height: 73rem;
-        font-size: 2rem!important;
+      height: 123rem;
+        font-size: 4rem!important;
+  }
+  .h3-t{
+        font-size: 7rem!important;
+  }
+  .h5-t{
+        font-size: 4.5rem!important;
+  }
+  .h5-t{
+        font-size: 4.1rem!important;
+  }
+
+  .form-b{
+padding: 4rem 0rem!important;
+  }
+  .btn-stalk{
+    margin: 0rem 50rem!important;
+    padding: 3.5rem 13.5rem !important;
+    font-size: 3.6rem!important;
+  }
+  .card-header{
+    font-size: 5rem!important;
+  }
+
+  .col-mm,.col-yr{
+
+  }
+  .btn-l{
+    width: 0 !important;
+    height: 0 !important;
+    border-top: 4rem solid transparent !important;
+    border-right: 6rem solid #c4a1ff !important;
+    border-bottom: 4rem solid transparent !important;
+  }
+
+  .btn-r{
+    width: 0 !important;
+    height: 0 !important;
+    border-top: 4rem solid transparent !important;
+    border-left: 6rem solid #c4a1ff !important;
+    border-bottom: 4rem solid transparent !important;
   }
 }
 

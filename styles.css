@@ -3213,8 +3213,14 @@ margin: 0 8.6rem;
   .p-cash{
     font-size: 1rem!important;
   }
+
+  .img-c{
+    width: auto;
+    height: 28rem;
+  }
+
   .cashless-row{
-  padding-top: 29rem;
+  padding-top: 0.5rem;
   }
 }
 @media screen and (min-width: 1600px) {
@@ -3222,11 +3228,16 @@ margin: 0 8.6rem;
       background-position: center;
       height:52rem;
   }
+  .img-c{
+    width: auto;
+    height: 30rem;
+  }
   .p-cash{
     font-size: 1.1rem!important;
   }
   .cashless-row{
-  padding-top: 35rem;
+  padding-top: 1.2rem;
+  margin:0 6rem !important;
   }
 }
 @media screen and (min-width: 1800px) {
@@ -3234,11 +3245,17 @@ margin: 0 8.6rem;
       background-position: center;
       height:52rem;
   }
+
+  .img-c{
+    width: auto;
+    height: 32rem;
+  }
+
   .p-cash{
     font-size: 1.2rem!important;
   }
   .cashless-row{
-  padding-top: 36rem;
+  padding-top: 1.2rem;
   }
 }
 
@@ -3247,11 +3264,17 @@ margin: 0 8.6rem;
       background-position: center;
       height:60rem;
   }
+
+  .img-c{
+    width: auto;
+    height: 36rem;
+  }
+
   .p-cash{
     font-size: 1.4rem!important;
   }
   .cashless-row{
-  padding-top: 41rem;
+  padding-top: 1.3rem;
   }
 }
 @media screen and (min-width: 2640px) {
@@ -3259,11 +3282,18 @@ margin: 0 8.6rem;
       background-position: center;
       height:80rem;
   }
+
+  .img-c{
+    width: auto;
+    height: 46rem;
+  }
+
   .p-cash{
     font-size: 2rem!important;
   }
   .cashless-row{
-  padding-top: 58rem;
+  padding-top: 1.3rem;
+  margin: 0 13rem !important
   }
 }
 

@@ -512,7 +512,6 @@ color: #3a3a3b !important;
     .letsTalk {
         font-size: 2.8rem !important;
     }
-
 }
 
 
@@ -5061,151 +5060,159 @@ font-size: 1.3rem!important;
       font-size: 4.1rem!important;
       }
       .balance-text, .withdraw-text, .bills-text, .purchase-text, .payroll-text, .ebank-text, .eload-text,
-       .remit-text, .funds-text, .mobile-text, .online-text, .ewallet-text{
+       .remit-text, .fund-text, .mobile-text, .online-text, .ewallet-text{
             font-size: 4.9rem!important;
       }
       .balance {
-        height: 160rem;
-        padding-top: 17rem!important;
-        padding-left: 120rem!important;
+        height: 145rem;
+        padding-top: 60rem!important;
+        padding-left: 170rem!important;
       }
 
       .withdrawal {
-          height: 160rem;
-          padding-top: 27rem !important;
+          height: 145rem;
+          padding-top: 60rem !important;
           padding-right: 100rem!important;
       }
 
       .bills {
-          height: 160rem;
-          padding-top: 20rem !important;
-            padding-left: 115rem !important;
+          height: 145rem;
+          padding-top: 70rem !important;
+            padding-left: 175rem !important;
       }
 
       .purchase {
-          height: 160rem;
-              padding-top: 18rem !important;
-        padding-right: 109rem !important;
+          height: 145rem;
+              padding-top: 55rem !important;
+        padding-right: 159rem !important;
       }
 
       .payroll {
-          height: 160rem;
-          padding-top: 15rem !important;
-        padding-left: 89rem !important;
+          height: 145rem;
+          padding-top: 45rem !important;
+        padding-left: 159rem !important;
       }
 
-      .e-bank {
-          height: 160rem;
-          padding-top: 13rem !important;
-            padding-left: 80rem !important;
+        .e-bank {
+          height: 145rem;
+          padding-top: 30rem !important;
+            padding-left: 130rem !important;
       }
 
         .eload {
-            height: 160rem;
-              padding-top: 33rem !important;
+            height: 145rem;
+              padding-top: 63rem !important;
         }
 
         .remit {
-            height: 160rem !important;
-            padding-top: 15rem !important;
-            padding-left: 89rem !important;
+            height: 145rem !important;
+            padding-top: 40rem !important;
+            padding-left: 140rem !important;
         }
 
         .fund {
-            height: 160rem !important;
-            padding-top: 13rem !important;
-          padding-right: 99rem !important;
+            height: 145rem !important;
+            padding-top: 30rem !important;
+          padding-right: 160rem !important;
         }
 
         .mobile {
-            height: 160rem;
-            padding-top: 13rem !important;
-            padding-left: 89rem !important;
+            height: 145rem;
+            padding-top: 35rem !important;
+            padding-left: 135rem !important;
         }
 
         .online {
-            height: 160rem;
-            padding-top: 27rem !important;
-            padding-left: 120rem !important;
+            height: 145rem;
+            padding-top: 69rem !important;
+            padding-left: 179rem !important;
         }
 
         .ewallet {
-            height: 160rem;
-            padding-top: 17rem !important;
-            padding-right: 100rem !important;
+            height: 145rem;
+            padding-top: 37rem !important;
+            padding-right: 150rem !important;
         }
     }
 
     @media screen and (min-width: 5400px) {/*max-width: 1870px*/
+      .display-p{
+      font-size: 6.1rem!important;
+      }
+      .balance-text, .withdraw-text, .bills-text, .purchase-text, .payroll-text, .ebank-text, .eload-text,
+       .remit-text, .fund-text, .mobile-text, .online-text, .ewallet-text{
+            font-size: 6.9rem!important;
+      }
+
       .balance {
         height: 190rem;
-        padding-top: 17rem!important;
-        padding-left: 120rem!important;
+        padding-top: 60rem!important;
+        padding-left: 235rem!important;
       }
 
       .withdrawal {
           height: 190rem;
-          padding-top: 27rem !important;
-          padding-right: 100rem!important;
+          padding-top: 60rem !important;
+          padding-right: 155rem!important;
       }
 
       .bills {
           height: 190rem;
-          padding-top: 20rem !important;
-            padding-left: 115rem !important;
+          padding-top: 70rem !important;
+            padding-left: 215rem !important;
       }
 
       .purchase {
           height: 190rem;
-              padding-top: 18rem !important;
-        padding-right: 109rem !important;
+          padding-top: 55rem !important;
+    padding-right: 209rem !important;
       }
 
       .payroll {
           height: 190rem;
-          padding-top: 15rem !important;
-        padding-left: 89rem !important;
+          padding-top: 45rem !important;
+        padding-left: 205rem !important;
       }
 
       .e-bank {
           height: 190rem;
-          padding-top: 13rem !important;
-            padding-left: 80rem !important;
+          padding-top: 40rem !important;
+            padding-left: 150rem !important;
       }
 
         .eload {
             height: 190rem;
-              padding-top: 33rem !important;
+              padding-top: 83rem !important;
         }
 
         .remit {
             height: 190rem !important;
-            padding-top: 15rem !important;
-            padding-left: 89rem !important;
+            padding-top: 40rem !important;
+            padding-left: 190rem !important;
         }
 
         .fund {
             height: 190rem !important;
-            padding-top: 13rem !important;
-          padding-right: 99rem !important;
+            padding-top: 40rem !important;
+          padding-right: 190rem !important;
         }
 
         .mobile {
             height: 190rem;
-            padding-top: 13rem !important;
-            padding-left: 89rem !important;
+            padding-top: 40rem !important;
+            padding-left: 185rem !important;
         }
 
         .online {
             height: 190rem;
-            padding-top: 27rem !important;
-            padding-left: 120rem !important;
+            padding-top: 79rem !important;
+            padding-left: 245rem !important;
         }
 
         .ewallet {
             height: 190rem;
-            padding-top: 17rem !important;
-            padding-right: 100rem !important;
+            padding-top: 47rem !important;
+            padding-right: 200rem !important;
         }
     }
 

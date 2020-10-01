@@ -2379,6 +2379,8 @@ top:19rem;
 
 
 #upgrade-product-body {
+  margin-top: -5rem!important;
+  padding-top: 5rem !important;
 /*  padding: 2rem 6rem ;
     padding-bottom: 1rem !important;*/
     height: 47rem;
@@ -2451,7 +2453,7 @@ margin-top: 2rem;
 }
 
 .row-upper{
- padding-top: 8rem;
+ padding-top: 3rem;
 }
 
 .col-upper{
@@ -2503,7 +2505,7 @@ margin: 0 8.6rem;
 
 
   .row-upper{
-   padding-top: 8rem;
+   padding-top: 3rem;
   }
 
   .col-upper{
@@ -2554,7 +2556,7 @@ margin: 0 8.6rem;
 
 
   .row-upper{
-   padding-top: 9rem;
+   padding-top: 4rem;
   }
 
   .col-upper{
@@ -2581,6 +2583,7 @@ margin: 0 8.6rem;
   margin: 0 8.8rem;
   }
 
+
   .col-lower2{
     margin-left:3rem;
   }
@@ -2605,7 +2608,7 @@ margin: 0 8.6rem;
     }
 
   .row-upper{
-   padding-top: 13rem;
+   padding-top: 6rem;
   }
 
   .col-upper{
@@ -2647,7 +2650,7 @@ margin: 0 8.6rem;
   }
 
   .row-upper{
-   padding-top: 17rem;
+   padding-top: 10rem;
   }
 
   .col-upper{
@@ -2699,7 +2702,7 @@ margin: 0 8.6rem;
   }
 
     .row-upper{
-     padding-top: 15rem;
+     padding-top: 10rem;
     }
 
     .col-upper{
@@ -2751,7 +2754,7 @@ margin: 0 8.6rem;
 
 
     .row-upper{
-     padding-top: 25rem;
+     padding-top: 20rem;
     }
 
     .col-upper{
@@ -3132,16 +3135,18 @@ margin: 0 8.6rem;
   }
 /*product page: cashless*/
 #cashless-product-body {
+  margin-top: -5rem!important;
+  padding-top: 4rem !important;
 /*  padding: 2rem 6rem ;
     padding-bottom: 1rem !important;*/
     padding: 0rem 1rem;
-    height:40rem;
+    height:42rem;
     /*padding: 0 2rem ;
     padding-bottom: 3rem !important;*/
     background-image: url('images/bg/cashless_new.jpg');
     /*background-image: url('images/meet2.png');*/
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -3183,7 +3188,7 @@ padding-top: 26rem;
 /*MEDIA-CASHLESS*/
 @media screen and (min-width: 1366px) {
   #cashless-product-body {
-      height:40rem;
+      height:42rem;
   }
   .cashless-row{
   padding-top: 26rem;
@@ -3192,56 +3197,56 @@ padding-top: 26rem;
 @media screen and (min-width: 1440px) {
   #cashless-product-body {
       background-position: center;
-      height:40rem;
+      height:44rem;
   }
   .p-cash{
     font-size: 1rem!important;
   }
   .cashless-row{
-  padding-top: 31rem;
+  padding-top: 29rem;
   }
 }
 @media screen and (min-width: 1600px) {
   #cashless-product-body {
-      background-position: bottom;
-      height:50rem;
+      background-position: center;
+      height:52rem;
   }
   .p-cash{
     font-size: 1.1rem!important;
   }
   .cashless-row{
-  padding-top: 33rem;
+  padding-top: 35rem;
   }
 }
 @media screen and (min-width: 1800px) {
   #cashless-product-body {
       background-position: center;
-      height:50rem;
+      height:52rem;
   }
   .p-cash{
     font-size: 1.2rem!important;
   }
   .cashless-row{
-  padding-top: 38rem;
+  padding-top: 36rem;
   }
 }
 
 @media screen and (min-width: 1920px) {
   #cashless-product-body {
       background-position: center;
-      height:55rem;
+      height:60rem;
   }
   .p-cash{
     font-size: 1.4rem!important;
   }
   .cashless-row{
-  padding-top: 43rem;
+  padding-top: 41rem;
   }
 }
 @media screen and (min-width: 2640px) {
   #cashless-product-body {
       background-position: center;
-      height:70rem;
+      height:80rem;
   }
   .p-cash{
     font-size: 2rem!important;
@@ -3268,10 +3273,12 @@ padding-top: 26rem;
 }
 /*product page: access*/
 #access-product-body {
+  margin-top: -5rem!important;
+  padding-top: 5rem !important;
   /*padding: 2rem 6rem ;*/
     /*padding-bottom: 1rem !important;*/
     padding: 0 1rem;
-    height: 40rem;
+    height: 43rem;
     background-image: url('images/bg/access_new.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -3312,12 +3319,13 @@ padding-top: 26rem;
 /*MEDIA-ACCESS*/
 @media screen and (min-width: 1366px) {
   #access-product-body {
-      height: 40rem;
+      height: 43rem;
+      background-position: top;
   }
 }
 @media screen and (min-width: 1440px) {
   #access-product-body {
-      height: 40rem;
+      height: 45rem;
   }
   .h3-access-p{
     font-size: 2rem!important;
@@ -3337,6 +3345,13 @@ padding-top: 26rem;
     font-size: 1.3rem!important;
   }
 }
+
+@media screen and (min-width: 1810px) {
+  #access-product-body {
+      height: 55rem;
+  }
+}
+
 @media screen and (min-width: 1920px) {
   #access-product-body {
       height: 60rem;
@@ -3394,6 +3409,8 @@ padding-top: 26rem;
 
 /*product page:customize page*/
 #cust-product-body{
+  margin-top: -5rem!important;
+  padding-top: 5rem !important;
     /*padding: 2rem 6rem ;
     padding: 0 2rem ;
     padding-bottom: 1rem !important;*/
@@ -3404,6 +3421,7 @@ padding-top: 26rem;
     background-position: bottom;
 }
 .cust-product-body{
+
     /*padding: 2rem 6rem ;
     padding: 0 2rem ;
     padding-bottom: 1rem !important;*/

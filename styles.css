@@ -1388,18 +1388,18 @@ padding-top: 17rem!important;
 }
 @media screen and (min-width: 4050px) {
   .h1-about{
-    font-size: 5.5rem !important;
+    font-size: 7.5rem !important;
   }
 .p-h {
-    font-size: 1.8rem !important;
+    font-size: 3rem !important;
   }
 }
 @media screen and (min-width: 5400px) {
   .h1-about{
-    font-size: 5.5rem !important;
+    font-size: 9.5rem !important;
   }
 .p-h {
-    font-size: 1.8rem !important;
+    font-size: 3.8rem !important;
   }
 }
 
@@ -1520,10 +1520,10 @@ padding-top: 17rem!important;
       padding-top: 3rem;
   }
   .h1-who{
-    font-size: 5.5rem !important;
+    font-size: 7.5rem !important;
   }
 .p-who {
-    font-size: 1.8rem !important;
+    font-size: 3rem !important;
   }
 }
 @media screen and (min-width: 5400px) {
@@ -1531,10 +1531,10 @@ padding-top: 17rem!important;
       padding-top: 3rem;
   }
   .h1-who{
-    font-size: 5.5rem !important;
+    font-size: 9.5rem !important;
   }
 .p-who {
-    font-size: 1.8rem !important;
+    font-size: 3.8rem !important;
   }
 }
 
@@ -1594,7 +1594,7 @@ padding-top: 17rem!important;
     background-size: cover!important;
     background-position: bottom left;
     background-repeat: no-repeat;
-    padding-bottom: 1rem;
+    padding-bottom: 10rem!important;
 }
 
 .h6-bod-name{
@@ -1659,41 +1659,98 @@ padding-top: 17rem!important;
 /*MEDIA-BOD*/
 /*MEDIA-WHO*/
 @media screen and (min-width: 1440px) {
+  .h1-meet{
+font-size: 1rem!important
+  }
+  .h3-meet{
+  }
 .h6-bod-name{
     font-size: 1rem !important;
   }
 }
 @media screen and (min-width: 1600px) {
+  .h1-meet{
+font-size: 1.1rem!important
+  }
+  .h3-meet{
+
+  }
 .h6-bod-name{
     font-size: 1.1rem !important;
   }
 }
 @media screen and (min-width: 1810px) {
+  .h1-meet{
+font-size: 1.2rem!important
+  }
+  .h3-meet{
+
+  }
 .h6-bod-name {
     font-size: 1.2rem !important;
   }
 }
 @media screen and (min-width: 1920px) {
+  .h1-meet{
+font-size: 1.3rem!important
+  }
+  .h3-meet{
+
+  }
 ..h6-bod-name{
     font-size: 1.3rem !important;
   }
 }
 @media screen and (min-width: 2640px) {
+  .h1-meet{
+font-size: 1.8rem!important
+  }
+  .h3-meet{
+
+  }
+  .bod-picture {
+    height: 24rem;
+    width: 24rem;
+  }
+  .bod-picture2 {
+    height: 20rem;
+    width: 20rem;
+  }
 .h6-bod-name{
     font-size: 1.8rem !important;
   }
 }
 @media screen and (min-width: 4059px) {
+  .h1-meet{
+    font-size: 3rem!important
+  }
+  .h3-meet{
+
+  }
+  .bod-picture {
+    height: 34rem;
+    width: 34rem;
+  }
+  .bod-picture2 {
+    height: 30rem;
+    width: 30rem;
+  }
 .h6-bod-name{
     font-size: 1.8rem !important;
   }
 }
 
 @media screen and (max-width: 5400px) {
+  .h1-meet{
+font-size: 3.8rem!important
+  }
+  .h3-meet{
+
+  }
   .row-bod{
       text-align:center!important;
   }
-
+}
   .bod-pic2{
     height: 8rem;
     width: 8rem;
@@ -1714,7 +1771,7 @@ padding-top: 17rem!important;
     height: 8rem;
     width: 8rem;
   }
-}
+
 
 
 @media screen and (max-width: 600px) {

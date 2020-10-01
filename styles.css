@@ -3202,7 +3202,7 @@ margin: 0 8.6rem;
   }
   .cashless-row{
   padding-top: 0.1rem;
-  margin: 0 3.6rem!important;
+  margin: 0 4rem!important;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -3363,10 +3363,16 @@ margin: 0 8.6rem;
       height: 43rem;
       background-position: top;
   }
+  .col-a-push-l{
+margin: 0 -3rem;
+  }
 }
 @media screen and (min-width: 1440px) {
   #access-product-body {
       height: 45rem;
+  }
+  .col-a-push-l{
+
   }
   .h3-access-p{
     font-size: 2rem!important;

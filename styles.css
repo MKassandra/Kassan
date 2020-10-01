@@ -89,6 +89,99 @@ strong {
     width: 3.1rem;
 }
 
+/*MEDIA-LOGO*/
+@media screen and (min-width: 1440px) {
+  .brblogo {
+    margin-top: -0.3rem;
+        height: auto;
+      width: 9rem;
+      margin-right: 0.5rem;
+  }
+  .cashmate {
+    margin-top: -0.5rem;
+      height: 3.5rem;
+      width: 3.5rem;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .brblogo {
+    margin-top: -0.3rem;
+        height: auto;
+      width: 11rem;
+      margin-right: 0.5rem;
+  }
+  .cashmate {
+    margin-top: -0.5rem;
+      height: 4.1rem;
+      width: 4.1rem;
+  }
+}
+@media screen and (min-width: 1810px) {
+  .brblogo {
+    margin-top: -0.3rem;
+        height: auto;
+      width: 12rem;
+      margin-right: 0.5rem;
+  }
+  .cashmate {
+    margin-top: -0.5rem;
+      height: 4.5rem;
+      width: 4.5rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .brblogo {
+    margin-top: -0.3rem;
+        height: auto;
+      width: 12.9rem;
+      margin-right: 0.5rem;
+  }
+  .cashmate {
+    margin-top: -0.5rem;
+      height: 4.9rem;
+      width: 4.9rem;
+  }
+}
+@media screen and (min-width: 2640px) {
+  .brblogo {
+    margin-top: -0.3rem;
+        height: auto;
+      width: 14rem;
+      margin-right: 0.5rem;
+  }
+  .cashmate {
+    margin-top: -0.5rem;
+      height: 5.1rem;
+      width: 5.1rem;
+  }
+}
+@media screen and (min-width: 4050px) {
+  .brblogo {
+    margin-top: -0.3rem;
+        height: auto;
+      width: 22rem;
+      margin-right: 0.5rem;
+  }
+  .cashmate {
+    margin-top: -0.5rem;
+      height: 9.1rem;
+      width: 9.1rem;
+  }
+}
+@media screen and (min-width: 5400px) {
+  .brblogo {
+    margin-top: -0.3rem;
+        height: auto;
+      width: 29rem;
+      margin-right: 0.5rem;
+  }
+  .cashmate {
+    margin-top: -0.5rem;
+      height: 11.5rem;
+      width: 11.5rem;
+  }
+}
+
 /*
 .first-nav{
     background-image: url("purple-only.png");
@@ -587,7 +680,10 @@ footer {
 
 }
 @media screen and (min-width: 1440px) {
-.home-body{height: 45.9rem;}
+.home-body{
+  height: 45.9rem;
+  margin-top: -7rem!important;
+}
 .h1-home-front{
   font-size: 3.4rem!important;
 }
@@ -599,7 +695,10 @@ footer {
 }
 }
 @media screen and (min-width: 1810px) {
-.home-body{height: 60.9rem;}
+.home-body{
+  height: 60.9rem;
+margin-top: -8rem!important;
+}
 .h1-home-front{
   font-size: 4.2rem!important;
 }
@@ -612,9 +711,26 @@ footer {
 }
 
 @media screen and (min-width: 2640px) {
-.home-body{height: 85.9rem;}
+.home-body{height: 85.9rem;
+margin-top: -9rem!important;}
 .h1-home-front{
-  font-size: 5.4.rem!important;
+  font-size: 5.4rem!important;
+}
+}
+
+@media screen and (min-width: 4050px) {
+.home-body{height: 118.9rem;
+margin-top: -13rem!important;}
+.h1-home-front{
+  font-size: 5.4rem!important;
+}
+}
+
+@media screen and (min-width: 5400px) {
+.home-body{height: 130.9em;
+margin-top: -17rem!important;}
+.h1-home-front{
+  font-size: 5.4rem!important;
 }
 }
 

@@ -3739,45 +3739,45 @@ margin: 0 8.6rem;
 
 @media screen and (min-width: 4050px) {
   #cashless-product-body {
-    margin-top: -9rem!important;
-    padding-top: 9rem!important;
+    margin-top: -13rem!important;
+    padding-top: 13rem!important;
       background-position: center;
-      height:80rem;
+      height:105rem;
   }
 
   .img-c{
     width: auto;
-    height: 46rem;
+    height: 66rem;
   }
 
   .p-cash{
-    font-size: 2rem!important;
+    font-size: 3rem!important;
   }
   .cashless-row{
   padding-top: 1.3rem;
-  margin: 0 13rem !important
+  margin: 0 25rem !important
   }
 }
 
 @media screen and (min-width: 5400px) {
   #cashless-product-body {
-    margin-top: -9rem!important;
-    padding-top: 9rem!important;
+    margin-top: -17rem!important;
+    padding-top: 17rem!important;
       background-position: center;
-      height:80rem;
+      height:160rem;
   }
 
   .img-c{
     width: auto;
-    height: 46rem;
+    height: 86rem;
   }
 
   .p-cash{
-    font-size: 2rem!important;
+    font-size: 4rem!important;
   }
   .cashless-row{
   padding-top: 1.3rem;
-  margin: 0 13rem !important
+  margin: 0 36rem !important
   }
 }
 

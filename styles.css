@@ -615,7 +615,7 @@ footer {
 @media screen and (min-width: 2640px) {
 .home-body{height: 85.9rem;}
 .h1-home-front{
-  font-size: 5.4rem!important;
+  font-size: 5.4.rem!important;
 }
 }
 
@@ -5757,7 +5757,7 @@ font-size: 1.3rem!important;
   padding-left: 31rem;
 }
 .row-p1{
-
+padding-left: 36rem!important;
 }
 .row-p2{
 
@@ -5792,6 +5792,9 @@ padding-left: 36rem !important;
 @media screen and (min-width: 1600px) {
   #partner-body-content {
       height: 48rem;
+  }
+  .row-p1{
+  padding-left: 55rem!important;
   }
   .row-partner{
     padding-left: 50rem;

@@ -1842,7 +1842,7 @@ hr {
 }
 .h3-p{
   padding-top: 1rem;
-  color: white;
+  color: #008000; /*white*/
   font-weight: bolder;
 }
 

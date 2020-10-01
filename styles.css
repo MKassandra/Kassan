@@ -3912,28 +3912,28 @@ margin: 0 -3rem;
 }
 @media screen and (min-width: 4050px) {
   #access-product-body {
-    margin-top: -9rem!important;
-    padding-top: 9rem!important;
-      height: 80rem;
+    margin-top: -13rem!important;
+    padding-top: 13rem!important;
+      height: 118rem;
   }
   .h3-access-p{
-    font-size: 3.3rem!important;
+    font-size: 4.3rem!important;
   }
   .p-access{
-    font-size: 2.3rem!important;
+    font-size: 3.3rem!important;
   }
 }
 @media screen and (min-width: 5400px) {
   #access-product-body {
-    margin-top: -9rem!important;
-    padding-top: 9rem!important;
-      height: 80rem;
+    margin-top: -17rem!important;
+    padding-top: 17rem!important;
+      height: 160rem;
   }
   .h3-access-p{
-    font-size: 3.3rem!important;
+    font-size: 5.5rem!important;
   }
   .p-access{
-    font-size: 2.3rem!important;
+    font-size: 4.5rem!important;
   }
 }
 

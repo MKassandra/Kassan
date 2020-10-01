@@ -3516,7 +3516,7 @@ margin: 0 -3rem;
 }
 @media screen and (min-width: 1440px) {
   #cust-product-body{
-      height: 40rem;
+      height: 43.4rem;
   }
   .custom-display {
       width: 22rem!important;
@@ -3524,7 +3524,7 @@ margin: 0 -3rem;
 }
 @media screen and (min-width: 1690px) {
     #cust-product-body{
-      height: 48rem;
+      height: 49rem;
   }
   .custom-display {
       width: 26rem!important;
@@ -3542,7 +3542,7 @@ margin: 0 -3rem;
 
 @media screen and (min-width: 1920px) {
     #cust-product-body{
-      height: 55rem;
+      height: 59rem;
   }
   .custom-display {
       width: 33rem!important;

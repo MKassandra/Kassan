@@ -2558,7 +2558,37 @@ top:19rem;
   }
 }
 @media screen and (min-width: 2640px) {
-
+  .back, .back-u  {
+    font-size: 2.9rem !important;
+    margin-left: 4rem;
+    margin-top:-3rem!important;
+  }
+  .back-arrow, .back-arrow-u {
+      height: 4rem;
+      width: 4rem;
+  }
+}
+@media screen and (min-width: 4050px) {
+  .back, .back-u  {
+    font-size: 4.2rem !important;
+    margin-left: 7rem;
+    margin-top: -5rem!important;
+  }
+  .back-arrow, .back-arrow-u {
+      height: 6rem;
+      width: 6rem;
+  }
+}
+@media screen and (min-width: 5400px) {
+  .back, .back-u  {
+    font-size: 5.2rem !important;
+    margin-left: 10rem;
+    margin-top: -6rem!important;
+  }
+  .back-arrow, .back-arrow-u {
+      height: 9rem;
+      width: 9rem;
+  }
 }
 
 @media screen and (max-width: 500px){
@@ -4004,6 +4034,9 @@ margin: 0 -3rem;
   .custom-display {
       width: 22rem!important;
   }
+  .h3-custom{
+
+  }
 }
 @media screen and (min-width: 1690px) {
     #cust-product-body{
@@ -4011,6 +4044,9 @@ margin: 0 -3rem;
   }
   .custom-display {
       width: 26rem!important;
+  }
+  .h3-custom{
+
   }
 }
 
@@ -4022,6 +4058,9 @@ margin: 0 -3rem;
   }
   .custom-display {
       width: 29rem!important;
+  }
+  .h3-custom{
+
   }
 }
 
@@ -4042,26 +4081,35 @@ margin: 0 -3rem;
   .custom-display {
       width: 41rem!important;
   }
+  .h3-custom{
+
+  }
 }
 @media screen and (min-width: 4050px) {
   #cust-product-body{
-      height: 78.9rem;
-      margin-top: -9rem!important;
-      padding-top: 9rem!important;
+      height: 114rem;
+      margin-top: -13rem!!important;
+      padding-top: 13rem!important;
   }
   .custom-display {
-      width: 41rem!important;
+      width: 55rem!important;
+  }
+  .h3-custom{
+    font-size: 3.5rem!important
   }
 }
 
 @media screen and (min-width: 5400px) {
   #cust-product-body{
-      height: 78.9rem;
-      margin-top: -9rem!important;
-      padding-top: 9rem!important;
+      height: 160.9rem;
+      margin-top: -17rem!important;
+      padding-top: 17rem!important;
   }
   .custom-display {
-      width: 41rem!important;
+      width: 75rem!important;
+  }
+  .h3-custom{
+    font-size: 5.5rem!important
   }
 }
 

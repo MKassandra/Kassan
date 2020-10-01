@@ -149,7 +149,7 @@ function showCalendar(month, year) {
     //alert("clicked cell at: " + this.cellIndex + ", " + this.parentNode.rowIndex);
     //cells , rowIndex
 
-    row1 = this.parentNode.rowIndex
+    row1 = this.parentNode.rowIndex;
     cells1 = this.cellIndex;
     daydate1 = "";
     if ((document.getElementById("textarea-char-counter").value).length > 50) {

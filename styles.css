@@ -258,6 +258,17 @@ background-image:linear-gradient(#d0b0ff,#ba95ff)!important;
 padding: 0.2rem 0.6rem !important;
 }
 
+
+.second-nav-item:hover{
+    color:  #730ac4 !important;
+}
+.second-nav-item:focus{
+  color:#730ac4 !important;
+}
+.second-nav-item:active{
+  color:#730ac4 !important;
+}
+
 .ul-holder{
   margin-top:-1.2rem !important
 }

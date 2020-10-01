@@ -2147,46 +2147,58 @@ margin: 0rem 1rem;
     transform: scale(1.2);
 }
 
-/*MEDIA-PROD-BTN-CARO8/
+
+/*MEDIA-PROD-BTN-CARO8*/
 @media screen and (min-width: 1440px) {
   .imag-e
   {
-    height: 7rem;
-    width: 6rem;
+    height: 6.5rem;
+    width: 6.5rem;
   }
 
 }
 @media screen and (min-width: 1600px) {
   .imag-e
   {
-    height: 6rem;
-    width: 6rem;
+    height: 7rem;
+    width: 7rem;
   }
-
 }
 @media screen and (min-width: 1810px) {
   .imag-e
   {
-    height: 6rem;
-    width: 6rem;
+    height: 7.5rem;
+    width: 7.5rem;
   }
-
 }
 @media screen and (min-width: 1920px) {
   .imag-e
   {
-    height: 6rem;
-    width: 6rem;
+    height: 8.5rem;
+    width: 8.5rem;
   }
-
 }
 @media screen and (min-width: 2640px) {
   .imag-e
   {
-    height: 6rem;
-    width: 6rem;
+    height: 11rem;
+    width: 11rem;
   }
-}*/
+}
+@media screen and (min-width: 4050px) {
+  .imag-e
+  {
+    height: 18rem;
+    width: 18rem;
+  }
+}
+@media screen and (min-width: 5400px) {
+  .imag-e
+  {
+    height: 24rem;
+        width: 24rem;
+  }
+}
 
 /*@keyframes jump-btn{
   0% {background-color:transparent; left:0px; top:30rem;}
@@ -2205,6 +2217,63 @@ margin: 0rem 1rem;
 
 .imag-c:hover{
 
+}
+@media screen and (min-width: 1440px) {
+
+  .imag-c
+  {
+    height: 10rem;
+    width: 31rem;
+  }
+
+}
+@media screen and (min-width: 1600px) {
+
+  .imag-c
+  {
+    height: 10.5rem;
+  width: 34rem;
+  }
+}
+@media screen and (min-width: 1810px) {
+
+  .imag-c
+  {
+    height: 11rem;
+      width: 36.5rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+
+  .imag-c
+  {
+    height: 12rem;
+        width: 41.8rem;
+  }
+}
+@media screen and (min-width: 2640px) {
+
+  .imag-c
+  {
+    height: 16.5rem;
+        width: 54.8rem;
+  }
+}
+@media screen and (min-width: 4050px) {
+
+  .imag-c
+  {
+    height: 27.9rem;
+      width: 93.8rem;
+  }
+}
+@media screen and (min-width: 5400px) {
+
+  .imag-c
+  {
+    height: 33.9rem;
+    width: 127.8rem;
+  }
 }
 
 .icon-up{
@@ -2429,81 +2498,80 @@ top:19rem;
 /*MEDIA-PRODUCT-BUTTON*/
 @media screen and (min-width: 1400px){
   .row-product-btn{
-    top:36rem;
-      left: 37rem!important;
+    top: 38rem;
+    left: 37rem!important;
   }
   .row-product-line{
-    top:34rem;
-    left:18rem !important;
+    top: 36rem;
+    left: 16.5rem !important;
   }
 
 }
 
 @media screen and (min-width: 1670px){
   .row-product-btn{
-    top:40rem;
-      left: 42rem!important;
+    top: 44rem;
+        left: 42rem!important;
   }
   .row-product-line{
-    top:38rem;
-    left:23rem !important;
+    top: 42rem;
+    left: 19.7rem !important;
   }
 }
 
 @media screen and (min-width: 1800px){
   .row-product-btn{
-    top:42rem;
-      left: 46rem!important;
+    top: 46rem;
+        left: 43rem!important;
   }
   .row-product-line{
-    top:40rem;
-    left:27rem !important;
+    top: 43.7rem;
+  left: 19.4rem !important;
   }
 
 }
 
 @media screen and (min-width: 2040px){
   .row-product-btn{
-    top:48rem;
-      left: 54rem!important;
+    top: 52rem;
+        left: 49rem!important;
   }
   .row-product-line{
-    top:46rem;
-    left:35rem !important;
+    top: 49.9rem;
+        left: 22.6rem !important;
   }
 
 }
 
 @media screen and (min-width: 2700px){
   .row-product-btn{
-    top:64rem;
-      left: 74rem!important;
+    top: 64rem;
+        left: 65rem!important;
   }
   .row-product-line{
-    top:62rem;
-    left:55rem !important;
-  }
+    top: 61rem;
+        left: 32.1rem !important;
 }
 
 @media screen and (min-width: 4050px){
   .row-product-btn{
     top: 96rem;
-    left: 115rem!important;
+        left: 95rem!important;
   }
   .row-product-line{
-    top: 94rem;
-left: 96rem!important;
+    top: 91rem;
+        left: 41rem !important;
   }
 }
 
 @media screen and (min-width: 5400px){
   .row-product-btn{
-    top:130rem;
-      left:163rem!important;
+    top: 118rem;
+    left: 125rem!important;
   }
   .row-product-line{
-    top: 128rem;
-    left: 144rem !important;
+    top: 113rem;
+        left: 53rem !important;
   }
 }
 
@@ -2602,8 +2670,8 @@ left: 96rem!important;
 
 @media screen and (min-width: 1440px) {
   .back-arrow, .back-u {
-      height: 2.7rem;
-      width: 2.7rem;
+      height: 2.7rem!important;
+      width: 2.7rem!important;
   }
 
 }
@@ -2612,8 +2680,8 @@ left: 96rem!important;
     font-size: 1.8rem !important;
   }
   .back-arrow, .back-arrow-u {
-      height: 2.7rem;
-      width: 2.7rem;
+      height: 2.7rem!important;
+      width: 2.7rem!important;
   }
 }
 @media screen and (min-width: 1810px) {
@@ -2621,8 +2689,8 @@ left: 96rem!important;
     font-size: 2rem !important;
   }
   .back-arrow, .back-arrow-u {
-      height: 2.7rem;
-      width: 2.7rem;
+      height: 2.7rem!important;
+      width: 2.7rem!important;
   }
 
 }
@@ -2631,8 +2699,8 @@ left: 96rem!important;
     font-size: 2.2rem !important;
   }
   .back-arrow, .back-arrow-u {
-      height: 3rem;
-      width: 3rem;
+      height: 3rem!important;
+      width: 3rem!important;
   }
 }
 @media screen and (min-width: 2640px) {
@@ -2642,8 +2710,8 @@ left: 96rem!important;
     margin-top:-3rem!important;
   }
   .back-arrow, .back-arrow-u {
-      height: 4rem;
-      width: 4rem;
+      height: 4rem!important;
+      width: 4rem!important;
   }
 }
 @media screen and (min-width: 4050px) {
@@ -2653,8 +2721,8 @@ left: 96rem!important;
     margin-top: -5rem!important;
   }
   .back-arrow, .back-arrow-u {
-      height: 6rem;
-      width: 6rem;
+      height: 6rem!important;
+      width: 6rem!important;
   }
 }
 @media screen and (min-width: 5400px) {
@@ -2664,8 +2732,8 @@ left: 96rem!important;
     margin-top: -6rem!important;
   }
   .back-arrow, .back-arrow-u {
-      height: 9rem;
-      width: 9rem;
+      height: 9rem!important;
+      width: 9rem!important;
   }
 }
 
@@ -6922,7 +6990,7 @@ margin: 0 15rem!important;
 }
 @media screen and (min-width: 4050px) {
   #talk-body-content {
-      height: 113rem;
+      height: 103rem;
         font-size: 3.2rem!important;
   }
   .h3-t{
@@ -6972,7 +7040,7 @@ margin: 0 15rem!important;
 
 @media screen and (min-width: 5400px) {
   #talk-body-content {
-      height: 145rem;
+      height: 123rem;
         font-size: 4rem!important;
   }
   .h3-t{

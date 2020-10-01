@@ -2147,7 +2147,7 @@ margin: 0rem 1rem;
     transform: scale(1.2);
 }
 
-/*MEDIA-PROD-BTN-CARO8/
+/*MEDIA-PROD-BTN-CARO
 @media screen and (min-width: 1440px) {
   .imag-e
   {
@@ -2487,23 +2487,23 @@ top:19rem;
 
 @media screen and (min-width: 4050px){
   .row-product-btn{
-    top: 96rem;
-    left: 115rem!important;
+    top:64rem;
+      left: 74rem!important;
   }
   .row-product-line{
-    top: 94rem;
-left: 96rem!important;
+    top:62rem;
+    left:55rem !important;
   }
 }
 
 @media screen and (min-width: 5400px){
   .row-product-btn{
-    top:130rem;
-      left:163rem!important;
+    top:64rem;
+      left: 74rem!important;
   }
   .row-product-line{
-    top: 128rem;
-    left: 144rem !important;
+    top:62rem;
+    left:55rem !important;
   }
 }
 
@@ -6922,7 +6922,7 @@ margin: 0 15rem!important;
 }
 @media screen and (min-width: 4050px) {
   #talk-body-content {
-      height: 113rem;
+      height: 103rem;
         font-size: 3.2rem!important;
   }
   .h3-t{
@@ -6972,7 +6972,7 @@ margin: 0 15rem!important;
 
 @media screen and (min-width: 5400px) {
   #talk-body-content {
-      height: 145rem;
+      height: 123rem;
         font-size: 4rem!important;
   }
   .h3-t{

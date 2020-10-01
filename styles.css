@@ -2511,6 +2511,7 @@ margin: 0 8.6rem;
   .col-upper{
   margin-left:10.6rem;
   }
+
   .col-upper2, .col-upper3{
   margin-left: 10rem;
   }
@@ -2530,6 +2531,11 @@ margin: 0 8.6rem;
 
   .col-lower{
   margin: 0 8.6rem;
+  }
+
+  .col-lower1{
+  margin-top: -3rem;
+  padding-right: 4rem!important;
   }
 
   .col-lower2{

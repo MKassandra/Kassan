@@ -1900,7 +1900,32 @@ hr {
     width: 20rem;
     margin-bottom: -10rem;
 }
-
+/*MEDIA-PRODUCT-MAIN*/
+@media screen and (min-width: 1440px) {
+.product-dev{
+margin-top: -7rem!important;
+}
+}
+@media screen and (min-width: 1810px) {
+  .product-dev{
+  margin-top: -8rem!important;
+}
+}
+@media screen and (min-width: 2640px) {
+  .product-dev{
+  margin-top: -9rem!important;
+}
+}
+@media screen and (min-width: 4050px) {
+  .product-dev{
+  margin-top: -13rem!important;
+}
+}
+@media screen and (min-width: 5400px) {
+  .product-dev{
+  margin-top: -17rem!important;
+}
+}
 
 /* product icon button*/
 .carousel-indicators li {
@@ -2112,7 +2137,6 @@ left:0.3rem;
       height: 48rem;
   }
   .h3-p{
-
     font-size:2.2rem!important;}
 
 }
@@ -2121,17 +2145,25 @@ left:0.3rem;
       height: 57rem;
   }
   .h3-p{
-
     font-size:2.5rem!important;}
 }
+
+@media screen and (min-width: 1810px) {
+  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
+      height: 57rem;
+  }
+  .h3-p{
+    font-size:2.5rem!important;}
+}
+
 @media screen and (min-width: 1920px) {
   .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
       height: 70rem;
   }
   .h3-p{
     font-size:3.5rem!important;}
-
 }
+
 @media screen and (min-width: 2640px) {
   .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
       height: 80rem;
@@ -2663,6 +2695,8 @@ margin: 0 8.6rem;
 }
 @media screen and (min-width: 1440px) {
   #upgrade-product-body {
+    margin-top: -7rem!important;
+    padding-top: 7rem!important;
       height:47rem;
       background-position: top;
   }
@@ -2677,7 +2711,7 @@ margin: 0 8.6rem;
 
 
   .row-upper{
-   padding-top: 4rem;
+   padding-top: 1rem;
   }
 
   .col-upper{
@@ -2729,7 +2763,7 @@ margin: 0 8.6rem;
     }
 
   .row-upper{
-   padding-top: 6rem;
+   padding-top: 4rem;
   }
 
   .col-upper{
@@ -2766,12 +2800,14 @@ margin: 0 8.6rem;
 }
 @media screen and (min-width: 1810px) {
   #upgrade-product-body {
+    margin-top: -8rem!important;
+    padding-top: 8rem!important;
       background-position: top;
       height:59rem
   }
 
   .row-upper{
-   padding-top: 10rem;
+   padding-top: 5rem;
   }
 
   .col-upper{
@@ -2823,7 +2859,7 @@ margin: 0 8.6rem;
   }
 
     .row-upper{
-     padding-top: 10rem;
+     padding-top: 5rem;
     }
 
     .col-upper{
@@ -2862,6 +2898,8 @@ margin: 0 8.6rem;
 }
 @media screen and (min-width: 2640px) {
   #upgrade-product-body {
+    margin-top: -9rem!important;
+    padding-top: 9rem!important;
       height:90rem;
   }
 
@@ -2875,7 +2913,7 @@ margin: 0 8.6rem;
 
 
     .row-upper{
-     padding-top: 20rem;
+     padding-top: 12rem;
     }
 
     .col-upper{
@@ -3631,7 +3669,9 @@ margin: 0 -3rem;
 }
 @media screen and (min-width: 1440px) {
   #cust-product-body{
-      height: 43.4rem;
+      height: 44.8rem;
+      margin-top: -7rem!important;
+      padding-top: 7rem!important;
   }
   .custom-display {
       width: 22rem!important;
@@ -3639,7 +3679,7 @@ margin: 0 -3rem;
 }
 @media screen and (min-width: 1690px) {
     #cust-product-body{
-      height: 49rem;
+      height: 50rem;
   }
   .custom-display {
       width: 26rem!important;
@@ -3649,6 +3689,8 @@ margin: 0 -3rem;
 @media screen and (min-width: 1810px) {
     #cust-product-body{
       height: 55rem;
+      margin-top: -8rem!important;
+      padding-top: 8rem!important
   }
   .custom-display {
       width: 29rem!important;
@@ -3665,7 +3707,9 @@ margin: 0 -3rem;
 }
 @media screen and (min-width: 2640px) {
   #cust-product-body{
-      height: 75rem;
+      height: 78.9rem;
+      margin-top: -9rem!important;
+      padding-top: 9rem!important;
   }
   .custom-display {
       width: 41rem!important;

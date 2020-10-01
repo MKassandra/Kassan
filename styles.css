@@ -590,32 +590,32 @@ footer {
 @media screen and (min-width: 1440px) {
 .home-body{height: 45.9rem;}
 .h1-home-front{
-  font-size: 3.2rem!important;
+  font-size: 3.4rem!important;
 }
 }
 @media screen and (min-width: 1600px) {
 .home-body{height: 55.9rem;}
 .h1-home-front{
-  font-size: 3.5rem!important;
+  font-size: 3.9rem!important;
 }
 }
 @media screen and (min-width: 1810px) {
 .home-body{height: 60.9rem;}
 .h1-home-front{
-  font-size: 3.8rem!important;
+  font-size: 4.2rem!important;
 }
 }
 @media screen and (min-width: 1920px) {
 .home-body{height: 65.9rem;}
 .h1-home-front{
-  font-size: 4.1rem!important;
+  font-size: 4.5rem!important;
 }
 }
 
 @media screen and (min-width: 2640px) {
 .home-body{height: 85.9rem;}
 .h1-home-front{
-  font-size: 5rem!important;
+  font-size: 5.4rem!important;
 }
 }
 
@@ -718,7 +718,7 @@ footer {
   margin-top: 5rem;
   color: #523883;
   font-weight: bolder !important;
-  font-size: 2.7rem;
+  font-size: 3.1rem;
 }
 
 
@@ -3981,8 +3981,8 @@ small {
     padding-left: 10em !important;
     padding-top: 15em !important;
     color: #3a3a3b;
-  /*  background-image: url("images/bg/new.jpg") !important;*/
-    background-image: url("images/bg/eload_bg.png") !important;
+ background-image: url("images/bg/eload_new.jpg") !important;
+    /*   background-image: url("images/bg/eload_bg.png") !important;*/
     background-size: cover;
     /*background-blend-mode: overlay;
     background-color: rgba(255, 255, 255, 0.5);*/
@@ -4937,6 +4937,142 @@ font-size: 1.3rem!important;
     }
 
     @media screen and (min-width: 2710px) {/*max-width: 1870px*/
+      .balance {
+        padding-left: 120rem!important;
+      }
+
+      .withdrawal {
+            padding-right: 100rem!important;
+
+      }
+
+      .bills {
+          padding-left: 115rem !important;
+      }
+
+      .purchase {
+              padding-right: 109rem !important;
+      }
+
+      .payroll {
+
+          padding-left: 100rem !important;
+      }
+
+      .e-bank {
+          padding-left: 80rem !important;
+      }
+
+        .eload {
+              padding-top: 33rem !important;
+        }
+
+        .remit {
+            padding-top: 15rem !important;
+            padding-left: 89rem !important;
+        }
+
+        .fund {
+            padding-right: 99rem !important;
+        }
+
+        .mobile {
+            padding-left: 89rem !important;
+        }
+
+        .online {
+            padding-top: 27rem !important;
+            padding-left: 120rem !important;
+        }
+
+        .ewallet {
+            padding-top: 17rem !important;
+            padding-right: 100rem !important;
+        }
+    }
+
+    @media screen and (min-width: 4050px) {/*max-width: 1870px*/
+      .display-p{
+      font-size: 4.1rem!important;
+      }
+      .balance-text, .withdraw-text, .bills-text, .purchase-text, .payroll-text, .ebank-text, .eload-text,
+       .remit-text, .funds-text, .mobile-text, .online-text, .ewallet-text{
+            font-size: 4.9rem!important;
+      }
+      .balance {
+        height: 190rem;
+        padding-top: 17rem!important;
+        padding-left: 120rem!important;
+      }
+
+      .withdrawal {
+          height: 190rem;
+          padding-top: 27rem !important;
+          padding-right: 100rem!important;
+      }
+
+      .bills {
+          height: 190rem;
+          padding-top: 20rem !important;
+            padding-left: 115rem !important;
+      }
+
+      .purchase {
+          height: 190rem;
+              padding-top: 18rem !important;
+        padding-right: 109rem !important;
+      }
+
+      .payroll {
+          height: 190rem;
+          padding-top: 15rem !important;
+        padding-left: 89rem !important;
+      }
+
+      .e-bank {
+          height: 190rem;
+          padding-top: 13rem !important;
+            padding-left: 80rem !important;
+      }
+
+        .eload {
+            height: 190rem;
+              padding-top: 33rem !important;
+        }
+
+        .remit {
+            height: 190rem !important;
+            padding-top: 15rem !important;
+            padding-left: 89rem !important;
+        }
+
+        .fund {
+            height: 190rem !important;
+            padding-top: 13rem !important;
+          padding-right: 99rem !important;
+        }
+
+        .mobile {
+            height: 190rem;
+            padding-top: 13rem !important;
+            padding-left: 89rem !important;
+        }
+
+        .online {
+            height: 190rem;
+            padding-top: 27rem !important;
+            padding-left: 120rem !important;
+        }
+
+        .ewallet {
+            height: 190rem;
+            padding-top: 17rem !important;
+            padding-right: 100rem !important;
+        }
+    }
+
+    @media screen and (min-width: 5400px) {/*max-width: 1870px*/
+
       .balance {
         padding-left: 120rem!important;
       }

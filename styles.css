@@ -6534,6 +6534,9 @@ padding-left: 36rem !important;
       margin: 1rem 0;
     height: 6rem;}
 }
+.col-acm{
+padding-left: 4rem!important;
+}}
 @media screen and (min-width: 1440px) {
   #partner-body-content {
       height: 40rem;

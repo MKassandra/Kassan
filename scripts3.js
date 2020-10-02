@@ -81,7 +81,7 @@ function showCalendar(month, year) {
 
         if (document.getElementById("textarea-char-counter").value != "") {
           //alert(document.getElementById("textarea-char-counter").value.length)
-          if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Jan") {
+          if (document.getElementById("textarea-char-counter").value.slice(31, 36) === "Jan") {
             dd1 = 0;
           } else if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Feb") {
             dd1 = 1;
@@ -142,7 +142,7 @@ function showCalendar(month, year) {
         daydate1 = $(this).text();
       }
       var msg2 = document.getElementById("textarea-char-counter").value.slice(46, (document.getElementById("textarea-char-counter").value).length);
-      var msg1 = "Hi BRBI! Are you free to meet on " + $(monthAndYear).text().slice(0, 3) + " " + daydate1 + ", " + $(monthAndYear).text().slice(4, 8) + ".";
+      var msg1 = "I would like to set a meeting  " + $(monthAndYear).text().slice(0, 3) + " " + daydate1 + ", " + $(monthAndYear).text().slice(4, 8) + ".";
       document.getElementById("textarea-char-counter").value = msg1 + msg2;
       //alert((document.getElementById("textarea-char-counter").value).length);
     } else {
@@ -151,7 +151,7 @@ function showCalendar(month, year) {
       } else {
         daydate1 = $(this).text();
       }
-      var msg3 = "Hi BRBI! Are you free to meet on " + $(monthAndYear).text().slice(0, 3) + " " + daydate1 + ", " + $(monthAndYear).text().slice(4, 8) + ".";
+      var msg3 = "I would like to set a meeting  " + $(monthAndYear).text().slice(0, 3) + " " + daydate1 + ", " + $(monthAndYear).text().slice(4, 8) + ".";
       document.getElementById("textarea-char-counter").value = msg3;
       //alert((document.getElementById("textarea-char-counter").value).length);
     }
@@ -190,5 +190,5 @@ function showCalendar(month, year) {
 
   // check how many days in a month code from https://dzone.com/articles/determining-number-days-month
   function daysInMonth(iMonth, iYear) {
-    return 32 - new Date(iYear, iMonth, 32).getDate();
+    return 30 - new Date(iYear, iMonth, 30).getDate();
   }

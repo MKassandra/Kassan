@@ -6496,7 +6496,7 @@ font-size: 1.3rem!important;
     background-image: url("images/bg/partner_new.jpg") !important;
     height: 35rem;
     background-size: cover;
-    background-position: center left;
+    background-position: right;
 
 }
 
@@ -6534,9 +6534,24 @@ padding-left: 36rem !important;
       margin: 1rem 0;
     height: 6rem;}
 }
+.row{
+      padding-top: 2rem;
+}
+.row-p1{
+  padding-left: 42rem!important
+}
+.row-p2{
+  padding-left: 34rem!important
+}
+
+.row-p3{
+  padding-left: 41rem!important
+}
 .col-acm{
 padding-left: 4rem!important;
-}}
+}
+
+}
 @media screen and (min-width: 1440px) {
   #partner-body-content {
       height: 40rem;

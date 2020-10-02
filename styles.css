@@ -1632,6 +1632,20 @@ padding-top: 17rem!important;
   }
   }
 
+  @media screen and (max-width: 1080px) {
+    #who-body-content {
+        background-position: center;
+        padding: 0 3rem !important;
+        padding-top: 2rem !important;
+        text-align: justify;
+        line-height: 1.2!important;
+    }
+
+    .h1-who {
+        text-align: center!important;
+    }
+    }
+
 
 #meet-body-content {
     padding: 4rem 0rem;
@@ -1850,6 +1864,18 @@ font-size: 3.8rem!important
 }
 
 }
+
+@media screen and (max-width: 1080px) {
+.h1-meet{
+  font-size: 2.5rem!important
+}
+
+.row-bod-end1{
+  margin-top: 0rem!important;
+}
+
+}
+
 @media screen and (max-width: 600px) {
   .bod-pic2{
     height: 8rem;
@@ -6794,13 +6820,58 @@ font-size: 8rem!important;
       }
 }
 
+@media screen and (max-width: 1080px) {
+  #partner-body-content {
+      height: auto;
+  }
+  .col-acm{
+    padding-left: 0rem!important;
+  }
+  .row{
+        padding-top: 1.6rem;
+  }
+  .row-p1{
+    padding-left: 1rem!important;
+  }
+  .row-p2{
+    padding-left: 1rem!important;
+  }
 
+  .row-p3{
+    padding-left: 1rem!important;
+  }
+}
+/*
+@media screen and (max-width: 1080px) {
+  #partner-body-content {
+      height: auto;
+      background-position: right;
+  }
+  .col-acm{
+    padding-left: 0rem!important;
+  }
+  .row{
+        padding-top: 1.6rem;
+  }
+  .row-p1{
+    padding-left: 17rem!important;
+  }
+  .row-p2{
+    padding-left: 15rem!important;
+  }
+
+  .row-p3{
+    padding-left: 14rem!important;
+  }
+}*/
+
+/* OLD ONE???
 @media screen and (max-width: 479px) {
     .partner-display{
       height: auto;
       width: 10rem;
     }
-}
+}*/
 
 /*
 .r2-p{

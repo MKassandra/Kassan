@@ -1431,15 +1431,12 @@ padding-top: 17rem!important;
   }
 }
 
-@media screen and (max-width: 800px) {
-
+/*@media screen and (max-width: 800px) {
   #history-body-content {
     background-position: center !important;
-
   }
     .row-h {
         padding: 0 5rem !important;
-
     }
 
     .col-who-1{
@@ -1447,7 +1444,6 @@ padding-top: 17rem!important;
     }
 
     .h1-about {
-
         text-align: center;
         padding: 0 0 !important;
     }
@@ -1465,8 +1461,38 @@ padding-top: 17rem!important;
     .row-h {
         padding: 0 2rem !important;
     }
+}*/
 
+@media screen and (max-width: 480px) {
+  #history-body-content {
+    background-position: center !important;
+    padding: 1rem 1rem !important;
+  }
+    .row-h {
+        padding: 0 2rem !important;
+    }
 
+    .col-who-1{
+      margin-left: 0rem !important;
+    }
+
+    .h1-about {
+        text-align: center;
+        padding: 0 0 !important;
+    }
+
+}
+@media screen and (max-width: 299px) {
+
+    .h1-about {
+        font-size: 3rem !important;
+        text-align: center !important;
+        padding: 0 0 !important;
+    }
+
+    .row-h {
+        padding: 0 2rem !important;
+    }
 }
 
 #who-body-content {
@@ -1566,7 +1592,7 @@ padding-top: 17rem!important;
   }
 }
 
-
+/*
 @media screen and (max-width: 800px) {
     #who-body-content {
         background-position: center;
@@ -1591,7 +1617,20 @@ padding-top: 17rem!important;
         text-align: center;
     }
 
-}
+}*/
+@media screen and (max-width: 480px) {
+  #who-body-content {
+      background-position: center;
+      padding: 0 3rem !important;
+      padding-top: 2rem !important;
+      text-align: justify;
+      line-height: 1.2!important;
+  }
+
+  .h1-who {
+      text-align: center!important;
+  }
+  }
 
 
 #meet-body-content {
@@ -1801,7 +1840,16 @@ font-size: 3.8rem!important
   }
 
 
+@media screen and (max-width: 480px) {
+.h1-meet{
+  font-size: 2.5rem!important
+}
 
+.row-bod-end1{
+  margin-top: 0rem!important;
+}
+
+}
 @media screen and (max-width: 600px) {
   .bod-pic2{
     height: 8rem;

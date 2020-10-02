@@ -3728,6 +3728,10 @@ margin: 0 8.6rem;
   padding-top: 0.1rem;
   margin: 0 4rem!important;
   }
+  .col-cashless-3{
+padding-left: 3rem!important;
+  }
+
 }
 @media screen and (min-width: 1440px) {
   #cashless-product-body {
@@ -3748,6 +3752,11 @@ margin: 0 8.6rem;
   .cashless-row{
   padding-top: 0.5rem;
   }
+
+  .col-cashless-3{
+
+  }
+
 }
 @media screen and (min-width: 1600px) {
   #cashless-product-body {
@@ -3764,6 +3773,10 @@ margin: 0 8.6rem;
   .cashless-row{
   padding-top: 1.2rem;
   margin:0 6rem !important;
+  }
+
+  .col-cashless-3{
+
   }
 }
 @media screen and (min-width: 1810px) {

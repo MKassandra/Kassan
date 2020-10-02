@@ -5903,7 +5903,7 @@ font-size: 1.3rem!important;
         .eload {
             padding: 13rem 8rem !important;
             color: #3a3a3b;
-            /*background-image: url("images/s_eload.png") !important;*/
+            background-image: url("images/bg/eload_new.jpg") !important;
             background-size: cover;
             width: 100% !important;
             background-repeat: no-repeat !important;
@@ -5912,9 +5912,9 @@ font-size: 1.3rem!important;
         .remit {
             padding: 10rem 6rem !important;
             color: #3a3a3b;
-            background-image: url("images/bg/remit_bg2.png") !important;
+            background-image: url("images/bg/remittance_new.jpg") !important;
             background-size: cover;
-            height: 35rem;
+          /*  height: 35rem;*/
             width: 100% !important;
             background-repeat: no-repeat !important;
         }
@@ -5922,9 +5922,9 @@ font-size: 1.3rem!important;
         .fund {
             padding: 7rem 8rem !important;
             color: #3a3a3b ;
-            background-image: url("images/s_transfer.png") !important;
+            background-image: url("images/bg/fund_new.jpg") !important;
             background-size: cover;
-            height: 35rem;
+          /*  height: 35rem;*/
             width: 100% !important;
             background-repeat: no-repeat !important;
         }
@@ -5932,9 +5932,9 @@ font-size: 1.3rem!important;
         .mobile {
             padding: 7rem 8rem !important;
             color:  #3a3a3b;
-            background-image: url("images/s_mobile.png") !important;
-            background-color: rgba(255, 255, 255, 0.5) !important;
-            background-blend-mode: overlay;
+            background-image: url("images/bg/mobile_new.jpg") !important;
+          /*  background-color: rgba(255, 255, 255, 0.5) !important;
+            background-blend-mode: overlay;*/
             background-size: cover;
             height: 35rem;
             width: 100% !important;
@@ -5944,9 +5944,9 @@ font-size: 1.3rem!important;
         .online {
             padding: 7rem 8rem !important;
             color:  #3a3a3b;
-            background-image: url("images/s_obank.png") !important;
+            background-image: url("images/bg/online_new.jpg") !important;
             background-size: cover;
-            height: 35rem;
+            /*  height: 35rem;*/
             width: 100% !important;
             background-repeat: no-repeat !important;
         }
@@ -5954,9 +5954,9 @@ font-size: 1.3rem!important;
         .ewallet {
             padding: 13rem 7rem !important;
             color: #3a3a3b;
-            background-image: url("images/s_ewallet.png") !important;
+            background-image: url("images/bg/ewallet_new.jpg") !important;
             background-size: cover;
-            height: 35rem;
+            /*  height: 35rem;*/
             width: 100% !important;
             background-repeat: no-repeat !important;
         }
@@ -6040,8 +6040,8 @@ font-size: 1.3rem!important;
         padding-top: 5rem !important;
         text-align: justify;
         background-size: cover;
-        height: 55rem;
-        width: 100% !important;
+      /*  height: 55rem;
+        width: 100% !important;*/
         background-position: left;
         background-repeat: no-repeat !important;
     }
@@ -6080,8 +6080,10 @@ font-size: 1.3rem!important;
         padding: 2rem 4rem !important;
         padding-top: 10rem !important;
         text-align: justify;
-        height: 45rem;
-        background-position: center;
+        background-size: cover;
+      /*  height: 55rem;
+        width: 100% !important;*/
+        background-position: left;
         background-repeat: no-repeat !important;
     }
 
@@ -6091,8 +6093,8 @@ font-size: 1.3rem!important;
         padding-top: 5rem !important;
         text-align: justify;
         background-size: cover;
-        height: 45rem !important;
-        width: 100% !important;
+      /*  height: 55rem;
+        width: 100% !important;*/
         background-position: left;
         background-repeat: no-repeat !important;
     }
@@ -6102,9 +6104,10 @@ font-size: 1.3rem!important;
         padding-top: 5rem !important;
         text-align: justify;
         background-size: cover;
-        height: 45rem !important;
-        width: 100% !important;
-        background-position: center;
+        background-size: cover;
+      /*  height: 55rem;
+        width: 100% !important;*/
+        background-position: left;
         background-repeat: no-repeat !important;
     }
 
@@ -6114,9 +6117,10 @@ font-size: 1.3rem!important;
         padding-top: 5rem !important;
         text-align: justify;
         background-size: cover;
-        height: 45rem;
-        width: 100% !important;
-        background-position: center;
+        background-size: cover;
+      /*  height: 55rem;
+        width: 100% !important;*/
+        background-position: left;
         background-repeat: no-repeat !important;
     }
 
@@ -6126,9 +6130,10 @@ font-size: 1.3rem!important;
         padding: 2rem 4rem !important;
         padding-top: 5rem !important;
         text-align: justify;
-        height: 45rem;
-        width: 100% !important;
-        background-position: center;
+        background-size: cover;
+      /*  height: 55rem;
+        width: 100% !important;*/
+        background-position: left;
         background-repeat: no-repeat !important;
     }
 
@@ -6137,9 +6142,10 @@ font-size: 1.3rem!important;
         padding: 2rem 4rem !important;
         padding-top: 5rem !important;
         text-align: justify;
-        height: 45rem;
-        width: 100% !important;
-        background-position: center;
+        background-size: cover;
+      /*  height: 55rem;
+        width: 100% !important;*/
+        background-position: left;
         background-repeat: no-repeat !important;
     }
 
@@ -6226,13 +6232,15 @@ font-size: 1.3rem!important;
         font-size: 1.2rem !important;
     }
 
-    .display-p {
-        font-size: 1.2rem !important;
+    .balance,.withdrawal,.bills,.purchase,.payroll,.e-bank,.eloaod,.remit,.fund,
+    .mobile,.online,.ewallet{
+      height: 45rem;
+      background-position: top;
     }
 
     .balance {
         padding: 2rem 2rem !important;
-        padding-top: 10rem !important;
+        padding-top: 1rem !important;
     }
 
     .withdrawal {
@@ -6247,19 +6255,18 @@ font-size: 1.3rem!important;
 
     .purchase {
         padding: 2rem 2rem !important;
-        padding-top: 10rem !important;
+        padding-top: 6rem !important;
     }
 
     .payroll {
         padding: 2rem 2rem !important;
-        padding-top: 10rem !important;
+        padding-top: 5rem !important;
     }
 
 
     .e-bank {
         padding: 2rem 2rem !important;
-        padding-top: 10rem !important;
-        padding-bottom:5rem!important;
+        padding-top: 1rem !important;
     }
 
     .col-bank{

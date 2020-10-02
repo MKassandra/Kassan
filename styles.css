@@ -3040,7 +3040,7 @@ margin: 0 8.6rem;
 
 
   .row-lower{
-      padding-top: 10rem;
+      padding-top: 11rem!important;
   }
 
   .col-lower{
@@ -3084,7 +3084,7 @@ margin: 0 8.6rem;
 
 
   .row-lower{
-      padding-top: 9rem;
+      padding-top: 15rem!important;
   }
 
   .col-lower{
@@ -3172,7 +3172,7 @@ margin: 0 8.6rem;
 
 
     .row-upper{
-     padding-top: 12rem;
+     padding-top: 12rem!important;
     }
 
     .col-upper{
@@ -3228,7 +3228,7 @@ margin: 0 8.6rem;
 
 
     .row-upper{
-     padding-top: 20rem;
+     padding-top: 20rem!important;
     }
 
     .col-upper{
@@ -3248,7 +3248,7 @@ margin: 0 8.6rem;
 
 
     .row-lower{
-        padding-top: 22rem;
+        padding-top: 22rem!important;
     }
 
     .col-lower{
@@ -3304,7 +3304,7 @@ margin: 0 8.6rem;
 
 
     .row-lower{
-        padding-top: 34rem;
+        padding-top: 34rem!important;
     }
 
     .col-lower{

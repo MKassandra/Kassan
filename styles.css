@@ -822,6 +822,22 @@ padding-top: 17rem!important;
 }
 }
 
+@media screen and (max-width: 450px) {
+  .home-body {
+      padding-top: 9rem!important;
+  }
+
+}
+
+@media screen and (max-width: 960px) {
+  .home-body {
+      padding-top: 12rem!important;
+  }
+
+}
+
+
+
 .s_custom {
     padding: 6em 10em !important;
     color: #3a3a3b !important;
@@ -1268,7 +1284,7 @@ padding-top: 17rem!important;
 
 @media screen and (max-width: 320px) {
   .h1-home-front{
-           font-size: 2.3rem !important;
+           font-size: 1.6rem !important;
       }
     .display-4 {
         text-align: left;
@@ -7227,14 +7243,17 @@ padding: 4rem 0rem!important;
         @media screen and (max-width: 450px) {
             .brblogo {
                 height: 3rem;
-                width: 8.9rem;
+                width: 6rem;
                 margin-left: 0.1rem !important;
                 margin-right: 0.5rem;
             }
 
             .cashmate {
                 height: 2.5rem;
-                width: 7rem;
+                width: 2.5rem;
+            }
+            .navbar-toggler{
+              margin-top:0rem!important;
             }
 
             .services {

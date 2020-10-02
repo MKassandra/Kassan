@@ -2909,7 +2909,7 @@ margin: 0 8.6rem;
 
 
   .row-upper{
-   padding-top: 2.5rem;
+   padding-top: 2.5rem!important;
   }
 
   .col-upper{
@@ -2930,7 +2930,7 @@ margin: 0 8.6rem;
 
 
   .row-lower{
-      padding-top: 8rem!important;
+      padding-top: 7rem!important;
   }
 
   .col-lower{

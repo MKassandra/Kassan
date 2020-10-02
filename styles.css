@@ -2356,8 +2356,9 @@ left:0.3rem;
       height: 80rem;
   }
   .h3-p{
-
-    font-size:5rem!important;}
+padding-top: 17rem;
+padding-left: 15rem;
+    font-size:4.5rem!important;}
 }
 
 @media screen and (min-width: 4050px) {
@@ -2365,7 +2366,8 @@ left:0.3rem;
       height: 125rem;
   }
   .h3-p{
-
+padding-top: 30rem;
+padding-left: 40rem;
     font-size:5rem!important;}
 }
 
@@ -2375,8 +2377,9 @@ left:0.3rem;
       height: 157rem;
   }
   .h3-p{
-
-    font-size:5rem!important;}
+padding-top: 40rem;
+padding-left: 50rem;
+    font-size:6rem!important;}
 }
 
 

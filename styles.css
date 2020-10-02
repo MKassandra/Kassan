@@ -2392,7 +2392,7 @@ left:0.3rem;
     padding:2rem 2rem !important;
     color: #3a3a3b !important;
       padding-top: 5rem!important;
-    background-image: url("images/bg/p-slide5.jpg") !important;
+    background-image: url("images/bg/p-slide5_2.jpg") !important;
     background-size: cover !important;
     background-position: top !important;
     height: 40rem;
@@ -2470,6 +2470,30 @@ padding-left: 40rem;
 padding-top: 40rem;
 padding-left: 50rem;
     font-size:6rem!important;}
+}
+
+@media screen and (max-width: 480px) {
+  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
+   background-size: cover;
+        /* background-position: right!important;*/
+  }
+  .h3-p{
+      font-size: 1.8rem!important;
+
+  }
+  .h3_customize{
+
+  }
+  .h3_upgrade{
+
+  }
+  .h3_upgrade{
+
+  }
+  .h3_upgrade{
+
+  }
+
 }
 
 
@@ -2611,6 +2635,19 @@ left: 96rem!important;
     left: 144rem !important;
   }
 }
+
+@media screen and (min-width: 5400px){
+  .row-product-btn{
+    top:130rem;
+      left:163rem!important;
+  }
+  .row-product-line{
+    top: 128rem;
+    left: 144rem !important;
+  }
+}
+
+
 
 .row-1 {
     text-align: center;
@@ -2776,6 +2813,18 @@ left: 96rem!important;
 
 @media screen and (max-width: 500px){
   .back-arrow {
+      margin-left: 0rem;
+  }
+
+  .back {
+      margin-left: 3rem;
+  }
+
+}
+
+/*
+@media screen and (max-width: 500px){
+  .back-arrow {
       margin-left: -1.9rem;
   }
 
@@ -2783,7 +2832,7 @@ left: 96rem!important;
       margin-left: 1.7rem;
   }
 
-}
+}*/
 /* ----old version-----
 .col-brb {
     color: white !important;
@@ -7304,6 +7353,11 @@ padding: 4rem 0rem!important;
                 margin-right: 1.5rem;
             }
 
+            .navbar-toggler{
+              margin-top:0rem!important;
+            }
+
+
             .about-border {
                 border: 1px solid;
                 border-right-color: #3a3a3b !important;
@@ -7353,6 +7407,10 @@ padding: 4rem 0rem!important;
 
             .letsTalk {
                 font-size: 0.7rem !important;
+            }
+
+            .navbar-toggler{
+              margin-top:0rem!important;
             }
 
             .about-border {

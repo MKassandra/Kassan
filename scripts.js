@@ -142,7 +142,7 @@ function showCalendar(month, year) {
         daydate1 = $(this).text();
       }
       var msg2 = document.getElementById("textarea-char-counter").value.slice(46, (document.getElementById("textarea-char-counter").value).length);
-      var msg1 = "I would like to set a meeting at " + $(monthAndYear).text().slice(0, 3) + " " + daydate1 + ", " + $(monthAndYear).text().slice(4, 8) + ".";
+      var msg1 = "I would like to set a meeting on " + $(monthAndYear).text().slice(0, 3) + " " + daydate1 + ", " + $(monthAndYear).text().slice(4, 8) + ".";
       document.getElementById("textarea-char-counter").value = msg1 + msg2;
       //alert((document.getElementById("textarea-char-counter").value).length);
     } else {
@@ -151,7 +151,7 @@ function showCalendar(month, year) {
       } else {
         daydate1 = $(this).text();
       }
-      var msg3 = "I would like to set a meeting at " + $(monthAndYear).text().slice(0, 3) + " " + daydate1 + ", " + $(monthAndYear).text().slice(4, 8) + ".";
+      var msg3 = "I would like to set a meeting on " + $(monthAndYear).text().slice(0, 3) + " " + daydate1 + ", " + $(monthAndYear).text().slice(4, 8) + ".";
       document.getElementById("textarea-char-counter").value = msg3;
       //alert((document.getElementById("textarea-char-counter").value).length);
     }

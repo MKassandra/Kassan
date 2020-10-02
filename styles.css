@@ -6554,12 +6554,13 @@ padding-left: 4rem!important;
 }
 @media screen and (min-width: 1440px) {
   #partner-body-content {
-      height: 40rem;
+      height: 45rem;
   }
   .partner-display{
     margin: 1rem 0;
       height: 6rem}
 }
+
 @media screen and (min-width: 1600px) {
   #partner-body-content {
       height: 48rem;

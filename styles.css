@@ -766,6 +766,17 @@ footer {
     height: 42rem;
   }
 }
+
+@media all and (min-width: 1279px) and (max-width: 14393px) {
+  .home-body{
+    height: 39.9rem;
+  }
+
+  .h1-home-front{
+    font-size: 3.7rem;
+  }
+}
+
 @media screen and (min-width: 1366px) {
 .home-body{
   height: 39.9rem;

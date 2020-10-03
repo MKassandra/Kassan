@@ -1562,6 +1562,15 @@ padding-top: 17rem!important;
 }
 
 /*MEDIA-WHO*/
+@media screen and (min-width: 1152px) {
+  #who-body-content {
+      padding-top: 0rem !important;
+
+  }
+  .row-w{
+padding-top: 17rem!important;
+  }
+}
 @media screen and (min-width: 1280px) {
   #who-body-content {
       padding-top: 0rem !important;

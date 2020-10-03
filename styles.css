@@ -214,9 +214,9 @@ background-image:linear-gradient(#d0b0ff,#ba95ff)!important;
   top: -0.1rem;
 }
 /*MEDIA-SECOND NAV*/
-@media all and (min-width: 1100px) and (max-width: 1280px) {
+@media all and (min-width: 1050px) and (max-width: 1280px) {
   .second-nav{
-    font-size: 0.9rem!important;
+    font-size: 0.7rem!important;
   }
 }
 @media all and (min-width: 1279px) and (max-width: 1443px) {

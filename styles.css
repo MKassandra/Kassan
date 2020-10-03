@@ -2590,11 +2590,11 @@ top:19rem;
 @media all and (min-width: 1050px) and (max-width: 1280px) {
   .row-product-btn{
     top:33rem;
-      left: 33rem;
+      left: 30rem;
   }
   .row-product-line{
     top:31rem;
-    left:14rem;
+    left:11rem;
   }
 }
 @media all and (min-width: 1279px) and (max-width: 1443px) {

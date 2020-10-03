@@ -1402,6 +1402,14 @@ padding-top: 17rem!important;
 }
 
 /*MEDIA-HISTORY*/
+
+@media screen and (min-width: 1280px) {
+#history-body-content{
+  padding: 4rem 3rem !important;
+    padding-top: 1rem;
+    line-height: 1.2;
+}
+}
 @media screen and (min-width: 1440px) {
   .h1-about{
     font-size: 2.7rem !important;
@@ -1524,7 +1532,7 @@ padding-top: 17rem!important;
 }
 
 #who-body-content {
-    padding: 4rem 6rem !important;
+    padding: 4rem 3em !important;
     padding-top: 17rem !important;
     padding-bottom: 11rem !important;
     line-height: 1;
@@ -1554,6 +1562,15 @@ padding-top: 17rem!important;
 }
 
 /*MEDIA-WHO*/
+@media screen and (min-width: 1280px) {
+  #who-body-content {
+      padding-top: 0rem !important;
+
+  }
+  .row-w{
+padding-top: 17rem!important;
+  }
+}
 @media screen and (min-width: 1440px) {
   .h1-who{
     font-size: 2.7rem !important;
@@ -4362,6 +4379,27 @@ margin: 0 -3rem;
 }
 
 /*MEDIA-CUSTOM*/
+
+@media screen and (min-width: 800px) {
+  #cust-product-body{
+      height: 40rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #cust-product-body{
+      height: 40rem;
+  }
+}
+@media screen and (min-width: 1152px) {
+  #cust-product-body{
+      height: 40rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  #cust-product-body{
+      height: 40rem;
+  }
+}
 @media screen and (min-width: 1366px) {
   #cust-product-body{
       height: 40rem;

@@ -787,6 +787,7 @@ footer {
 }
 
 }
+
 @media screen and (min-width: 1440px) {
 .home-body{
   height: 45.9rem;
@@ -2585,6 +2586,29 @@ top:19rem;
 
 
 /*MEDIA-PRODUCT-BUTTON*/
+/*** Responsive Styles Standard Desktop Only ***/
+@media all and (min-width: 1050px) and (max-width: 1280px) {
+  .row-product-btn{
+    top:33rem;
+      left: 33rem;
+  }
+  .row-product-line{
+    top:31rem;
+    left:14rem;
+  }
+}
+@media all and (min-width: 1279px) and (max-width: 1443px) {
+  .row-product-btn{
+    top:33rem;
+      left: 33rem;
+  }
+  .row-product-line{
+    top:31rem;
+    left:14rem;
+  }
+}
+
+
 @media screen and (min-width: 1400px){
   .row-product-btn{
     top:36rem;

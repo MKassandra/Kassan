@@ -2601,12 +2601,21 @@ top:19rem;
 @media all and (min-width: 799px) and (max-width: 1024px) {
   .row-product-btn{
     top:33rem;
+      left: 26rem;
+  }
+  .row-product-line{
+    top:31rem;
+    left:7rem;
+  }
+}
+/*  .row-product-btn{
+    top:33rem;
       left: 20rem;
   }
   .row-product-line{
     top:31rem;
     left:15rem;
-  }
+  }*/
 }
 @media all and (min-width: 1023px) and (max-width: 1155px) {
   .row-product-btn{

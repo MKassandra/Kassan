@@ -11,8 +11,6 @@
 
   <!-- BRB icon -->
    <link rel="icon" href="brblogo.png" type="image/x-icon">
-  <!-- MDB icon
-   <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon"> -->
 
    <!-- Bootstrap 4 -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -22,8 +20,8 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 
-  <!-- Material Design Bootstrap -->
-  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Material Design Bootstrap
+  <link rel="stylesheet" href="css/mdb.min.css">-->
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="css/style.css">
 
@@ -34,8 +32,8 @@
 
 <body>
   <section id="header-nav">
-    <nav class="navbar navbar-expand-lg navbar-custom navbar-dark h-color ">
-      <a class="navbar-brand" href="index.html"><img src="brblogo.png" class="brblogo"><img src="cashmatelogo.png" class="cashmate"></a>
+    <nav class="navbar navbar-expand-lg navbar-custom first-nav h-color ">
+        <a class="navbar-brand" href="index.html"><img src="binangonan_logo.png" class="cashmate"><img src="images/brb_logo.png" class="brblogo"></a>
       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -46,28 +44,31 @@
           <!-- <li class="nav-item active about-border ml-auto">
                         <a class="nav-link about" href="#">About Us<span class="sr-only">(current)</span></a>
                     </li> -->
+                    <li class="nav-item product-border ml-auto">
+                      <a class="nav-link product" href="product.html">Product</a>
+                    </li>
+          <li class="nav-item services-border ml-auto">
+            <a class="nav-link services" href="services.html">Services</a>
+          </li>
+
           <li class="nav-item dropdown about-border ml-auto">
-            <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
+            <a class="nav-link about dropdown-toggle" href="about.html">
+              About</a>
+            <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <a class="nav-link about dropdown-toggle" href="about.html" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               About</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="about.html#history-body-content">History</a>
               <a class="dropdown-item" href="about.html#who-body-content">Who we are</a>
               <a class="dropdown-item" href="about.html#meet-body-content">Meet Our Team</a>
-            </div>
-          </li>
-          <li class="nav-item services-border ml-auto">
-            <a class="nav-link services" href="services.html">Services</a>
-          </li>
-          <li class="nav-item product-border ml-auto">
-            <a class="nav-link product" href="product.html">Product</a>
+            </div>-->
           </li>
           <li class="nav-item partners-border ml-auto">
             <a class="nav-link partners" href="partners.html">Partners</a>
           </li>
 
           <li class="nav-item letsTalk-border ml-auto">
-            <a class="nav-link letsTalk" href="talk-test.html">Let's Talk</a>
+            <a class="nav-link letsTalk" href="talk.html">Let's Talk</a>
           </li>
           <!--
           <li class="nav-item ml-auto btn-border">
@@ -76,22 +77,149 @@
         </ul>
       </div>
     </nav>
+
+
+  <!--  <nav class="navbar navbar-expand-lg first-nav navbar-light sticky-top">
+          <a class="navbar-brand" href="index.html"><img src="binangonan_logo.png" class="cashmate"><img src="images/brb_logo.png" class="brblogo"></a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse ul-holder" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                 <li class="nav-item product-border ml-auto">
+                  <a class="nav-link product" href="product.html">Product</a>
+                </li>
+                <li class="nav-item services-border ml-auto">
+                  <a class="nav-link services" href="services.html">Services</a>
+                </li>
+                <li class="nav-item dropdown about-dlist about-border ml-auto">
+                <a class="nav-link about dropdown-toggle" href="about.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    About</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item about-dlist" href="about.html#history-body-content">History</a>
+                  <a class="dropdown-item about-dlist" href="about.html#who-body-content">Who we are</a>
+                  <a class="dropdown-item about-dlist" href="about.html#meet-body-content">Meet Our Team</a>
+                </div>
+              </li>
+
+              <li class="nav-item partners-border ml-auto">
+                <a class="nav-link partners" href="partners.html">Partners</a>
+              </li>
+              <li class="nav-item letsTalk-border ml-auto">
+                <a class="nav-link letsTalk" href="talk.html">Let's Talk</a>
+              </li>
+            </ul>
+        </div>
+    </nav>-->
+<!--
+    <nav class="navbar navbar-expand-lg navbar-custom navbar-light h-color ">
+      <a class="navbar-brand" href="index.html"><img src="images/brblogo_new.png" class="brblogo"><img src="cashmatelogo.png" class="cashmate"></a>
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse ul-holder" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item product-border ml-auto">
+                      <a class="nav-link product" href="product.html">Product</a>
+                    </li>
+                    <li class="nav-item services-border ml-auto">
+                      <a class="nav-link services" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item dropdown about-dlist about-border ml-auto">
+
+                    <a class="nav-link about dropdown-toggle" href="about.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item about-dlist" href="about.html#history-body-content">History</a>
+                      <a class="dropdown-item about-dlist" href="about.html#who-body-content">Who we are</a>
+                      <a class="dropdown-item about-dlist" href="about.html#meet-body-content">Meet Our Team</a>
+                    </div>
+                  </li>
+
+                  <li class="nav-item partners-border ml-auto">
+                    <a class="nav-link partners" href="partners.html">Partners</a>
+                  </li>
+                  <li class="nav-item letsTalk-border ml-auto">
+                    <a class="nav-link letsTalk" href="talk.html">Let's Talk</a>
+                  </li>
+
+          <li class="nav-item ml-auto btn-border">
+            <button type="button" class="btn btn-outline-primary log-btn">Login</button>
+          </li>
+        </ul>
+      </div>
+    </nav> -->
   </section>
   <!--Main Content-->
     <section id="talk-body-content">
-      <div class="container">
+
         <div class="row">
-          <div class="col-lg-6 col-md-12 c-cal wow fadeInUp">
+          <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12">
+            <h2 class="h3-t">Let's Talk</h2>
+            <h5 class="h5-t">Makati Office: </h5>
+
+              2nd Floor, Planters Products Bldg 109 Esteban St. Legaspi Vilage 1223 Makati City, Philippines <br><br>
+        <h5 class="h5-t2"> Head Office:</h5>  135 Baltazar Street, Brgy. Layunan, Binangonan 1940 Rizal, Philippines <br> <br>
+          <h5 class="h5-t2"> Customer Care Hotline:</h5>  +63 (2) 8852 1454 <br> +63 (2) 8478 6618 <br> +63 (2) 8478 6615 <br>
+                 +63 916 624 3607 <br>  +63 998 326 8399
+
+  <div class="row">
+
+  <a href="https://www.facebook.com/binangonanrural.bank.1" target="_blank">
+  <div class="col"><img src="images/facebook.png" class=""></div>
+
+  <div class="col"><h6 class="h6-fb">Binangonan Rural Bank</h6></a></div>
+  </div>
+
+
+    </div>
+
+          <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 c-form">
+            <!-- Material form group -->
+            <form>
+              <!-- Large input -->
+              <div class="md-form">
+                  <label for="inputMDEx">Name</label>
+                <input type="text" id="inputMDEx" class="form-control form-b" required>
+
+              </div>
+             <div class="md-form ">
+                 <label for="inputMDEx">Contact Number</label>
+                <input type="text" id="inputMDEx" class="form-control form-b">
+
+              </div>
+              <div class="md-form">
+                  <label for="inputMDEx">Email</label>
+                <input type="text" id="inputMDEx" class="form-control form-b" placeholder="name@example.com">
+
+              </div>
+            <!--Text Area Message -->
+              <div class="md-form ">
+                  <label for="textarea-char-counter">Message</label>
+                <textarea id="textarea-char-counter" class="form-control form-b md-textarea" maxlength="300" length="120" rows="4">Hi BRBI! Are you free to meet on </textarea>
+
+              </div>
+              <!-- </div><small>*Note: Please contanct for confirmation</small> -->
+              <br>
+
+              <button type="button" onclick="myFunction()" class="btn mr-auto btn-stalk rounded-pill ">Send</button>
+            </form>
+          </div>
+
+          <div class="col-lg-5 col-md-12 c-cal wow fadeInUp">
             <!-- Calendar view start -->
             <div class="container col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5">
               <div class="card">
-                <div class="form-inline">
-
+                <div class="form-inline mx-auto">
                   <button class="btn btn-l col-md-2 col-sm-1" id="previous" onclick="previous()"></button>
+                  <!--<button class="btn btn-outline-custom col-md-2 col-sm-1" id="previous" onclick="previous()"><img src="images/arrow.png" class="arrow-left" alt=""></button>-->
                   <form class="form-inline">
                     <!--<label class="lead mr-2 ml-2" for="month">Jump To: </label>-->
                     <label for="year"></label><select class="form-control col-md-6 col-yr" name="year" id="year" onchange="jump()">
-                      <option value=1990>1990</option>
+                    <!--  <option value=1990>1990</option>
                       <option value=1991>1991</option>
                       <option value=1992>1992</option>
                       <option value=1993>1993</option>
@@ -120,7 +248,7 @@
                       <option value=2016>2016</option>
                       <option value=2017>2017</option>
                       <option value=2018>2018</option>
-                      <option value=2019>2019</option>
+                      <option value=2019>2019</option>-->
                       <option value=2020>2020</option>
                       <option value=2021>2021</option>
                       <option value=2022>2022</option>
@@ -133,7 +261,7 @@
                       <option value=2029>2029</option>
                       <option value=2030>2030</option>
                     </select>
-                    <select class="form-control col-md-6 text-center" name="month" id="month" onchange="jump()">
+                    <select class="form-control col-md-6 text-center col-mm" name="month" id="month" onchange="jump()">
                       <option value=0>Jan</option>
                       <option value=1>Feb</option>
                       <option value=2>Mar</option>
@@ -150,6 +278,7 @@
 
                   </form>
                   <button class="btn btn-r col-md-2 col-sm-1" id="next" onclick="next()"></button>
+                  <!--<button class="btn btn-outline-custom col-md-2 col-sm-1" id="next" onclick="next()"><img src="images/arrow2.png" class="arrow-right" alt=""></button>-->
                 </div>
                 <h3 class="card-header" id="monthAndYear"></h3>
                 <!--  <form class="form-inline">
@@ -214,7 +343,7 @@
 
                 </form>-->
 
-                <table class="table table-bordered table-responsive-sm calendar-move " id="calendar">
+                <table class="table table-bordered table-responsive-sm" id="calendar">
                   <thead>
                     <tr>
                       <th>Sun</th>
@@ -263,40 +392,6 @@
 
           </div>
 
-          <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 c-form">
-          <div class="row">
-
-<a href="https://www.facebook.com/binangonanrural.bank.1" target="_blank">
-  <div class="col"><img src="images/facebook.png" class=""></div>
-
-  <div class="col"><p>Binangonan Rural Bank</p></a></div>
-</div>
-            <!-- Material form group -->
-            <form>
-              <!-- Large input -->
-              <div class="md-form">
-                <input type="text" id="inputMDEx" class="form-control " required>
-                <label for="inputMDEx">Name</label>
-              </div>
-              <div class="md-form ">
-                <input type="text" id="inputMDEx" class="form-control">
-                <label for="inputMDEx">Contact Number</label>
-              </div>
-              <div class="md-form">
-                <input type="text" id="inputMDEx" class="form-control" placeholder="name@example.com">
-                <label for="inputMDEx">Email</label>
-              </div>
-            <!--Text Area Message -->
-              <div class="md-form ">
-                <textarea id="textarea-char-counter" class="form-control md-textarea" length="120" rows="3">Hi! I would like to set a meeting at  </textarea>
-                <label for="textarea-char-counter">Message</label>
-              </div>
-              <!-- </div><small>*Note: Please contanct for confirmation</small> -->
-              <br><br>
-
-              <button type="button" onclick="myFunction()" class="btn btn-default btn-stalk">Submit</button>
-            </form>
-          </div>
         </div>
 
 
@@ -366,9 +461,9 @@
       </div>
 
     </footer>
-  </section>
+  </section> -->
 
-
+<!--
   <section id="footer-content">
   <footer class="fixed-bottom">
     <div class="row">
@@ -384,7 +479,7 @@
       <div class="col-2">(Globe) +63 916 624 3607 <br> (Smart) +63 998 326 8399</div>
     </div>
   </footer>
-  </section>-->
+</section> -->
 
 
   <!-- jQuery -->
@@ -396,7 +491,7 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Your custom scripts (optional) -->
-  <script type="text/javascript" src="scripts-test.js"></script>
+  <script type="text/javascript" src="scripts.js"></script>
 
 </body>
 

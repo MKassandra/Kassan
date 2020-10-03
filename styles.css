@@ -1572,14 +1572,23 @@ padding-top: 17rem!important;
   }
 }
 @media screen and (min-width: 1280px) {
-  #who-body-content {
+/*  #who-body-content {
       padding-top: 0rem !important;
-
+      background-position: center;
   }
   .row-w{
 padding-top: 17rem!important;
   }
+*/
+  .h1-who{
+    font-size: 1.7rem !important;
+  }
+.p-who {
+    font-size: 0.9rem !important;
+  }
 }
+
+
 @media screen and (min-width: 1440px) {
   .h1-who{
     font-size: 2.7rem !important;

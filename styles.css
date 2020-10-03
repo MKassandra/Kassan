@@ -763,7 +763,7 @@ footer {
 /*MEDIA-HOME*/
 @media all and (min-width: 1050px) and (max-width: 1280px) {
   .home-body{
-    height: 41.9rem;
+    height: 42rem;
   }
 }
 @media screen and (min-width: 1366px) {

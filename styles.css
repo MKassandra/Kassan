@@ -1562,6 +1562,15 @@ padding-top: 17rem!important;
 }
 
 /*MEDIA-WHO*/
+@media screen and (min-width: 800px) {
+  #who-body-content {
+      padding-top: 0rem !important;
+      padding: 1rem 3rem!important;
+  }
+  .row-w{
+padding-top: 17rem!important;
+  }
+}
 @media screen and (min-width: 1024px) {
   #who-body-content {
       padding-top: 0rem !important;
@@ -1813,7 +1822,33 @@ padding-top: 17rem!important;
 
 /*MEDIA-BOD*/
 /*MEDIA-WHO*/
+@media all and (min-width:1020px) and (max-width: 1160px) {
+  .bod-picture{
+      height:11rem;
+      width:11rem;
+      padding-bottom: 0.5rem;
+  }
 
+  .bod-picture2{
+      height:9rem;
+      width:9rem;
+      padding-bottom: 0.5rem;
+  }
+}
+@media all and (min-width: 1279px) and (max-width: 1443px) {
+  .bod-picture{
+      height:14rem;
+      width:14rem;
+      padding-bottom: 0.5rem;
+  }
+
+  .bod-picture2{
+      height:11rem;
+      width:11rem;
+      padding-bottom: 0.5rem;
+  }
+
+}
 @media screen and (min-width: 1440px) {
   .h1-meet{
 font-size: 1rem!important;

@@ -1822,7 +1822,22 @@ padding-top: 17rem!important;
 
 /*MEDIA-BOD*/
 /*MEDIA-WHO*/
-@media all and (min-width:1020px) and (max-width: 1160px) {
+@media all and (min-width:801px) and (max-width: 1024px) {
+  .bod-picture{
+      height:9rem;
+      width:9rem;
+      padding-bottom: 0.5rem;
+  }
+
+  .bod-picture2{
+      height:7rem;
+      width:7rem;
+      padding-bottom: 0.5rem;
+  }
+
+
+}
+@media all and (min-width:1025px) and (max-width: 1160px) {
   .bod-picture{
       height:11rem;
       width:11rem;
@@ -1976,13 +1991,24 @@ font-size: 2.8rem!important;
 
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 990px) {
 .h1-meet{
   font-size: 2.5rem!important
 }
 
 .row-bod-end1{
   margin-top: 0rem!important;
+}
+
+}
+
+@media all (min-width:991px) and (max-width: 1080px) {
+.h1-meet{
+  font-size: 2.5rem!important
+}
+
+.row-bod-end1{
+  margin-top: -10rem!important;
 }
 
 }

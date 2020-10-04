@@ -2409,6 +2409,11 @@ left:0.3rem;
 
 /* product icon button end*/
 
+/*cariusel speed*/
+.carousel .carousel-item {
+    transition-duration: 2s;
+}
+
 /*for product page*/
 .s_customize {
     padding: 2rem 2rem !important;

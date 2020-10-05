@@ -4077,7 +4077,75 @@ margin: 0 8.6rem;
 }
 
 /*MEDIA-CASHLESS*/
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 800px) {
+  #cashless-product-body {
+      height:42rem;
+  }
+  .cashless-row{
+  padding-top: 0.1rem;
+  margin: 0 0rem!important;
+  }
+  .col-cashless-1{
+padding-left: 1rem!important;
+  }
+  .col-cashless-2{
+padding-left: 2rem!important;
+  }
+  .col-cashless-3{
+padding-left: 2rem!important;
+  }
+  .img-c{
+    height: 17.5rem!important;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #cashless-product-body {
+      height:42rem;
+  }
+  .cashless-row{
+  padding-top: 0.1rem;
+  margin: 0 4rem!important;
+  }
+  .col-cashless-1{
+padding-right: 3rem!important;
+  }
+  .img-c{
+    height: 21rem!important;
+  }
+}
+@media all and (min-width: 1152px) {
+  #cashless-product-body {
+      height:42rem;
+  }
+  .cashless-row{
+  margin: 0 2rem!important;
+  }
+  .col-cashless-1{
+padding-right: 3rem!important;
+  }
+  .col-cashless-3{
+padding-left: 3rem!important;
+  }
+  .img-c{
+
+  }
+}
+@media all and  (min-width: 1281px) {
+  #cashless-product-body {
+      height:42rem;
+  }
+  .cashless-row{
+  margin: 0 5rem!important;
+  }
+  .col-cashless-3{
+padding-left: 2rem!important;
+  }
+  .img-c{
+
+  }
+
+}
+@media all and (min-width:1281px) and (max-width: 1366px) {
   #cashless-product-body {
       height:42rem;
   }

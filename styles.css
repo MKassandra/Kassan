@@ -5506,26 +5506,33 @@ background-position: left;
 }
 
 .bills{
+  padding-top: 1rem!important;
 background-position: left;
 }
 
 .purchase{
+  padding-right: 49rem!important;
 background-position: left;
 }
 
 .payroll{
+  padding-left: 50rem!important;
 background-position: left;
 }
 .e-bank{
 background-position: left;
 }
 .eload{
+  padding-top: 10rem!important;
 background-position: left;
 }
 .remit{
+  padding-top: 10rem!important;
+  padding-left: 49rem!important;
 background-position: left;
 }
 .fund{
+  padding-right: 45rem!important;
 background-position: left;
 }
 .mobile{

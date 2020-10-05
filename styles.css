@@ -7065,8 +7065,29 @@ padding-left: 36rem !important;
     height: 5rem;
   }
 }
+@media screen and (min-width: 1025px) and  (max-width: 1152px) {
+  .col-acm{
+      margin-left:: 0rem!important;
+  }
+  .row{
+        margin-top: 1rem;
+  }
+  .row-p1{
+    margin-left: -9rem!important;
+  }
+  .row-p2{
+      margin-left:-8rem!important;
+  }
 
-@media screen and (min-width: 1025px) and  (max-width: 1280px) {
+  .row-p3{
+    margin-left: -9rem!important;
+  }
+  .partner-display{
+    height: 5.5rem;
+  }
+}
+
+@media screen and (min-width: 1153px) and  (max-width: 1280px) {
   .col-acm{
       margin-left:: 0rem!important;
   }

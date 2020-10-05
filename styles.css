@@ -4077,7 +4077,7 @@ margin: 0 8.6rem;
 }
 
 /*MEDIA-CASHLESS*/
-@media screen and (min-width: 800px) {
+@media all and (min-width: 800px) {
   #cashless-product-body {
       height:42rem;
   }
@@ -4095,10 +4095,10 @@ padding-left: 2rem!important;
 padding-left: 2rem!important;
   }
   .img-c{
-    height: 17.5rem!important;
+    height: 15.5rem!important;
   }
 }
-@media screen and (min-width: 1024px) {
+@media all and (min-width: 1024px) {
   #cashless-product-body {
       height:42rem;
   }
@@ -4118,7 +4118,7 @@ padding-right: 3rem!important;
       height:42rem;
   }
   .cashless-row{
-  margin: 0 2rem!important;
+  margin: 0 4rem!important;
   }
   .col-cashless-1{
 padding-right: 3rem!important;
@@ -4130,12 +4130,12 @@ padding-left: 3rem!important;
 
   }
 }
-@media all and  (min-width: 1281px) {
+@media all and  (min-width: 1280px) {
   #cashless-product-body {
       height:42rem;
   }
   .cashless-row{
-  margin: 0 5rem!important;
+  margin: 0 7.5rem!important;
   }
   .col-cashless-3{
 padding-left: 2rem!important;
@@ -4145,13 +4145,13 @@ padding-left: 2rem!important;
   }
 
 }
-@media all and (min-width:1281px) and (max-width: 1366px) {
+@media all and (min-width: 1366px) {
   #cashless-product-body {
       height:42rem;
   }
   .cashless-row{
   padding-top: 0.1rem;
-  margin: 0 4rem!important;
+  margin: 0 11rem!important;
   }
   .col-cashless-3{
 padding-left: 3rem!important;

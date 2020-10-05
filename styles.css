@@ -5493,7 +5493,69 @@ height: 100% !important;*/
 }
 
 /*MEDIA-SERVICE*/
-@media screen and (max-width: 1280px) {
+
+@media screen and (max-width: 1152px) {
+
+.balance{
+padding-left: 47rem!important;
+background-position: right;
+}
+
+.withdrawal{
+  padding-right: 40rem!important;
+  background-position: right;
+}
+
+.bills{
+  padding-top: 1rem!important;
+  padding-left: 43rem!important;
+background-position: right;
+}
+
+.purchase{
+  padding-right: 49rem!important;
+background-position: right;
+}
+
+.payroll{
+  padding-left: 40rem!important;
+background-position: right;
+}
+.e-bank{
+    padding-left: 30rem!important;
+background-position: right;
+}
+.eload{
+  padding-top: 10rem!important;
+background-position: right;
+}
+.remit{
+  padding-top: 10rem!important;
+  padding-left: 39rem!important;
+  padding-right: 5rem!important;
+background-position: right;
+}
+.fund{
+  padding-right: 47rem!important;
+background-position: right;
+}
+.mobile{
+  padding-left: 35rem!important;
+  padding-right: 7rem!important;
+background-position: right;
+}
+.online{
+  padding-top: 15rem!important;
+  padding-left: 48rem!important;
+  padding-right: 5rem!important;
+background-position: right;
+}
+.ewallet{
+  background-position: right;
+}
+}
+
+@media all (min-width:1153px) and (max-width: 1280px) {
 
 .balance{
 padding-left: 55rem!important;
@@ -6299,7 +6361,7 @@ font-size: 1.3rem!important;
             padding-right: 200rem !important;
         }
     }
-
+/*
     @media screen and (max-width: 1270px) {
         .eload {
             padding: 13rem 8rem !important;
@@ -6315,7 +6377,7 @@ font-size: 1.3rem!important;
             color: #3a3a3b;
             background-image: url("images/bg/remittance_new.jpg") !important;
             background-size: cover;
-          /*  height: 35rem;*/
+
             width: 100% !important;
             background-repeat: no-repeat !important;
         }
@@ -6325,7 +6387,7 @@ font-size: 1.3rem!important;
             color: #3a3a3b ;
             background-image: url("images/bg/fund_new.jpg") !important;
             background-size: cover;
-          /*  height: 35rem;*/
+
             width: 100% !important;
             background-repeat: no-repeat !important;
         }
@@ -6334,8 +6396,7 @@ font-size: 1.3rem!important;
             padding: 7rem 8rem !important;
             color:  #3a3a3b;
             background-image: url("images/bg/mobile_new.jpg") !important;
-          /*  background-color: rgba(255, 255, 255, 0.5) !important;
-            background-blend-mode: overlay;*/
+
             background-size: cover;
             height: 35rem;
             width: 100% !important;
@@ -6347,7 +6408,7 @@ font-size: 1.3rem!important;
             color:  #3a3a3b;
             background-image: url("images/bg/online_new.jpg") !important;
             background-size: cover;
-            /*  height: 35rem;*/
+
             width: 100% !important;
             background-repeat: no-repeat !important;
         }
@@ -6357,12 +6418,12 @@ font-size: 1.3rem!important;
             color: #3a3a3b;
             background-image: url("images/bg/ewallet_new.jpg") !important;
             background-size: cover;
-            /*  height: 35rem;*/
+
             width: 100% !important;
             background-repeat: no-repeat !important;
         }
 
-      }
+      }*/
 
 @media screen and (max-width: 1080px) {
 

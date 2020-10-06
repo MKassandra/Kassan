@@ -4550,7 +4550,7 @@ margin: 0 -3rem;
 
 /*MEDIA-CUSTOM*/
 
-@media all and (min-width: 800px)  and (max-width: 1023px)  {
+@media all and (min-width: 799px)  and (max-width: 1023px)  {
   #cust-product-body{
       height: 40rem;
   }

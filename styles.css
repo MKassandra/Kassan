@@ -3249,7 +3249,7 @@ margin: 0 8.6rem;
   margin-left: 9.8rem;
 }
 /*MEDIA-UPGRADE*/
-@media all and (min-width: 801px) and (max-width:1025px) {
+@media all and (min-width: 801px) and (max-width:1026px) {
   #upgrade-product-body {
       height:35.7rem;
   }
@@ -3314,7 +3314,7 @@ margin: 0 8.6rem;
   }
 }
 
-@media all and (min-width: 1026px) and (max-width:1153px) {
+@media all and (min-width: 1027px) and (max-width:1153px) {
   #upgrade-product-body {
       height:40rem;
   }

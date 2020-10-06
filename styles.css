@@ -4865,6 +4865,17 @@ padding-left: 3rem!important;
   text-align: left;
 }
 /*MEDIA-ACCESS*/
+
+@media all and  (max-width: 800px) {
+  #access-product-body {
+      height: 43rem;
+      background-position: top;
+  }
+  .col-a-push-l{
+margin: 0 -5rem;
+  }
+}
+
 @media all and (min-width:801px) and (max-width: 1024px) {
   #access-product-body {
       height: 43rem;

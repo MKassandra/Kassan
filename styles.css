@@ -4550,15 +4550,15 @@ margin: 0 -3rem;
 
 /*MEDIA-CUSTOM*/
 
-@media screen and (min-width: 800px) {
+@media all and (min-width: 800px)  and (max-width: 1023px)  {
   #cust-product-body{
       height: 40rem;
   }
   .custom-display {
-      width: 12rem!important;
+      width: 11rem!important;
   }
 }
-@media screen and (min-width: 1024px) {
+@media all and (min-width: 1024px)  and (max-width: 1151px){
   #cust-product-body{
       height: 40rem;
   }
@@ -4566,7 +4566,7 @@ margin: 0 -3rem;
       width: 14rem!important;
   }
 }
-@media screen and (min-width: 1152px) {
+@media all and (min-width: 1152px) and (max-width: 1281px){
   #cust-product-body{
       height: 40rem;
   }
@@ -4574,7 +4574,7 @@ margin: 0 -3rem;
       width: 16rem!important;
   }
 }
-@media screen and (min-width: 1280px) {
+@media all and (min-width: 1280px) and (max-width: 1365px){
   #cust-product-body{
       height: 40rem;
   }
@@ -4582,7 +4582,7 @@ margin: 0 -3rem;
       width: 18rem!important;
   }
 }
-@media screen (min-width: 1281px) and (max-width: 1366px) {
+@media all and (min-width: 1366px) {
   #cust-product-body{
       height: 40rem;
   }
@@ -4715,7 +4715,7 @@ margin: 0 -3rem;
     }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (min-width: 1080px) {/*max-width:1080px*/
   .custom-product-dev{
     text-align: center;
   }

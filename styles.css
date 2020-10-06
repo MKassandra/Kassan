@@ -3439,7 +3439,7 @@ margin: 0 8.6rem;
   }
 }
 
-@media screen and (min-width: 1366px) {
+@media all and (min-width: 1366px) and (max-width:1439px) {
   #upgrade-product-body {
       height:47rem;
   }

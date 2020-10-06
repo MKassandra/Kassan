@@ -3369,7 +3369,7 @@ margin: 0 8.6rem;
   }
 
   .col-lower3{
-    margin-left: 7rem;
+    margin-left: 7.5rem;
   }
   .h4-u{
     font-size: 1.1rem;
@@ -4866,7 +4866,16 @@ padding-left: 3rem!important;
 }
 /*MEDIA-ACCESS*/
 
-@media all and  (max-width: 800px) {
+@media all and (min-width:320px) and  (max-width: 770px) {
+  #access-product-body {
+      height: 43rem;
+      background-position: top;
+  }
+  .col-a-push-l{
+margin: 0 0rem!important;
+  }
+}
+@media all and (min-width:771px) and  (max-width: 800px) {
   #access-product-body {
       height: 43rem;
       background-position: top;

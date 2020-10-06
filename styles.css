@@ -3314,7 +3314,7 @@ margin: 0 8.6rem;
   }
 }
 
-@media all and (min-width: 1025px) and (max-width:1152px) {
+@media all and (min-width: 1025px) and (max-width:1153px) {
   #upgrade-product-body {
       height:40rem;
   }
@@ -3379,7 +3379,7 @@ margin: 0 8.6rem;
   }
 }
 
-@media all and (min-width: 1153px) and (max-width:1280px) {
+@media all and (min-width: 1154px) and (max-width:1280px) {
   #upgrade-product-body {
       height:44rem;
   }

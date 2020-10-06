@@ -4582,7 +4582,7 @@ margin: 0 -3rem;
       width: 18rem!important;
   }
 }
-@media all and (min-width: 1366px) {
+@media all and (min-width: 1366px) and (max-width:1439px) {
   #cust-product-body{
       height: 40rem;
   }
@@ -4715,7 +4715,7 @@ margin: 0 -3rem;
     }
 }
 
-@media screen and (min-width: 1080px) {/*max-width:1080px*/
+@media screen and (min-width: 1080px){ /*max-width:1080px*/
   .custom-product-dev{
     text-align: center;
   }
@@ -4725,7 +4725,7 @@ margin: 0 -3rem;
 
 .custom-display {
     height: auto;
-    width: 15rem !important;
+    width: 18rem !important;
 }
 }
 .r-custom {

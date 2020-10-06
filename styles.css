@@ -4865,7 +4865,37 @@ padding-left: 3rem!important;
   text-align: left;
 }
 /*MEDIA-ACCESS*/
-@media screen and (min-width: 1366px) {
+@media all and (min-width:801px) and (max-width: 1024px) {
+  #access-product-body {
+      height: 43rem;
+      background-position: top;
+  }
+  .col-a-push-l{
+margin: 0 -5rem;
+  }
+}
+
+@media all and (min-width:1025px) and (max-width: 1152px) {
+  #access-product-body {
+      height: 43rem;
+      background-position: top;
+  }
+  .col-a-push-l{
+margin: 0 -3rem;
+  }
+}
+
+@media all and (min-width:1153px) and (max-width: 1240px) {
+  #access-product-body {
+      height: 43rem;
+      background-position: top;
+  }
+  .col-a-push-l{
+margin: 0 -3rem;
+  }
+}
+
+@media all and (min-width:1241px) and (max-width: 1366px) {
   #access-product-body {
       height: 43rem;
       background-position: top;

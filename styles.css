@@ -4077,48 +4077,45 @@ margin: 0 8.6rem;
 }
 
 /*MEDIA-CASHLESS*/
-@media all and (min-width: 800px) {
+@media all  and (max-width: 800px) {
   #cashless-product-body {
       height:42rem;
   }
   .cashless-row{
   padding-top: 0.1rem;
-  margin: 0 0rem!important;
-  }
-  .col-cashless-1{
-padding-left: 1rem!important;
-  }
-  .col-cashless-2{
-padding-left: 2rem!important;
+  margin: 0 1rem!important;
   }
   .col-cashless-3{
-padding-left: 2rem!important;
+padding-right: 0rem!important;
   }
   .img-c{
-    height: 15.5rem!important;
+    height: 15rem!important;
+  }
+  .p-cash{
+    font-size: 0.7rem!important;
   }
 }
-@media all and (min-width: 1024px) {
+@media all and (min-width: 1024px) and (max-width: 1151px) {
   #cashless-product-body {
       height:42rem;
   }
   .cashless-row{
   padding-top: 0.1rem;
-  margin: 0 4rem!important;
+  margin: 0 2rem!important;
   }
   .col-cashless-1{
-padding-right: 3rem!important;
+padding-right: 0rem!important;
   }
   .img-c{
-    height: 18rem!important;
+    height: 18.5rem!important;
   }
 }
-@media all and (min-width: 1152px) {
+@media all and (min-width: 1152px) and (max-width: 1279px) {
   #cashless-product-body {
       height:42rem;
   }
   .cashless-row{
-  margin: 0 4rem!important;
+  margin: 0 3rem!important;
   }
   .col-cashless-1{
 padding-right: 3rem!important;
@@ -4127,21 +4124,21 @@ padding-right: 3rem!important;
 padding-left: 3rem!important;
   }
   .img-c{
-    height: 20.5rem!important;
+  height: 21.5rem!important;
   }
 }
-@media all and  (min-width: 1280px) {
+@media all and (min-width: 1280px) and (max-width: 1365px) {
   #cashless-product-body {
       height:42rem;
   }
   .cashless-row{
-  margin: 0 7.5rem!important;
+  margin: 0 3rem!important;
   }
   .col-cashless-3{
 padding-left: 2rem!important;
   }
   .img-c{
-
+    height: 24rem!important;
   }
 
 }
@@ -4151,7 +4148,7 @@ padding-left: 2rem!important;
   }
   .cashless-row{
   padding-top: 0.1rem;
-  margin: 0 11rem!important;
+  margin: 0 4rem!important;
   }
   .col-cashless-3{
 padding-left: 3rem!important;

@@ -2732,11 +2732,11 @@ top:19rem;
 @media all and (min-width: 376px) and (max-width: 414px) {
   .row-product-btn{
     top:31rem;
-      left: 5rem;
+      left: 6rem;
   }
   .row-product-line{
     top:29rem;
-    left:0rem;
+    left:3rem;
   }
 }
 

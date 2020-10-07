@@ -7714,7 +7714,35 @@ padding-left: 36rem !important;
   margin: 1rem 0rem;
 }
 /*MEDIA-PARTNER*/
-@media screen and  (max-width: 800px) {
+@media screen and (min-width: 300px) and  (max-width: 440px) {
+  #partner-bisy-content{
+    height: auto;
+  }
+  .col-acm{
+      margin-right: 3rem!important;
+  }
+  .row{
+        margin-top: 1rem;
+  }
+  .row-p1{
+    margin-left: -42rem!important;
+  }
+  .row-p2{
+      margin-left:-35em!important;
+  }
+
+  .row-p3{
+    margin-left: -42rem!important;
+  }
+  .partner-display{
+    height: 5rem;
+  }
+  .h3-part{
+
+  }
+}
+
+@media screen and (min-width: 441px) and  (max-width: 800px) {
   .col-acm{
       margin-right: 3rem!important;
   }

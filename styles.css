@@ -8226,6 +8226,12 @@ small {
 }
 
 /*MEDIA-TALK*/
+@media all and (min-width:300px) and (max-width: 500px) {
+  .btn-stalk{
+    margin: 0 0rem!important;
+  }
+}
+
 @media all and (min-width:751px) and (max-width: 990px) {
   .btn-stalk{
     margin: 0 15rem!important;

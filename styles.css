@@ -2386,6 +2386,15 @@ margin: 0rem 1rem;
     transform: scale(1.2);
 }
 
+@media all and (min-width: 299px) and (max-width: 479px) {
+  .imag-e{
+    height: 5rem;
+    width: 5rem;
+  }
+}
+
+
+
 /*MEDIA-PROD-BTN-CARO8/
 @media screen and (min-width: 1440px) {
   .imag-e
@@ -2712,8 +2721,8 @@ top:19rem;
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 299px) and (max-width: 479px) {
   .row-product-btn{
-    top:30rem;
-      left: 4rem;
+    top:31rem;
+      left: 5rem;
   }
   .row-product-line{
     top:29rem;

@@ -8230,6 +8230,26 @@ small {
   .btn-stalk{
     margin: 0 0rem!important;
   }
+
+  .btn-l{
+    width: 0 !important;
+  	height: 0 !important;
+  	border-top: 15px solid transparent !important;
+  	border-right: 40px solid #c4a1ff  !important;
+  	border-bottom: 15px solid transparent !important;
+  }
+
+  .btn-r{
+    width: 0 !important;
+  	height: 0 !important;
+  	border-top: 15px solid transparent !important;
+  	border-left: 40px solid #c4a1ff  !important;
+  	border-bottom: 15px solid transparent !important;
+  }
+  .c-cal{
+    margin-left: 0rem !important;
+
+  }
 }
 
 @media all and (min-width:751px) and (max-width: 990px) {

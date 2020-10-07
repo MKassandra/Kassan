@@ -2561,12 +2561,42 @@ left:0.3rem;
     background-repeat: no-repeat !important;
 }
 /*MEDIA-PRODUCT*/
-@media screen and (min-width: 1240px) {
+
+
+@media all and (min-width:299px) and (max-width: 510px) {
+  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
+
+  }
+  .h3-p{
+
+  }
+}
+
+@media all and (min-width: 801px) and (max-width: 1026px) {
+  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
+      height: 42rem;
+  }
+
+  .h3-p{
+
+  }
+}
+
+@media all and (min-width: 1027px) and (min-width: 1152px) {
+  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
+      height: 42rem;
+  }
+  .h3-p{
+
+  }
+}
+
+@media all and (min-width: 1153px) and (max-width: 1240px) {
   .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
       height: 42rem;
   }
 }
-@media screen and (min-width: 1366px) {
+@media all and (min-width: 1241px) and (max-width: 1367px) {
   .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
       height: 42rem;
   }
@@ -2789,7 +2819,7 @@ top:19rem;
     top:31rem;
     left:15rem;
   }*/
-}
+
 
 @media all and (min-width: 901px) and (max-width: 1025px) {
   .row-product-btn{

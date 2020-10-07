@@ -2752,32 +2752,32 @@ top:19rem;
 }
 @media all and (min-width: 690px) and (max-width: 768px) {
   .row-product-btn{
-    top:31rem;
+    top:30rem;
       left: 5rem;
   }
   .row-product-line{
-    top:29rem;
+    top:28rem;
     left:0rem;
   }
 }
 @media all and (min-width: 769px) and (max-width: 800px) {
   .row-product-btn{
-    top:33rem;
+    top:30rem;
       left: 20rem;
   }
   .row-product-line{
-    top:31rem;
+    top:28rem;
     left:15rem;
   }
 }
 
-@media all and (min-width: 799px) and (max-width: 1024px) {
+@media all and (min-width: 799px) and (max-width: 900px) {
   .row-product-btn{
-    top:33rem;
+    top:30rem;
       left: 26rem;
   }
   .row-product-line{
-    top:31rem;
+    top:28rem;
     left:7rem;
   }
 }
@@ -2790,33 +2790,33 @@ top:19rem;
     left:15rem;
   }*/
 }
-@media all and (min-width: 900px) and (max-width: 1024px) {
+@media all and (min-width: 901px) and (max-width: 1024px) {
   .row-product-btn{
-    top:33rem;
+    top:30rem;
       left: 25rem;
   }
   .row-product-line{
-    top:31rem;
+    top:28rem;
     left:6rem;
   }
 }
 @media all and (min-width: 1025px) and (max-width: 1152px) {
   .row-product-btn{
-    top:33rem;
+    top:30rem;
       left: 25rem;
   }
   .row-product-line{
-    top:31rem;
+    top:28rem;
     left:6rem;
   }
 }
 @media all and (min-width: 1153px) and (max-width: 1280px) {
   .row-product-btn{
-    top:33rem;
+    top:30rem;
       left: 30rem;
   }
   .row-product-line{
-    top:31rem;
+    top:28rem;
     left:11rem;
   }
 }

@@ -8235,7 +8235,7 @@ small {
     width: 0 !important;
   	height: 0 !important;
   	border-top: 15px solid transparent !important;
-  	border-right: 40px solid #c4a1ff  !important;
+  	border-right: 35px solid #c4a1ff  !important;
   	border-bottom: 15px solid transparent !important;
   }
 
@@ -8243,7 +8243,7 @@ small {
     width: 0 !important;
   	height: 0 !important;
   	border-top: 15px solid transparent !important;
-  	border-left: 40px solid #c4a1ff  !important;
+  	border-left: 35px solid #c4a1ff  !important;
   	border-bottom: 15px solid transparent !important;
   }
   .c-cal{

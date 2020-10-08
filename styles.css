@@ -2562,13 +2562,39 @@ left:0.3rem;
 }
 /*MEDIA-PRODUCT*/
 
+/*
+@media screen and (max-width: 480px) {
+  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
+   background-size: cover;
+  }
+  .h3-p{
+      font-size: 1.8rem!important;
+
+  }
+  .h3_customize{
+
+  }
+  .h3_upgrade{
+
+  }
+  .h3_upgrade{
+
+  }
+  .h3_upgrade{
+
+  }
+
+} */
 
 @media all and (min-width:299px) and (max-width: 510px) {
   .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
 
   }
   .h3-p{
-
+      font-size:1.3rem;
+      text-align: center;
+      padding-left: 0rem;
+      padding-top: 20rem;
   }
 }
 
@@ -2678,29 +2704,6 @@ padding-left: 50rem;
     font-size:6rem!important;}
 }
 
-@media screen and (max-width: 480px) {
-  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
-   background-size: cover;
-        /* background-position: right!important;*/
-  }
-  .h3-p{
-      font-size: 1.8rem!important;
-
-  }
-  .h3_customize{
-
-  }
-  .h3_upgrade{
-
-  }
-  .h3_upgrade{
-
-  }
-  .h3_upgrade{
-
-  }
-
-}
 
 
 @media screen and (max-width: 1080px){

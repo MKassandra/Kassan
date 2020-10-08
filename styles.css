@@ -4771,6 +4771,87 @@ padding-right: 0rem!important;
     font-size: 0.7rem!important;
   }
 }
+@media all and (min-width: 801px) and (max-width: 1028px) {
+  #cashless-product-body {
+      height:42rem;
+  }
+  .cashless-row{
+  padding-top: 0.1rem;
+  margin: 0 2rem!important;
+  }
+  .col-cashless-1{
+padding-right: 0rem!important;
+  }
+  .img-c{
+    height: 18.5rem!important;
+  }
+}
+@media all and (min-width: 1029px) and (max-width: 1152px) {
+  #cashless-product-body {
+      height:42rem;
+  }
+  .cashless-row{
+  margin: 0 3rem!important;
+  }
+  .col-cashless-1{
+padding-right: 3rem!important;
+  }
+  .col-cashless-3{
+padding-left: 3rem!important;
+  }
+  .img-c{
+  height: 21.5rem!important;
+  }
+}
+@media all and (min-width: 1153px) and (max-width: 1280px) {
+  #cashless-product-body {
+      height:42rem;
+  }
+  .cashless-row{
+  margin: 0 3rem!important;
+  }
+  .col-cashless-3{
+padding-left: 2rem!important;
+  }
+  .img-c{
+    height: 24rem!important;
+  }
+
+}
+@media all and (min-width: 1281px) and (max-width: 1366px) {
+  #cashless-product-body {
+      height:42rem;
+  }
+  .cashless-row{
+  padding-top: 0.1rem;
+  margin: 0 4rem!important;
+  }
+  .col-cashless-3{
+padding-left: 3rem!important;
+  }
+
+}
+
+
+/*
+@media all  and (max-width: 800px) {
+  #cashless-product-body {
+      height:42rem;
+  }
+  .cashless-row{
+  padding-top: 0.1rem;
+  margin: 0 1rem!important;
+  }
+  .col-cashless-3{
+padding-right: 0rem!important;
+  }
+  .img-c{
+    height: 15rem!important;
+  }
+  .p-cash{
+    font-size: 0.7rem!important;
+  }
+}
 @media all and (min-width: 1024px) and (max-width: 1151px) {
   #cashless-product-body {
       height:42rem;
@@ -4831,6 +4912,7 @@ padding-left: 3rem!important;
   }
 
 }
+*/
 @media screen and (min-width: 1440px) {
   #cashless-product-body {
     margin-top: -7rem!important;
@@ -4854,8 +4936,11 @@ padding-left: 3rem!important;
   .col-cashless-3{
 
   }
-
 }
+
+
+
+
 @media screen and (min-width: 1600px) {
   #cashless-product-body {
       background-position: center;

@@ -2575,8 +2575,8 @@ left:0.3rem;
 @media all and (min-width: 511px) and (max-width: 800px) {
   .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
       height: 42rem;
-      background-blend-mode: overlay;
-       background-color: rgba(255, 255, 255, 0.2);
+    /*  background-blend-mode: overlay;
+       background-color: rgba(255, 255, 255, 0.2);*/
   }
 
   .h3-p{
@@ -7826,7 +7826,7 @@ padding-left: 36rem !important;
 }
 /*MEDIA-PARTNER*/
 @media screen and (min-width: 300px) and  (max-width: 440px) {
-  #partner-bisy-content{
+  #partner-body-content{
     height: auto;
   }
   .col-acm{

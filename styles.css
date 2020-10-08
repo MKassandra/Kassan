@@ -2838,22 +2838,22 @@ top:19rem;
 @media all and (min-width: 901px) and (max-width: 1025px) {
   .row-product-btn{
     top:30rem;
-      left: 28rem;
+      left: 25rem;
   }
   .row-product-line{
     top:28rem;
-    left:9rem;
+    left:6rem;
   }
 }
 
 @media all and (min-width: 1026px) and (max-width: 1152px) {
   .row-product-btn{
     top:30rem;
-      left: 26rem;
+      left: 28rem;
   }
   .row-product-line{
     top:28rem;
-    left:7rem;
+    left:9rem;
   }
 }
 

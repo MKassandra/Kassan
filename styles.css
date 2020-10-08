@@ -2388,8 +2388,8 @@ margin: 0rem 1rem;
 
 @media all and (min-width: 299px) and (max-width: 479px) {
   .imag-e{
-    height: 5rem;
-    width: 5rem;
+    height: 4.5rem;
+    width: 4.5rem;
   }
 }
 
@@ -2456,7 +2456,7 @@ margin: 0rem 1rem;
 }
 @media all and (min-width: 299px) and (max-width: 479px) {
   .imag-c{
-    height: 9rem;
+    height: 7.5rem;
     width: 20rem;
     /*
     height: 21rem;
@@ -2779,11 +2779,11 @@ top:19rem;
 @media all and (min-width: 376px) and (max-width: 414px) {
   .row-product-btn{
     top:31rem;
-      left: 6rem;
+      left: 7rem;
   }
   .row-product-line{
     top:29rem;
-    left:3rem;
+    left:2.9rem;
   }
 }
 

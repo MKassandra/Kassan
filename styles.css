@@ -2501,7 +2501,7 @@ left:0.3rem;
 
 /*cariusel speed*/
 .carousel .carousel-item {
-    transition-duration: 2s;
+    transition-duration: 1s;
 }
 
 /*for product page*/
@@ -2572,13 +2572,27 @@ left:0.3rem;
   }
 }
 
+@media all and (min-width: 511px) and (max-width: 800px) {
+  .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
+      height: 42rem;
+      background-blend-mode: overlay;
+       background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .h3-p{
+    font-size:1.4rem;
+    padding-left: 4rem;
+  }
+}
+
 @media all and (min-width: 801px) and (max-width: 1026px) {
   .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
       height: 42rem;
   }
 
   .h3-p{
-
+    font-size:1.6rem;
+    padding-left: 6rem;
   }
 }
 
@@ -2793,11 +2807,11 @@ top:19rem;
 @media all and (min-width: 769px) and (max-width: 800px) {
   .row-product-btn{
     top:30rem;
-      left: 20rem;
+      left: 15rem;
   }
   .row-product-line{
     top:28rem;
-    left:15rem;
+    left:-4rem;
   }
 }
 

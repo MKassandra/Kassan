@@ -4753,7 +4753,26 @@ margin: 0 8.6rem;
 }
 
 /*MEDIA-CASHLESS*/
-@media all  and (max-width: 800px) {
+@media all  and (max-width: 575px) {
+  #cashless-product-body {
+      height:42rem;
+  }
+  .cashless-row{
+  padding-top: 0.1rem;
+  margin: 0 1rem!important;
+  }
+  .col-cashless-3{
+padding-right: 0rem!important;
+  }
+  .img-c{
+    height: 9rem!important;
+  }
+  .p-cash{
+    font-size: 0.7rem!important;
+  }
+}
+
+@media all and (min-width: 576px) and (max-width: 800px) {
   #cashless-product-body {
       height:42rem;
   }

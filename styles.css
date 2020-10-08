@@ -7222,8 +7222,11 @@ font-size: 1.3rem!important;
       }*/
 
 @media screen and (max-width: 1080px) {
-
-    /*services page content*/
+  .balance, .withdrawal, .bills, .purchase, .payroll, .e-bank, .eload,
+   .remit, .fund, .mobile, .online, .ewallet{
+     background-color: rgba(255, 255, 255, 0.5) !important;
+     background-blend-mode: overlay;
+  }
 
     .h1-s {
         font-size: 4rem !important;

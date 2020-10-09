@@ -5483,6 +5483,30 @@ margin: 0 -3rem;
 
 /*MEDIA-CUSTOM*/
 
+@media all and (min-width: 301px)  and (max-width: 500px)  {
+  #cust-product-body{
+      height: 40rem;
+  }
+  .custom-display {
+      width: 11rem!important;
+  }
+}
+@media all and (min-width: 501px)  and (max-width: 798px)  {
+  #cust-product-body{
+      height: 40rem;
+  }
+  .custom-display {
+      width: 11rem!important;
+  }
+}
+@media all and (min-width: 1024px)  and (max-width: 1151px){
+  #cust-product-body{
+      height: 40rem;
+  }
+  .custom-display {
+      width: 14rem!important;
+  }
+}
 @media all and (min-width: 799px)  and (max-width: 1023px)  {
   #cust-product-body{
       height: 40rem;

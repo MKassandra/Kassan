@@ -2386,7 +2386,15 @@ margin: 0rem 1rem;
     transform: scale(1.2);
 }
 
-@media all and (min-width: 299px) and (max-width: 479px) {
+@media all and (min-width: 299px) and (max-width: 398px) {
+  .imag-e{
+    height: 4.1rem;
+    width: 4.1rem;
+  }
+}
+
+
+@media all and (min-width: 399px) and (max-width: 479px) {
   .imag-e{
     height: 4.5rem;
     width: 4.5rem;
@@ -2454,7 +2462,16 @@ margin: 0rem 1rem;
 .imag-c:hover{
 
 }
-@media all and (min-width: 299px) and (max-width: 479px) {
+
+@media all and (min-width: 299px) and (max-width: 398px) {
+  .imag-c{
+    height: 7.5rem;
+    width: 17rem;
+    z-index: 10;
+  }
+}
+
+@media all and (min-width: 399px) and (max-width: 479px) {
   .imag-c{
     height: 7.5rem;
     width: 20rem;
@@ -2849,7 +2866,17 @@ top:19rem;
 
 /*MEDIA-PRODUCT-BUTTON*/
 /*** Responsive Styles Standard Desktop Only ***/
-@media all and (min-width: 315px) and (max-width: 375px) {
+@media all and (min-width: 300px) and (max-width: 321px) {
+  .row-product-btn{
+    top:31rem;
+      left: 5rem;
+  }
+  .row-product-line{
+    top:29rem;
+    left:1.5rem;
+  }
+}
+@media all and (min-width: 322px) and (max-width: 375px) {
   .row-product-btn{
     top:31rem;
       left: 5rem;

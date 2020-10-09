@@ -5483,7 +5483,7 @@ margin: 0 -3rem;
 
 /*MEDIA-CUSTOM*/
 
-@media all and (min-width: 301px)  and (max-width: 500px)  {
+@media all and (min-width: 301px)  and (max-width: 400px)  {
   #cust-product-body{
       height: auto;
   }
@@ -5491,6 +5491,25 @@ margin: 0 -3rem;
       width: 13rem!important;
   }
 }
+
+@media all and (min-width: 401px)  and (max-width: 420px)  {
+  #cust-product-body{
+      height: auto;
+  }
+  .custom-display {
+      width: 17rem!important;
+  }
+}
+
+@media all and (min-width: 421px)  and (max-width: 500px)  {
+  #cust-product-body{
+      height: auto;
+  }
+  .custom-display {
+      width: 13rem!important;
+  }
+}
+
 @media all and (min-width: 501px)  and (max-width: 798px)  {
   #cust-product-body{
       height: auto;

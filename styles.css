@@ -8187,7 +8187,8 @@ padding-left: 36rem !important;
 padding-left: 4rem!important;
 }
 .h3-part{
-
+margin-left: 1rem;
+margin-top: 0.5rem;
 }
 }
 @media screen and  (min-width: 1440px) {

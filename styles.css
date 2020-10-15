@@ -3054,7 +3054,7 @@ top:19rem;
   }
 }
 
-@media all and (min-width: 690px) and (max-width: 735px) {
+@media all and (min-width: 690px) and (max-width: 739px) {
   .row-product-btn{
     top:30rem;
       left: 15rem;
@@ -3065,7 +3065,7 @@ top:19rem;
   }
 }
 
-@media all and (min-width: 736px) and (max-width: 770px) {
+@media all and (min-width: 740px) and (max-width: 770px) {
   .row-product-btn{
     top:30rem;
       left: 15rem;

@@ -793,6 +793,7 @@ footer {
   .home-body {
     margin-top: -15rem!important;
     padding-top: 15rem!important;
+    height: 75rem;
       /*padding-top: 12rem!important;*/
   }
 
@@ -1093,7 +1094,7 @@ padding-top: 17rem!important;
 
   .h1-home-front{
     margin-top: -2rem !important;
-    padding-top: 4rem!important;
+    padding-top: 10rem!important;
            font-size: 2.5rem !important;
            text-align: left;
       }

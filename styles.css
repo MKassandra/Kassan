@@ -9057,8 +9057,9 @@ small {
 }
 @media all and (min-width:991px) and (max-width: 1024px) {
   .h6-fb{
-    font-size: 1rem!important;
+    font-size: 0.66rem!important;
     margin-left: 0.5rem;
+    margin-top: 0.2
   }
 
   .btn-stalk{
@@ -9069,7 +9070,8 @@ small {
 
 @media all and (min-width:1025px) and (max-width: 1152px) {
   .h6-fb{
-    font-size: 1rem!important;
+    font-size: 0.76rem!important;
+    margin-top: 0.2rem;
     margin-left: 0.5rem;
   }
 
@@ -9080,7 +9082,7 @@ small {
 
 @media all and (min-width:1153px) and (max-width: 1280px) {
   .h6-fb{
-    font-size: 1rem!important;
+    font-size: 0.8rem!important;
     margin-left: 0.5rem;
   }
   .btn-stalk{

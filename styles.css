@@ -8896,7 +8896,8 @@ small {
     margin: 0 1rem!important;
   }
   .h6-fb{
-
+    margin-left: 2.5rem;
+    margin-top: -1.5rem;
   }
 
   .c-form{
@@ -8942,6 +8943,11 @@ small {
     margin-left: 0rem !important;
 
   }
+  .h6-fb{
+    font-size: 1rem!important;
+    margin-left: 2.5rem;
+    margin-top: -1.5rem;
+  }
 
   .btn-l{
     width: 0 !important;
@@ -8971,6 +8977,12 @@ small {
 
   .c-cal{
     margin-left: 0rem !important;
+  }
+
+  .h6-fb{
+    font-size: 1rem!important;
+    margin-left: 2.5rem;
+    margin-top: -1.5rem;
   }
 
   .btn-l{
@@ -9003,6 +9015,11 @@ small {
   	border-right: 35px solid #c4a1ff  !important;
   	border-bottom: 15px solid transparent !important;
   }
+  .h6-fb{
+    font-size: 1rem!important;
+    margin-left: 2.5rem;
+    margin-top: -1.5rem;
+  }
 
   .btn-r{
     width: 0 !important;
@@ -9016,25 +9033,56 @@ small {
 
   }
 }
+@media all and (min-width:501px) and (max-width: 541px) {
+  .h6-fb{
+    font-size: 1rem!important;
+    margin-left: 2.5rem;
+    margin-top: -1.5rem;
+  }
 
-@media all and (min-width:751px) and (max-width: 990px) {
+  .btn-stalk{
+    margin: 0 15rem!important;
+  }
+}
+@media all and (min-width:542px) and (max-width: 990px) {
+  .h6-fb{
+    font-size: 1rem!important;
+    margin-left: 2.5rem;
+    margin-top: -1.5rem;
+  }
+
   .btn-stalk{
     margin: 0 15rem!important;
   }
 }
 @media all and (min-width:991px) and (max-width: 1024px) {
+  .h6-fb{
+    font-size: 1rem!important;
+    margin-left: 0.5rem;
+  }
+
   .btn-stalk{
     margin: 0 4rem!important;
   }
+
 }
 
 @media all and (min-width:1025px) and (max-width: 1152px) {
+  .h6-fb{
+    font-size: 1rem!important;
+    margin-left: 0.5rem;
+  }
+
   .btn-stalk{
     margin: 0 6rem!important;
   }
 }
 
 @media all and (min-width:1153px) and (max-width: 1280px) {
+  .h6-fb{
+    font-size: 1rem!important;
+    margin-left: 0.5rem;
+  }
   .btn-stalk{
     margin: 0 8rem!important;
   }

@@ -89,6 +89,46 @@ strong {
     width: 3.1rem;
 }
 
+.cashmate2{
+  height: 13rem;
+  width: auto;
+}
+
+.cashmate3{
+  height: 40rem;
+  width: auto;
+}
+.cashmate4{
+  height: 30rem;
+  width: auto;
+}
+.cashmate5{
+  height: 6rem;
+  width: auto;
+}
+
+.card1{
+  margin-left: 10rem;
+  z-index: 1;
+  position: relative;
+
+}
+
+.card2{
+  margin-top: -3rem;
+  z-index: 1;
+  position: relative;
+
+}
+
+.card3{
+  margin-right: 10rem i !important;
+  margin-top: -4rem;
+  z-index: 2;
+  position: relative;
+}
+
+
 /*MEDIA-LOGO*/
 @media screen and (min-width: 1440px) {
   .brblogo {
@@ -768,10 +808,6 @@ footer {
     font-size: 1.5rem !important;
 }
 
-
-
-
-
 .home-body {
     padding: 3rem 2rem !important;
     margin-top: -5rem!important;
@@ -1410,10 +1446,10 @@ padding-top: 17rem!important;
     line-height: 1.2;
     color: black;
     text-align: justify;
-    background-image: url("images/bg/history_new.jpg");
+    background-image: url("images/new/BRB websites assets/history/Asset 2.png");
     /*background-image: url("images/history2.jpg");*/
     background-size: cover;
-    background-position: bottom right;
+    background-position: center;
     background-repeat: no-repeat;
 
 }
@@ -1430,10 +1466,26 @@ padding-top: 17rem!important;
     background-repeat: no-repeat;
 
 }
+.col-hide{
+  visibility: hidden;
+}
 
+.col-h-up{
+  margin-top: -22rem;
+}
 .row-h {
-    padding: 0 2rem !important;
+  /*  padding: 0 2rem !important;*/
+    padding-top: 10rem !important;
     padding-bottom: 3rem !important;
+}
+
+.row-a {
+  padding: 0 2rem !important;
+}
+
+.row-col-h{
+  padding: 0rem 4rem;
+  font-size: small;
 }
 
 /*MEDIA-HISTORY*/
@@ -1548,6 +1600,11 @@ padding-top: 17rem!important;
 }
 
 */
+
+.p-h-w{
+  color: white;
+}
+
 @media screen and (min-width: 1440px) {
   .h1-about{
     font-size: 2.7rem !important;
@@ -1641,19 +1698,20 @@ padding-top: 17rem!important;
 
 #who-body-content {
     padding: 4rem 3rem !important;
-    padding-top: 17rem !important;
-    padding-bottom: 11rem !important;
+    /*padding-top: 17rem !important;
+    padding-bottom: 11rem !important;*/
     line-height: 1;
     color: black;
     text-align: justify;
     background-image: url("images/bg/who_new.jpg") !important;
     /*background-image: url("images/who2.jpg") !important;*/
     background-size: cover !important;
-    background-position:  top left;
+    background-position:  center;
     background-repeat: no-repeat;
 }
 
 #who-body-content2 {
+    /*
     padding: 4rem 6rem !important;
     padding-top: 2rem;
     line-height: 2;
@@ -1662,6 +1720,17 @@ padding-top: 17rem!important;
     background-color: white;
     background-size: cover !important;
     background-position: left;
+    background-repeat: no-repeat;*/
+    padding: 4rem 3rem !important;
+  /*  padding-top: 17rem !important;
+    padding-bottom: 11rem !important;*/
+    line-height: 1;
+    color: black;
+    text-align: justify;
+    background-image: url("images/new/Asset\ 4.png") !important;
+    /*background-image: url("images/who2.jpg") !important;*/
+    background-size: cover !important;
+    background-position:  top left;
     background-repeat: no-repeat;
 }
 
@@ -1847,15 +1916,43 @@ padding-top: 17rem!important;
   }
   }
 
+  .ul-none {
+  list-style-type: none;
+}
+#mission-body-content{
+    padding: 4rem 3rem !important;
 
+    line-height: 1;
+    color: black;
+    text-align: justify;
+    background-image: url("images/new/BRB websites assets/mission/Asset 118.png");
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.row-m{
+  padding-top: 17rem;
+}
+
+#vission-body-content{
+  padding: 4rem 3rem !important;
+  line-height: 1;
+  color: black;
+  text-align: justify;
+  background-image: url("images/new/BRB websites assets/vission/Asset 36.png");
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  text-align: center;
+}
 
 
 #meet-body-content {
     padding: 4rem 0rem;
     color: black;
-    background-image: url("images/bg/meet1_new.jpg");
+    background-image: url("images/new/BRB websites assets/team/Asset 76.png");
     /*background-image: url("images/meet2.png");*/
     background-size: cover!important;
+    height: 45rem;
     background-repeat: no-repeat;
     background-position: center;
     padding-bottom: 1rem;
@@ -1863,7 +1960,7 @@ padding-top: 17rem!important;
 #meet-body-content2 {
     padding: 4rem 0rem;
     color: black;
-    background-image: url("images/bg/director_new.jpg");
+    background-image: url("images/new/BRB websites assets/directors/Asset 65vis.png");
     /*background-image: url("images/meet2.png");*/
     background-size: cover!important;
     background-repeat: no-repeat;
@@ -1873,7 +1970,7 @@ padding-top: 17rem!important;
 #meet-body-content3 {
     padding: 4rem 0rem;
     color: black;
-    background-image: url("images/bg/meet2_new.jpg");
+    background-image: url("images/new/BRB websites assets/team/Asset 76.png");
     /*background-image: url("images/meet2.png");*/
     background-size: cover!important;
     background-position: bottom left;
@@ -2039,7 +2136,7 @@ font-size: 1.3rem!important;
   .h3-meet{
 
   }
-..h6-bod-name{
+.h6-bod-name{
     font-size: 1.3rem !important;
   }
 }
@@ -2231,9 +2328,15 @@ font-size: 2.8rem!important;
 .h1-who {
   color:#523883 !important;
     margin: 0rem 0rem;
-    text-align: right;
+    text-align: center;
+    font-size: 6rem;
     /*padding-left: -3rem;*/
     padding-bottom: 0 !important;
+}
+
+.h2-about {
+  color:#523883 !important;
+  font-weight: bolder;
 }
 
 .h1-meet {
@@ -2242,6 +2345,12 @@ font-size: 2.8rem!important;
     text-align: center;
     /*padding-left: -3rem;*/
     padding-bottom: 0 !important;
+}
+
+.h2-insta {
+  color:#523883 !important;
+  font-weight: bolder;
+  text-align: center;
 }
 
 
@@ -2378,6 +2487,118 @@ hr {
     border: 10px solid #4ebab5 !important;
     border-radius: 5px !important;*/
 }
+
+.product-s-1{
+  padding: 4rem 0rem;
+  color: black;
+  background-image: url("images/new/BRB websites assets/co\ branded/Asset 21.png");
+  /*background-image: url("images/meet2.png");*/
+  background-size: cover!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 0rem;
+}
+
+.product-s-2{
+  padding: 4rem 1rem;
+  color: black;
+  text-align: center;
+  background-image: url("images/new/BRB websites assets/UPI/Asset\ 17.png");
+  /*background-image: url("images/meet2.png");*/
+  background-size: cover!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 0rem;
+}
+
+.product-s-2-A{
+  padding: 4rem 0rem;
+  color: black;
+  text-align: center;
+  background-image: url("images/new/BRB websites assets/owned/Asset 19.png");
+  /*background-image: url("images/meet2.png");*/
+  background-size: cover!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 0rem;
+}
+
+
+.product-s-3{
+  padding: 4rem 1rem;
+  color: black;
+  background-image: url("images/new/BRB websites assets/instapay/Asset\ 27.png");
+  /*background-image: url("images/meet2.png");*/
+  background-size: cover!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 0rem;
+}
+
+.product-s-4{
+  padding: 4rem 1rem;
+  color: black;
+  background-image: url("images/new/BRB websites assets/international/Asset\ 34.png");
+  /*background-image: url("images/meet2.png");*/
+  background-size: cover!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 0rem;
+}
+
+.col-i-d{
+  margin-top: 19rem;
+}
+
+.product-s-5{
+  padding: 4rem 0rem;
+  color: black;
+  background-image: url("images/new/BRB websites assets/team/Asset 76.png");
+  /*background-image: url("images/meet2.png");*/
+  background-size: cover!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 1rem;
+}
+
+.product-s-6{
+  padding: 4rem 0rem;
+  color: black;
+  background-image: url("images/new/BRB websites assets/team/Asset 76.png");
+  /*background-image: url("images/meet2.png");*/
+  background-size: cover!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 1rem;
+}
+
+.product-s-7{
+  padding: 4rem 0rem;
+  color: black;
+  background-image: url("images/new/BRB websites assets/team/Asset 76.png");
+  /*background-image: url("images/meet2.png");*/
+  background-size: cover!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 1rem;
+}
+
+.product-s-8{
+  padding: 4rem 0rem;
+  color: black;
+  background-image: url("images/new/BRB websites assets/team/Asset 76.png");
+  /*background-image: url("images/meet2.png");*/
+  background-size: cover!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 1rem;
+}
+
+
+
+
+
+
 
 /*product page content*/
 .product-dev {
@@ -3615,7 +3836,7 @@ left: 96rem!important;
 
 .col-down{
   text-align: justify;
- margin-top: 26rem;
+ margin-top: 25rem;
 }
 
 .col-up{
@@ -8345,7 +8566,7 @@ font-size: 1.3rem!important;
             } */
         }
 
-
+/*
         .slideanim {visibility:hidden;}
           .slide {
             animation-name: slide;
@@ -8374,11 +8595,11 @@ font-size: 1.3rem!important;
               -webkit-transform: translateY(0%);
             }
           }
-
+*/
 /*partner page*/
 #partner-body-content {
-    padding: 0rem 1rem;
-    background-image: url("images/bg/partner_new.jpg") !important;
+    /*padding: 0rem 1rem;
+    background-image: url("images/bg/partner_new.jpg") !important;*/
     height: 35rem;
     background-size: cover;
     background-position: right;
@@ -8386,9 +8607,11 @@ font-size: 1.3rem!important;
 }
 
 .partner-img {
+    margin-top: -5rem;
     background-position: center;
     background-size: cover;
     width: 100% !important;
+    z-index: 10;
 }
 .row-partner{
   text-align:center!important;
@@ -8677,8 +8900,10 @@ padding-left: 4rem!important;
 .h3-part{
 margin-left: 1rem;
 margin-top: 0.5rem;
+z-index: 999;
 }
 }
+
 @media screen and  (min-width: 1440px) {
   #partner-body-content {
       height: 45rem;

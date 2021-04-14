@@ -81,34 +81,34 @@ function showCalendar(month, year) {
 
         if (document.getElementById("textarea-char-counter").value != "") {
           //alert(document.getElementById("textarea-char-counter").value.length)
-          if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Jan") {
+          if (document.getElementById("textarea-char-counter").value.slice(32, 35) === "Jan") {
             dd1 = 0;
-          } else if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Feb") {
+          } else if (document.getElementById("textarea-char-counter").value.slice(32, 35) === "Feb") {
             dd1 = 1;
-          } else if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Mar") {
+          } else if (document.getElementById("textarea-char-counter").value.slice(32, 35) === "Mar") {
             dd1 = 2;
-          } else if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Apr") {
+          } else if (document.getElementById("textarea-char-counter").value.slice(32, 35) === "Apr") {
             dd1 = 3;
-          } else if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "May") {
+          } else if (document.getElementById("textarea-char-counter").value.slice(32, 35) === "May") {
             dd1 = 4;
-          } else if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Jun") {
+          } else if (document.getElementById("textarea-char-counter").value.slice(32, 35) === "Jun") {
             dd1 = 5;
-          } else if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Jul") {
+          } else if (document.getElementById("textarea-char-counter").value.slice(32, 35) === "Jul") {
             dd1 = 6;
-          } else if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Aug") {
+          } else if (document.getElementById("textarea-char-counter").value.slice(32, 35) === "Aug") {
             dd1 = 7;
-          } else if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Sep") {
+          } else if (document.getElementById("textarea-char-counter").value.slice(32, 35) === "Sep") {
             dd1 = 8;
-          } else if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Oct") {
+          } else if (document.getElementById("textarea-char-counter").value.slice(32, 35) === "Oct") {
             dd1 = 9;
-          } else if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Nov") {
+          } else if (document.getElementById("textarea-char-counter").value.slice(32, 35) === "Nov") {
             dd1 = 10;
-          } else if (document.getElementById("textarea-char-counter").value.slice(33, 36) === "Dec") {
+          } else if (document.getElementById("textarea-char-counter").value.slice(32, 35) === "Dec") {
             dd1 = 11;
           }
           //dd1 = parseInt(document.getElementById("textarea-char-counter").value.slice(33, 36));
-          dd2 = parseInt(document.getElementById("textarea-char-counter").value.slice(37, 39));
-          dd3 = document.getElementById("textarea-char-counter").value.slice(41, 45);
+          dd2 = parseInt(document.getElementById("textarea-char-counter").value.slice(36, 38));
+          dd3 = document.getElementById("textarea-char-counter").value.slice(40, 44);
         }
 
         // if (row1-1 === i && cells1 === j) {
@@ -141,8 +141,8 @@ function showCalendar(month, year) {
       } else {
         daydate1 = $(this).text();
       }
-      var msg2 = document.getElementById("textarea-char-counter").value.slice(46, (document.getElementById("textarea-char-counter").value).length);
-      var msg1 = "Hi BRBI! Are you free to meet on " + $(monthAndYear).text().slice(0, 3) + " " + daydate1 + ", " + $(monthAndYear).text().slice(4, 8) + "?";
+      var msg2 = document.getElementById("textarea-char-counter").value.slice(45, (document.getElementById("textarea-char-counter").value).length);
+      var msg1 = "Hi BRB! Are you free to meet on " + $(monthAndYear).text().slice(0, 3) + " " + daydate1 + ", " + $(monthAndYear).text().slice(4, 8) + "?";
       document.getElementById("textarea-char-counter").value = msg1 + msg2;
       //alert((document.getElementById("textarea-char-counter").value).length);
     } else {
@@ -151,7 +151,7 @@ function showCalendar(month, year) {
       } else {
         daydate1 = $(this).text();
       }
-      var msg3 = "Hi BRBI! Are you free to meet on " + $(monthAndYear).text().slice(0, 3) + " " + daydate1 + ", " + $(monthAndYear).text().slice(4, 8) + "?";
+      var msg3 = "Hi BRB! Are you free to meet on " + $(monthAndYear).text().slice(0, 3) + " " + daydate1 + ", " + $(monthAndYear).text().slice(4, 8) + "?";
       document.getElementById("textarea-char-counter").value = msg3;
       //alert((document.getElementById("textarea-char-counter").value).length);
     }

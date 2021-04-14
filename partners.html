@@ -33,34 +33,45 @@
 
 <body>
   <section id="header-nav">
-    <nav class="navbar navbar-expand-lg navbar-light navbar-custom first-nav">
+    <nav class="navbar navbar-expand-lg navbar-light  navbar-custom navbar-transparent navbar-product fixed-top">
           <a class="navbar-brand" href="index.html"><img src="binangonan_logo.png" class="cashmate"><img src="images/brb_logo.png" class="brblogo"></a>
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
         </button>
         <div class="navbar-collapse collapse ul-holder" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item dropdown about-border ml-auto">
-              <a class="nav-link about dropdown-toggle" href="about.html">
-                About</a>
-              <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <a class="nav-link about dropdown-toggle" href="about.html" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              About</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="about.html#history-body-content">History</a>
-              <a class="dropdown-item" href="about.html#who-body-content">Who we are</a>
-              <a class="dropdown-item" href="about.html#meet-body-content">Meet Our Team</a>
-            </div>-->
+            <li class="nav-item dropdown about-dlist about-border ml-auto">
+              <!--<a class="nav-link about dropdown-toggle" href="about.html">
+                                    About</a> -->
+              <a class="nav-link about dropdown-toggle" href="about.html" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  About</a>
+                <div class="dropdown-menu w-100" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="about.html#who">Who we are</a>
+                  <a class="dropdown-item" href="about.html#mission">Mission</a>
+                  <a class="dropdown-item" href="about.html#vision">Vision</a>
+                  <a class="dropdown-item" href="about.html#history">History</a>
+                  <a class="dropdown-item" href="about.html#meet">Meet Our Team</a>
+                </div>
             </li>
-            <!-- <li class="nav-item active about-border ml-auto">
-                        <a class="nav-link about" href="#">About Us<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item product-border ml-auto">
-                      <a class="nav-link product" href="product.html">Product</a>
-                    </li>-->
-            <li class="nav-item services-border ml-auto">
-              <a class="nav-link services" href="product-service.html">Product and Services</a>
+            <li class="nav-item dropdown services-border ml-auto">
+              <a class="nav-link services dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Products and Services
+              </a>
+              <ul class="dropdown-menu w-100" aria-labelledby="navbarDropdownMenuLink">
+  
+                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="product-service.html#1">Cards</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="product-service.html#cards">BRB Card</a></li>
+                    <li><a class="dropdown-item" href="product-service.html#upi">Union Pay Card</a></li>
+                    <li><a class="dropdown-item" href="product-service.html#cobrand">Cobranded Card</a></li>
+                </li>
+              </ul>
+              <li><a class="dropdown-item" href="product-service.html#acquiring">Merchant Acquiring</a></li>
+              <li><a class="dropdown-item" href="product-service.html#instapay">Instapay</a></li>
+              <li><a class="dropdown-item" href="product-service.html#agency">EMI Agent Services</a></li>
             </li>
+          </ul>
+          </li>
             <!--
             <li class="nav-item services-border ml-auto">
               <a class="nav-link services" href="services.html">Services</a>
@@ -86,15 +97,158 @@
   <!--Main Content-->
   <section id="partner-body-content">
       <div class="partner-dev">
-        <h2 class="h3-part">Partners</h2>
-          <img src="images/new/BRB websites assets/partners/Asset 75vis.png" alt="" class="partner-img">
+        <div class="row h-button justify-content-around">
+          <div class="col-lg-2 col-md-3 col-sm-6"><a href="https://www.visa.com.ph//" target="_blank"><img src="images/new/BRB websites assets/partners/visa.png" class="partner-display2 partner-down" alt=""></a></div>
+          <div class="col-lg-2 col-md-3 col-sm-6"><a href="https://www.mastercard.com.ph/en-ph.html" target="_blank"><img src="images/new/BRB websites assets/partners/mastercard.png" class="partner-display2" alt=""></a></div>
+          <div class="col-lg-2 col-md-3 col-sm-6"><a href="http://www.unionpayintl.com/en/" target="_blank"><img src="images/new/BRB websites assets/partners/union.png" class="partner-display2" alt=""></a></div>
+         
+          <div class="col-lg-2 col-md-3 col-sm-6"><a href="https://www.bsp.gov.ph/SitePages/Default.aspx" target="_blank"><img src="images/new/BRB websites assets/partners/bsp.png" class="partner-display2" alt=""></div>
+          <div class="col-lg-2 col-md-3 col-sm-6"><a href="http://www.amlc.gov.ph/" target="_blank"><img src="images/new/BRB websites assets/partners/amlc.png" class="partner-display2" alt=""></div>
+          <div class="col-lg-2 col-md-3 col-sm-6"><a href="http://rbap.org//" target="_blank"><img src="images/new/BRB websites assets/partners/rbap.jpg" class="partner-display2" alt=""></div>
+             
+        </div>
 
-     <!--   <div class="row ">
+        
+        <div class="row h-button justify-content-around">
+          <div class="col-lg-2 col-md-3 col-sm-6"><a href="https://www.bancnetonline.com/BancnetWeb/view/goToCorpProfPage.do" target="_blank"><img src="images/new/BRB websites assets/partners/bancnet.png" class="partner-display2 partner-down" alt=""></div>
+            <div class="col-lg-2 col-md-3 col-sm-6"><a href="https://www.nextbank.ph/" target="_blank"><img src="images/new/BRB websites assets/partners/nextbank.jpg" class="partner-display2 partner-down" alt=""></a></div>
+            <div class="col-lg-2 col-md-3 col-sm-6"><a href="https://www.aseanfic.org/portfolio/pmti/" target="_blank"><img src="images/new/BRB websites assets/partners/pmti.jpg" class="partner-display2" alt=""></a></div>
+          
+          <div class="col-lg-2 col-md-3 col-sm-6"><a href="https://web.facebook.com/intelligenttouch/?_rdc=1&_rdr" target="_blank"><img src="images/new/BRB websites assets/partners/itc.jpg" class="partner-display3" alt=""></a></div>
+          <div class="col-lg-2 col-md-3 col-sm-6"><a href="https://www.goldpac-acs.com/" target="_blank"><img src="images/new/BRB websites assets/partners/goldpac.png" class="partner-display2 partner-down" alt=""></a></div>
+          <div class="col-lg-2 col-md-3 col-sm-6"><a href="https://da5.com.ph/h/" target="_blank"><img src="images/new/BRB websites assets/partners/da5.png" class="partner-display4" alt=""></a></div>
+        
+        </div>
+
+        <div class="row h-button justify-content-around">
+           <!-- <div class="col-lg-3 col-md-3 col-sm-6"><a href="https://www.agrea.ph/" target="_blank"><img src="images/new/BRB websites assets/partners/agrea.png" class="partner-display2" alt=""></a></div>
+           <div class="col-lg-2 col-md-3 col-sm-6"><a href="https://wise.com/" target="_blank"><img src="images/new/BRB websites assets/partners/transfer.png" class="partner-display2" alt=""></a></div>
+        --> <div class="col-lg-2 col-md-3 col-sm-6"><a href="https://www.philpayments.org.ph" target="_blank"><img src="images/new/BRB websites assets/partners/ppmi.webp" class="partner-display4" alt=""></a></div>
+          <div class="col-lg-2 col-md-3 col-sm-6"><a href="https://www.global-mate.group/group/global-mate-accountancy/" target="_blank"><img src="images/new/BRB websites assets/partners/global.jpg" class="partner-display2 partner-down" alt=""></a></div>
+          <div class="col-lg-2 col-md-3 col-sm-6"><a href="https://ubivelox.com.ph/" target="_blank"><img src="images/new/BRB websites assets/partners/ubp.png" class="partner-display2  partner-down" alt=""></a></div>
+          <div class="col-lg-2 col-md-3 col-sm-6"><a href="https://vipexclusiveclub.net/LandingPage#" target="_blank"><img src="images/partner/acm.png" class="partner-display" alt=""></a></div>
+          <div class="col-lg-2 col-md-3 col-sm-6"><a href="https://squidpay.ph/" target="_blank"><img src="images/new/BRB websites assets/partners/squidpay.png" class="partner-display" alt=""></a></div>
+          <div class="col-lg-2 col-md-3 col-sm-6"><a href="https://fshc.ph/" target="_blank"><img src="images/new/BRB websites assets/partners/firsts.png" class="partner-display2" alt=""></div>
+         
+        </div>
+        
+        <div class="row h-button justify-content-around">
+          <div class="col-lg-2 col-md-3 col-sm-6"><a href="http://paynet.ph/" target="_blank"><img src="images/partner/paynet.png" class="partner-display2 " alt=""></a></div>
+          <div class="col-lg-2 col-md-3 col-sm-6"><a href="http://www.ani.com.ph" target="_blank"><img src="images/partner/agrinuture.jpg" class="partner-display4" alt=""></div>
+            <div class="col-lg-2 col-md-3 col-sm-6"><a href="https://www.vasuhealthcare.com/" target="_blank"><img src="images/new/BRB websites assets/partners/vasu.jpg" class="partner-display2 " alt=""></a></div>
+            <div class="col-lg-2 col-md-3 col-sm-6"><a href="https://www.ibayad.com/" target="_blank"><img src="images/partner/ibayad.png" class="partner-display2" alt=""></div>
+              <div class="col-lg-2 col-md-3 col-sm-6"><a href="" target="_blank"><img src="images/new/BRB websites assets/partners/lgu.png" class="partner-display3" alt=""></a></div>
+              <!--<div class="col-lg-2 col-md-3 col-sm-6"><a href="http://www.jadegaming.com.ph/" target="_blank"><img src="images/new/BRB websites assets/partners/jade.jpg" class="partner-display2 " alt=""></a></div>
+              -->
+        </div>
+
+        <div class="row h-button justify-content-around">
+          <div class="col-lg-2 col-md-3 col-sm-6"></div>
+          <div class="col-lg-2 col-md-3 col-sm-6"></div>
+        <!-- <div class="col-lg-2 col-md-3 col-sm-6"><a href="https://www.npci.org.in/what-we-do/upi/product-overview" target="_blank"><img src="images/new/BRB websites assets/partners/unified.png" class="partner-display2" alt=""></a></div>
+          -->  <div class="col-lg-2 col-md-3 col-sm-6"></div>
+          <div class="col-lg-2 col-md-3 col-sm-6"></div>
+        </div>
+       <!-- <div class="row h-button justify-content-around">
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="https://www.bsp.gov.ph/SitePages/Default.aspx" target="_blank"><img src="images/new/BRB websites assets/partners/bsp.png" class="partner-display2" alt=""></div>
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="http://www.amlc.gov.ph/" target="_blank"><img src="images/new/BRB websites assets/partners/amlc.png" class="partner-display2" alt=""></div>
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="http://rbap.org//" target="_blank"><img src="images/new/BRB websites assets/partners/rbap.jpg" class="partner-display2" alt=""></div>
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="https://www.bancnetonline.com/BancnetWeb/view/goToCorpProfPage.do" target="_blank"><img src="images/new/BRB websites assets/partners/bancnet.png" class="partner-display2 partner-down" alt=""></div>
+        </div>
+
+        
+        <div class="row h-button justify-content-around">
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="https://www.nextbank.ph/" target="_blank"><img src="images/new/BRB websites assets/partners/nextbank.jpg" class="partner-display2 partner-down" alt=""></a></div>
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="https://www.aseanfic.org/portfolio/pmti/" target="_blank"><img src="images/new/BRB websites assets/partners/pmti.jpg" class="partner-display2" alt=""></a></div>
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="https://www.npci.org.in/what-we-do/upi/product-overview" target="_blank"><img src="images/new/BRB websites assets/partners/unified.png" class="partner-display2 partner-down" alt=""></a></div>
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="https://ubivelox.com.ph/" target="_blank"><img src="images/new/BRB websites assets/partners/ubp.png" class="partner-display2  partner-down" alt=""></a></div>
+        </div>
+
+        <div class="row h-button justify-content-around">
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="https://da5.com.ph/h/" target="_blank"><img src="images/new/BRB websites assets/partners/da5.png" class="partner-display2" alt=""></a></div>
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="https://www.agrea.ph/" target="_blank"><img src="images/new/BRB websites assets/partners/agrea.png" class="partner-display2" alt=""></a></div>
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="https://www.global-mate.group/group/global-mate-accountancy/" target="_blank"><img src="images/new/BRB websites assets/partners/global.jpg" class="partner-display2 partner-down" alt=""></a></div>
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="https://vipexclusiveclub.net/LandingPage#" target="_blank"><img src="images/partner/acm.png" class="partner-display" alt=""></a></div>
+          </div>
+
+        <div class="row h-button justify-content-around">
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="#" target="_blank"><img src="images/new/BRB websites assets/partners/payfast.png" class="partner-display2 partner-down" alt=""></a></div>
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="https://wise.com/" target="_blank"><img src="images/new/BRB websites assets/partners/transfer.png" class="partner-display2" alt=""></a></div>
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="https://web.facebook.com/intelligenttouch/?_rdc=1&_rdr" target="_blank"><img src="images/new/BRB websites assets/partners/itc.jpg" class="partner-display3" alt=""></a></div>
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="http://www.unionpayintl.com/en/" target="_blank"><img src="images/new/BRB websites assets/partners/union.png" class="partner-display2" alt=""></a></div>
+        </div>
+        
+        
+        <div class="row h-button justify-content-around">
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="https://www.philpayments.org.ph" target="_blank"><img src="images/new/BRB websites assets/partners/ppmi.webp" class="partner-display2" alt=""></a></div>
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="http://paynet.ph/" target="_blank"><img src="images/partner/paynet.png" class="partner-display2 partner-down" alt=""></a></div>
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="https://squidpay.ph/" target="_blank"><img src="images/new/BRB websites assets/partners/squidpay.png" class="partner-display" alt=""></a></div>
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="https://www.visa.com.ph//" target="_blank"><img src="images/new/BRB websites assets/partners/visa.png" class="partner-display2 partner-down" alt=""></a></div>
+        </div>
+
+        <div class="row h-button justify-content-around">
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="http://www.ani.com.ph" target="_blank"><img src="images/partner/agrinuture.jpg" class="partner-display4" alt=""></div>
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="https://www.vasuhealthcare.com/" target="_blank"><img src="images/new/BRB websites assets/partners/vasu.jpg" class="partner-display2 partner-down" alt=""></a></div>
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="https://www.ibayad.com/" target="_blank"><img src="images/partner/ibayad.png" class="partner-display2" alt=""></div>
+            <div class="col-lg-3 col-md-3 col-sm-6"><a href="" target="_blank"><img src="images/new/BRB websites assets/partners/lgu.png" class="partner-display3" alt=""></a></div>
+          </div>
+
+        <div class="row h-button justify-content-around">
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="http://www.jadegaming.com.ph/" target="_blank"><img src="images/new/BRB websites assets/partners/jade.jpg" class="partner-display2 " alt=""></a></div>
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="https://www.goldpac-acs.com/" target="_blank"><img src="images/new/BRB websites assets/partners/goldpac.png" class="partner-display2 " alt=""></a></div>
+          <div class="col-lg-3 col-md-3 col-sm-6"><a href="https://fshc.ph/" target="_blank"><img src="images/new/BRB websites assets/partners/firsts.png" class="partner-display2" alt=""></div>
+        </div>-->
+
+
+         <!-- <img src="images/new/BRB websites assets/partners/Asset 75vis.png" alt="" class="partner-img">
+      
+          <div class="d-flex h-button justify-content-around  main">
+            <div class="p-3"><a href="https://www.bsp.gov.ph/SitePages/Default.aspx" target="_blank"><img src="images/new/BRB websites assets/partners/bsp.png" class="partner-display partner-down" alt=""></div>
+            <div class="p-3"><a href="http://www.amlc.gov.ph/" target="_blank"><img src="images/new/BRB websites assets/partners/amlc.png" class="partner-display2" alt=""></div>
+            <div class="p-3"><a href="http://rbap.org//" target="_blank"><img src="images/new/BRB websites assets/partners/rbap.jpg" class="partner-display2" alt=""></div>
+            <div class="p-3"><a href="https://www.bancnetonline.com/BancnetWeb/view/goToCorpProfPage.do" target="_blank"><img src="images/new/BRB websites assets/partners/bancnet.png" class="partner-display2 partner-down" alt=""></div>
+          </div>
+
+          
+          <div class="d-flex h-button justify-content-around main">
+            <div class="p-3"><a href="https://www.nextbank.ph/" target="_blank"><img src="images/new/BRB websites assets/partners/nextbank.jpg" class="partner-display2 partner-down" alt=""></a></div>
+            <div class="p-3"><a href="https://www.aseanfic.org/portfolio/pmti/" target="_blank"><img src="images/new/BRB websites assets/partners/pmti.jpg" class="partner-display2" alt=""></a></div>
+            <div class="p-3"><a href="https://www.npci.org.in/what-we-do/upi/product-overview" target="_blank"><img src="images/new/BRB websites assets/partners/unified.png" class="partner-display2 partner-down" alt=""></a></div>
+            <div class="p-3"><a href="https://ubivelox.com.ph/" target="_blank"><img src="images/new/BRB websites assets/partners/ubp.png" class="partner-display2 partner-down" alt=""></a></div>
+          </div>
+
+          <div class="d-flex h-button justify-content-around main">
+            <div class="p-3"><a href="https://da5.com.ph/h/" target="_blank"><img src="images/new/BRB websites assets/partners/da5.png" class="partner-display2" alt=""></a></div>
+            <div class="p-3"><a href="https://www.agrea.ph/" target="_blank"><img src="images/new/BRB websites assets/partners/agrea.png" class="partner-display2" alt=""></a></div>
+            <div class="p-3"><a href="https://www.global-mate.group/group/global-mate-accountancy/" target="_blank"><img src="images/new/BRB websites assets/partners/global.jpg" class="partner-display2 partner-down" alt=""></a></div>
+            <div class="p-3"><a href="https://vipexclusiveclub.net/LandingPage#" target="_blank"><img src="images/partner/acm.png" class="partner-display" alt=""></a></div>
+            </div>
+
+          <div class="d-flex h-button justify-content-around main">
+            <div class="p-3"><a href="#" target="_blank"><img src="images/new/BRB websites assets/partners/payfast.png" class="partner-display2 partner-down" alt=""></a></div>
+            <div class="p-3"><a href="https://wise.com/" target="_blank"><img src="images/new/BRB websites assets/partners/transfer.png" class="partner-display2 partner-down" alt=""></a></div>
+            <div class="p-3"><a href="" target="_blank"><img src="images/new/BRB websites assets/partners/itc.jpg" class="partner-display3" alt=""></a></div>
+            <div class="p-3"><a href="http://www.unionpayintl.com/en/" target="_blank"><img src="images/new/BRB websites assets/partners/union.png" class="partner-display2" alt=""></a></div>
+          </div>
+          
+
+          <div class="d-flex h-button justify-content-around main">
+            <div class="p-2"><a href="http://www.jadegaming.com.ph/" target="_blank"><img src="images/new/BRB websites assets/partners/jade.jpg" class="partner-display2" alt=""></a></div>
+            <div class="p-2"><a href="https://www.visa.com.ph//" target="_blank"><img src="images/new/BRB websites assets/partners/visa.png" class="partner-display2" alt=""></a></div>
+            <div class="p-2"><a href="https://www.vasuhealthcare.com/" target="_blank"><img src="images/new/BRB websites assets/partners/vasu.jpg" class="partner-display2" alt=""></a></div>
+            <div class="p-2"><a href="https://www.ibayad.com/" target="_blank"><img src="images/partner/ibayad.png" class="partner-display2" alt=""></a></div>
+            <div class="p-2"><a href="http://www.ani.com.ph" target="_blank"><img src="images/partner/agrinuture.jpg" class="partner-display" alt=""></a></div>
+          </div>-->
+
+      </div>
+           
+<!--
+       <div class="row ">
           <div class="col">
             <div class="row row-partner row-p1">
               <div class="col-lg-3 col-md-3"><a href="http://www.tojomotors.com/" target="_blank"><img src="images/partner/tojo.png" class="partner-display" alt=""><br></a> </div>
 
-              <div class="col-lg-4 col-md-5"><a href="https://da5.com.ph/h/" target="_blank"><img src="images/partner/da5.jpg" class="partner-display" alt=""><br></a>  </div>
+              <div class="col-lg-4 col-md-5"><a href="https://da5.com.ph/h/" target="_blank">><img src="images/new/BRB websites assets/partners/bancnet_s.png" class="partner-display" alt=""><br></a>  </div>
             <div class="col-lg-3 col-md-3"><a href="https://www.churnetworks.com/" target="_blank"><img src="images/partner/chur.jpg" class="partner-display" alt=""><br></a></div>
             </div>
             <div class="row row-partner row-p2">
@@ -105,9 +259,9 @@
             <div class="row row-partner row-p3">
               <div class="col-lg-5 col-md-6"><a href="https://www.ibayad.com/" target="_blank"><img src="images/partner/ibayad.png" class="partner-display" alt=""><br></a></div>
               <div class="col-lg-5 col-md-3"><a href="http://paynet.ph/" target="_blank"><img src="images/partner/paynet.png" class="partner-display" alt=""><br></a></div>
-            </div>-->
+            </div>
 
-          <!--
+          
             <div class="row row-partner ">
               <div class="col-lg-3 col-md-3"><a href="http://www.tojomotors.com/" target="_blank"><img src="images/partner/tojo.png" class="partner-display" alt=""><br></a> </div>
               <div class="col-lg-3 col-md-3"><a href="http://www.brightscity.com/" target="_blank"><img src="images/partner/brightcity.png" class="partner-display" alt=""><br></a>  </div>
@@ -125,35 +279,24 @@
               <div class="col-lg-3 col-md-3"><a href="http://paynet.ph/" target="_blank"><img src="images/partner/paynet.png" class="partner-display" alt=""><br></a></div>
               <div class="col-lg-3 col-md-3"><a href="https://www.churnetworks.com/" target="_blank"><img src="images/partner/chur.jpg" class="partner-display" alt=""><br></a></div>
               <div class="col-lg-3 col-md-3"><a href="http://www.ani.com.ph" target="_blank"><img src="images/partner/agrinuture.jpg" class="partner-display" alt=""><br></a></div>
-            </div>-->
+            </div>
           </div>
         </div>
 
-      </div>
+      </div>-->
 
 
   </section>
 
 
-  <!--Footer
+
   <section id="footer-content">
     <footer class="fixed-bottom">
-      <div class="row">
-        <div class="col-3">Makati Office Address:</div>
-        <div class="col-5">Bank Address:</div>
-        <div class="col-4">Customer Care Hotline:</div>
-      </div>
-
-      <div class="row">
-        <div class="col-3">2nd Floor, Planters Products Bldg 109 Esteban St. Legaspi Vilage 1223 Makati City, Philippines</div>
-        <div class="col-5">135 Baltazar Street, Brgy. Layunan, Binangonan 1940 Rizal, Philippines</div>
-        <div class="col-2">+63 (2) 852 1454 <br> +63 (2) 8478 6618 <br> +63 (2) 8478 6615 </div>
-        <div class="col-2">(Globe) +63 916 624 3607 <br> (Smart) +63 998 326 8399</div>
-      </div>
+      <a href="terms.html" class="footer-text"  style="color:white">Terms and Conditions</a> 
     </footer>
-  </section>-->
+  </section>
 
-
+  <script type="text/javascript" src="scripts-test.js"></script>
 </body>
 
 </html>

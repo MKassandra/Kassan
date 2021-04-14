@@ -38,23 +38,39 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-collapse collapse ul-holder" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-
-                <li class="nav-item dropdown about-dlist about-border ml-auto">
-                  <a class="nav-link about dropdown-toggle" href="about.html">
-                    About</a>
-                  <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <a class="nav-link about dropdown-toggle" href="about.html" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    About</a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="about.html#history-body-content">History</a>
-                    <a class="dropdown-item" href="about.html#who-body-content">Who we are</a>
-                    <a class="dropdown-item" href="about.html#meet-body-content">Meet Our Team</a>
-                  </div>-->
-              </li>
-              <li class="nav-item services-border ml-auto">
-                <a class="nav-link services" href="product-service.html">Product and Services</a>
-              </li>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown about-dlist about-border ml-auto">
+              <!--<a class="nav-link about dropdown-toggle" href="about.html">
+                                    About</a> -->
+              <a class="nav-link about dropdown-toggle" href="about.html" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  About</a>
+                <div class="dropdown-menu w-100" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="about.html#who">Who we are</a>
+                  <a class="dropdown-item" href="about.html#mission">Mission</a>
+                  <a class="dropdown-item" href="about.html#vision">Vision</a>
+                  <a class="dropdown-item" href="about.html#history">History</a>
+                  <a class="dropdown-item" href="about.html#meet">Meet Our Team</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown services-border ml-auto">
+              <a class="nav-link services dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Products and Services
+              </a>
+              <ul class="dropdown-menu w-100" aria-labelledby="navbarDropdownMenuLink">
+  
+                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="product-service.html#1">Cards</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="product-service.html#cards">BRB Card</a></li>
+                    <li><a class="dropdown-item" href="product-service.html#upi">Union Pay Card</a></li>
+                    <li><a class="dropdown-item" href="product-service.html#cobrand">Cobranded Card</a></li>
+                </li>
+              </ul>
+              <li><a class="dropdown-item" href="product-service.html#acquiring">Merchant Acquiring</a></li>
+              <li><a class="dropdown-item" href="product-service.html#instapay">Instapay</a></li>
+              <li><a class="dropdown-item" href="product-service.html#agency">EMI Agent Services</a></li>
+            </li>
+          </ul>
+          </li>
 
               <li class="nav-item partners-border ml-auto">
                 <a class="nav-link partners" href="partners.html">Partners</a>
@@ -98,43 +114,18 @@
   </div>-->
 
   <div class="product-dev">
-  <!--  <div class="row row-product-btn mx-auto">
-      <div class="col col-lift">
-        <a href="p-customize.html"><img src="images/custom-btn.png" class="imag-e d-block icon-up" alt="..."></a>
-      </div>
-      <div class="col col-low">
-        <a href="p-upgrade.html"><img src="images/upgrade-btn.png" class="imag-e d-block icon-down" alt="..."></a>
-      </div>
-      <div class="col col-lift2">
-        <a href="p-cashless.html"><img src="images/cashless-btn.png" class="imag-e d-blockicon-up" alt="..."> </a>
-      </div>
-      <div class="col col-low2">
-        <a href="p-access.html"><img src="images/access-btn.png" class="imag-e d-block icon-down" alt="..."></a>
-      </div>
-
-    </div>
-    <div class="row row-product-line mx-auto">
-      <div class="col-lg-5 col-md-5 col-sm-0">
-      </div>
-      <div class="col-lg-2 col-md-2 col-sm-12">
-    <img src="images/product-line.png" class="imag-c d-block icon-up" alt="..."></a>
-      </div>
-      <div class="col-lg-5 col-md-5 col-sm-0">
-      </div>
-    </div>-->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3400">
-
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+       <!-- <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>-->
       </ol>
       <div class="carousel-inner">
 
         <div class="carousel-item active">
           <div class="s_customize">
-            <h2 class="h3-p h3-customize">No maintaining <br>balance</h2>
+            <h2 class="h3-p  h3-right h3-customize h3-customize container containerHome">Can be used for purchases, bill payments, <br> Instapay, Fund Transfer</h2>
             <!--  <div class="row row-custom">
               <div class="col-lg-4"><img src="images/brbcard.png" class="custom-display custom-display-front rounded" alt=""><br><br> <img src="images/brbcard2.png" class="custom-display custom-display-back rounded" alt=""><br><br>
               </div>
@@ -148,7 +139,7 @@
         </div>
         <div class="carousel-item">
           <div class="s_upgrade">
-            <h2 class="h3-p h3-upgrade">No high opening <br> balance requirements</h2>
+            <h2 class="h3-p h3-upgrade container containerHome">No opening <br> balance requirements</h2>
             <!--<div class=row>
               <div class="col col-down"><p class="p-upgrade">You can start with a generic BRB Cash Card and upgrade it to become..</p></div>
               <div class="col col-up"><p class="p-upgrade">All mandatory details you require can be printed on the face of the card. </p><h4 class="h4-u h4-down">.<br>.<br>.<br>KYC</h4></div>
@@ -162,7 +153,7 @@
         </div>
         <div class="carousel-item">
           <div class="s_cashless">
-            <h2 class="h3-p h3-cashless">E-wallet even if <br> you  forget, money/<br> balance is stored <br> in the account</h2>
+            <h2 class="h3-p h3-right h3-cashless container containerHome">Can be used on all Bancnet ATM <br>and POS Terminals nationwide </h2>
             <!--  <div class="cashless-product-dev">
             <div class="row cashless-row">
               <div class="col-lg-4">
@@ -180,7 +171,7 @@
         </div>
         <div class="carousel-item">
           <div class="s_access">
-            <h2 class="h3-p h3-access">Cash out agents on <br> every barangay</h2>
+            <h2 class="h3-p container containerHome">Internationally acceptable cards <br> with UnionPay</h2>
             <!--  <div class="row">
               <div class="col-4">
 
@@ -205,12 +196,15 @@
         </div>
         <!--  >-->
 
-        <div class="carousel-item">
-          <div class="s_simple">
-            <h2 class="h3-p h3-simple">Banking at your <br> Fingertips <br> (Mobile and Online)</h2>
+        <!--  <div class="carousel-item">
+        <div class="s_simple">
+            <h2 class="h3-p h3-simple container containerHome">Banking at your <br> Fingertips <br> (Mobile and Online)</h2>
 
           </div>
-        </div><a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+
+        </div>-->
+        
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
         </a>
@@ -317,23 +311,14 @@
   </section>
 -->
 
-  <!--Footer
   <section id="footer-content">
   <footer class="fixed-bottom">
-    <div class="row">
-      <div class="col-3">Makati Office Address:</div>
-      <div class="col-5">Bank Address:</div>
-      <div class="col-4">Customer Care Hotline:</div>
-    </div>
-
-    <div class="row">
-      <div class="col-3">2nd Floor, Planters Products Bldg 109 Esteban St. Legaspi Vilage 1223 Makati City, Philippines</div>
-      <div class="col-5">135 Baltazar Street, Brgy. Layunan, Binangonan 1940 Rizal, Philippines</div>
-      <div class="col-2">+63 (2) 8852 1454 <br> +63 (2) 8478 6618 <br> +63 (2) 8478 6615 </div>
-      <div class="col-2">(Globe) +63 916 624 3607 <br> (Smart) +63 998 326 8399</div>
-    </div>
-  </footer>-->
+    <a href="terms.html" class="footer-text"  style="color:white">Terms and Conditions</a> 
+  </footer>
   </section>
+
+<script type="text/javascript" src="scripts-test.js"></script>
+
 </body>
 
 </html>

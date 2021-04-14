@@ -32,7 +32,7 @@
 
 <body>
   <section id="header-nav">
-    <nav class="navbar navbar-expand-lg navbar-light navbar-custom first-nav h-color ">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom navbar-transparent navbar-product">
         <a class="navbar-brand" href="index.html"><img src="binangonan_logo.png" class="cashmate"><img src="images/brb_logo.png" class="brblogo"></a>
       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -41,45 +41,56 @@
       <!--  <div class="collapse navbar-collapse ul-holder" id="navbarCustom">-->
       <div class="collapse navbar-collapse ul-holder" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item dropdown about-border ml-auto">
-            <a class="nav-link about dropdown-toggle" href="about.html">
-              About</a>
-            <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <a class="nav-link about dropdown-toggle" href="about.html" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            About</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="about.html#history-body-content">History</a>
-            <a class="dropdown-item" href="about.html#who-body-content">Who we are</a>
-            <a class="dropdown-item" href="about.html#meet-body-content">Meet Our Team</a>
-          </div>-->
+          <li class="nav-item dropdown about-dlist about-border ml-auto">
+            <!--<a class="nav-link about dropdown-toggle" href="about.html">
+                                  About</a> -->
+            <a class="nav-link about dropdown-toggle" href="about.html" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About</a>
+              <div class="dropdown-menu w-100" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="about.html#who">Who we are</a>
+                  <a class="dropdown-item" href="about.html#mission">Mission</a>
+                  <a class="dropdown-item" href="about.html#vision">Vision</a>
+                  <a class="dropdown-item" href="about.html#history">History</a>
+                  <a class="dropdown-item" href="about.html#meet">Meet Our Team</a>
+              </div>
           </li>
-          <!-- <li class="nav-item active about-border ml-auto">
-                      <a class="nav-link about" href="#">About Us<span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item product-border ml-auto">
-                    <a class="nav-link product" href="product.html">Product</a>
-                  </li>-->
-          <li class="nav-item services-border ml-auto">
-            <a class="nav-link services" href="product-service.html">Product and Services</a>
-          </li>
-          <!--
-          <li class="nav-item services-border ml-auto">
-            <a class="nav-link services" href="services.html">Services</a>
-          </li>-->
+          <li class="nav-item dropdown services-border ml-auto">
+            <a class="nav-link services dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Products and Services
+            </a>
+            <ul class="dropdown-menu w-100" aria-labelledby="navbarDropdownMenuLink">
 
-
-          <li class="nav-item partners-border ml-auto">
-            <a class="nav-link partners" href="partners.html">Partners</a>
+              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="product-service.html#1">Cards</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="product-service.html#cards">BRB Card</a></li>
+                  <li><a class="dropdown-item" href="product-service.html#upi">Union Pay Card</a></li>
+                  <li><a class="dropdown-item" href="product-service.html#cobrand">Cobranded Card</a></li>
+              </li>
+            </ul>
+            <li><a class="dropdown-item" href="product-service.html#acquiring">Merchant Acquiring</a></li>
+            <li><a class="dropdown-item" href="product-service.html#instapay">Instapay</a></li>
+            <li><a class="dropdown-item" href="product-service.html#agency">EMI Agent Services</a></li>
           </li>
-
-          <li class="nav-item letsTalk-border ml-auto">
-            <a class="nav-link letsTalk" href="talk.html">Let's Talk</a>
-          </li>
-          <!--
-        <li class="nav-item ml-auto btn-border">
-          <button type="button" class="btn btn-outline-primary log-btn">Login</button>
-        </li> -->
         </ul>
+        </li>
+            <!--
+            <li class="nav-item services-border ml-auto">
+              <a class="nav-link services" href="services.html">Services</a>
+            </li>-->
+  
+  
+            <li class="nav-item partners-border ml-auto">
+              <a class="nav-link partners" href="partners.html">Partners</a>
+            </li>
+  
+            <li class="nav-item letsTalk-border ml-auto">
+              <a class="nav-link letsTalk" href="talk.html">Let's Talk</a>
+            </li>
+            <!--
+          <li class="nav-item ml-auto btn-border">
+            <button type="button" class="btn btn-outline-primary log-btn">Login</button>
+          </li> -->
+          </ul>
       </div>
     </nav>
 
@@ -161,21 +172,25 @@
   <!--Main Content-->
     <section id="talk-body-content">
 
-        <div class="row">
-          <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12">
-            <h2 class="h3-t">Let's Talk</h2>
-            <h5 class="h5-t">Makati Office: </h5>
+        <div class="row row-talk">
+          <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 purple">
+            <h5 class="h5-t2 "> Head Office:</h5>  
+            <p class="p-talk">135 Baltazar Street, Brgy. Layunan, Binangonan 1940 Rizal, Philippines</p>
+            <h5 class="h5-t ">Makati Office: </h5>
+             <p class="p-talk"> 2nd Floor, Planters Products Bldg 109 Esteban St. Legaspi Vilage 1223 Makati City, Philippines</p>
+          
+             <h5 class="h5-t2 "> Contact Details:</h5> 
+          <p class="p-talk">+63 (2) 3510 2463 <br> +63 (2) 8478 6618 <br> +63 (2) 8478 6615 <br>
+                 +63 916 624 3607  <br>+63 917 638 7177 <br>  +63 998 326 8399 </p>
 
-              2nd Floor, Planters Products Bldg 109 Esteban St. Legaspi Vilage 1223 Makati City, Philippines <br><br>
-        <h5 class="h5-t2"> Head Office:</h5>  135 Baltazar Street, Brgy. Layunan, Binangonan 1940 Rizal, Philippines <br> <br>
-          <h5 class="h5-t2"> Customer Care Hotline:</h5>  +63 (2) 8852 1454 <br> +63 (2) 8478 6618 <br> +63 (2) 8478 6615 <br>
-                 +63 916 624 3607 <br>  +63 998 326 8399
+                 <h5 class="h5-t2 ">Email Address</h5>         
+                 <p class="p-talk"> customercare@brbdigital.net</p>
 
-
-                 <div class="row">
+                 <div class="row row-talkFB">
                  <div class="col-lg-1 col-md-0 col-sm-0"> <a href="https://www.facebook.com/binangonanrural.bank.1" target="_blank"><img src="images/facebook.png" class=""></div>
 
-                 <div class="col-lg-7 col-md-7 col-sm-6"><h6 class="h6-fb">Binangonan Rural Bank</h6></a></div>
+                 <div class="col-lg-7 col-md-7 col-sm-6">
+                   <h6 class="h6-fb">Binangonan Rural Bank</h6></a></div>
                  </div>
 
           </div>
@@ -202,7 +217,7 @@
             <!--Text Area Message -->
               <div class="md-form ">
                   <label for="textarea-char-counter">Message</label>
-                <textarea id="textarea-char-counter" class="form-control form-b md-textarea" maxlength="300" length="120" rows="4">Hi BRBI! Are you free to meet on </textarea>
+                <textarea id="textarea-char-counter" class="form-control form-b md-textarea" maxlength="300" length="120" rows="4">Hi BRB! Are you free to meet on </textarea>
 
               </div>
               <!-- </div><small>*Note: Please contanct for confirmation</small> -->
@@ -214,10 +229,10 @@
 
           <div class="col-lg-5 col-md-12 c-cal wow fadeInUp">
             <!-- Calendar view start -->
-            <div class="container col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5">
+            <div class="container col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-1">
               <div class="card">
                 <div class="form-inline mx-auto">
-                  <button class="btn btn-l col-md-2 col-sm-1" id="previous" onclick="previous()"></button>
+                  <button class="btn btn-l col-md-1 col-sm-1" id="previous" onclick="previous()"></button>
                   <!--<button class="btn btn-outline-custom col-md-2 col-sm-1" id="previous" onclick="previous()"><img src="images/arrow.png" class="arrow-left" alt=""></button>-->
                   <form class="form-inline">
                     <!--<label class="lead mr-2 ml-2" for="month">Jump To: </label>-->
@@ -280,7 +295,7 @@
                     </select>
 
                   </form>
-                  <button class="btn btn-r col-md-2 col-sm-1" id="next" onclick="next()"></button>
+                  <button class="btn btn-r col-md-1 col-sm-1" id="next" onclick="next()"></button>
                   <!--<button class="btn btn-outline-custom col-md-2 col-sm-1" id="next" onclick="next()"><img src="images/arrow2.png" class="arrow-right" alt=""></button>-->
                 </div>
                 <h3 class="card-header" id="monthAndYear"></h3>
@@ -496,6 +511,13 @@
   <!-- Your custom scripts (optional) -->
   <script type="text/javascript" src="scripts.js"></script>
 
+  <section id="footer-content">
+    <footer class="fixed-bottom">
+      <a href="terms.html" class="footer-text"  style="color:white">Terms and Conditions</a> 
+    </footer>
+  </section>
+
+  <script type="text/javascript" src="scripts-test.js"></script>
 </body>
 
 </html>

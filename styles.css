@@ -921,7 +921,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
-@media screen and (max-width:801px){
+@media screen and (max-width:1025px){
  .footer-text{
     display: none;
  }
@@ -1596,29 +1596,42 @@ padding-top: 9rem!important;}
   min-height: 220px;
 
 }
-@media screen and (max-width:415px){
-  .history-image{
-    background-image: url("images/new/mobile/Asset 3.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 70rem;
-    width: 12rem;
-  }
-}
-
-
 .history-up{
   align-self: flex-end;
   padding-left: 12%;
   flex: 0 1 25%;
 }
 
-
 .history-down{
   align-self: flex-end;
   padding-right: 12%;
   flex: 0 1 25%;
 }
+
+@media screen and (max-width:415px){
+  .history-image{
+    min-height: 90px;
+  }
+  .history-up{
+    align-self: flex-end;
+    padding-left: 2rem;
+    flex: 0 1 25%;
+  }
+  
+  .history-down{
+    align-self: flex-end;
+    padding-right: 2rem;
+    flex: 0 1 25%;
+  }
+
+  
+.p-history-up, .p-history-down {
+  font-size: 0.45rem;
+}
+
+}
+
+
 .row-a {
   padding: 0 2rem !important;
 }

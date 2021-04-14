@@ -922,11 +922,10 @@ footer {
     bottom: 0;
     width: 100%;
 }
-@media screen and (max-width:1025px){
+
  .footer-text{
     display: none;
- }
-}
+
 
 .footer-bottom {
   padding: 1rem 1rem !important;

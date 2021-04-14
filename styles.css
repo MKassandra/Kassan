@@ -48,7 +48,6 @@ html {
     text-align:center;
 }
 body {
-    background-color: white!important;
     font-family: Quicksand !important;
     width: 100%;
 }
@@ -1597,6 +1596,16 @@ padding-top: 9rem!important;}
   min-height: 220px;
 
 }
+@media screen and (max-width:415px){
+  .history-image{
+    background-image: url("images/new/mobile/Asset 3.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 70rem;
+    width: 12rem;
+  }
+}
+
 
 .history-up{
   align-self: flex-end;
@@ -1983,7 +1992,6 @@ padding-top: 9rem!important;}
     background-repeat: no-repeat;
 
 }
-
 /*
 .container{
   display: flex;
@@ -2217,8 +2225,8 @@ background-repeat: no-repeat;
   /*  background-image: url("images/new/BRB websites assets/team/Asset 76.png");
     background-image: url("images/meet2.png");*/
     background-size: cover!important;
-    height: 100vh;
-    /*height: 45rem;*/
+   /* height: 100vh;
+    height: 45rem;*/
     background-repeat: no-repeat;
     background-position: center;
     padding-bottom: 1rem;
@@ -2230,7 +2238,7 @@ background-repeat: no-repeat;
  /*background-image: url("images/new/BRB websites assets/team/Asset 76.png");
  background-image: url("images/meet2.png");*/
   background-size: cover!important;
-  height: 100vh;
+  /*height: 100vh;*/
   background-repeat: no-repeat;
   background-position: center;
   padding-bottom: 1rem;
@@ -3355,6 +3363,24 @@ left:0.3rem;
 .s_simple {
     background-image: url("images/bg/p-slide5_2.jpg") !important;
 }
+
+@media screen and (max-width:801px){
+  .s_upgrade {
+  background-position: left;
+}
+  .s_customize {
+    background-image: url("images/new/mobile/Asset 22_2.png") !important;
+   
+}
+.s_cashless {
+  background-image: url("images/new/mobile/Asset 23_2.png") !important;
+}
+
+.s_access {
+  background-image: url("images/new/mobile/Asset 24.png") !important;
+}
+
+}
 /*MEDIA-PRODUCT*/
 
 /*
@@ -3397,13 +3423,19 @@ height: 45rem;
 
 @media all and (min-width:299px) and (max-width: 510px) {
   .s_customize, .s_upgrade,.s_cashless,.s_access,.s_simple  {
-    height: 100vh;
+    height: 42rem;
   }
   .h3-p{
       font-size:1.3rem;
       text-align: center;
       padding-left: 0rem;
-      padding-top: 25rem;
+      padding-top: 10rem;
+  }
+  .h3-cashless{
+    padding-top: 10rem!important;
+  }
+  .h3-balance{
+    padding-top: 25rem !important;
   }
 }
 
@@ -3418,7 +3450,7 @@ height: 45rem;
   }
 
   .h3-customize{
-   padding-top: 7rem;
+    padding-top: 7rem;
   }
 
 }

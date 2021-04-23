@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=1024">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--  <meta name="viewport" content="width=1364">-->
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="styles.css">
@@ -45,6 +45,34 @@
 </script>
   <!-- Own Javascript -->
   <script src="effects_hover.js"></script>
+
+ <!--<style>
+.scroll-snap-wrapper{
+    scroll-snap-type: y mandatory;
+    overflow: scroll;
+
+    }
+    
+    .cards{
+        scroll-snap-align:center;
+    }
+    .upi{
+        scroll-snap-align:center;  
+    }
+    .cobrand{
+        scroll-snap-align:center;  
+    }
+    .acquiring{
+        scroll-snap-align:center;  
+    }
+
+    .instapay{
+        scroll-snap-align:center;  
+    }
+    .agency{
+        scroll-snap-align:center;  
+    }
+  </style>-->
   <title>BRB</title>
 </head>
 <!--Header-->
@@ -68,7 +96,7 @@
                 <a class="dropdown-item" href="about.html#who">Who we are</a>
                 <a class="dropdown-item" href="about.html#mission">Mission</a>
                 <a class="dropdown-item" href="about.html#vision">Vision</a>
-                <a class="dropdown-item" href="about.html#history">History</a>
+                <a class="dropdown-item" href="about.html#history-body">History</a>
                 <a class="dropdown-item" href="about.html#meet">Meet Our Team</a>
               </div>
           </li>
@@ -118,29 +146,34 @@
   <section class="product_s-body-content">
     <section id="cards">
       <div class="cards scroll">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-6">
-          <img src="images/new/BRB websites assets/owned/Asset 109.png" class="productIMG productDesk" alt="">
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="flex__row row">
+          <div class="col-lg-6 col-md-6 col-sm-6 cards__row">
+            <p class="p-mobile">A Card that is accepted at all Bancnet ATMs and POS terminals nationwide.</p>
+        
+          <img src="images/new/BRB websites assets/owned/Asset 109.png" class="productIMG  productDesk" alt="">
+         
+        </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 ">
             <h1 class="h2-product">BRB Cashmate Card</h1>
             <img src="images/brbcard.png" class="cardIMG1" alt="">
             <p class="p-cards">A Card that is accepted at all Bancnet ATMs and POS terminals nationwide.</p>
           </div>
         </div>
-      </div>
     </section>
 
     <section id="upi">
       <div class="upi scroll">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-6">
-           <img src="images/new/BRB websites assets/UPI/Asset 105.png" class="productIMG productDesk" alt="">
+        <div class="flex__row row">
+          <div class="col-lg-6 col-md-6 col-sm-6 upi__row">
+            <p class="p-mobile">An international card that is accepted by nearly 22 million merchants in 180 countries and regions worldwide. </p>
+        
+           <img src="images/new/BRB websites assets/UPI/Asset 105.png" class="productIMG  productDesk" alt="">
+          
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="col-lg-6 col-md-6 col-sm-6 ">
             <h1 class="h2-product">Union Pay International Card</h1>
             <img src="images/new/BRB websites assets/UPI/upi_card.PNG" class="cardIMG1" alt="">
-            <p class="p-cards ">An international card that is accepted by nearly 22 million merchants in 180 countries and regions worldwide. </p>
+            <p class="p-cards">An international card that is accepted by nearly 22 million merchants in 180 countries and regions worldwide. </p>
           </div>
          <!--  <div class="col-lg-6 col-md-6 col-sm-6">
             <img src="images/new/BRB websites assets/UPI/Asset 105.png" class="productIMG_mobile" alt="">
@@ -151,14 +184,16 @@
 
     <section id="cobrand">
       <div class="cobrand scroll">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="flex__row row">
+          <div class="col-lg-6 col-md-6 col-sm-6 cobrand__row">
+            <p class="p-mobile">Can be used to offer payroll, remittance, loans and other services. Can be used by businesses to offer payment services under their corporate identity or brand. </p>
+          
            <img src="images/new/BRB websites assets/co branded/Asset 115.png" class="productIMG productDesk product-left" alt="">
-          </div>
+         </div>
           <div class="col-lg-6 col-md-6 col-sm-6">
             <h1 class="h2-product">Co-Branded Card</h1>
-            <img src="images/new/assets/cobrand/Asset 15.png" class="cardIMG2" alt="">
-            <p class="">Can be used to offer payroll, remittance, loans and other services. Can be used by businesses to offer payment services under their corporate identity or brand. </p>
+            <img src="images/new/BRB websites assets/co branded/cobrand_combine.png" class="cardIMG2" alt="">
+            <p class="p-cobrand">Can be used to offer payroll, remittance, loans and other services. Can be used by businesses to offer payment services under their corporate identity or brand. </p>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6">
           <!--   <img src="images/new/BRB websites assets/co branded/Asset 115.png" class="productIMG_mobile product-left" alt="">
@@ -206,9 +241,9 @@
 
     <section id="agency">
       <div class="agency scroll">
-        <div class="row">
+        <div class="flex__row row">
           <div class="col-lg-6 col-md-6 col-sm-6">
-          <img src="images/new/BRB websites assets/agency/Asset 21.png" class="productIMG productDesk" alt="">
+          <img src="images/new/BRB websites assets/agency/Asset 21.png" class="productIMG agencyIMG productDesk" alt="">
          </div>
           <div class="col-lg-6 col-md-6 col-sm-6 p-3">
             <h1 class="h2-insta agency-title">EMI Agent Services</h1>
@@ -271,7 +306,6 @@
     </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.min.js" integrity="sha256-RGlAwHKG24hsj1109SGQgvR+Orx7u8c6zyYH4Tk3ydU=" crossorigin="anonymous"></script>
-
     <script type="text/javascript" src="scripts-test.js"></script>
 </body>
 

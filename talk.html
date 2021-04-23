@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=1024">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--  <meta name="viewport" content="width=1364">-->
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
@@ -50,7 +50,7 @@
                 <a class="dropdown-item" href="about.html#who">Who we are</a>
                   <a class="dropdown-item" href="about.html#mission">Mission</a>
                   <a class="dropdown-item" href="about.html#vision">Vision</a>
-                  <a class="dropdown-item" href="about.html#history">History</a>
+                  <a class="dropdown-item" href="about.html#history-body">History</a>
                   <a class="dropdown-item" href="about.html#meet">Meet Our Team</a>
               </div>
           </li>
@@ -172,8 +172,8 @@
   <!--Main Content-->
     <section id="talk-body-content">
 
-        <div class="row row-talk">
-          <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 purple">
+        <div class="row row-talk talk__flex">
+          <div class="talk__info container purple">
             <h5 class="h5-t2 "> Head Office:</h5>  
             <p class="p-talk">135 Baltazar Street, Brgy. Layunan, Binangonan 1940 Rizal, Philippines</p>
             <h5 class="h5-t ">Makati Office: </h5>
@@ -195,39 +195,39 @@
 
           </div>
 
-          <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 c-form">
+          <div class="talk__form container c-form">
             <!-- Material form group -->
             <form>
               <!-- Large input -->
               <div class="md-form">
-                  <label for="inputMDEx">Name</label>
-                <input type="text" id="inputMDEx" class="form-control form-b" required>
+                  <label for="inputMDEx Name">Name</label>
+                <input type="text" id="inputMDEx Name" name="Name" class="form-control form-b" required>
 
               </div>
              <div class="md-form ">
-                 <label for="inputMDEx">Contact Number</label>
-                <input type="text" id="inputMDEx" class="form-control form-b">
+                 <label for="inputMDEx Contact">Contact Number</label>
+                <input type="text" id="inputMDEx Contact" name="Contact" class="form-control form-b">
 
               </div>
               <div class="md-form">
-                  <label for="inputMDEx">Email</label>
-                <input type="text" id="inputMDEx" class="form-control form-b" placeholder="name@example.com">
+                  <label for="inputMDEx Email">Email</label>
+                <input type="text" id="inputMDEx Email"  name="Email" class="form-control form-b" placeholder="name@example.com">
 
               </div>
             <!--Text Area Message -->
               <div class="md-form ">
-                  <label for="textarea-char-counter">Message</label>
-                <textarea id="textarea-char-counter" class="form-control form-b md-textarea" maxlength="300" length="120" rows="4">Hi BRB! Are you free to meet on </textarea>
+                  <label for="textarea-char-counter Message">Message</label>
+                <textarea id="textarea-char-counter" name="Message" class="form-control form-b md-textarea" maxlength="300" length="120" rows="4">Hi BRB! Are you free to meet on </textarea>
 
               </div>
               <!-- </div><small>*Note: Please contanct for confirmation</small> -->
               <br>
 
-              <button type="button" onclick="myFunction()" class="btn mr-auto btn-stalk rounded-pill ">Send</button>
+              <button type="submit" class="btn mr-auto btn-stalk rounded-pill ">Send</button>
             </form>
           </div>
 
-          <div class="col-lg-5 col-md-12 c-cal wow fadeInUp">
+          <div class="talk__cal c-cal container wow fadeInUp">
             <!-- Calendar view start -->
             <div class="container col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-1">
               <div class="card">

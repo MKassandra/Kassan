@@ -2446,7 +2446,7 @@ footer {
 }
 @media screen and (max-width:2025px){
  .footer-text{
-    display: none;
+   
  }
 }
 
@@ -4210,7 +4210,7 @@ background-repeat: no-repeat;
 }
 
 .bod__robert{
-  background-image: url("images/new/BRB websites assets/directors/Asset 166-8.png");
+  background-image: url("images/new/BRB websites assets/directors/Asset 169.png");
   background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;

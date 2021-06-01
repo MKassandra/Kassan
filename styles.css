@@ -10912,6 +10912,17 @@ flex-direction: row-reverse;
   text-align: justify;
 }
 
+.p__history_web{
+  display: block;
+}
+
+.p__history_mobile{
+  display: none;
+}
+
+
+
+
 @media (min-width: 64em) {
 .history1 {
 margin-top: 5rem;
@@ -10931,6 +10942,15 @@ padding: 2%;
   font-size: 0.9rem;
   text-align: justify;
 }
+
+.p__history_web{
+  display: block;
+}
+
+.p__history_mobile{
+  display: none;
+}
+
 }
 
 .history__container1 {

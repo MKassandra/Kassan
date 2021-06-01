@@ -4265,6 +4265,14 @@ background-repeat: no-repeat;
     min-height: 8rem;
 }
 
+.bod__rock{
+  background-image: url("images/purple-cirlce.png");
+  background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 8rem;
+}
+
 .bod__heede{
   background-image: url("images/new/BRB websites assets/management/Asset 93_2.png");
   background-size: contain;

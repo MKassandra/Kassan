@@ -10913,11 +10913,11 @@ flex-direction: row-reverse;
 }
 
 .p__history_web{
-  display: block;
+  display: none;
 }
 
 .p__history_mobile{
-  display: none;
+  display: block;
 }
 
 

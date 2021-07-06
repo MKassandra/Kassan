@@ -4274,7 +4274,7 @@ background-repeat: no-repeat;
 }
 
 .bod__heede{
-  background-image: url("images/purple-cirlce.png");
+  /*background-image: url("images/purple-cirlce.png");*/
   background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;

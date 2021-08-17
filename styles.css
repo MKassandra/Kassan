@@ -4201,6 +4201,14 @@ background-repeat: no-repeat;
     min-height: 8rem;
 }
 
+.bod__alejandro{
+ /* background-image: url("images/new/BRB websites assets/management/Asset 87.png");*/
+  background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 8rem;
+}
+
 .bod__chris{
   background-image: url("images/new/BRB websites assets/management/Asset 95_2.png");
   background-size: contain;

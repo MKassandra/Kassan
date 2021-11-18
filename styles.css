@@ -4190,7 +4190,7 @@ background-repeat: no-repeat;
   background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
-    min-height: 8rem;
+    min-height: 10rem;
 }
 
 .bod__leah{
@@ -4254,7 +4254,7 @@ background-repeat: no-repeat;
   background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
-    min-height: 10rem;
+    min-height: 8rem;
 }
 
 .bod__fed{
@@ -9258,6 +9258,10 @@ margin: 0 -3rem;
   background-position: center center;
   background-repeat: no-repeat;
   min-height: 3.5rem;
+}
+
+.izealiant{
+  background-image: url("/images/partner/IZealiant.png");
 }
 
 .bsp{
